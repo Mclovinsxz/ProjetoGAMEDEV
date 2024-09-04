@@ -1445,6 +1445,366 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/1835a8e778f048485605f0cecdca221dccb5d4b05821f101c1fc05d239f422b2_tiled_Empty Cloud Background.png",
           "name": "tiled_Empty Cloud Background.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0f612eed16c7647388f28774e5a3942f10b728e2b81fd173e327957f4efe9ec4_Generic Character 2_Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/0f612eed16c7647388f28774e5a3942f10b728e2b81fd173e327957f4efe9ec4_Generic Character 2_Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 1_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1b784321d9d5b5f0f9459f55cda7e071c45236560f935ec9adefaa6fdc9aeee1_Generic Character 1_Down_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/1b784321d9d5b5f0f9459f55cda7e071c45236560f935ec9adefaa6fdc9aeee1_Generic Character 1_Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 2_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "047f70975cc74b1a5bb07782246f200ec3c38370454198421e810927d91c013b_Generic Character 2_Right_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/047f70975cc74b1a5bb07782246f200ec3c38370454198421e810927d91c013b_Generic Character 2_Right_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "afd5f71a304e8e42022cfd356c5f2b94ae174d49fd0cc8324685833b81e4edbc_Red hero_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/afd5f71a304e8e42022cfd356c5f2b94ae174d49fd0cc8324685833b81e4edbc_Red hero_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "93429ca693da9ef67a3713eb1244481f62202098b2c0fd3278d96a0dcfefa766_Red hero_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/93429ca693da9ef67a3713eb1244481f62202098b2c0fd3278d96a0dcfefa766_Red hero_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_4.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "01b696c2d40c8972d8aa7bae7186e2c55658d2c86c1f59f29d3cb5dc5edbfb20_Red hero_Run_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/01b696c2d40c8972d8aa7bae7186e2c55658d2c86c1f59f29d3cb5dc5edbfb20_Red hero_Run_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9e6101d493da686269f0ff21b8bcedb79e6b49a43ea215692a562871110b2936_Red hero_Run_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/9e6101d493da686269f0ff21b8bcedb79e6b49a43ea215692a562871110b2936_Red hero_Run_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dcd4b8b225f539b639727e9d9b2789cc754ffeca579d6753bb4ab6f7215fbf74_Red hero_Run_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/dcd4b8b225f539b639727e9d9b2789cc754ffeca579d6753bb4ab6f7215fbf74_Red hero_Run_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ddcf009cd21fb33fa984a1df49b8d4519a2ae7cfb5f10fd45be9757f174a18cb_Red hero_Run_4.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/ddcf009cd21fb33fa984a1df49b8d4519a2ae7cfb5f10fd45be9757f174a18cb_Red hero_Run_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d0f31730c38b9ee3c608b15438134dcbd0fd762172b8903409c2f6483e6098cc_Red hero_Run_5.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/d0f31730c38b9ee3c608b15438134dcbd0fd762172b8903409c2f6483e6098cc_Red hero_Run_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d2ee7048e44eac52ffc60c1139f88476ad0bde68129ee009a7a7fbd1729ccb09_Red hero_Run_6.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/d2ee7048e44eac52ffc60c1139f88476ad0bde68129ee009a7a7fbd1729ccb09_Red hero_Run_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "18f6b0d618718471dbce14651d7b8eef292f4f4fe8296f5d8d8662089ac1daee_Red hero_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/18f6b0d618718471dbce14651d7b8eef292f4f4fe8296f5d8d8662089ac1daee_Red hero_Run_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0c7459b1540abdf1f14530702f539e8261e61a37a6ecff6dec6bf88c0212952f_Red hero_Run_8.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/0c7459b1540abdf1f14530702f539e8261e61a37a6ecff6dec6bf88c0212952f_Red hero_Run_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3cd0257918963258abb710d65aac3da0df88c05cef3243244dd37bba5962fef1_Red hero_Run_9.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/3cd0257918963258abb710d65aac3da0df88c05cef3243244dd37bba5962fef1_Red hero_Run_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aaa534752eb52902ae57e0da1c554c266b5750ac8867dac533179b9b6dd260c0_Red hero_Run_10.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/aaa534752eb52902ae57e0da1c554c266b5750ac8867dac533179b9b6dd260c0_Red hero_Run_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3af7fc4e0193aed436f25ec8b5f18b900ca7dfa00ccacc9276240a65e05c1213_Red hero_Run_11.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/3af7fc4e0193aed436f25ec8b5f18b900ca7dfa00ccacc9276240a65e05c1213_Red hero_Run_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fc1d723b7b1a7d22d0c46d8d5029e241fcc07c7c570ecc11378d2d96c4a5e6fd_Red hero_Run_12.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/fc1d723b7b1a7d22d0c46d8d5029e241fcc07c7c570ecc11378d2d96c4a5e6fd_Red hero_Run_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e683efa0d35a0d47c86dacad5bb8db2d588a073e3ffd911205cabf73df751036_Red hero_Run_13.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/e683efa0d35a0d47c86dacad5bb8db2d588a073e3ffd911205cabf73df751036_Red hero_Run_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d918e343b50b8f788246f43053f7be331aa5e7ca052ce48b2057549990e766a0_Red hero_Run_14.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/d918e343b50b8f788246f43053f7be331aa5e7ca052ce48b2057549990e766a0_Red hero_Run_14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "52433bf97cf5922a404d81747720632af6d2e43076666d8c9bb3758368c0c437_Red hero_Run_15.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/52433bf97cf5922a404d81747720632af6d2e43076666d8c9bb3758368c0c437_Red hero_Run_15.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "76bbb0ad4a3a187e8277aeb05e705e4fd89b49ff499eb5b0ca7bdd5a82cfb20b_Red hero_Run_16.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/76bbb0ad4a3a187e8277aeb05e705e4fd89b49ff499eb5b0ca7bdd5a82cfb20b_Red hero_Run_16.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d7857f8bb38df53a23a6d1d39b97ff4cae3453386d70fea898656ed5359e2a64_Red hero_Run_17.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/d7857f8bb38df53a23a6d1d39b97ff4cae3453386d70fea898656ed5359e2a64_Red hero_Run_17.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c19a73cc3ac85b803f78d29e656e3162ed20d31c6a9d37efda188497cc58ce0a_Red hero_Run_18.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/c19a73cc3ac85b803f78d29e656e3162ed20d31c6a9d37efda188497cc58ce0a_Red hero_Run_18.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Run_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "edf072b840e918427a9090d3cf84c9021e9e09b95f98c6148e8ea8b445991ad6_Red hero_Run_19.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/edf072b840e918427a9090d3cf84c9021e9e09b95f98c6148e8ea8b445991ad6_Red hero_Run_19.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "91c303a98c7369bd8989fec189a839dddea86f103c9c825650ffadcdb7ae467f_Red hero_Jump.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/91c303a98c7369bd8989fec189a839dddea86f103c9c825650ffadcdb7ae467f_Red hero_Jump.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1462,7 +1822,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tela-de-jogar"
+      "referenceTo": "/layouts/fase1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1475,6 +1835,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
