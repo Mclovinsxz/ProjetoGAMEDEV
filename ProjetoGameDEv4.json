@@ -1805,6 +1805,148 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/91c303a98c7369bd8989fec189a839dddea86f103c9c825650ffadcdb7ae467f_Red hero_Jump.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/MPLUS1p-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "45bf060c897266594bc78a4b12350be50bbc315510afc75ff4336b62228e68dc_MPLUS1p-Black.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/45bf060c897266594bc78a4b12350be50bbc315510afc75ff4336b62228e68dc_MPLUS1p-Black.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "72daf4dcb53d21803dfb807249302a05c8875978706bda48a6a9770a5cdaa608_MPLUS1p-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/72daf4dcb53d21803dfb807249302a05c8875978706bda48a6a9770a5cdaa608_MPLUS1p-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Tangerine-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Blocks.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/VT323-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Poppins-Medium2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button_Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Pressed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Hovered2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Background Blue Land.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aeedf8b81f70178c65fb63e0dd2860d6fed2f6bfaf542e27101da1bd6f723ae6_tiled_Background Blue Land.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/aeedf8b81f70178c65fb63e0dd2860d6fed2f6bfaf542e27101da1bd6f723ae6_tiled_Background Blue Land.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1835,6 +1977,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"

@@ -26,16 +26,33 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
+      "customSize": true,
+      "depth": 75,
+      "height": 120,
       "layer": "",
       "name": "Menu2",
       "persistentUuid": "39c6cf10-c450-44de-8a07-0473cc6e72ce",
-      "width": 0,
-      "x": 753,
-      "y": 517,
+      "width": 400,
+      "x": 760,
+      "y": 460,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1296,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewPanelSprite",
+      "persistentUuid": "7d7953ce-735e-461b-b2c4-2d1ca6a1d2f2",
+      "width": 2352,
+      "x": -229,
+      "y": -101,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -161,6 +178,22 @@
           "effects": []
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "NewPanelSprite",
+      "rightMargin": 0,
+      "texture": "aeedf8b81f70178c65fb63e0dd2860d6fed2f6bfaf542e27101da1bd6f723ae6_tiled_Background Blue Land.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -168,6 +201,9 @@
     "children": [
       {
         "objectName": "Menu2"
+      },
+      {
+        "objectName": "NewPanelSprite"
       }
     ]
   },
