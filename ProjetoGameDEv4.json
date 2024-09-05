@@ -1947,6 +1947,718 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/aeedf8b81f70178c65fb63e0dd2860d6fed2f6bfaf542e27101da1bd6f723ae6_tiled_Background Blue Land.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Birch Tree 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Birch Tree 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/d554f4fa4bb3a613224b50cc265672fa4b715803973704edf619c20085e87606_Birch Tree 2.glb",
+          "name": "Birch Tree 2.glb"
+        }
+      },
+      {
+        "file": "assets/Birch Tree Autumn 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Birch Tree Autumn 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/43c0f87ed703ac98fcced3b5094ed2c8d0c3dbe2b2e4df5a1bf90c509dab7da5_Birch Tree Autumn 2.glb",
+          "name": "Birch Tree Autumn 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Pine Orange Large.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Pine Orange Large.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Halloween Pack/Plant/9b3c59a2b8e687e72ef2fea3c2afd13213d7ce0d06d862e902f8c16813baccd6_Tree Pine Orange Large.glb",
+          "name": "Tree Pine Orange Large.glb"
+        }
+      },
+      {
+        "file": "assets/Birch Tree Dead 3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Birch Tree Dead 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/38c2122074d0b5dec4ec6b5a7e849e70bd59893a472c4b2573a889bb364cf944_Birch Tree Dead 3.glb",
+          "name": "Birch Tree Dead 3.glb"
+        }
+      },
+      {
+        "file": "assets/Bush Berries 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bush Berries 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/7cca186df1a00400678359b33de83fe1d005e323baa45644b1a084f725592ec6_Bush Berries 2.glb",
+          "name": "Bush Berries 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Fruit.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Fruit.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Game Kit/Plant/a2fc5ffca2bafcf921d1105444469d39b702522e6a52db80a009d4cab9477c2b_Tree Fruit.glb",
+          "name": "Tree Fruit.glb"
+        }
+      },
+      {
+        "file": "assets/Tree 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Pack/Plant/3bb2dac89715cb0908ae3ebf9141f8987bdfbf78040593fb6b59bcafa79a324d_Tree 2.glb",
+          "name": "Tree 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Pack/Plant/d9888c97a22ec7461bb537674cccc4ce5220a16f73aaabe03c1817bc9bff418d_Tree 1.glb",
+          "name": "Tree 1.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Industrial platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Industrial platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/785cc1ad45968d04f9d6c9b84ee56773e4bd478fbc5d9e3ff800410ffa3342f6_Industrial platform.png",
+          "name": "Industrial platform.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Industrial platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Industrial platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/c3b428ecc2937bcefe12bd205168885b5000553e09721cbae6621294bee44353_tiled_Industrial platform.png",
+          "name": "tiled_Industrial platform.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/e91961fb6e927b4bde3a955d2a56be169efcc70fc56ec22cc2584055b2123ea5_Small platform.png",
+          "name": "Small platform.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Treasure Chest_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treasure Chest_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/7f362b8cb571527bfc063b4a140464df6850fdac2c0ac1b95819ccbe0772cae6_Treasure Chest_No Shadow.png",
+          "name": "Treasure Chest_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Treasure Chest_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treasure Chest_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/29c5fdc5fe498d49e530a9aaf66a0089ff165b78322ab192e2fd32c3429d023e_Treasure Chest_Shadow.png",
+          "name": "Treasure Chest_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Green_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Green_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/af53761aa2f2e3edfacfb67583c4a6e800c9c2b3e173676c39845b9ea57daf5e_Book Green_No Shadow.png",
+          "name": "Book Green_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Green_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Green_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/95f94563c8bc39cf8757c4db1edadc9edd4ebbe213228b95b49b0685a5dd5687_Book Green_Shadow.png",
+          "name": "Book Green_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Brown_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Brown_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/8ad1971237059e7cab4d42c5a7e1bb165b0e16f8ce376c35768dbfba582cc17b_Book Brown_No Shadow.png",
+          "name": "Book Brown_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Brown_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Brown_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/a9ca4d333e599c40cc288d72b9f3ee8894c9ec3433e4bb2d06f22f26622a648c_Book Brown_Shadow.png",
+          "name": "Book Brown_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Blue_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Blue_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/753d232ccd7ffc87939028182e8545559c0acd1132c6e8b9f1d2636645355303_Book Blue_No Shadow.png",
+          "name": "Book Blue_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Blue_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Blue_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/5fc59ac0b9470f96d098b1ebbec22f504aa4a8a42d507a036c9b920cccef1e40_Book Blue_Shadow.png",
+          "name": "Book Blue_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Red_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Red_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/1c8a2e7b6c0f75f0887cefd68b757e51015d527585cfdd52cc191444b7254e50_Book Red_No Shadow.png",
+          "name": "Book Red_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Red_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Red_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/f1fe2b9a4bc5b69a6d8d900498bc8e1d7c562889fe34072e97fc5e39ac45081d_Book Red_Shadow.png",
+          "name": "Book Red_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Orange_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Orange_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/056f772e6f213e9ad6da0bcf081f226d918cb6a1a5296c6833c23afe361dd54e_Book Orange_No Shadow.png",
+          "name": "Book Orange_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Orange_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Orange_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/6b342eb1cb4c5ec38fc8b148496622861e7e2e802f1f876b652204a5b1b3e173_Book Orange_Shadow.png",
+          "name": "Book Orange_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/42b8161f082ecc59ce6e8564c2e99ada4d5e37576541a3dffff5542bfa857321_Apple_No Shadow.png",
+          "name": "Apple_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apple_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apple_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/e6d86ce6d53503286d31487959bdf13e0010b771fcf75e0a793c6c460210b7c0_Apple_Shadow.png",
+          "name": "Apple_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Carrot_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Carrot_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/99550bf8c86090f43f93fa039816457cfdfe92ab9e54c842aefa4104277d370f_Carrot_No Shadow.png",
+          "name": "Carrot_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Carrot_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Carrot_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/af59db25734daaade12625c02b592186b57567fdd83e905fc3e1cef5420f2af1_Carrot_Shadow.png",
+          "name": "Carrot_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/7e20f653a7c4e574f7db28716cce6e178ae755fe75bb22c8d1a1038a77fc4126_Male Character 3_Walking Down_1.png",
+          "name": "Male Character 3_Walking Down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/0cec6752c330ff8c9bd320639c2508e59d5a3eb81c4f5ebfc410be7396fb7655_Male Character 3_Walking Down_2.png",
+          "name": "Male Character 3_Walking Down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/838ce430bdc97fa24ac39fb29cbc43b1e33b11865ebb4021a05c871c20a55f43_Male Character 3_Walking Down_3.png",
+          "name": "Male Character 3_Walking Down_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/fc342e8e5b5fd46b6afd2123bfbec73e3393151f00e9eda8a6789e5fbeae091c_Male Character 3_Walking Left_1.png",
+          "name": "Male Character 3_Walking Left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/014c1819f43a9d54af7749ef89238dfd563765e1b29ab77f66c35e40831a9d3f_Male Character 3_Walking Left_2.png",
+          "name": "Male Character 3_Walking Left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/dd5e40b6c37aa141d48e59211da176c4e191a576018a61b2ef49939fd913b096_Male Character 3_Walking Left_3.png",
+          "name": "Male Character 3_Walking Left_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/84b7fbfb9342d90b2fd8e4706d3985a32236aeff226b2620db600226715ac1b6_Male Character 3_Walking Right_1.png",
+          "name": "Male Character 3_Walking Right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/1e90b9593f7b7bb939ff4b1ed8b45be841ca7fc155450ffaa0eaa4bd8a471c64_Male Character 3_Walking Right_2.png",
+          "name": "Male Character 3_Walking Right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/09f477e2394a162bedf89ff3d2e29625d642da2318422d298b7244b0f4f6e105_Male Character 3_Walking Right_3.png",
+          "name": "Male Character 3_Walking Right_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/c7ab802c80650c1a67b4d5eec3cde16cbaea02f579ab8b1c84e86c34fa648fbb_Male Character 3_Walking Up_1.png",
+          "name": "Male Character 3_Walking Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/c74facd8250e754f1440318d7924033e8cb16b64a1f8202e9e3a55b14a1fa6a3_Male Character 3_Walking Up_2.png",
+          "name": "Male Character 3_Walking Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 3_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 3_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/e23bdcc235b38701deec9a23c78dd5cfedc31dbfda49fa159889c19064a9f60d_Male Character 3_Walking Up_3.png",
+          "name": "Male Character 3_Walking Up_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bottom Right Corner Redwood Background Cutout.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bottom Right Corner Redwood Background Cutout.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Redwood Background/Cutout/0eaf0ea5a3c19a5a6680e4b85dec4242c7781082254956dd8fe15f47fd69a4a8_Bottom Right Corner Redwood Background Cutout.png",
+          "name": "Bottom Right Corner Redwood Background Cutout.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bottom Left Corner Redwood Background Cutout.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bottom Left Corner Redwood Background Cutout.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Redwood Background/Cutout/31724f39335d0ffecb444f96c196a8d71bb97dfbeb8a5ef9a7a6c1134d5e181b_Bottom Left Corner Redwood Background Cutout.png",
+          "name": "Bottom Left Corner Redwood Background Cutout.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
+          "name": "Platform.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red door top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red door top.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/dfbec0123f9070270b0c5c348eaee5bc5fcf432851609e104622b21aa094bfbc_Red door top.png",
+          "name": "Red door top.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green door top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green door top.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/042b0da6a964fe56ffb1bc22886b08aaf248b72acceb6a6b482c8efd9f504eb1_Green door top.png",
+          "name": "Green door top.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Summer Tile_all_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Summer Tile_all_64.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/Platform/34fa70f98d29f5c365595570d74d8af56c43a7111ca7c0a3d8d848aa2de9353c_9patch_Summer Tile_all_64.png",
+          "name": "9patch_Summer Tile_all_64.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Redwood Background_all_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Redwood Background_all_64.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Redwood Background/28d2bd1335356fd7349d357600e2e02eb196d8f32fe8c7af27cf9499064e4b8a_9patch_Redwood Background_all_64.png",
+          "name": "9patch_Redwood Background_all_64.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform LeftSide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform LeftSide.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/afb22b969b029bf488eeaecb6b7aafb605084cfef2ebec4bb7ef0e391bb58abd_Platform LeftSide.png",
+          "name": "Platform LeftSide.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform RightSide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform RightSide.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/814ec1aac6fb5856b2a74612d02417d8e256160344760448ec0d90058f40ad8a_Platform RightSide.png",
+          "name": "Platform RightSide.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze Key.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Items/e47402ab216b625c07c47e0ed87f7de1c4db73f858cf7c18ede201ceb23adf71_Bronze Key.png",
+          "name": "Bronze Key.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/68daa7cab60e87c57acba7e0dfbcb4bfed9dae100b347d341887be04fa47ab5c_Green block.png",
+          "name": "Green block.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block_key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block_key.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/cc0717c97bb69e675b8b02aa88738645efe6598b21cba4f5cba286f24920bf3c_Green block_key.png",
+          "name": "Green block_key.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block_lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block_lock.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/3c39fe56c40f57f9634ba27183f7bab3cbc8d6a4ac0baf602a019c5f1f28d3a0_Green block_lock.png",
+          "name": "Green block_lock.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block_puzzle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block_puzzle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/b8c5501e328dd5602e9827e0cd79c931e8b2c9e1fe35b107c0d8514f797ec135_Green block_puzzle.png",
+          "name": "Green block_puzzle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/df8aa9b299a66dc8a7d5fdad2201e921b89609bcf3f2934c6f48f969155bbe4d_Green block.png",
+          "name": "Green block.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/e786f19060320e19fab4910f800b4b9b8503e72a642402a9bf2d701c10340dd4_Green arrow.png",
+          "name": "Green arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/b314745b840a5c2a61fd9e5ad6140ab1fa693772b897a83ad91b460b828cb0c4_Rock 1.png",
+          "name": "Rock 1.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1965,6 +2677,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/fase1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fase2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
