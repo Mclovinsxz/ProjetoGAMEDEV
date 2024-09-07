@@ -2659,6 +2659,75 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/b314745b840a5c2a61fd9e5ad6140ab1fa693772b897a83ad91b460b828cb0c4_Rock 1.png",
           "name": "Rock 1.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina pi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina pi.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/New dialogue tree.json\"}",
+        "name": "New dialogue tree",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogo_intro.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "dialogo_intro",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1614538293615f795bd8d0a4a045a5128130c9f26d8cace9bd8761330ae80aeb_Grey block.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/1614538293615f795bd8d0a4a045a5128130c9f26d8cace9bd8761330ae80aeb_Grey block.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/84b7ad4042e3ba91a30617b23f5b91649fd5ccf8ebfdc5997cdd5c9a9b61e2e5_Key.png",
+          "name": "Key.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Key",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2689,6 +2758,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tela-de-instruo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/introduo"
     }
   ],
   "externalEvents": [],
