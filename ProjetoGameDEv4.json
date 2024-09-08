@@ -2791,6 +2791,42 @@
         "name": "player_jump.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
