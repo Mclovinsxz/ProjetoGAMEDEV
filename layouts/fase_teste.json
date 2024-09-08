@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.892646211523041,
+    "zoomFactor": 0.27962265218394317,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -616,7 +616,7 @@
       "persistentUuid": "4d9c98c3-66a6-4421-aa5e-24813000dd55",
       "width": 0,
       "x": 568,
-      "y": 597,
+      "y": 607,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -734,7 +734,7 @@
       "name": "BottomRightCornerRedwoodBackgroundCutout",
       "persistentUuid": "6e0f37ca-7789-4850-8478-5916d48de421",
       "width": 175,
-      "x": 1671,
+      "x": 1668,
       "y": 716,
       "zOrder": 11,
       "numberProperties": [],
@@ -768,8 +768,8 @@
       "name": "RedwoodBackground",
       "persistentUuid": "0370644e-d534-4828-9bf4-5b5b17bc4790",
       "width": 2037,
-      "x": -57,
-      "y": -4,
+      "x": -85,
+      "y": 15,
       "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
@@ -938,8 +938,8 @@
       "name": "GreenDoorTop",
       "persistentUuid": "f104c023-d433-4732-a2a3-977003bf5212",
       "width": 64,
-      "x": 1854,
-      "y": 612,
+      "x": 1847,
+      "y": 610,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -1129,13 +1129,13 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "ignoreDefaultControls": false,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
           "gravity": 1000,
-          "ignoreDefaultControls": false,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
@@ -4104,6 +4104,14 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "GreenBlock"
+          ]
         }
       ],
       "actions": [
@@ -4124,6 +4132,15 @@
           },
           "parameters": [
             "GreenBlock"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::AbortJump"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
           ]
         }
       ]
@@ -4205,7 +4222,7 @@
             "player",
             "",
             "",
-            ""
+            "yes"
           ]
         }
       ],
@@ -4273,6 +4290,131 @@
             "",
             "\"tela inicial\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateLeftKey"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateRightKey"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateJumpKey"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "GreenBlock",
+            "BronzeKey",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "GreenBlock",
+            "Animation",
+            "=",
+            "\"key\""
           ]
         }
       ]
