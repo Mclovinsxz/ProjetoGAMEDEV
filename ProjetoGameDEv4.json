@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 209,
+    "build": 210,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2696,38 +2696,163 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Grey block.png",
+        "file": "assets/Default-panel-border (2).png",
         "kind": "image",
         "metadata": "",
-        "name": "1614538293615f795bd8d0a4a045a5128130c9f26d8cace9bd8761330ae80aeb_Grey block.png",
+        "name": "Default-panel-border (2).png",
         "smoothed": false,
         "userAdded": true,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/1614538293615f795bd8d0a4a045a5128130c9f26d8cace9bd8761330ae80aeb_Grey block.png",
-          "name": "gdevelop-asset-store"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Borders/cbdb915a344fee39fd0159401ff0a5a15d34fd0afef45d850f93248c4faf4656_Default-panel-border (2).png",
+          "name": "Default-panel-border (2).png"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Key.png",
+        "file": "assets/Default-panel-transparent-border (9).png",
         "kind": "image",
         "metadata": "",
-        "name": "Key.png",
+        "name": "Default-panel-transparent-border (9).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Borders/39c268663ada9fb74ad78484e709f36079ce98d87a59838d6456dab5cbc81bf5_Default-panel-transparent-border (9).png",
+          "name": "Default-panel-transparent-border (9).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_jump.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey block.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/84b7ad4042e3ba91a30617b23f5b91649fd5ccf8ebfdc5997cdd5c9a9b61e2e5_Key.png",
-          "name": "Key.png"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/1614538293615f795bd8d0a4a045a5128130c9f26d8cace9bd8761330ae80aeb_Grey block.png",
+          "name": "Grey block.png"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Key2.png",
+        "file": "assets/Grey block_broken.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Key",
+        "metadata": "",
+        "name": "Grey block_broken.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/d4b99eabc508320123e789e0fde27b3222c6c3941cf5c536b98c810e217c0457_Grey block_broken.png",
+          "name": "Grey block_broken.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2749,6 +2874,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fase_teste"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/fase2"
     },
     {
@@ -2762,6 +2891,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/introduo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/quiz-01"
     }
   ],
   "externalEvents": [],

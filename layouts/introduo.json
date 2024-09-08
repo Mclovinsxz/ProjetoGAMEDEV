@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5610952083582071,
+    "zoomFactor": 0.41630252177333293,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -54,23 +54,6 @@
       "x": 86,
       "y": 760,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1174,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EmptyCloudBackground",
-      "persistentUuid": "12f9ba1d-b4d3-4b06-8036-cd0213a2d037",
-      "width": 2056,
-      "x": -60,
-      "y": -38,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -154,17 +137,6 @@
         "align": "left",
         "wordWrap": true
       }
-    },
-    {
-      "assetStoreId": "349bc496cd936f6b354be7e533e806787567c33b6f2e732a5b9cbaa3b2468955",
-      "height": 1024,
-      "name": "EmptyCloudBackground",
-      "texture": "tiled_Empty Cloud Background.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 1024,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -175,9 +147,6 @@
       },
       {
         "objectName": "texto"
-      },
-      {
-        "objectName": "EmptyCloudBackground"
       }
     ]
   },
@@ -338,19 +307,44 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "Right"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
               ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
             }
           ],
           "actions": [
