@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 210,
+    "build": 209,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2693,6 +2693,140 @@
         "metadata": "{\"extension\":\".json\"}",
         "name": "dialogo_intro",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel-border (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel-border (2).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Borders/cbdb915a344fee39fd0159401ff0a5a15d34fd0afef45d850f93248c4faf4656_Default-panel-border (2).png",
+          "name": "Default-panel-border (2).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel-transparent-border (9).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel-transparent-border (9).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Borders/39c268663ada9fb74ad78484e709f36079ce98d87a59838d6456dab5cbc81bf5_Default-panel-transparent-border (9).png",
+          "name": "Default-panel-transparent-border (9).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_idle_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_jump.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_run_4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
