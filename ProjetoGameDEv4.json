@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 211,
+    "build": 20,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2827,89 +2827,6 @@
         "name": "assets\\player_run_4.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/background-polo-ceramico.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/background-polo-ceramico.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Cloud layer 3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Cloud layer 3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Elements/d887e744259ab1fac29d83c89bc670b664a830a13d1a19e54dc38c0f92fbb309_tiled_Cloud layer 3.png",
-          "name": "tiled_Cloud layer 3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Sun.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Sun.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/46b2c086c8ade9b55450cbbd2944de792d3c3e5f6885519153ca2f7e17c5eae5_Sun.png",
-          "name": "Sun.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Forest Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Forest Background.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
-          "name": "tiled_Forest Background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Background Colored Shroom.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Background Colored Shroom.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/7453a77dc018e80bf1c7d13663a9a73b8bd40a0e73b9ea440c25823ecd128421_tiled_Background Colored Shroom.png",
-          "name": "tiled_Background Colored Shroom.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Grass and Tree Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Grass and Tree Background.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/ade0704478583ab868504aac427c5b14b4a6696a465663f1cbbac84ff266e4c1_tiled_Grass and Tree Background.png",
-          "name": "tiled_Grass and Tree Background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "test3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "test3.png",
-        "smoothed": false,
-        "userAdded": true
       }
     ],
     "resourceFolders": []
