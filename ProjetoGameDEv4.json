@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 211,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -2910,6 +2910,15 @@
         "name": "test3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/background-polo-ceramico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/background-polo-ceramico.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
