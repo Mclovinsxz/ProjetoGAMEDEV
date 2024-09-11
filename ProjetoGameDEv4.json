@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 211,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -2908,6 +2908,330 @@
         "kind": "image",
         "metadata": "",
         "name": "test3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/background-polo-ceramico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/background-polo-ceramico.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/assets_filtro-de-barro-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/assets_filtro-de-barro-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/arara.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/arara.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/banco_madeira.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/banco_madeira.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/estante.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/estante.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/lampada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/lampada.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/conselheiro-saraiva-escultura.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/conselheiro-saraiva-escultura.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/quadro_rios.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/quadro_rios.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/plantas_parede.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/plantas_parede.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/prato_parede.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/prato_parede.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/prato_parede-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/prato_parede-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/assets_prato_parede-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/assets_prato_parede-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/assets_prato_parede-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/assets_prato_parede-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/copo_barro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/copo_barro.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_copo_barro.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/copo_barro",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/copo_barro-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/copo_barro-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/panela-de-barro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/panela-de-barro.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_panela-de-barro.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/panela-de-barro",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/panela-de-barro-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/panela-de-barro-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_panela-de-barro-2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/panela-de-barro-2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/panela-de-barro-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/panela-de-barro-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_panela-de-barro-3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/panela-de-barro-3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/arara2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/arara2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/tucano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/tucano.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/vaso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/vaso.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_vaso.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/vaso",
         "smoothed": false,
         "userAdded": true
       }
