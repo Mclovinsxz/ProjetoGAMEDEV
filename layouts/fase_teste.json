@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5250860067782608,
+    "zoomFactor": 0.5800155239904998,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,10 +33,10 @@
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "fba3f017-775e-458b-8a31-bc6abaa7a173",
-      "width": 4326,
-      "x": -3926,
-      "y": 812,
-      "zOrder": 2,
+      "width": 801,
+      "x": -2,
+      "y": 811,
+      "zOrder": -6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -240,15 +240,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 9,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
-      "persistentUuid": "fb3b3e30-db55-468d-a407-2906c794d8c2",
-      "width": 4068,
-      "x": 1923,
-      "y": 716,
-      "zOrder": 4,
+      "persistentUuid": "5cc562fa-70c6-4a4a-9dd3-41919fc0897f",
+      "width": 116,
+      "x": 1474,
+      "y": 777,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -257,78 +257,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 9,
-      "keepRatio": true,
-      "layer": "",
-      "name": "blocos_da_plataforma",
-      "persistentUuid": "5cc562fa-70c6-4a4a-9dd3-41919fc0897f",
-      "width": 116,
-      "x": 1521,
-      "y": 758,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "blocos_da_plataforma",
-      "persistentUuid": "60ea5ead-ad20-47c8-b362-e24b2b8c6096",
-      "width": 0,
-      "x": 1670,
-      "y": 716,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "blocos_da_plataforma",
-      "persistentUuid": "3f725830-8574-4b6a-a1cc-21fe2d3f6021",
-      "width": 0,
-      "x": 1734,
-      "y": 716,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "blocos_da_plataforma",
-      "persistentUuid": "c3c9e365-9c5f-41e1-b87a-e94d5af670b6",
-      "width": 0,
-      "x": 1796,
-      "y": 716,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "0c2f396b-0c13-45be-8293-d260d0b010aa",
-      "width": 0,
-      "x": 1859,
-      "y": 716,
+      "width": 278,
+      "x": 1627,
+      "y": 780,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -344,8 +280,8 @@
       "name": "player",
       "persistentUuid": "44097a26-cfb7-45d1-93c8-46c5039f2457",
       "width": 126,
-      "x": 33,
-      "y": 687,
+      "x": 146,
+      "y": 690,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -362,7 +298,7 @@
       "persistentUuid": "329e2673-70be-4d7d-8503-6a68cfbd46f3",
       "width": 84,
       "x": -7,
-      "y": 812,
+      "y": 809,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -372,14 +308,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 72,
       "keepRatio": true,
       "layer": "",
       "name": "BottomRightCornerRedwoodBackgroundCutout",
       "persistentUuid": "1ebf1298-efe6-4d91-83c9-eef2b9908f94",
       "width": 84,
-      "x": 75,
-      "y": 812,
+      "x": 74,
+      "y": 810,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -394,9 +330,9 @@
       "layer": "",
       "name": "BottomRightCornerRedwoodBackgroundCutout",
       "persistentUuid": "099e1bb1-5cb8-4e56-aaf4-88e97ff1d647",
-      "width": 84,
+      "width": 85,
       "x": 240,
-      "y": 812,
+      "y": 811,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -412,8 +348,8 @@
       "name": "BottomRightCornerRedwoodBackgroundCutout",
       "persistentUuid": "25182cb8-d626-452b-9d0f-6c01ad6b43dd",
       "width": 84,
-      "x": 157,
-      "y": 812,
+      "x": 158,
+      "y": 809,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -497,8 +433,8 @@
       "name": "BottomRightCornerRedwoodBackgroundCutout",
       "persistentUuid": "9735e1fc-f060-4499-9e85-7ae0f2e801e1",
       "width": 84,
-      "x": 324,
-      "y": 812,
+      "x": 323,
+      "y": 809,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -582,26 +518,9 @@
       "name": "TreasureChest",
       "persistentUuid": "85b0ac00-2aa4-4925-9747-89f54520b9e0",
       "width": 116,
-      "x": 1658,
-      "y": 666,
+      "x": 1655,
+      "y": 724,
       "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 27,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BookGreen",
-      "persistentUuid": "4b9f1cac-0165-45b2-a3b1-2b70d5c9fad3",
-      "width": 61,
-      "x": 1680,
-      "y": 686,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -649,8 +568,8 @@
       "name": "GreenArrow",
       "persistentUuid": "d4307e88-9591-428b-829d-402aeac82765",
       "width": 135,
-      "x": -3,
-      "y": 667,
+      "x": -2,
+      "y": 633,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -728,14 +647,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 74,
       "keepRatio": true,
       "layer": "",
       "name": "BottomRightCornerRedwoodBackgroundCutout",
       "persistentUuid": "6e0f37ca-7789-4850-8478-5916d48de421",
-      "width": 175,
-      "x": 1668,
-      "y": 716,
+      "width": 210,
+      "x": 1606,
+      "y": 776,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -751,8 +670,8 @@
       "name": "PlatformRightSide",
       "persistentUuid": "df18beeb-1735-4816-b46e-168a5f89687e",
       "width": 127,
-      "x": 1517,
-      "y": 754,
+      "x": 1467,
+      "y": 771,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -767,10 +686,10 @@
       "layer": "",
       "name": "RedwoodBackground",
       "persistentUuid": "0370644e-d534-4828-9bf4-5b5b17bc4790",
-      "width": 2037,
-      "x": -85,
-      "y": 15,
-      "zOrder": -4,
+      "width": 2039,
+      "x": -61,
+      "y": -98,
+      "zOrder": -9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -819,8 +738,8 @@
       "name": "BottomLeftCornerRedwoodBackgroundCutout",
       "persistentUuid": "0fb09d03-3d6a-43bd-8d96-ff8098424049",
       "width": 168,
-      "x": -19,
-      "y": 865,
+      "x": -11,
+      "y": 861,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -932,48 +851,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GreenDoorTop",
-      "persistentUuid": "f104c023-d433-4732-a2a3-977003bf5212",
-      "width": 64,
-      "x": 1847,
-      "y": 610,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 71,
       "keepRatio": true,
       "layer": "",
       "name": "BottomRightCornerRedwoodBackgroundCutout",
       "persistentUuid": "1158f5ac-0fab-4b08-9c49-523a541b72e1",
       "width": 91,
-      "x": 1830,
-      "y": 711,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BottomRightCornerRedwoodBackgroundCutout",
-      "persistentUuid": "c4ce1ce4-a9f9-4502-a763-4dcfa9f431fd",
-      "width": 73,
-      "x": 1910,
-      "y": 716,
+      "x": 1815,
+      "y": 778,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -989,9 +874,9 @@
       "name": "killzone",
       "persistentUuid": "05d9343f-7551-44d0-94ed-e64ada3f634b",
       "width": 1957,
-      "x": -7,
-      "y": 1305,
-      "zOrder": 20,
+      "x": -44,
+      "y": 1093,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1012,27 +897,6 @@
         "tileSize": 8,
         "tilesWithHitBox": ""
       }
-    },
-    {
-      "assetStoreId": "734722d52956862823635227a2e24a48e10462962add6cb060d1b7004ca5a58e",
-      "height": 1024,
-      "name": "bg_fase1",
-      "texture": "tiled_Desert Background 2.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 1024,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Pixelate",
-          "name": "Effect",
-          "doubleParameters": {
-            "size": 10
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1669,17 +1533,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -2888,7 +2741,17 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Pixelate",
+          "name": "Effect",
+          "doubleParameters": {
+            "size": 6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -2948,7 +2811,17 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Pixelate",
+          "name": "Effect",
+          "doubleParameters": {
+            "size": 6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -3124,7 +2997,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "6897b0158bba312c031d30a773efebb0fb92aec5fb7371da27a1b7c8cc1b11db",
-      "name": "GreenDoorTop",
+      "name": "GreenDoorTop1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3210,7 +3083,17 @@
       "type": "PanelSpriteObject::PanelSprite",
       "width": 192,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Pixelate",
+          "name": "Effect",
+          "doubleParameters": {
+            "size": 6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": []
     },
     {
@@ -3837,6 +3720,200 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "fc730f4c93897b0d70949be0eae66713d0704b8d41c19519cc9747aa77154dcf",
+      "height": 400,
+      "name": "CloudLayer3",
+      "texture": "tiled_Cloud layer 3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1024,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Pixelate",
+          "name": "Effect",
+          "doubleParameters": {
+            "size": 6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "0ad80b38700a8082ef5c100c3975fb6747e59f0a5cc7396b4431234ed70a9bdb",
+      "name": "Sun",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Pixelate",
+          "name": "Effect",
+          "doubleParameters": {
+            "size": 6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sun.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 168,
+                        "y": 0
+                      },
+                      {
+                        "x": 168,
+                        "y": 168
+                      },
+                      {
+                        "x": 0,
+                        "y": 168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "90cac64ec9901c742b38aea323e8c52dc954197bfb5511ef86067aa187ac06c4",
+      "height": 1024,
+      "name": "ForestBackground",
+      "texture": "tiled_Forest Background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1024,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Pixelate",
+          "name": "Effect",
+          "doubleParameters": {
+            "size": 6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "1e1a2b9b804b7ea3eaf3b643f0997485b56ec6b04e5d5f690118b9f04abde5be",
+      "height": 1024,
+      "name": "BackgroundColoredShroom",
+      "texture": "tiled_Background Colored Shroom.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1024,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "04d5d9530483f54e8bd6536da53180cbab0715b94cb135b0028f5ff621194073",
+      "height": 1024,
+      "name": "GrassAndTreeBackground",
+      "texture": "tiled_Grass and Tree Background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1024,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "test3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 682
+                      },
+                      {
+                        "x": 0,
+                        "y": 682
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3846,16 +3923,10 @@
         "objectName": "NewTileMap"
       },
       {
-        "objectName": "bg_fase1"
-      },
-      {
         "objectName": "blocos_da_plataforma"
       },
       {
         "objectName": "player"
-      },
-      {
-        "objectName": "NewSprite"
       },
       {
         "objectName": "IndustrialPlatform"
@@ -3906,7 +3977,7 @@
         "objectName": "RedDoorTop"
       },
       {
-        "objectName": "GreenDoorTop"
+        "objectName": "GreenDoorTop1"
       },
       {
         "objectName": "SummerTile"
@@ -3937,6 +4008,24 @@
       },
       {
         "objectName": "killzone"
+      },
+      {
+        "objectName": "CloudLayer3"
+      },
+      {
+        "objectName": "Sun"
+      },
+      {
+        "objectName": "ForestBackground"
+      },
+      {
+        "objectName": "BackgroundColoredShroom"
+      },
+      {
+        "objectName": "GrassAndTreeBackground"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -4040,64 +4129,6 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "player",
-            "TreasureChest",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "BookGreen",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "TreasureChest"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "BookGreen",
-            "Animation"
-          ]
-        },
-        {
-          "type": {
-            "value": "LinkedObjects::LinkObjects"
-          },
-          "parameters": [
-            "BookGreen",
-            "BookGreen",
-            "TreasureChest"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
             "GreenBlock",
             "player",
             "",
@@ -4168,73 +4199,6 @@
           },
           "parameters": [
             "BronzeKey"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "player",
-            "BookGreen",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "BookGreen",
-            "Animation",
-            "+",
-            "20"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "BookGreen"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "GreenDoorTop",
-            "player",
-            "",
-            "",
-            "yes"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"fase2\"",
-            ""
           ]
         }
       ]
@@ -4415,6 +4379,113 @@
             "Animation",
             "=",
             "\"key\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "TreasureChest",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BookGreen",
+            "TreasureChest.X()+10",
+            "TreasureChest.Y()-40",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TreasureChest"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "GreenDoorTop1",
+            "18",
+            "689",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "BookGreen",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BookGreen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "GreenDoorTop1",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"fase2\"",
+            ""
           ]
         }
       ]
