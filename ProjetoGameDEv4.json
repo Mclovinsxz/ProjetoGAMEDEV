@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 211,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1450,7 +1450,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
         "name": "NewSprite",
         "smoothed": false,
         "userAdded": true
@@ -2908,6 +2908,1413 @@
         "kind": "image",
         "metadata": "",
         "name": "test3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/background-polo-ceramico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/background-polo-ceramico.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/assets_filtro-de-barro-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/assets_filtro-de-barro-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/filtro-de-barro-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/filtro-de-barro-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/arara.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/arara.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/banco_madeira.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/banco_madeira.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/estante.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/estante.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/lampada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/lampada.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/joaninha-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/joaninha-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/conselheiro-saraiva-escultura.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/conselheiro-saraiva-escultura.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/quadro_rios.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/quadro_rios.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/plantas_parede.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/plantas_parede.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/prato_parede.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/prato_parede.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/prato_parede-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/prato_parede-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/assets_prato_parede-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/assets_prato_parede-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/assets_prato_parede-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/assets_prato_parede-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/copo_barro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/copo_barro.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_copo_barro.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/copo_barro",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/copo_barro-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/copo_barro-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/panela-de-barro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/panela-de-barro.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_panela-de-barro.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/panela-de-barro",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/panela-de-barro-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/panela-de-barro-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_panela-de-barro-2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/panela-de-barro-2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/panela-de-barro-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/panela-de-barro-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_panela-de-barro-3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/panela-de-barro-3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/arara2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/arara2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/tucano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/tucano.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/vaso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/vaso.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_point_click_teresina_vaso.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/point_click_teresina/vaso",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plataforma.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/plataforma.png\"}",
+        "name": "plataforma",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teatro 4 de setembro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teatro 4 de setembro.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "pixelart.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "pixelart.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/MetalMania-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "11ed64262caf521cd24c19af2a005d28c4618e6a36c62ae3fc25353d157feeaf_MetalMania-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/11ed64262caf521cd24c19af2a005d28c4618e6a36c62ae3fc25353d157feeaf_MetalMania-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ponte estaiada_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ponte estaiada_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/background-polo-ceramico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\point_click_teresina\\background-polo-ceramico.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_jump.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/capivara_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\capivara_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/capivara_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\capivara_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/capivara_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\capivara_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform_Dirt1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform_Dirt1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform_Dirt2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform_Dirt2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform_Dirt3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform_Dirt3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile 17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile 17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/58cff4866595fe5fdd53792800c1a1443719dc423a2604cf1051a07a6be2c5bf_Tile 17.png",
+          "name": "Tile 17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grass foreground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grass foreground.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Plant/c1fc48dfdc40bfaf190264b48919dfdcd432269c29c4131092923a808132e380_Grass foreground.png",
+          "name": "Grass foreground.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/66b19bf24d3a8b17b3ed60270725247aa2f81719057f8e8775f43d739f4aa6ca_Platform 1.png",
+          "name": "Platform 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/263841133875f965ed1c49e7df6b55a16a11f237e21327e7d753aa83b8a87467_Platform 2.png",
+          "name": "Platform 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/5ecd17a9e3e39e01e953dfbcaf8eee5c98b920e07b04900e745cbb9be5efbd3c_Platform 3.png",
+          "name": "Platform 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Corner platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Corner platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/740ed00f5c5a2f488248f4e6de95b66ab5fbab5515e072d2dfe064885550f050_Corner platform.png",
+          "name": "Corner platform.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/e9603a49186ca546adbd22049218a8ad1904a00eb03de273e1c4603ac73954f6_Checkpoint_Flag Idle_1.png",
+          "name": "Checkpoint_Flag Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/da7f14e2f61de0a31589cc01088297544eb04e0755ff073f39033b588b9c4ce7_Checkpoint_Flag Idle_10.png",
+          "name": "Checkpoint_Flag Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/ac49399c818106490a7c7798873a869c498526bed411177a93c0b9b98eea6e8c_Checkpoint_Flag Idle_2.png",
+          "name": "Checkpoint_Flag Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/7ee7d4dab7349c54f93a0b00e38ba3d2750a2526578ea954ee12b9b62e4f4a8d_Checkpoint_Flag Idle_3.png",
+          "name": "Checkpoint_Flag Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/7ee7d4dab7349c54f93a0b00e38ba3d2750a2526578ea954ee12b9b62e4f4a8d_Checkpoint_Flag Idle_4.png",
+          "name": "Checkpoint_Flag Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/7a227de1baea3b5560bc92293742f97589895698913710ab9bd96ccda295a8b6_Checkpoint_Flag Idle_5.png",
+          "name": "Checkpoint_Flag Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/7a227de1baea3b5560bc92293742f97589895698913710ab9bd96ccda295a8b6_Checkpoint_Flag Idle_6.png",
+          "name": "Checkpoint_Flag Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/b47cdb8cadece4bb70574fedc267f2956b9742e43cefa54d6ba68e4ea5721ebe_Checkpoint_Flag Idle_7.png",
+          "name": "Checkpoint_Flag Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/b47cdb8cadece4bb70574fedc267f2956b9742e43cefa54d6ba68e4ea5721ebe_Checkpoint_Flag Idle_8.png",
+          "name": "Checkpoint_Flag Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/da7f14e2f61de0a31589cc01088297544eb04e0755ff073f39033b588b9c4ce7_Checkpoint_Flag Idle_9.png",
+          "name": "Checkpoint_Flag Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/c0850ce27c762a34cee3f329cac9c253b42fed395a352fe9be2f31fc28b7d25b_Checkpoint_Flag Out_1.png",
+          "name": "Checkpoint_Flag Out_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/c0850ce27c762a34cee3f329cac9c253b42fed395a352fe9be2f31fc28b7d25b_Checkpoint_Flag Out_10.png",
+          "name": "Checkpoint_Flag Out_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/e34199760b2901778a270df8daeb245ad2f40d380c5b708e0c7abc2114f1dafe_Checkpoint_Flag Out_11.png",
+          "name": "Checkpoint_Flag Out_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/e34199760b2901778a270df8daeb245ad2f40d380c5b708e0c7abc2114f1dafe_Checkpoint_Flag Out_12.png",
+          "name": "Checkpoint_Flag Out_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/15dba1449262cffa514d1f26e1ca199e69c6da4636e27865899b77d917312b2f_Checkpoint_Flag Out_13.png",
+          "name": "Checkpoint_Flag Out_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/15dba1449262cffa514d1f26e1ca199e69c6da4636e27865899b77d917312b2f_Checkpoint_Flag Out_14.png",
+          "name": "Checkpoint_Flag Out_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/e45a5553098dbfee398f70f9ef822490476651ecc2c8f56af3de1fd57ac5fdce_Checkpoint_Flag Out_15.png",
+          "name": "Checkpoint_Flag Out_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/e45a5553098dbfee398f70f9ef822490476651ecc2c8f56af3de1fd57ac5fdce_Checkpoint_Flag Out_16.png",
+          "name": "Checkpoint_Flag Out_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/181e101a1926dfd7367c14dbd923fd0706b0b55e9fb6a8f947846592340eb488_Checkpoint_Flag Out_17.png",
+          "name": "Checkpoint_Flag Out_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/181e101a1926dfd7367c14dbd923fd0706b0b55e9fb6a8f947846592340eb488_Checkpoint_Flag Out_18.png",
+          "name": "Checkpoint_Flag Out_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/cf7d69c7fe9070d9eb3b61c89384a42a470091be187192d5352ce9ed3f5fde03_Checkpoint_Flag Out_19.png",
+          "name": "Checkpoint_Flag Out_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/302ef991c429d82eafa051d6d62cd20009e9daf9390ea9fc9003fa2e24225149_Checkpoint_Flag Out_2.png",
+          "name": "Checkpoint_Flag Out_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/cf7d69c7fe9070d9eb3b61c89384a42a470091be187192d5352ce9ed3f5fde03_Checkpoint_Flag Out_20.png",
+          "name": "Checkpoint_Flag Out_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/55297964644d08bbc87e319d32592e5a04c4a6a541e1ae5fe68e40b04579a7b4_Checkpoint_Flag Out_21.png",
+          "name": "Checkpoint_Flag Out_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/55297964644d08bbc87e319d32592e5a04c4a6a541e1ae5fe68e40b04579a7b4_Checkpoint_Flag Out_22.png",
+          "name": "Checkpoint_Flag Out_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/a0605a20dd75d914b5920dd382fd514e95221e84b8bbb1f33ecd296bf8233bcf_Checkpoint_Flag Out_23.png",
+          "name": "Checkpoint_Flag Out_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/a0605a20dd75d914b5920dd382fd514e95221e84b8bbb1f33ecd296bf8233bcf_Checkpoint_Flag Out_24.png",
+          "name": "Checkpoint_Flag Out_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/e899447558fdf60dee9fc709f95b963a447f51ece64375d0e97803ec5c3b1c82_Checkpoint_Flag Out_25.png",
+          "name": "Checkpoint_Flag Out_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/e899447558fdf60dee9fc709f95b963a447f51ece64375d0e97803ec5c3b1c82_Checkpoint_Flag Out_26.png",
+          "name": "Checkpoint_Flag Out_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/302ef991c429d82eafa051d6d62cd20009e9daf9390ea9fc9003fa2e24225149_Checkpoint_Flag Out_3.png",
+          "name": "Checkpoint_Flag Out_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/302ef991c429d82eafa051d6d62cd20009e9daf9390ea9fc9003fa2e24225149_Checkpoint_Flag Out_4.png",
+          "name": "Checkpoint_Flag Out_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/c0850ce27c762a34cee3f329cac9c253b42fed395a352fe9be2f31fc28b7d25b_Checkpoint_Flag Out_5.png",
+          "name": "Checkpoint_Flag Out_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/2e88e1202d60f8f535a27221be5afdd993d4189e399a2fec798f9033a5bf6de8_Checkpoint_Flag Out_6.png",
+          "name": "Checkpoint_Flag Out_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/2e88e1202d60f8f535a27221be5afdd993d4189e399a2fec798f9033a5bf6de8_Checkpoint_Flag Out_7.png",
+          "name": "Checkpoint_Flag Out_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/4bc4bb15d64f71d991a50ff1d55b337c9d73312b7f5348c94d67ba4b876e40c5_Checkpoint_Flag Out_8.png",
+          "name": "Checkpoint_Flag Out_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_Flag Out_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_Flag Out_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/c0850ce27c762a34cee3f329cac9c253b42fed395a352fe9be2f31fc28b7d25b_Checkpoint_Flag Out_9.png",
+          "name": "Checkpoint_Flag Out_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_No Flag.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkpoint_No Flag.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Checkpoint/4bc4bb15d64f71d991a50ff1d55b337c9d73312b7f5348c94d67ba4b876e40c5_Checkpoint_No Flag.png",
+          "name": "Checkpoint_No Flag.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Emotes by Tomcat94/93c5a2aad84ab24de3f7a96ebada8b4e7e75c939b9e3c7b8290a045763cf67fc_Blank Emote Left.png",
+          "name": "Blank Emote Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/576af41b003ca900d9c77db3216bd3747e79555f2acfe9d2b28e13c2b857da3e_Blank Emote_Style 1.png",
+          "name": "Blank Emote_Style 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/5e7ca3abb5205760847fde4a4c2e7d35000679e2e557527b400f35a7564663cd_Blank Emote_Style 2.png",
+          "name": "Blank Emote_Style 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/8cd3b5d1a4ef68cd09088226a697145a54a5635165f653401cfdd59498fc31f5_Blank Emote_Style 3.png",
+          "name": "Blank Emote_Style 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/ca52f3b21e89fe6441f07c2cf1e989188494f3ab46506ca565ec67fe48eda6d3_Blank Emote_Style 4.png",
+          "name": "Blank Emote_Style 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/bd976dc9bf75fd7118ff50dade6df4cf86740ab76e500f94e49114c98ca32e00_Blank Emote_Style 5.png",
+          "name": "Blank Emote_Style 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/d3babc90d611faf21221b9538e6efd26c846234f0040b1c99197d0bd570299db_Blank Emote_Style 6.png",
+          "name": "Blank Emote_Style 6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/1c00a73a8d1b2e4116624a2b62584b6c6eb7934eab1038f93834f1efac612b9e_Blank Emote_Style 7.png",
+          "name": "Blank Emote_Style 7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialogue_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "name_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "name_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "option_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "option_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "option_box2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "option_box2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/DialogoData.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "DialogoData",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 1.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/caa126aaa54cf4b62f68668fa9a5eac17eaa2a6e6bd1e2be182c16824c1d63aa_Blank Emote_Style 1.png",
+          "name": "Blank Emote_Style 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 2.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/bfc161541fd5f00c1b1dc78ff3ac162aa50aa26db580b9377982dcf2f041d9f8_Blank Emote_Style 2.png",
+          "name": "Blank Emote_Style 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 3.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/20e5c6d6740af6c3481047fe1ec76a82533dd539ebe6c2a4c15a30afe22a47cc_Blank Emote_Style 3.png",
+          "name": "Blank Emote_Style 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 4.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/0f71f93e830f34a9e737b7bff12cfeaf2a0d9b8cea7d22fc44027df6c89278df_Blank Emote_Style 4.png",
+          "name": "Blank Emote_Style 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 5.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/3de97193f359b9207f6bd7d673de9a6d8190878c6268d805ab5ea6f111f8898d_Blank Emote_Style 5.png",
+          "name": "Blank Emote_Style 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 6.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/374bea935a775bf4ff801e0474a3064d76018e0440091aeabb4ee069d875c452_Blank Emote_Style 6.png",
+          "name": "Blank Emote_Style 6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote_Style8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote_Style 7.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/48241e2f793ecb9d5f9d331e71089498d9312012f80ec14d539b1b3bcf6fdf1e_Blank Emote_Style 7.png",
+          "name": "Blank Emote_Style 7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dialogue_box2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialogue_box2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Super Wide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Super Wide.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/Blanks/a0d948b4f97451d79c0b601ba77ceecab41acf169ba3423da1e0689ee97b74e5_Blank Super Wide.png",
+          "name": "Blank Super Wide.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "name_box2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "name_box2.png",
         "smoothed": false,
         "userAdded": true
       }
