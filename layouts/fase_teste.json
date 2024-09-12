@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5427920802473516,
+    "zoomFactor": 0.7562477198107639,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -192,14 +192,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 23,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "cf5dff30-b5ac-4a5e-b16c-f0c4eeaebc1c",
-      "width": 95,
-      "x": 4057,
-      "y": 793,
+      "width": 167,
+      "x": 4058,
+      "y": 813,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -301,22 +301,6 @@
       "x": 1655,
       "y": 926,
       "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GreenBlock",
-      "persistentUuid": "4d9c98c3-66a6-4421-aa5e-24813000dd55",
-      "width": 0,
-      "x": 2498,
-      "y": 772,
-      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -437,13 +421,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "7cc59f71-f994-4159-a159-a3657d9c8a66",
-      "width": 0,
+      "width": 64,
       "x": 2900,
       "y": 878,
       "zOrder": 4,
@@ -453,13 +438,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "bade46f9-bd73-4fc5-8f36-b0469261f822",
-      "width": 0,
+      "width": 64,
       "x": 2206,
       "y": 765,
       "zOrder": 4,
@@ -469,13 +455,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "51a87094-bd9f-4db6-b326-fbca8fe0180d",
-      "width": 0,
+      "width": 64,
       "x": 2270,
       "y": 765,
       "zOrder": 4,
@@ -485,13 +472,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "fb4adbaa-0a85-4198-959d-958c292f5ea6",
-      "width": 0,
+      "width": 64,
       "x": 2342,
       "y": 656,
       "zOrder": 4,
@@ -501,13 +489,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "9a889103-0ef3-4432-9276-99a01d029617",
-      "width": 0,
+      "width": 64,
       "x": 2406,
       "y": 656,
       "zOrder": 4,
@@ -517,13 +506,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "4877dd51-e67d-4144-8baf-d48962fa2ac3",
-      "width": 0,
+      "width": 64,
       "x": 2502,
       "y": 541,
       "zOrder": 4,
@@ -533,13 +523,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "33d2b5d7-db28-453a-a0a7-724269120a5d",
-      "width": 0,
+      "width": 64,
       "x": 2566,
       "y": 541,
       "zOrder": 4,
@@ -549,13 +540,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "e6e74add-98d0-438d-84a1-aad2347900d6",
-      "width": 0,
+      "width": 64,
       "x": 2720,
       "y": 729,
       "zOrder": 4,
@@ -565,13 +557,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "5f67b39b-e3e0-452a-80f1-f179158df0bd",
-      "width": 0,
+      "width": 64,
       "x": 2656,
       "y": 729,
       "zOrder": 4,
@@ -581,13 +574,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "0832135a-682b-4bca-9c5e-b061cd25b3b0",
-      "width": 0,
+      "width": 64,
       "x": 2964,
       "y": 878,
       "zOrder": 4,
@@ -621,7 +615,7 @@
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "3213f5a9-928c-44b7-8309-c6adda7508d6",
-      "width": 172,
+      "width": 212,
       "x": 3769,
       "y": 924,
       "zOrder": 4,
@@ -754,8 +748,8 @@
       "name": "GreenBlock",
       "persistentUuid": "a38dd0a2-e0b3-46e9-97ad-7f4a39d13b4d",
       "width": 0,
-      "x": 4233,
-      "y": 605,
+      "x": 4225,
+      "y": 650,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -832,7 +826,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 15,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
@@ -849,14 +843,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 20,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "e7d0d3e3-51bd-493c-8b8d-dd0c1bd9b06f",
-      "width": 332,
-      "x": 5051,
-      "y": 493,
+      "width": 180,
+      "x": 5214,
+      "y": 511,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -882,14 +876,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 24,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "5e5bb0d3-7c77-4201-aaea-a9c0462708a1",
       "width": 524,
       "x": 6025,
-      "y": 639,
+      "y": 661,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1000,14 +994,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 20,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "983aa533-2099-49f2-b362-4ebd2cff4527",
       "width": 613,
-      "x": 5647,
-      "y": 420,
+      "x": 5649,
+      "y": 467,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1017,14 +1011,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 14,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "de4c4948-4016-443b-a3f8-4798f9db0f8d",
       "width": 218,
-      "x": 5703,
-      "y": 277,
+      "x": 5702,
+      "y": 287,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1067,12 +1061,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 14,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "6181356f-9af8-4251-9f7c-4650a26a2128",
-      "width": 303,
+      "width": 152,
       "x": 5052,
       "y": 426,
       "zOrder": 4,
@@ -1168,14 +1162,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 81,
       "keepRatio": true,
       "layer": "",
       "name": "blocos_da_plataforma",
       "persistentUuid": "3ce9a920-b621-4533-a76d-2bb8a467caf3",
       "width": 186,
       "x": 6299,
-      "y": 574,
+      "y": 582,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1194,6 +1188,23 @@
       "x": 5452,
       "y": 557,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 88,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Capivara",
+      "persistentUuid": "d3cacb8f-9e65-4e35-9c3f-8c2ad79220ce",
+      "width": 88,
+      "x": 2498,
+      "y": 909,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1391,7 +1402,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_idle_1.png",
+                  "image": "assets\\player_1_idle_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1416,18 +1427,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_idle_2.png",
+                  "image": "assets\\player_1_idle_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1452,18 +1463,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_idle_3.png",
+                  "image": "assets\\player_1_idle_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1488,18 +1499,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_idle_4.png",
+                  "image": "assets\\player_1_idle_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1524,18 +1535,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_idle_5.png",
+                  "image": "assets\\player_1_idle_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1560,18 +1571,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_idle_6.png",
+                  "image": "assets\\player_1_idle_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1596,18 +1607,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_idle_7.png",
+                  "image": "assets\\player_1_idle_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1632,11 +1643,11 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
@@ -1655,7 +1666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player_run_1.png",
+                  "image": "assets\\player_1_run_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1680,18 +1691,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player_run_2.png",
+                  "image": "assets\\player_1_run_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1716,18 +1727,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player_run_3.png",
+                  "image": "assets\\player_1_run_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1752,18 +1763,18 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player_run_4.png",
+                  "image": "assets\\player_1_run_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1788,11 +1799,83 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
                       }
                     ]
                   ]
@@ -1811,7 +1894,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_jump.png",
+                  "image": "assets\\player_1_jump.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1836,11 +1919,11 @@
                       },
                       {
                         "x": 72,
-                        "y": 96
+                        "y": 95
                       },
                       {
                         "x": 28,
-                        "y": 96
+                        "y": 95
                       }
                     ]
                   ]
@@ -4190,10 +4273,10 @@
       ],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -4746,6 +4829,146 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Capivara",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\capivara_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 19
+                      },
+                      {
+                        "x": 80,
+                        "y": 19
+                      },
+                      {
+                        "x": 80,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\capivara_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 19
+                      },
+                      {
+                        "x": 80,
+                        "y": 19
+                      },
+                      {
+                        "x": 80,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\capivara_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 19
+                      },
+                      {
+                        "x": 80,
+                        "y": 19
+                      },
+                      {
+                        "x": 80,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4756,6 +4979,9 @@
       },
       {
         "objectName": "blocos_da_plataforma"
+      },
+      {
+        "objectName": "Capivara"
       },
       {
         "objectName": "limite_esquerda"

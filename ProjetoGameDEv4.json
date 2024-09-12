@@ -3308,6 +3308,159 @@
         "name": "assets\\point_click_teresina\\background-polo-ceramico.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_idle_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_run_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player_1_jump.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/capivara_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\capivara_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/capivara_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\capivara_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/capivara_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\capivara_3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
