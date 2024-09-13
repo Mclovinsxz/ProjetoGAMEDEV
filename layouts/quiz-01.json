@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 202,
   "disableInputWhenNotFocused": true,
   "mangledName": "quiz_3201",
   "name": "quiz 01",
-  "r": 209,
+  "r": 95,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 191,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,17 +18,679 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.38958562738272856,
+    "zoomFactor": 0.3768772036750876,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 1084,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fundo",
+      "persistentUuid": "6238a520-a92b-41bf-b47e-74f0167d80b5",
+      "width": 1927,
+      "x": 1,
+      "y": -2,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 273,
+      "keepRatio": true,
+      "layer": "",
+      "name": "pergunta",
+      "persistentUuid": "ae213a47-04f1-46a4-8fa9-65e83364de0b",
+      "width": 956,
+      "x": 960,
+      "y": 287,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 131,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "5bd30ef6-97c7-4c2a-872c-bf82d280cbe3",
+      "width": 956,
+      "x": 960,
+      "y": 908,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 131,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "166c97e6-008f-48da-8725-7046f2e79288",
+      "width": 956,
+      "x": 960,
+      "y": 510,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 131,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "c1d1dca8-6b26-4325-b917-aff2390b47eb",
+      "width": 956,
+      "x": 960,
+      "y": 638,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 131,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "152306a1-daca-4d84-a24c-6945799d046b",
+      "width": 956,
+      "x": 960,
+      "y": 770,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_pergunta",
+      "persistentUuid": "bb9bd028-2c35-4ef4-988b-c20a54d5f7ea",
+      "width": 0,
+      "x": 532,
+      "y": 189,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta1",
+      "persistentUuid": "fb5afc6a-a347-4dc3-a59a-258a8e8c99a1",
+      "width": 0,
+      "x": 526,
+      "y": 495,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta2",
+      "persistentUuid": "ba273414-5b47-4ae1-b6ae-72fe6dffdf7f",
+      "width": 0,
+      "x": 529,
+      "y": 626,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta_correta",
+      "persistentUuid": "92794b29-30bb-4a84-ac83-b665e382bf85",
+      "width": 0,
+      "x": 529,
+      "y": 897,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta3",
+      "persistentUuid": "9c9d8770-81cc-486e-9380-25e4e44450cd",
+      "width": 0,
+      "x": 523,
+      "y": 755,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_titulo",
+      "persistentUuid": "23681703-0439-4138-adf5-9bff6abe7b26",
+      "width": 1105,
+      "x": 388,
+      "y": 29,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fundo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\fundo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "pergunta",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pergunta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 350.5,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 185
+                      },
+                      {
+                        "x": 14,
+                        "y": 185
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "respostas",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\respostas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 350.5,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 78
+                      },
+                      {
+                        "x": 15,
+                        "y": 78
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_pergunta",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Texto da pergunta!!!",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Texto da pergunta!!!",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 1!!",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 1!!",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 2!!",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 2!!",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 3!!",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 3!!",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta_correta",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta CORRETA!!!",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta CORRETA!!!",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_titulo",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Piauí: Crônicas do Tempo",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Piauí: Crônicas do Tempo",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "255;255;255"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "fundo"
+      },
+      {
+        "objectName": "pergunta"
+      },
+      {
+        "objectName": "respostas"
+      },
+      {
+        "objectName": "texto_pergunta"
+      },
+      {
+        "objectName": "texto_resposta1"
+      },
+      {
+        "objectName": "texto_resposta2"
+      },
+      {
+        "objectName": "texto_resposta3"
+      },
+      {
+        "objectName": "texto_resposta_correta"
+      },
+      {
+        "objectName": "texto_titulo"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -75,5 +737,34 @@
       ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
 }

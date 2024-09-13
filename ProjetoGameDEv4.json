@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 211,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -4915,6 +4915,65 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite4",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fundo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pergunta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pergunta.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/respostas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\respostas.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Minecraft.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Minecraft.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/pixel_art/pixelart.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\pixel_art\\pixelart.ttf",
         "userAdded": true
       }
     ],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2616774116992365,
+    "zoomFactor": 0.6406912462477014,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -225,8 +225,8 @@
       "name": "TEATRO",
       "persistentUuid": "53245a46-b7e4-474a-b35d-7e81aad6a8a6",
       "width": 0,
-      "x": 4235,
-      "y": 322,
+      "x": 4092,
+      "y": 319,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -4679,9 +4679,9 @@
       "effects": [],
       "behaviors": [],
       "string": "THEATRO 4 DE SETEMBRO",
-      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "font": "Minecraft.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 50,
       "color": {
         "b": 255,
         "g": 255,
@@ -4702,9 +4702,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "THEATRO 4 DE SETEMBRO",
-        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "font": "Minecraft.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 50,
         "color": "255;255;255"
       }
     },
@@ -9074,7 +9074,7 @@
           },
           "parameters": [
             "",
-            "1",
+            "1.4",
             "",
             "0"
           ]
@@ -9600,7 +9600,7 @@
                 "",
                 "\"digitação\"",
                 ">=",
-                "0.001"
+                "0.008"
               ]
             }
           ],
@@ -9619,14 +9619,6 @@
                 "",
                 "\"digitação\""
               ]
-            }
-          ],
-          "variables": [
-            {
-              "folded": true,
-              "name": "numero_caixa_info",
-              "type": "number",
-              "value": 1
             }
           ]
         },
