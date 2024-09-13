@@ -4599,6 +4599,323 @@
         "name": "cabeca_cuia_poty2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Bumped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Bumped.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/6d42f8aec59ca9f7e04d11d58877002277f7eaee01636bdd108f95de1eb8521d_Blocky Bub_Bumped.png",
+          "name": "Blocky Bub_Bumped.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/b8a56791c9a1e4b15c40728f68874017f2101be32bec44577514e5327af743da_Blocky Bub_Idle_1.png",
+          "name": "Blocky Bub_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/b08db3b0f005f4226f4cd1842d57337ff1ce036280d5ce03466c0feea303038d_Blocky Bub_Idle_2.png",
+          "name": "Blocky Bub_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/113f8cb77cb958a01d8b8cf0adf615653e90f0a6ecad2edd368e3ed50bbb9a5c_Blocky Bub_Running_1.png",
+          "name": "Blocky Bub_Running_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/8d15a7fefdca5a18bf93164becb2ba18e65a0052907316782429fe345e742d11_Blocky Bub_Running_2.png",
+          "name": "Blocky Bub_Running_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/cb981bb1b033b5224bd7d0cd32588f5bff0e95ae992f1b86ba0fd465cc9f9b5f_Blocky Bub_Running_3.png",
+          "name": "Blocky Bub_Running_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/37b4b0da8532b44be9e9fd46b8aa57b362115e982c0a9e1464254583845124bc_Blocky Bub_Running_4.png",
+          "name": "Blocky Bub_Running_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/56491fadd8f160deff1ec3a822a8b6000bfd6a9a1a67fc10251535cef3ef0e0e_Blocky Bub_Running_5.png",
+          "name": "Blocky Bub_Running_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/2b868921f44bd79cfb4fae1908cf5419ba9efbabdd8218a1b648ec6d37dcb3de_Blocky Bub_Running_6.png",
+          "name": "Blocky Bub_Running_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_dialogue_box.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\dialogue_box",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_dialogue_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Informações Teresina.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Informações Teresina.json\"}",
+        "name": "Informações Teresina",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Open Scroll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Open Scroll.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Items/23e78b726afa538c898fc305bd88ace62701c75544b687a394c20183550426fc_Open Scroll.png",
+          "name": "Open Scroll.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Green Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Green Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/c36556a4cb8c20701a1ab1dad4ab6603555a592b44fff7e996a3cea662feb59a_tiled_Green Background.png",
+          "name": "tiled_Green Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/panel-transparent-border-030.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/panel-transparent-border-030.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "panel-transparent-border-030.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Transparent Borders/c7ec630fcde3b9aeff40a5990ded10a5e428a81100bd2b9e421b4361bbbd79ed_panel-transparent-border-030.png",
+          "name": "panel-transparent-border-030.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

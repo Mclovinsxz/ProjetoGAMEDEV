@@ -1,0 +1,22 @@
+[
+	{
+		"title": "01_info",
+		"tags": "",
+		"body": "Teresina desenvolveu-se por meio do Rio Parnaíba, através da navegação fluvial. Sendo a primeira capital planejada do Brasil, surgiu para substituir a então capital Oeiras, também chamada de Cidade Verde.",
+		"position": {
+			"x": 435,
+			"y": 252
+		},
+		"colorID": 0
+	},
+	{
+		"title": "02_info",
+		"tags": "",
+		"body": "A transferência da capital do Piauí para Teresina foi idealizada pelo então presidente da província, José Antonio Saraiva, foi efetivado o estabelecimento da capital da Província do Piauí de Oeiras para Teresina em 16 de agosto de 1852.",
+		"position": {
+			"x": 139,
+			"y": 210
+		},
+		"colorID": 0
+	}
+]
