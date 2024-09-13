@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
+    "build": 211,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -3304,7 +3304,7 @@
         "alwaysLoaded": false,
         "file": "assets/point_click_teresina/background-polo-ceramico.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/point_click_teresina/background-polo-ceramico.png\",\"extension\":\".png\"}",
         "name": "assets\\point_click_teresina\\background-polo-ceramico.png",
         "smoothed": false,
         "userAdded": true
@@ -4317,6 +4317,288 @@
         "name": "name_box2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plataforma2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "plataforma2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plataforma3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/plataforma3.png\"}",
+        "name": "plataforma3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/46d2dfac27f1b2be0ed12dd64c1fdbc9139539c38f8bab674c19da1b6946d7cc_Spinning Bone_1.png",
+          "name": "Spinning Bone_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/7ec8b49b4ce628ec17c43be36063b3b25c1a7c75fe2f2d7788b91919d717b717_Spinning Bone_2.png",
+          "name": "Spinning Bone_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/32d2c64fd7de7d37095eb9d4b5b6b3ca82210ffe971dd713056e2e674438233a_Spinning Bone_3.png",
+          "name": "Spinning Bone_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/8f3e531ced6b66b3599379e317aee89f7dafd5346ca0ee3c1c866a9999e706c7_Spinning Bone_4.png",
+          "name": "Spinning Bone_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tileset Piece 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/5ab61a35fab9d206b62a5791d18e814f5d74e2b564e58614dfe4af2303256242_tiled_Tileset Piece 3.png",
+          "name": "tiled_Tileset Piece 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tileset Piece 3.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 3.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tileset Piece 3.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/d0acd92e3ebdd5786e4b268995841b535349ff13c0e343f50cacac267d1f2d5d_Tileset Piece 1.png",
+          "name": "Tileset Piece 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/3505ac91729dff59c13127ac7bd6479f3732ca10e89d9b578f3324a0d5bf06db_Tileset Piece 4.png",
+          "name": "Tileset Piece 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tileset Piece5.png\"}",
+        "name": "Tileset Piece 4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/9ab2cca6a3b4f1ab8565591b4790e758e2c90c6080d9047ed834a00820934a4d_Tileset Piece 5.png",
+          "name": "Tileset Piece 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
+          "name": "Tileset Piece 14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/c1884ca6753dd7996df03c927f14a7f4ce06fa3625c8f6a7960be444ce9d9793_Tileset Piece 36.png",
+          "name": "Tileset Piece 36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 36",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/296477004bd67434ad2b4a6f3018ac5ca78ee00064bbcbb28d850c24807d0167_Tileset Piece 37.png",
+          "name": "Tileset Piece 37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tileset Piece 20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/14cdbdaa1d3829509ea2032fb467b0249b866aa951da2e9590f9db696822c720_tiled_Tileset Piece 20.png",
+          "name": "tiled_Tileset Piece 20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 20.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tileset Piece 20.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cabeca_cuia_poty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cabeca_cuia_poty.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cabeca_cuia_poty2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cabeca_cuia_poty2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
