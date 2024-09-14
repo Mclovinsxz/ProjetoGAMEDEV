@@ -1,0 +1,49 @@
+{
+  "associatedLayout": "quiz 01",
+  "lastChangeTimeStamp": 0,
+  "name": "Gerar_pergunta",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": [
+        "// Variaveis",
+        "let lista_perguntas = runtimeScene.getVariables().get(\"listaPerguntas\");",
+        "let lista_respostas = runtimeScene.getVariables().get(\"listaRespostas\");",
+        "",
+        "//Objetos",
+        "let texto_pergunta = runtimeScene.getObjects(\"texto_pergunta\");",
+        "let texto_resposta1 = runtimeScene.getObjects(\"texto_resposta1\");",
+        "let texto_resposta2 = runtimeScene.getObjects(\"texto_resposta2\");",
+        "let texto_resposta3 = runtimeScene.getObjects(\"texto_resposta3\");",
+        "let texto_resposta4 = runtimeScene.getObjects(\"texto_resposta4\");",
+        "let texto_resposta_correta = runtimeScene.getObjects(\"texto_resposta_correta\");",
+        "",
+        "//numero aleatorio",
+        "let perguntaAleatoria = Math.floor(Math.random()*lista_perguntas.length);",
+        "",
+        "//adicionar texto na cena",
+        "texto_pergunta[0].setString(lista_perguntas.getChild(perguntaAleatoria).getChild(\"pergunta\").getAsString());",
+        "texto_resposta1[0].setString(lista_respostas.getChild(perguntaAleatoria).getChild(\"a\").getAsString());",
+        "texto_resposta2[0].setString(lista_respostas.getChild(perguntaAleatoria).getChild(\"b\").getAsString());",
+        "texto_resposta3[0].setString(lista_respostas.getChild(perguntaAleatoria).getChild(\"c\").getAsString());",
+        "texto_resposta4[0].setString(lista_respostas.getChild(perguntaAleatoria).getChild(\"d\").getAsString());",
+        "texto_resposta_correta[0].setString(lista_respostas.getChild(perguntaAleatoria).getChild(\"r\").getAsString());",
+        "",
+        "",
+        "//retirar perguntas aleatorias da lista",
+        "lista_perguntas.removeAtIndex(perguntaAleatoria);",
+        "lista_respostas.removeAtIndex(perguntaAleatoria);",
+        "",
+        ""
+      ],
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    }
+  ]
+}

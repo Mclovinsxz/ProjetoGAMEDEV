@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3192894589690168,
+    "zoomFactor": 0.4913877545329361,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -140,14 +140,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
       "keepRatio": true,
       "layer": "",
       "name": "texto_pergunta",
       "persistentUuid": "bb9bd028-2c35-4ef4-988b-c20a54d5f7ea",
-      "width": 0,
-      "x": 532,
+      "width": 885,
+      "x": 511,
       "y": 189,
       "zOrder": 4,
       "numberProperties": [],
@@ -156,15 +157,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 68,
       "keepRatio": true,
       "layer": "",
       "name": "texto_resposta1",
       "persistentUuid": "fb5afc6a-a347-4dc3-a59a-258a8e8c99a1",
-      "width": 0,
-      "x": 526,
-      "y": 495,
+      "width": 896,
+      "x": 508,
+      "y": 476,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -172,15 +174,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "texto_resposta2",
       "persistentUuid": "ba273414-5b47-4ae1-b6ae-72fe6dffdf7f",
-      "width": 0,
-      "x": 529,
-      "y": 626,
+      "width": 903,
+      "x": 509,
+      "y": 600,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -195,8 +198,8 @@
       "name": "texto_resposta_correta",
       "persistentUuid": "92794b29-30bb-4a84-ac83-b665e382bf85",
       "width": 0,
-      "x": 529,
-      "y": 897,
+      "x": 172,
+      "y": 1010,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -204,15 +207,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "texto_resposta3",
       "persistentUuid": "9c9d8770-81cc-486e-9380-25e4e44450cd",
-      "width": 0,
-      "x": 523,
-      "y": 755,
+      "width": 875,
+      "x": 512,
+      "y": 727,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,6 +235,40 @@
       "x": 388,
       "y": 29,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta4",
+      "persistentUuid": "a7a96b0c-9f5a-4836-8dcb-8b45e0f9844d",
+      "width": 886,
+      "x": 519,
+      "y": 871,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "botão",
+      "persistentUuid": "3c3da29a-4462-4265-9ae4-46a5cd98bc32",
+      "width": 371,
+      "x": 1478,
+      "y": 984,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -428,8 +466,8 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Texto da pergunta!!!",
-      "font": "Minecraft.ttf",
+      "string": "Texto da pergunta é!!!",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
@@ -451,8 +489,8 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Texto da pergunta!!!",
-        "font": "Minecraft.ttf",
+        "text": "Texto da pergunta é!!!",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
         "textAlignment": "left",
         "characterSize": 30,
         "color": "0;0;0"
@@ -470,8 +508,8 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 1!!",
-      "font": "Minecraft.ttf",
-      "textAlignment": "left",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "textAlignment": "center",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -493,8 +531,8 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 1!!",
-        "font": "Minecraft.ttf",
-        "textAlignment": "left",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
       }
@@ -511,8 +549,8 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 2!!",
-      "font": "Minecraft.ttf",
-      "textAlignment": "left",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "textAlignment": "center",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -534,8 +572,8 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 2!!",
-        "font": "Minecraft.ttf",
-        "textAlignment": "left",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
       }
@@ -552,8 +590,8 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 3!!",
-      "font": "Minecraft.ttf",
-      "textAlignment": "left",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "textAlignment": "center",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -575,8 +613,8 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 3!!",
-        "font": "Minecraft.ttf",
-        "textAlignment": "left",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
       }
@@ -593,7 +631,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta CORRETA!!!",
-      "font": "Minecraft.ttf",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
@@ -616,7 +654,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta CORRETA!!!",
-        "font": "Minecraft.ttf",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
         "textAlignment": "left",
         "characterSize": 30,
         "color": "0;0;0"
@@ -662,6 +700,108 @@
         "characterSize": 60,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 4!!",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 4!!",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "botão",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -689,14 +829,44 @@
         "objectName": "texto_resposta3"
       },
       {
+        "objectName": "texto_resposta4"
+      },
+      {
         "objectName": "texto_resposta_correta"
       },
       {
         "objectName": "texto_titulo"
+      },
+      {
+        "objectName": "botão"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -788,6 +958,13 @@
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Gerar_pergunta"
         }
       ]
     },
@@ -796,22 +973,33 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyReleased"
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "botão",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "Escape"
+            "Left"
           ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "Quit"
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
           },
-          "parameters": [
-            ""
-          ]
+          "target": "Gerar_pergunta"
         }
       ]
     }
