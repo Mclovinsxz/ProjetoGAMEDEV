@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -4975,6 +4975,42 @@
         "metadata": "",
         "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\pixel_art\\pixelart.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/assets_dialogue_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/dialogue_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/check.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/check.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/sapo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/sapo.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5025,6 +5061,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
