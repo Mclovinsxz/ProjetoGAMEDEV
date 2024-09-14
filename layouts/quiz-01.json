@@ -18,11 +18,23 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3768772036750876,
+    "zoomFactor": 0.3192894589690168,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "listaPerguntas",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "listaRespostas",
+      "type": "array",
+      "children": []
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -687,8 +699,121 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let listaPerguntas = runtimeScene.getVariables().get(\"listaPerguntas\");",
+            "let listaRespostas = runtimeScene.getVariables().get(\"listaRespostas\");",
+            "",
+            "let textoPergunta = runtimeScene.getObjects(\"texto_pergunta\");",
+            "",
+            "let dados_perguntas = [",
+            "    {\"pergunta\": \"Quem foi o fundador da cidade de Teresina?\"},",
+            "    {\"pergunta\": \"Em que ano Teresina foi oficialmente fundada?\"},",
+            "    {\"pergunta\": \"Qual foi a primeira capital do Piauí antes de Teresina?\"},",
+            "    {\"pergunta\": \"Qual é o nome da ponte mais famosa de Teresina, considerada um símbolo da cidade?\"},",
+            "    {\"pergunta\": \"Qual rio corta a cidade de Teresina, sendo importante para sua economia e urbanização?\"}",
+            "",
+            "]",
+            "",
+            "let dados_respostas = [",
+            "    {",
+            "        \"a\": \"Dom Pedro II\",",
+            "        \"b\": \"João Isidoro França\",",
+            "        \"c\": \"Simplício Mendes\",",
+            "        \"d\": \"Manoel de Sousa Martins\",",
+            "        \"r\": \"Manoel de Sousa Martins\"",
+            "    },",
+            "     {",
+            "        \"a\": \"1842\",",
+            "        \"b\": \"1852\",",
+            "        \"c\": \"1862\",",
+            "        \"d\": \"1872\",",
+            "        \"r\": \"1852\"",
+            "    },",
+            "    {",
+            "        \"a\": \"Parnaíba\",",
+            "        \"b\": \"Floriano\",",
+            "        \"c\": \"São Raimundo Nonato\",",
+            "        \"d\": \"Oeiras\",",
+            "        \"r\": \"Oeiras\"",
+            "    },",
+            "    {",
+            "        \"a\": \"Ponte Juscelino Kubitschek\",",
+            "        \"b\": \"Ponte Estaiada João Isidoro França\",",
+            "        \"c\": \"Ponte Metálica\",",
+            "        \"d\": \"Ponte da Amizade\",",
+            "        \"r\": \"Ponte Estaiada João Isidoro França\"",
+            "    },",
+            "    {",
+            "        \"a\": \"Rio Poti\",",
+            "        \"b\": \"Rio Parnaíba\",",
+            "        \"c\": \"Rio São Francisco\",",
+            "        \"d\": \"Rio Gurguéia\",",
+            "        \"r\": \"Rio Poti\"",
+            "    }",
+            "",
+            "]",
+            "",
+            "for(let i = 0; i< dados_perguntas.length; i++){",
+            "    listaPerguntas.getChild(i).getChild(\"pergunta\").setString(dados_perguntas[i].pergunta);",
+            "}",
+            "",
+            "for(let i = 0; i< dados_respostas.length; i++){",
+            "    listaRespostas.getChild(i).getChild(\"a\").setString(dados_respostas[i].a);",
+            "    listaRespostas.getChild(i).getChild(\"b\").setString(dados_respostas[i].b);",
+            "    listaRespostas.getChild(i).getChild(\"c\").setString(dados_respostas[i].c);",
+            "    listaRespostas.getChild(i).getChild(\"d\").setString(dados_respostas[i].d);",
+            "    listaRespostas.getChild(i).getChild(\"r\").setString(dados_respostas[i].r);",
+            "}",
+            "",
+            "",
+            "//textoPergunta[0].setString(listaPerguntas.getChild(0).getChild(\"pergunta\").getAsString());",
+            "",
+            "",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
