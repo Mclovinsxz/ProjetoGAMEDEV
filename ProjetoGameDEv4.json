@@ -5031,6 +5031,68 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "balao_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "balao_text.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/OpenSans-VariableFont_wdth,wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NotoSansJP-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-Thin.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/ArchitectsDaughter2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/finalização.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "finalização",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333377,
+    "zoomFactor": 0.36458333333333476,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -93,7 +93,7 @@
       "name": "pergunta",
       "persistentUuid": "ae213a47-04f1-46a4-8fa9-65e83364de0b",
       "width": 956,
-      "x": 960,
+      "x": 1053,
       "y": 287,
       "zOrder": 2,
       "numberProperties": [],
@@ -110,7 +110,7 @@
       "name": "respostas",
       "persistentUuid": "5bd30ef6-97c7-4c2a-872c-bf82d280cbe3",
       "width": 956,
-      "x": 960,
+      "x": 1053,
       "y": 908,
       "zOrder": 3,
       "numberProperties": [],
@@ -127,7 +127,7 @@
       "name": "respostas",
       "persistentUuid": "166c97e6-008f-48da-8725-7046f2e79288",
       "width": 956,
-      "x": 960,
+      "x": 1053,
       "y": 510,
       "zOrder": 3,
       "numberProperties": [],
@@ -144,7 +144,7 @@
       "name": "respostas",
       "persistentUuid": "c1d1dca8-6b26-4325-b917-aff2390b47eb",
       "width": 956,
-      "x": 960,
+      "x": 1053,
       "y": 638,
       "zOrder": 3,
       "numberProperties": [],
@@ -161,7 +161,7 @@
       "name": "respostas",
       "persistentUuid": "152306a1-daca-4d84-a24c-6945799d046b",
       "width": 956,
-      "x": 960,
+      "x": 1053,
       "y": 770,
       "zOrder": 3,
       "numberProperties": [],
@@ -178,7 +178,7 @@
       "name": "texto_pergunta",
       "persistentUuid": "bb9bd028-2c35-4ef4-988b-c20a54d5f7ea",
       "width": 885,
-      "x": 511,
+      "x": 604,
       "y": 189,
       "zOrder": 4,
       "numberProperties": [],
@@ -195,7 +195,7 @@
       "name": "texto_resposta1",
       "persistentUuid": "fb5afc6a-a347-4dc3-a59a-258a8e8c99a1",
       "width": 896,
-      "x": 508,
+      "x": 601,
       "y": 484,
       "zOrder": 5,
       "numberProperties": [],
@@ -212,7 +212,7 @@
       "name": "texto_resposta2",
       "persistentUuid": "ba273414-5b47-4ae1-b6ae-72fe6dffdf7f",
       "width": 903,
-      "x": 509,
+      "x": 602,
       "y": 612,
       "zOrder": 6,
       "numberProperties": [],
@@ -229,7 +229,7 @@
       "name": "texto_resposta3",
       "persistentUuid": "9c9d8770-81cc-486e-9380-25e4e44450cd",
       "width": 875,
-      "x": 512,
+      "x": 605,
       "y": 740,
       "zOrder": 8,
       "numberProperties": [],
@@ -263,7 +263,7 @@
       "name": "texto_resposta4",
       "persistentUuid": "a7a96b0c-9f5a-4836-8dcb-8b45e0f9844d",
       "width": 886,
-      "x": 519,
+      "x": 612,
       "y": 883,
       "zOrder": 10,
       "numberProperties": [],
@@ -296,8 +296,8 @@
       "name": "acertos",
       "persistentUuid": "75a4c5ee-cde4-44eb-92e0-ec7f0adfe91b",
       "width": 0,
-      "x": 1592,
-      "y": 432,
+      "x": 2553,
+      "y": 437,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -312,8 +312,8 @@
       "name": "texto_total",
       "persistentUuid": "d649a621-d503-4484-bcf2-389a0a16a9eb",
       "width": 0,
-      "x": 1588,
-      "y": 172,
+      "x": 2549,
+      "y": 177,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -332,6 +332,73 @@
       "x": 3,
       "y": 678,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 221,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "0962b47d-899f-4cd1-ba9d-cdd6c4fdd6a7",
+      "width": 544,
+      "x": 46,
+      "y": 458,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 45,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_personagem",
+      "persistentUuid": "fc88f039-310f-465b-a2be-9f85cfef952e",
+      "width": 415,
+      "x": 91,
+      "y": 480,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "botão_seguinte",
+      "persistentUuid": "48b6ec61-0166-4117-a012-bc5c632a9e5f",
+      "width": 340,
+      "x": 1533,
+      "y": 989,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta_alternativa",
+      "persistentUuid": "81c789ad-276a-4e45-bf59-22d4cc390c27",
+      "width": 0,
+      "x": 125,
+      "y": 278,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -530,7 +597,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Texto da pergunta é!!!",
-      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
@@ -553,7 +620,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Texto da pergunta é!!!",
-        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "left",
         "characterSize": 30,
         "color": "0;0;0"
@@ -571,7 +638,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 1!!",
-      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
@@ -594,7 +661,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 1!!",
-        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
@@ -612,7 +679,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 2!!",
-      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
@@ -635,7 +702,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 2!!",
-        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
@@ -653,7 +720,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 3!!",
-      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
@@ -676,7 +743,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 3!!",
-        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
@@ -776,7 +843,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 4!!",
-      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
@@ -799,7 +866,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 4!!",
-        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
@@ -808,7 +875,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "botão",
+      "name": "botão_seguinte",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -816,7 +883,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "seguinte",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -827,6 +894,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "finalizar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "finalização",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1499,6 +1615,148 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "balao_texto",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "balao_text.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 345
+                      },
+                      {
+                        "x": 7,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_personagem",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Parabéns!!!!!!",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Parabéns!!!!!!",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta_alternativa",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1532,6 +1790,9 @@
         "objectName": "texto_resposta4"
       },
       {
+        "objectName": "texto_resposta_alternativa"
+      },
+      {
         "objectName": "texto_resposta_correta"
       },
       {
@@ -1544,7 +1805,13 @@
         "objectName": "texto_titulo"
       },
       {
-        "objectName": "botão"
+        "objectName": "texto_personagem"
+      },
+      {
+        "objectName": "botão_seguinte"
+      },
+      {
+        "objectName": "balao_texto"
       }
     ]
   },
@@ -1585,7 +1852,50 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_personagem"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"correta\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"incorreta\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "botão_seguinte"
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::JsCode",
@@ -1597,7 +1907,8 @@
             "let textoPergunta = runtimeScene.getObjects(\"texto_pergunta\");",
             "",
             "let dados_perguntas = [",
-            "    {\"pergunta\": \"Quem foi o fundador da cidade de Teresina?\"},",
+            "    {\"pergunta\": \"Quem realizou a mudança da capital do Piauí de Oeiras para Teresina?\"},",
+            "    {\"pergunta\": \"Qual bairro é considerado o primeiro bairro de Teresina?\"},",
             "    {\"pergunta\": \"Em que ano Teresina foi oficialmente fundada?\"},",
             "    {\"pergunta\": \"Qual foi a primeira capital do Piauí antes de Teresina?\"},",
             "    {\"pergunta\": \"Qual é o nome da ponte mais famosa de Teresina, considerada um símbolo da cidade?\"},",
@@ -1610,36 +1921,79 @@
             "        \"a\": \"Dom Pedro II\",",
             "        \"b\": \"João Isidoro França\",",
             "        \"c\": \"Simplício Mendes\",",
-            "        \"d\": \"Manoel de Sousa Martins\",",
-            "        \"r\": \"Manoel de Sousa Martins\"",
+            "        \"d\": \"José Antônio Saraiva\",",
+            "        \"r\": \"José Antônio Saraiva\",",
+            "         \"explicacoes\": {",
+            "            \"a\": \"Dom Pedro II foi o imperador na época, mas não foi responsável pela mudança da capital.\",",
+            "            \"b\": \"João Isidoro França foi o engenheiro responsável pelo planejamento de Teresina, mas não fez a mudança.\",",
+            "            \"c\": \"Simplício Mendes não esteve envolvido na transferência da capital.\",",
+            "            \"d\": \"José Antônio Saraiva foi o presidente da província que realizou a mudança da capital de Oeiras para Teresina.\"",
+            "        }",
+            "    },",
+            "     {",
+            "        \"a\": \"Mafuá\",",
+            "        \"b\": \"Piçarra\",",
+            "        \"c\": \"Poty Velho\",",
+            "        \"d\": \"Cajueiro\",",
+            "        \"r\": \"Poty Velho\",",
+            "        \"explicacoes\": {",
+            "            \"a\": \"Mafuá é um bairro tradicional, mas não o primeiro de Teresina.\",",
+            "            \"b\": \"Piçarra também é um bairro antigo, mas não o mais antigo.\",",
+            "            \"c\": \"Poty Velho é o bairro mais antigo de Teresina, originando-se com a fundação da cidade.\",",
+            "            \"d\": \"Cajueiro é um bairro de Teresina, mas não foi o primeiro.\"",
+            "        }",
             "    },",
             "     {",
             "        \"a\": \"1842\",",
             "        \"b\": \"1852\",",
             "        \"c\": \"1862\",",
             "        \"d\": \"1872\",",
-            "        \"r\": \"1852\"",
+            "        \"r\": \"1852\",",
+            "        \"explicacoes\": {",
+            "            \"a\": \"1842 é uma data antes da fundação de Teresina.\",",
+            "            \"b\": \"1852 é o ano correto da fundação da cidade.\",",
+            "            \"c\": \"1862 foi 10 anos após a fundação de Teresina.\",",
+            "            \"d\": \"1872 é uma data posterior à fundação de Teresina.\"",
+            "        }",
             "    },",
             "    {",
             "        \"a\": \"Parnaíba\",",
             "        \"b\": \"Floriano\",",
             "        \"c\": \"São Raimundo Nonato\",",
             "        \"d\": \"Oeiras\",",
-            "        \"r\": \"Oeiras\"",
+            "        \"r\": \"Oeiras\",",
+            "        \"explicacoes\": {",
+            "            \"a\": \"Parnaíba é uma cidade importante, mas nunca foi capital do Piauí.\",",
+            "            \"b\": \"Floriano nunca foi capital do Piauí.\",",
+            "            \"c\": \"São Raimundo Nonato é conhecida pelos sítios arqueológicos, mas nunca foi capital.\",",
+            "            \"d\": \"Oeiras foi a primeira capital do Piauí até 1852.\"",
+            "        }",
             "    },",
             "    {",
             "        \"a\": \"Ponte Juscelino Kubitschek\",",
             "        \"b\": \"Ponte Estaiada João Isidoro França\",",
             "        \"c\": \"Ponte Metálica\",",
             "        \"d\": \"Ponte da Amizade\",",
-            "        \"r\": \"Ponte Estaiada João Isidoro França\"",
+            "        \"r\": \"Ponte Estaiada João Isidoro França\",",
+            "        \"explicacoes\": {",
+            "            \"a\": \"Ponte Juscelino Kubitschek é uma ponte importante, mas está localizada em Brasília.\",",
+            "            \"b\": \"Ponte Estaiada João Isidoro França é o principal cartão postal de Teresina.\",",
+            "            \"c\": \"A Ponte Metálica é uma ponte histórica, mas não é considerada o símbolo mais famoso.\",",
+            "            \"d\": \"Ponte da Amizade existe, mas não é o símbolo mais conhecido de Teresina.\"",
+            "        }",
             "    },",
             "    {",
             "        \"a\": \"Rio Poti\",",
             "        \"b\": \"Rio Parnaíba\",",
             "        \"c\": \"Rio São Francisco\",",
             "        \"d\": \"Rio Gurguéia\",",
-            "        \"r\": \"Rio Poti\"",
+            "        \"r\": \"Rio Poti\",",
+            "        \"explicacoes\": {",
+            "            \"a\": \"Rio Poti é um dos rios que corta Teresina, sendo o mais importante para a urbanização da cidade.\",",
+            "            \"b\": \"Rio Parnaíba é importante, mas o Rio Poti tem mais relevância dentro de Teresina.\",",
+            "            \"c\": \"O Rio São Francisco não passa por Teresina.\",",
+            "            \"d\": \"O Rio Gurguéia está localizado em outra região do Piauí.\"",
+            "        }",
             "    }",
             "",
             "]",
@@ -1654,10 +2008,16 @@
             "    listaRespostas.getChild(i).getChild(\"c\").setString(dados_respostas[i].c);",
             "    listaRespostas.getChild(i).getChild(\"d\").setString(dados_respostas[i].d);",
             "    listaRespostas.getChild(i).getChild(\"r\").setString(dados_respostas[i].r);",
+            "",
+            "    // Exibindo a explicação da resposta correta e incorretas",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_a\").setString(dados_respostas[i].explicacoes.a);",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_b\").setString(dados_respostas[i].explicacoes.b);",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_c\").setString(dados_respostas[i].explicacoes.c);",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_d\").setString(dados_respostas[i].explicacoes.d);",
+            "",
             "}",
             "",
             "total.setString(listaPerguntas.getChildrenCount());",
-            "",
             "",
             "//textoPergunta[0].setString(listaPerguntas.getChild(0).getChild(\"pergunta\").getAsString());",
             "",
@@ -1666,7 +2026,7 @@
           ],
           "parameterObjects": "",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -1713,7 +2073,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "botão",
+            "botão_seguinte",
             "",
             "",
             ""
@@ -1770,15 +2130,93 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_personagem"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "botão_seguinte"
+          ]
         }
       ],
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Gerar_pergunta"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "botão_seguinte",
+                "Animation",
+                "=",
+                "\"seguinte\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Gerar_pergunta"
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "botão_seguinte",
+                "Animation",
+                "=",
+                "\"finalizar\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"tela inicial\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1837,6 +2275,18 @@
           "actions": [],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  1 Certa"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1891,8 +2341,38 @@
                     "False",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  1 Incorreta"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1917,6 +2397,24 @@
                   "parameters": [
                     "respostas",
                     "\"208;2;27\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
                   ]
                 }
               ]
@@ -1942,6 +2440,18 @@
           "actions": [],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  2 Certa"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1996,8 +2506,38 @@
                     "False",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  2 Incorreta"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2022,6 +2562,24 @@
                   "parameters": [
                     "respostas",
                     "\"208;2;27\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
                   ]
                 }
               ]
@@ -2047,6 +2605,18 @@
           "actions": [],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  3 Certa"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2101,8 +2671,38 @@
                     "False",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  3 Incorreta"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2127,6 +2727,24 @@
                   "parameters": [
                     "respostas",
                     "\"208;2;27\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
                   ]
                 }
               ]
@@ -2152,6 +2770,18 @@
           "actions": [],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  4 Certa"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2206,8 +2836,38 @@
                     "False",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  4 Incorreta"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2233,9 +2893,62 @@
                     "respostas",
                     "\"208;2;27\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "validar_resposta"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "realizadas",
+            "=",
+            "Variable(total)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "botão_seguinte",
+            "Animation",
+            "=",
+            "\"finalizar\""
           ]
         }
       ]
