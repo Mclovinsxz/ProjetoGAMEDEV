@@ -5083,6 +5083,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/gerar_pergunta"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/validar_resposta"
     }
   ],
   "eventsFunctionsExtensions": [
