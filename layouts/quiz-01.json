@@ -63,6 +63,26 @@
       "name": "habilitar",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "explicacao_a",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "explicacao_b",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "explicacao_c",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "explicacao_d",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -93,7 +113,7 @@
       "name": "pergunta",
       "persistentUuid": "ae213a47-04f1-46a4-8fa9-65e83364de0b",
       "width": 956,
-      "x": 1053,
+      "x": 1258,
       "y": 287,
       "zOrder": 2,
       "numberProperties": [],
@@ -110,7 +130,7 @@
       "name": "respostas",
       "persistentUuid": "5bd30ef6-97c7-4c2a-872c-bf82d280cbe3",
       "width": 956,
-      "x": 1053,
+      "x": 1258,
       "y": 908,
       "zOrder": 3,
       "numberProperties": [],
@@ -127,7 +147,7 @@
       "name": "respostas",
       "persistentUuid": "166c97e6-008f-48da-8725-7046f2e79288",
       "width": 956,
-      "x": 1053,
+      "x": 1258,
       "y": 510,
       "zOrder": 3,
       "numberProperties": [],
@@ -144,7 +164,7 @@
       "name": "respostas",
       "persistentUuid": "c1d1dca8-6b26-4325-b917-aff2390b47eb",
       "width": 956,
-      "x": 1053,
+      "x": 1258,
       "y": 638,
       "zOrder": 3,
       "numberProperties": [],
@@ -161,7 +181,7 @@
       "name": "respostas",
       "persistentUuid": "152306a1-daca-4d84-a24c-6945799d046b",
       "width": 956,
-      "x": 1053,
+      "x": 1258,
       "y": 770,
       "zOrder": 3,
       "numberProperties": [],
@@ -178,7 +198,7 @@
       "name": "texto_pergunta",
       "persistentUuid": "bb9bd028-2c35-4ef4-988b-c20a54d5f7ea",
       "width": 885,
-      "x": 604,
+      "x": 809,
       "y": 189,
       "zOrder": 4,
       "numberProperties": [],
@@ -195,7 +215,7 @@
       "name": "texto_resposta1",
       "persistentUuid": "fb5afc6a-a347-4dc3-a59a-258a8e8c99a1",
       "width": 896,
-      "x": 601,
+      "x": 806,
       "y": 484,
       "zOrder": 5,
       "numberProperties": [],
@@ -212,7 +232,7 @@
       "name": "texto_resposta2",
       "persistentUuid": "ba273414-5b47-4ae1-b6ae-72fe6dffdf7f",
       "width": 903,
-      "x": 602,
+      "x": 807,
       "y": 612,
       "zOrder": 6,
       "numberProperties": [],
@@ -229,7 +249,7 @@
       "name": "texto_resposta3",
       "persistentUuid": "9c9d8770-81cc-486e-9380-25e4e44450cd",
       "width": 875,
-      "x": 605,
+      "x": 810,
       "y": 740,
       "zOrder": 8,
       "numberProperties": [],
@@ -263,7 +283,7 @@
       "name": "texto_resposta4",
       "persistentUuid": "a7a96b0c-9f5a-4836-8dcb-8b45e0f9844d",
       "width": 886,
-      "x": 612,
+      "x": 817,
       "y": 883,
       "zOrder": 10,
       "numberProperties": [],
@@ -340,32 +360,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 221,
+      "height": 402,
       "keepRatio": true,
       "layer": "",
       "name": "balao_texto",
       "persistentUuid": "0962b47d-899f-4cd1-ba9d-cdd6c4fdd6a7",
-      "width": 544,
-      "x": 46,
-      "y": 458,
+      "width": 720,
+      "x": 24,
+      "y": 310,
       "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 45,
-      "keepRatio": true,
-      "layer": "",
-      "name": "texto_personagem",
-      "persistentUuid": "fc88f039-310f-465b-a2be-9f85cfef952e",
-      "width": 415,
-      "x": 91,
-      "y": 480,
-      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -389,15 +392,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 220,
       "keepRatio": true,
       "layer": "",
       "name": "texto_resposta_alternativa",
       "persistentUuid": "81c789ad-276a-4e45-bf59-22d4cc390c27",
-      "width": 0,
-      "x": 125,
-      "y": 278,
+      "width": 575,
+      "x": 81,
+      "y": 374,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -1728,7 +1732,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "",
+      "string": "Texto alternativo das respostas",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "center",
       "characterSize": 30,
@@ -1751,7 +1755,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "",
+        "text": "Texto alternativo das respostas",
         "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "center",
         "characterSize": 30,
@@ -1863,14 +1867,6 @@
         },
         {
           "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "texto_personagem"
-          ]
-        },
-        {
-          "type": {
             "value": "PauseTimer"
           },
           "parameters": [
@@ -1893,6 +1889,14 @@
           },
           "parameters": [
             "botão_seguinte"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_resposta_alternativa"
           ]
         }
       ],
@@ -2144,7 +2148,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "texto_personagem"
+            "texto_resposta_alternativa"
           ]
         },
         {
@@ -2359,6 +2363,17 @@
                     "",
                     "\"correta\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() + VariableString(explicacao_a)"
+                  ]
                 }
               ]
             },
@@ -2415,6 +2430,17 @@
                   "parameters": [
                     "",
                     "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_a)"
                   ]
                 }
               ]
@@ -2524,6 +2550,17 @@
                     "",
                     "\"correta\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_b)"
+                  ]
                 }
               ]
             },
@@ -2580,6 +2617,17 @@
                   "parameters": [
                     "",
                     "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_b)"
                   ]
                 }
               ]
@@ -2689,6 +2737,17 @@
                     "",
                     "\"correta\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_c)"
+                  ]
                 }
               ]
             },
@@ -2745,6 +2804,17 @@
                   "parameters": [
                     "",
                     "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_c)"
                   ]
                 }
               ]
@@ -2854,6 +2924,17 @@
                     "",
                     "\"correta\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_d)"
+                  ]
                 }
               ]
             },
@@ -2910,6 +2991,17 @@
                   "parameters": [
                     "",
                     "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_d)"
                   ]
                 }
               ]

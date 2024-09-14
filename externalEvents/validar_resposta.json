@@ -38,17 +38,6 @@
       "actions": [
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "texto_personagem",
-            "Text",
-            "=",
-            "\"Parabéns!!!!!!\" + NewLine() + \"Certa Resposta\""
-          ]
-        },
-        {
-          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -71,7 +60,7 @@
           },
           "parameters": [
             "",
-            "\"tempo_texto\""
+            "\"tempo_texto_correto\""
           ]
         },
         {
@@ -80,7 +69,7 @@
           },
           "parameters": [
             "",
-            "\"tempo_texto\""
+            "\"tempo_texto_correto\""
           ]
         },
         {
@@ -90,6 +79,15 @@
           "parameters": [
             "botão_seguinte",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_resposta_alternativa",
+            "Text"
           ]
         }
       ]
@@ -103,9 +101,9 @@
           },
           "parameters": [
             "",
-            "\"tempo_texto\"",
+            "\"tempo_texto_correto\"",
             ">=",
-            "2"
+            "6"
           ]
         },
         {
@@ -130,6 +128,14 @@
           },
           "parameters": [
             "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_resposta_alternativa"
           ]
         }
       ]
@@ -213,6 +219,15 @@
             "balao_texto",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_resposta_alternativa",
+            "Text"
+          ]
         }
       ]
     },
@@ -252,6 +267,14 @@
           },
           "parameters": [
             "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_resposta_alternativa"
           ]
         }
       ]
