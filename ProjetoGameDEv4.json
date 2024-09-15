@@ -5226,6 +5226,186 @@
         "name": "imagem_2024-09-15_001916411.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletado.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
