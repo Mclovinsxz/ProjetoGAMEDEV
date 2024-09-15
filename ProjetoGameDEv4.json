@@ -5093,6 +5093,139 @@
         "name": "finalização",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "safeimagekit-pixel-art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "safeimagekit-pixel-art.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa google maps.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa google maps.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-14_224640717.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-14_224640717.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pointer Cursor_Drop Shadowed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5179ebc20a2475da8e1f40db3565d3f1df023518f25647f0cbd497730762d95b_Pointer Cursor_Drop Shadowed.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Mini UI/5179ebc20a2475da8e1f40db3565d3f1df023518f25647f0cbd497730762d95b_Pointer Cursor_Drop Shadowed.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-14_224640717 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-14_224640717 (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-14_230122914_resized.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-14_230122914_resized.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/imagem_2024-09-14_230122914_resized.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "imagem_2024-09-14_230122914_resized",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/formato_de_teresina.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/formato_de_teresina.png\"}",
+        "name": "formato_de_teresina",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8d122a8c9cda0e364528b8a5c0005e98e5f1f65acc6ca2e9acc539d48203870c_Generic ball.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/8d122a8c9cda0e364528b8a5c0005e98e5f1f65acc6ca2e9acc539d48203870c_Generic ball.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/volley ball yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1f11bad777f49893aa03cbfafcc8916b260e375b52f7754420cebf05a2719b5c_volley ball yellow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/1f11bad777f49893aa03cbfafcc8916b260e375b52f7754420cebf05a2719b5c_volley ball yellow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Location.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "48e33e33e410883208442a14629913b75750a704b9fa2f8c68f54628951cfe1f_Location.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/48e33e33e410883208442a14629913b75750a704b9fa2f8c68f54628951cfe1f_Location.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ponteiro_localizacao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ponteiro_localizacao.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-15_001916411.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-15_001916411.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5139,6 +5272,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame_clickpoint_teresina"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tela_mapa_selecao_cidade"
     }
   ],
   "externalEvents": [
