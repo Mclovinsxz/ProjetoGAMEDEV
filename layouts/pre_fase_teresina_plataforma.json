@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2987985363606906,
+    "zoomFactor": 0.2705012603962554,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -84,9 +84,26 @@
       "name": "texto_pre_fase",
       "persistentUuid": "6e890f90-e04d-4ce0-a137-ab3d5dfec876",
       "width": 1647,
-      "x": 123,
-      "y": 709,
+      "x": 118,
+      "y": 685,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_pre_fase2",
+      "persistentUuid": "73bee57d-88ad-4b3d-b5e0-8c797c5243b5",
+      "width": 727,
+      "x": 1092,
+      "y": 918,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -101,7 +118,25 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+        "text": "Começaremos nossa jarnada em Teresina. \nNossa missão é [b]coletar todos as caixas[/b] contendo os fragmentos da historia do Piauí. Boa sorte!  ",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "texto_pre_fase2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]Aperte ENTER para continuar[/b]",
         "opacity": 255,
         "fontSize": 50,
         "visible": true,
@@ -117,11 +152,15 @@
     "children": [
       {
         "objectName": "texto_pre_fase"
+      },
+      {
+        "objectName": "texto_pre_fase2"
       }
     ]
   },
   "events": [
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

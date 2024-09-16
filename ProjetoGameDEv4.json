@@ -5414,6 +5414,24 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/texto_pre_fase_plataforma.json\"}",
         "name": "texto_pre_fase_plataforma",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Paróquia Nossa Senhora do Amparo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Paróquia Nossa Senhora do Amparo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5795,6 +5813,66 @@
         }
       ],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "balao_texto",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "balao_text.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 345
+                      },
+                      {
+                        "x": 7,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5808,6 +5886,9 @@
       },
       {
         "objectName": "ForestBackground"
+      },
+      {
+        "objectName": "balao_texto"
       }
     ]
   },

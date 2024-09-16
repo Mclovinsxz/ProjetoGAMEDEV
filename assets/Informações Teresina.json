@@ -2,10 +2,10 @@
 	{
 		"title": "01_info",
 		"tags": "",
-		"body": "Teresina desenvolveu-se por meio do Rio Parnaíba, através da navegação fluvial. [b]Sendo a primeira capital planejada do Brasil[/b], surgiu para substituir a então capital Oeiras, também chamada de Cidade Verde.",
+		"body": "Teresina desenvolveu-se por meio do Rio Parnaíba, através da navegação fluvial. [b]Sendo a primeira capital planejada do Brasil[/b], também chamada de Cidade Verde.",
 		"position": {
-			"x": 435,
-			"y": 252
+			"x": 82,
+			"y": 31
 		},
 		"colorID": 0
 	},
@@ -14,8 +14,68 @@
 		"tags": "",
 		"body": "A transferência da capital do Piauí para Teresina foi idealizada pelo então presidente da província, [b]José Antonio Saraiva[/b], foi efetivado o estabelecimento da capital da Província do Piauí de Oeiras para Teresina em [b]16 de agosto de 1852[/b].",
 		"position": {
-			"x": 139,
-			"y": 210
+			"x": 320,
+			"y": 32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "03_info",
+		"tags": "",
+		"body": "Tombado como patrimônio histórico do Piauí em 2002, e tendo sido escolhido como símbolo máximo da arquitetura piauiense por ser um dos prédios mais antigos e mais preservados de Teresina, [b]o Theatro 4 de Setembro[/b] foi inaugurado no dia [b]21 de abril de 1894[/b].",
+		"position": {
+			"x": 555,
+			"y": 32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "04_info",
+		"tags": "",
+		"body": "O nome do Theatro 4 de Setembro foi escolhido porque, em 4 de setembro de 1889, um grupo de senhoras da elite econômica da época, percebendo a necessidade de uma casa de espetáculos, pediu ao presidente da província do Piauí pela criação da casa.",
+		"position": {
+			"x": 82,
+			"y": 239
+		},
+		"colorID": 0
+	},
+	{
+		"title": "06_info",
+		"tags": "",
+		"body": "A primeira igreja da cidade de Teresina é a [b]Igreja de Nossa Senhora do Amparo[/b]. Os católicos celebram o dia [b]16 de agosto[/b] como o dia de Nossa Senhora do Amparo. Ela é a [b]santa padroeira de Teresina[/b] e também é celebrada no mesmo dia do aniversário da cidade.",
+		"position": {
+			"x": 560,
+			"y": 253
+		},
+		"colorID": 0
+	},
+	{
+		"title": "05_info",
+		"tags": "",
+		"body": "A transferência da capital [b]de Oeiras para Teresina[/b] se deu principalmente por sua localização estratégica entre os rios Parnaíba e Poti, facilitando o acesso ao Maranhão e ao litoral para o escoamento de mercadorias.",
+		"position": {
+			"x": 329,
+			"y": 250
+		},
+		"colorID": 0
+	},
+	{
+		"title": "07_info",
+		"tags": "",
+		"body": "O Marco Zero de Teresina, localizado em frente à igreja, é em forma de rosa-dos-ventos e indica todas as regiões da cidade: Norte, Sul, Leste com o Rio Poty e Oeste com o Rio Parnaíba.",
+		"position": {
+			"x": 86,
+			"y": 461
+		},
+		"colorID": 8
+	},
+	{
+		"title": "08_info",
+		"tags": "",
+		"body": "[b]O Bairro Poti Velho[/b], [b]primeiro bairro de Teresina[/b] surgiu na barra do Poti, espaço em volta do lugar onde o rio Poti despeja as suas águas no rio Parnaíba.",
+		"position": {
+			"x": 328,
+			"y": 460
 		},
 		"colorID": 0
 	}

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2368956372544901,
+    "zoomFactor": 0.7077142870147555,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,6 +32,18 @@
     {
       "folded": true,
       "name": "caixas_coletadas",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "tota_caixas_fase",
+      "type": "number",
+      "value": 8
+    },
+    {
+      "folded": true,
+      "name": "caixas_restante",
       "type": "number",
       "value": 0
     },
@@ -55,7 +67,7 @@
       "width": 112,
       "x": 87,
       "y": 905,
-      "zOrder": 5,
+      "zOrder": 82,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -164,22 +176,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GreenBlock",
-      "persistentUuid": "c4bede33-754d-4b70-8611-d07f08e87440",
-      "width": 0,
-      "x": 8019,
-      "y": 182,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 2,
       "height": 1278,
@@ -249,31 +245,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 88,
+      "height": 111,
       "keepRatio": true,
       "layer": "",
-      "name": "Capivara",
-      "persistentUuid": "d3cacb8f-9e65-4e35-9c3f-8c2ad79220ce",
-      "width": 88,
-      "x": 2342,
-      "y": 900,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 82,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Checkpoint1",
+      "name": "Checkpoint_final",
       "persistentUuid": "c097addb-85cf-4c13-b51d-93d961edc0aa",
-      "width": 90,
-      "x": 9121,
-      "y": 837,
+      "width": 122,
+      "x": 9083,
+      "y": 807,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -292,55 +271,6 @@
       "x": 2179,
       "y": 928,
       "zOrder": -155,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GreenBlock",
-      "persistentUuid": "f852e066-2760-4801-a069-4e3b4853fe1b",
-      "width": 0,
-      "x": 4724,
-      "y": 411,
-      "zOrder": 63,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 110,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BlankSuperWide",
-      "persistentUuid": "985a9a68-6dad-474d-988d-fd2f657adf0f",
-      "width": 374,
-      "x": 2252,
-      "y": 817,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Texto_Capivara",
-      "persistentUuid": "bffff32a-3ead-4123-9e29-bf6c86d96bb6",
-      "width": 0,
-      "x": 2292,
-      "y": 850,
-      "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -405,9 +335,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "84ed2c2f-d346-45d8-b582-f4bf5f7275e3",
-      "width": 40,
-      "x": 3939,
-      "y": 673,
+      "width": 41,
+      "x": 3935,
+      "y": 668,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -439,7 +369,7 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "b5264fed-72a1-4e0d-bdd8-019b10a50cba",
-      "width": 126,
+      "width": 106,
       "x": 997,
       "y": 971,
       "zOrder": 48,
@@ -489,8 +419,8 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "d0680b1d-c9d9-44ac-87e3-35b55d0f698d",
-      "width": 126,
-      "x": 1468,
+      "width": 71,
+      "x": 1489,
       "y": 959,
       "zOrder": 48,
       "numberProperties": [],
@@ -552,14 +482,14 @@
       "angle": 25,
       "customSize": true,
       "depth": 1,
-      "height": 13,
+      "height": 10,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "7f0910e9-2e4a-41eb-8e7d-9087046ad855",
-      "width": 278,
-      "x": 4463,
-      "y": 194,
+      "width": 222,
+      "x": 4517,
+      "y": 208,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -702,15 +632,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 24,
+      "height": 12,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "af0652ec-bea1-45b8-bcd9-85b7d53818d4",
-      "width": 561,
-      "x": 5146,
+      "width": 142,
+      "x": 6893,
       "y": 716,
-      "zOrder": 48,
+      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -936,9 +866,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "d8ac8546-cb3a-47ec-82a7-fea8d2b91071",
-      "width": 86,
-      "x": 8271,
-      "y": 881,
+      "width": 78,
+      "x": 8304,
+      "y": 997,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -953,9 +883,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "22f13498-d455-43cc-a276-c8fe6bea086e",
-      "width": 1214,
+      "width": 790,
       "x": 4990,
-      "y": 942,
+      "y": 989,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -970,10 +900,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "3bb7ea89-0247-47be-8d8d-741369ba0270",
-      "width": 2667,
-      "x": 4991,
+      "width": 1631,
+      "x": 6027,
       "y": 990,
-      "zOrder": 52,
+      "zOrder": 76,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1021,7 +951,7 @@
       "name": "TilesetPiece4",
       "persistentUuid": "a243f443-3d1e-4670-b8f7-072c6130c957",
       "width": 0,
-      "x": 8164,
+      "x": 8162,
       "y": 990,
       "zOrder": 61,
       "numberProperties": [],
@@ -1199,14 +1129,14 @@
       "angle": 335,
       "customSize": true,
       "depth": 1,
-      "height": 13,
+      "height": 12,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "badf3ace-1a59-476f-9728-0e79cdee5a07",
-      "width": 548,
-      "x": 3915,
-      "y": 252,
+      "width": 516,
+      "x": 3916,
+      "y": 259,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -1289,9 +1219,9 @@
       "layer": "",
       "name": "TilesetPiece1",
       "persistentUuid": "bbcc53ee-b101-4a15-8dd5-c6814765b259",
-      "width": 63,
-      "x": 8270,
-      "y": 882,
+      "width": 49,
+      "x": 8302,
+      "y": 958,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -1306,8 +1236,8 @@
       "name": "TilesetPiece4",
       "persistentUuid": "678f3e1f-38fc-4b16-ab56-08a37d54973b",
       "width": 0,
-      "x": 8311,
-      "y": 882,
+      "x": 8320,
+      "y": 958,
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
@@ -1388,8 +1318,8 @@
       "name": "TilesetPiece1",
       "persistentUuid": "c7314b52-98d8-474f-b057-2c875785997e",
       "width": 0,
-      "x": 5473,
-      "y": 593,
+      "x": 5862,
+      "y": 993,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -1404,8 +1334,8 @@
       "name": "TilesetPiece4",
       "persistentUuid": "48fb9f1f-9e6d-48ce-a905-6f91d814de00",
       "width": 0,
-      "x": 5482,
-      "y": 594,
+      "x": 5878,
+      "y": 994,
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
@@ -1486,9 +1416,9 @@
       "name": "TilesetPiece36",
       "persistentUuid": "c8b841dd-e380-49b4-b3ae-d00f0c683bc9",
       "width": 0,
-      "x": 7558,
-      "y": 887,
-      "zOrder": 53,
+      "x": 7418,
+      "y": 940,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1503,9 +1433,9 @@
       "name": "TilesetPiece37",
       "persistentUuid": "0126cbb9-3bc3-4442-88b5-2c94218730bc",
       "width": 64,
-      "x": 7622,
-      "y": 887,
-      "zOrder": 54,
+      "x": 7482,
+      "y": 940,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1522,7 +1452,7 @@
       "width": 144,
       "x": 7683,
       "y": 886,
-      "zOrder": 55,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1538,7 +1468,7 @@
       "width": 0,
       "x": 7729,
       "y": 836,
-      "zOrder": 56,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1554,7 +1484,7 @@
       "width": 0,
       "x": 7763,
       "y": 836,
-      "zOrder": 58,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1721,7 +1651,7 @@
       "width": 623,
       "x": 7545,
       "y": 941,
-      "zOrder": 52,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1735,8 +1665,8 @@
       "name": "caixas_coletadas_info",
       "persistentUuid": "552fd972-aed2-4246-9c82-83f1614977d9",
       "width": 0,
-      "x": 76,
-      "y": 20,
+      "x": 159,
+      "y": 18,
       "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
@@ -1797,14 +1727,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 22,
+      "height": 13,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "79c4314f-bde2-4812-86e1-2a0cac3000e6",
-      "width": 56,
-      "x": 4677,
-      "y": 589,
+      "width": 155,
+      "x": 4366,
+      "y": 373,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -1837,8 +1767,8 @@
       "name": "caixa_informações_4",
       "persistentUuid": "f2df8561-df9c-40fd-9702-818f376dd7e9",
       "width": 79,
-      "x": 4384,
-      "y": -79,
+      "x": 4414,
+      "y": 225,
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
@@ -1853,10 +1783,545 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "3a0ab42c-ec18-42a9-aeb6-30c05ba4aa40",
-      "width": 227,
-      "x": 7956,
+      "width": 71,
+      "x": 8020,
       "y": 331,
       "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 1071,
+      "keepRatio": true,
+      "layer": "",
+      "name": "paraquia",
+      "persistentUuid": "8e2a397a-4ffc-4a3b-9881-df97dd1e7f14",
+      "width": 804,
+      "x": 6294,
+      "y": -68,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece36",
+      "persistentUuid": "bd7ccce2-8fd3-419a-8f55-175f4fe57d58",
+      "width": 0,
+      "x": 7558,
+      "y": 887,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece37",
+      "persistentUuid": "01cc072f-7d44-404c-a228-4acf3ab2f41a",
+      "width": 64,
+      "x": 7622,
+      "y": 887,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "9aa867ae-f073-41a6-8d45-33b6f5df2db9",
+      "width": 790,
+      "x": 4990,
+      "y": 942,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "0e3da394-5443-46a0-900d-4be9fc2d8c2d",
+      "width": 0,
+      "x": 5473,
+      "y": 593,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "43540d3d-f8f6-4c97-a42e-302c5d442824",
+      "width": 0,
+      "x": 5482,
+      "y": 594,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "939b5310-c206-43f6-a029-015b8ede2edd",
+      "width": 0,
+      "x": 6068,
+      "y": 929,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "3a095875-8a62-46c6-b79b-4a66c70bbf93",
+      "width": 0,
+      "x": 6026,
+      "y": 929,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "91838ae2-ee63-4a93-932b-ea2a676b6718",
+      "width": 0,
+      "x": 5877,
+      "y": 952,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "6a27e42d-302f-46b2-9777-523f1e650370",
+      "width": 0,
+      "x": 5861,
+      "y": 951,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "7362bde6-4729-47b2-918b-667780c80cf6",
+      "width": 0,
+      "x": 5877,
+      "y": 917,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "edab92c7-ea0d-48f8-bc61-dd7f64e67a2f",
+      "width": 0,
+      "x": 5861,
+      "y": 916,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Checkpoint_meio",
+      "persistentUuid": "037052f8-d8de-497c-8733-92f069c1880d",
+      "width": 79,
+      "x": 4486,
+      "y": 913,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "341f6593-4114-4cce-8a90-24bd5d594f20",
+      "width": 561,
+      "x": 5146,
+      "y": 716,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "93394aae-e153-46a7-99d7-c1ad10ab2027",
+      "width": 328,
+      "x": 6756,
+      "y": 879,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "82268da6-efcc-4486-9cc9-5c8bf0f4252d",
+      "width": 86,
+      "x": 6259,
+      "y": 589,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "ae402c32-bea3-4349-889c-71fe51fc1f02",
+      "width": 133,
+      "x": 6364,
+      "y": 715,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "4e7e37dc-14ac-4908-bd8f-4dd07516ee1c",
+      "width": 300,
+      "x": 6548,
+      "y": 374,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "a0268921-70fa-4a61-8693-6593b8db0520",
+      "width": 313,
+      "x": 6309,
+      "y": 877,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "db50b76c-d340-4519-983a-2086e114b52c",
+      "width": 131,
+      "x": 6651,
+      "y": 773,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "f84a3ee1-d012-4661-9dc6-fd6fc7489948",
+      "width": 60,
+      "x": 6428,
+      "y": 269,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "e194d102-ab62-45e1-ba7e-00eecc5c073f",
+      "width": 60,
+      "x": 6409,
+      "y": 479,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "eec20685-ce54-4ade-823a-3a03ab358b0a",
+      "width": 84,
+      "x": 6271,
+      "y": 374,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "caixa_informações_icon",
+      "persistentUuid": "c2db1001-6d79-45cc-ae8b-6d4d021b7125",
+      "width": 84,
+      "x": 58,
+      "y": -3,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1429,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fundo_efeito",
+      "persistentUuid": "226ae6db-5498-42f5-a3eb-071c3aa1ad91",
+      "width": 10347,
+      "x": -56,
+      "y": -280,
+      "zOrder": -191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 85,
+      "keepRatio": true,
+      "layer": "",
+      "name": "caixa_informações_5",
+      "persistentUuid": "fefa2f14-f3c7-4d10-b91f-64df978e0abb",
+      "width": 89,
+      "x": 5632,
+      "y": 436,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 85,
+      "keepRatio": true,
+      "layer": "",
+      "name": "caixa_informações_6",
+      "persistentUuid": "8f31c934-6997-4429-9f9f-e2d6e9241e9e",
+      "width": 90,
+      "x": 6746,
+      "y": 564,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 83,
+      "keepRatio": true,
+      "layer": "",
+      "name": "caixa_informações_7",
+      "persistentUuid": "91ef4d9a-265b-4b60-bf7a-f75423d05244",
+      "width": 88,
+      "x": 6522,
+      "y": 134,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "keepRatio": true,
+      "layer": "",
+      "name": "caixa_informações_8",
+      "persistentUuid": "414700da-5896-4748-b69d-d59a5b704211",
+      "width": 77,
+      "x": 8042,
+      "y": 151,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "07b56247-a722-4fef-a860-6ffbbccb2094",
+      "width": 56,
+      "x": 4677,
+      "y": 589,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 142,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "d5b1da3a-ecb7-4707-a26d-f9f54aecbfe3",
+      "width": 358,
+      "x": 9061,
+      "y": 688,
+      "zOrder": 89,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 86,
+      "keepRatio": true,
+      "layer": "",
+      "name": "text_checkpoint_final",
+      "persistentUuid": "21750cfb-6fb7-4a94-b87b-e507430cf2e3",
+      "width": 323,
+      "x": 9078,
+      "y": 725,
+      "zOrder": 90,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5316,10 +5781,17 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "104a56c64b620e91d5a1b0dcd1e4cbe7ad024adbc962103e7c50afcd84d99463",
-      "name": "Checkpoint1",
+      "name": "Checkpoint_final",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "check",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -7084,66 +7556,6 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "02405bbbee976656e2730461a9a89d0aef2ad972eea1d9453cf7e21692906f4d",
-      "name": "BlankSuperWide",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Blank Super Wide.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 26
-                      },
-                      {
-                        "x": 98,
-                        "y": 26
-                      },
-                      {
-                        "x": 98,
-                        "y": 74
-                      },
-                      {
-                        "x": 2,
-                        "y": 74
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "5ba61572fd3b869e5d825ff4fb0319cb5821b17a204ef8d449808d74f4c7fa4f",
       "name": "SpinningBone",
       "type": "Sprite",
@@ -8423,7 +8835,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": " 0 / 0",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -8446,7 +8858,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
+        "text": " 0 / 0",
         "font": "",
         "textAlignment": "left",
         "characterSize": 40,
@@ -9415,6 +9827,3007 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "paraquia",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Paróquia Nossa Senhora do Amparo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 338,
+                        "y": 20
+                      },
+                      {
+                        "x": 338,
+                        "y": 450
+                      },
+                      {
+                        "x": 0,
+                        "y": 450
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "104a56c64b620e91d5a1b0dcd1e4cbe7ad024adbc962103e7c50afcd84d99463",
+      "name": "Checkpoint_meio",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "check",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Flag Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flag Out",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.0385,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_25.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_26.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "No Flag",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_No Flag.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_informações_icon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "caixa_numero",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box_item_coletado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fundo_efeito",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_informações_5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "caixa_numero",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box_item_coletado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_informações_6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "caixa_numero",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box_item_coletado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_informações_7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "caixa_numero",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box_item_coletado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_informações_8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "caixa_numero",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box_item_coletado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "text_checkpoint_final",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\"Parabéns coletou todas as caixas\" \n \"Vamos para a proxíma fase ...\"",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9541,16 +12954,16 @@
         "objectName": "CornerPlatform"
       },
       {
-        "objectName": "Checkpoint1"
+        "objectName": "Checkpoint_final"
+      },
+      {
+        "objectName": "Checkpoint_meio"
       },
       {
         "objectName": "BlankEmote"
       },
       {
         "objectName": "Texto_Capivara"
-      },
-      {
-        "objectName": "BlankSuperWide"
       },
       {
         "objectName": "SpinningBone"
@@ -9598,16 +13011,40 @@
         "objectName": "caixa_informações_4"
       },
       {
+        "objectName": "caixa_informações_5"
+      },
+      {
+        "objectName": "caixa_informações_6"
+      },
+      {
+        "objectName": "caixa_informações_7"
+      },
+      {
+        "objectName": "caixa_informações_8"
+      },
+      {
+        "objectName": "caixa_informações_icon"
+      },
+      {
         "objectName": "caixa_informações2"
       },
       {
         "objectName": "text_enter"
       },
       {
+        "objectName": "text_checkpoint_final"
+      },
+      {
         "objectName": "caixas_coletadas_info"
       },
       {
         "objectName": "fundo_informações"
+      },
+      {
+        "objectName": "paraquia"
+      },
+      {
+        "objectName": "fundo_efeito"
       }
     ]
   },
@@ -9801,15 +13238,102 @@
           ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"fase_teste\"",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Checkpoint_meio",
+                "check",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenterY"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "840"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "90"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Checkpoint_meio",
+                "check",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "4486"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterY"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "840"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "100"
+              ]
+            }
           ]
         }
       ]
@@ -10065,7 +13589,23 @@
             "caixas_coletadas_info",
             "Text",
             "=",
-            "VariableString(caixas_coletadas)"
+            "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "text_checkpoint_final"
           ]
         }
       ]
@@ -10127,7 +13667,7 @@
             "caixas_coletadas_info",
             "Text",
             "=",
-            "VariableString(caixas_coletadas)"
+            "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
           ]
         }
       ]
@@ -10480,6 +14020,15 @@
         },
         {
           "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
@@ -10549,7 +14098,7 @@
                 "caixas_coletadas_info",
                 "Text",
                 "=",
-                "VariableString(caixas_coletadas)"
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
               ]
             },
             {
@@ -10591,6 +14140,15 @@
           "parameters": [
             "",
             "Informações Teresina"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
           ]
         },
         {
@@ -10673,7 +14231,7 @@
                 "caixas_coletadas_info",
                 "Text",
                 "=",
-                "VariableString(caixas_coletadas)"
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
               ]
             },
             {
@@ -10715,6 +14273,15 @@
           "parameters": [
             "",
             "Informações Teresina"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
           ]
         },
         {
@@ -10797,7 +14364,7 @@
                 "caixas_coletadas_info",
                 "Text",
                 "=",
-                "VariableString(caixas_coletadas)"
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
               ]
             },
             {
@@ -10839,6 +14406,15 @@
           "parameters": [
             "",
             "Informações Teresina"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
           ]
         },
         {
@@ -10921,7 +14497,7 @@
                 "caixas_coletadas_info",
                 "Text",
                 "=",
-                "VariableString(caixas_coletadas)"
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
               ]
             },
             {
@@ -10930,6 +14506,538 @@
               },
               "parameters": [
                 "caixa_informações_4",
+                "Animation",
+                "=",
+                "\"off\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "caixa_informações_5",
+            "player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "Informações Teresina"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"digitação\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"05_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogo_box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_informações",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "text_enter",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "caixa_informações_5",
+                "Animation",
+                "=",
+                "\"on\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "caixas_coletadas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "caixas_coletadas_info",
+                "Text",
+                "=",
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "caixa_informações_5",
+                "Animation",
+                "=",
+                "\"off\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "caixa_informações_6",
+            "player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "Informações Teresina"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"digitação\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"06_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogo_box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_informações",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "text_enter",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "caixa_informações_6",
+                "Animation",
+                "=",
+                "\"on\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "caixas_coletadas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "caixas_coletadas_info",
+                "Text",
+                "=",
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "caixa_informações_6",
+                "Animation",
+                "=",
+                "\"off\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "caixa_informações_7",
+            "player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "Informações Teresina"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"digitação\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"07_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogo_box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_informações",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "text_enter",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "caixa_informações_7",
+                "Animation",
+                "=",
+                "\"on\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "caixas_coletadas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "caixas_coletadas_info",
+                "Text",
+                "=",
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "caixa_informações_7",
+                "Animation",
+                "=",
+                "\"off\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "caixa_informações_8",
+            "player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "Informações Teresina"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"digitação\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"08_info\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogo_box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_informações",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "text_enter",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "caixa_informações_8",
+                "Animation",
+                "=",
+                "\"on\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "caixas_coletadas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "caixas_coletadas_info",
+                "Text",
+                "=",
+                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "caixa_informações_8",
                 "Animation",
                 "=",
                 "\"off\""
@@ -11070,11 +15178,59 @@
       "conditions": [
         {
           "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"balao_info\"",
+            ">=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogo_box"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_informações"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "text_enter"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::CompleteClippedTextScrolling"
+          },
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "CollisionNP"
           },
           "parameters": [
             "player",
-            "Checkpoint1",
+            "Checkpoint_final",
             "",
             "",
             ""
@@ -11084,11 +15240,310 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Checkpoint_final",
+            "check",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "Checkpoint_final",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "tota_caixas_fase",
+                "=",
+                "caixas_coletadas"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Checkpoint_meio",
+                "Animation",
+                "=",
+                "\"Flag Out\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "fase_concluida",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "fase_concluida",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "text_checkpoint_final",
+                "=",
+                "\"Parabéns coletou todas as caixas\" + NewLine() + \"Vamos para a proxíma fase ...\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "balao_texto",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_checkpoint_final",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "fase_concluida",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "caixas_restante",
+                "=",
+                "tota_caixas_fase - caixas_coletadas"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "text_checkpoint_final",
+                "=",
+                "\"Ainda falta coletar \"  + caixas_restante + \" caixas\" +  NewLine() +\" CONTINUE PROCURANDO A HISTÓRIA DO PIAUÍ\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "balao_texto",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_checkpoint_final",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"check_final_text\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
           },
           "parameters": [
             "",
-            "\"quiz 01\"",
+            "\"check_final_text\"",
+            ">=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "fase_concluida",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"minigame_clickpoint_teresina\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "fase_concluida",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "text_checkpoint_final"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "balao_texto"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "Checkpoint_meio",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Checkpoint_meio",
+            "check",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Checkpoint_meio",
+            "Animation",
+            "=",
+            "\"Flag Out\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Checkpoint_meio",
+            "check",
+            "True",
             ""
           ]
         }
