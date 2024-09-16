@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "quiz 01",
+  "associatedLayout": "quiz_teresina",
   "lastChangeTimeStamp": 0,
   "name": "validar_resposta",
   "events": [
@@ -136,6 +136,43 @@
           },
           "parameters": [
             "texto_resposta_alternativa"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "realizadas",
+                "=",
+                "total"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"tela_mapa_selecao_cidade\"",
+                ""
+              ]
+            }
           ]
         }
       ]

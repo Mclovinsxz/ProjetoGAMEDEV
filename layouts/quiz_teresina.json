@@ -1,8 +1,8 @@
 {
   "b": 202,
   "disableInputWhenNotFocused": true,
-  "mangledName": "quiz_3201",
-  "name": "quiz 01",
+  "mangledName": "quiz_95teresina",
+  "name": "quiz_teresina",
   "r": 95,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36458333333333476,
+    "zoomFactor": 0.3645833333333348,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -377,23 +377,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "botão_seguinte",
-      "persistentUuid": "48b6ec61-0166-4117-a012-bc5c632a9e5f",
-      "width": 340,
-      "x": 1533,
-      "y": 989,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 220,
       "keepRatio": true,
       "layer": "",
@@ -403,6 +386,23 @@
       "x": 81,
       "y": 374,
       "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "",
+      "name": "botão_seguinte",
+      "persistentUuid": "0f15ef5a-cf61-4554-aeda-3a5489323309",
+      "width": 231,
+      "x": 1637,
+      "y": 950,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -891,13 +891,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "icon_quiz_next_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -913,20 +913,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 10,
+                        "y": 3
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 87,
+                        "y": 3
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 87,
+                        "y": 43
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_next_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_next_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_next_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
                       }
                     ]
                   ]
@@ -940,13 +1048,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "finalização",
+                  "image": "icon_quiz_fim_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -962,20 +1070,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 10,
+                        "y": 3
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 87,
+                        "y": 3
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 87,
+                        "y": 43
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_fim_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
                       }
                     ]
                   ]
@@ -2151,7 +2295,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"tela inicial\"",
+                    "\"tela_mapa_selecao_cidade\"",
                     ""
                   ]
                 }
@@ -3047,12 +3191,24 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "PlatformerCharacterAnimator",
+      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",
