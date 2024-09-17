@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -3304,7 +3304,7 @@
         "alwaysLoaded": false,
         "file": "assets/point_click_teresina/background-polo-ceramico.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/point_click_teresina/background-polo-ceramico.png\",\"extension\":\".png\"}",
         "name": "assets\\point_click_teresina\\background-polo-ceramico.png",
         "smoothed": false,
         "userAdded": true
@@ -4317,13 +4317,2413 @@
         "name": "name_box2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plataforma2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "plataforma2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/plataforma3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/plataforma3.png\"}",
+        "name": "plataforma3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/46d2dfac27f1b2be0ed12dd64c1fdbc9139539c38f8bab674c19da1b6946d7cc_Spinning Bone_1.png",
+          "name": "Spinning Bone_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/7ec8b49b4ce628ec17c43be36063b3b25c1a7c75fe2f2d7788b91919d717b717_Spinning Bone_2.png",
+          "name": "Spinning Bone_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/32d2c64fd7de7d37095eb9d4b5b6b3ca82210ffe971dd713056e2e674438233a_Spinning Bone_3.png",
+          "name": "Spinning Bone_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning Bone_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spinning Bone_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/8f3e531ced6b66b3599379e317aee89f7dafd5346ca0ee3c1c866a9999e706c7_Spinning Bone_4.png",
+          "name": "Spinning Bone_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tileset Piece 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/5ab61a35fab9d206b62a5791d18e814f5d74e2b564e58614dfe4af2303256242_tiled_Tileset Piece 3.png",
+          "name": "tiled_Tileset Piece 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tileset Piece 3.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 3.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tileset Piece 3.png3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/d0acd92e3ebdd5786e4b268995841b535349ff13c0e343f50cacac267d1f2d5d_Tileset Piece 1.png",
+          "name": "Tileset Piece 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/3505ac91729dff59c13127ac7bd6479f3732ca10e89d9b578f3324a0d5bf06db_Tileset Piece 4.png",
+          "name": "Tileset Piece 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tileset Piece5.png\"}",
+        "name": "Tileset Piece 4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/9ab2cca6a3b4f1ab8565591b4790e758e2c90c6080d9047ed834a00820934a4d_Tileset Piece 5.png",
+          "name": "Tileset Piece 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
+          "name": "Tileset Piece 14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/c1884ca6753dd7996df03c927f14a7f4ce06fa3625c8f6a7960be444ce9d9793_Tileset Piece 36.png",
+          "name": "Tileset Piece 36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 36",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset Piece 37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/296477004bd67434ad2b4a6f3018ac5ca78ee00064bbcbb28d850c24807d0167_Tileset Piece 37.png",
+          "name": "Tileset Piece 37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece 37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tileset Piece 20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/14cdbdaa1d3829509ea2032fb467b0249b866aa951da2e9590f9db696822c720_tiled_Tileset Piece 20.png",
+          "name": "tiled_Tileset Piece 20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 20.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tileset Piece 20.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset Piece5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cabeca_cuia_poty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cabeca_cuia_poty.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cabeca_cuia_poty2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cabeca_cuia_poty2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Bumped.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Bumped.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/6d42f8aec59ca9f7e04d11d58877002277f7eaee01636bdd108f95de1eb8521d_Blocky Bub_Bumped.png",
+          "name": "Blocky Bub_Bumped.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/b8a56791c9a1e4b15c40728f68874017f2101be32bec44577514e5327af743da_Blocky Bub_Idle_1.png",
+          "name": "Blocky Bub_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/b08db3b0f005f4226f4cd1842d57337ff1ce036280d5ce03466c0feea303038d_Blocky Bub_Idle_2.png",
+          "name": "Blocky Bub_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/113f8cb77cb958a01d8b8cf0adf615653e90f0a6ecad2edd368e3ed50bbb9a5c_Blocky Bub_Running_1.png",
+          "name": "Blocky Bub_Running_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/8d15a7fefdca5a18bf93164becb2ba18e65a0052907316782429fe345e742d11_Blocky Bub_Running_2.png",
+          "name": "Blocky Bub_Running_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/cb981bb1b033b5224bd7d0cd32588f5bff0e95ae992f1b86ba0fd465cc9f9b5f_Blocky Bub_Running_3.png",
+          "name": "Blocky Bub_Running_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/37b4b0da8532b44be9e9fd46b8aa57b362115e982c0a9e1464254583845124bc_Blocky Bub_Running_4.png",
+          "name": "Blocky Bub_Running_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/56491fadd8f160deff1ec3a822a8b6000bfd6a9a1a67fc10251535cef3ef0e0e_Blocky Bub_Running_5.png",
+          "name": "Blocky Bub_Running_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocky Bub_Running_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blocky Bub_Running_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Blocky Bub/2b868921f44bd79cfb4fae1908cf5419ba9efbabdd8218a1b648ec6d37dcb3de_Blocky Bub_Running_6.png",
+          "name": "Blocky Bub_Running_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crispim_atack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crispim_atack_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_dialogue_box.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\dialogue_box",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_dialogue_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Informações Teresina.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Informações Teresina.json\"}",
+        "name": "Informações Teresina",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Open Scroll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Open Scroll.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Items/23e78b726afa538c898fc305bd88ace62701c75544b687a394c20183550426fc_Open Scroll.png",
+          "name": "Open Scroll.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Green Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Green Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/c36556a4cb8c20701a1ab1dad4ab6603555a592b44fff7e996a3cea662feb59a_tiled_Green Background.png",
+          "name": "tiled_Green Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/panel-transparent-border-030.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/panel-transparent-border-030.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "panel-transparent-border-030.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Transparent Borders/c7ec630fcde3b9aeff40a5990ded10a5e428a81100bd2b9e421b4361bbbd79ed_panel-transparent-border-030.png",
+          "name": "panel-transparent-border-030.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fundo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pergunta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pergunta.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/respostas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\respostas.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Minecraft.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Minecraft.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/pixel_art/pixelart.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\pixel_art\\pixelart.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/assets_dialogue_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/dialogue_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/check.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/check.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/point_click_teresina/sapo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/point_click_teresina/sapo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Rocket.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "balao_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "balao_text.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/OpenSans-VariableFont_wdth,wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NotoSansJP-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/b70695cce855d716caea8f3fe10fb37c0ffe43052dc8edb62b782c3176e28106_NotoSansJP-Black.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-Thin.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/ArchitectsDaughter2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/finalização.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "finalização",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "safeimagekit-pixel-art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "safeimagekit-pixel-art.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa google maps.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa google maps.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-14_224640717.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-14_224640717.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pointer Cursor_Drop Shadowed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5179ebc20a2475da8e1f40db3565d3f1df023518f25647f0cbd497730762d95b_Pointer Cursor_Drop Shadowed.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Mini UI/5179ebc20a2475da8e1f40db3565d3f1df023518f25647f0cbd497730762d95b_Pointer Cursor_Drop Shadowed.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-14_224640717 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-14_224640717 (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-14_230122914_resized.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-14_230122914_resized.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/imagem_2024-09-14_230122914_resized.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "imagem_2024-09-14_230122914_resized",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/formato_de_teresina.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/formato_de_teresina.png\"}",
+        "name": "formato_de_teresina",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8d122a8c9cda0e364528b8a5c0005e98e5f1f65acc6ca2e9acc539d48203870c_Generic ball.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/8d122a8c9cda0e364528b8a5c0005e98e5f1f65acc6ca2e9acc539d48203870c_Generic ball.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/volley ball yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1f11bad777f49893aa03cbfafcc8916b260e375b52f7754420cebf05a2719b5c_volley ball yellow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/1f11bad777f49893aa03cbfafcc8916b260e375b52f7754420cebf05a2719b5c_volley ball yellow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Location.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "48e33e33e410883208442a14629913b75750a704b9fa2f8c68f54628951cfe1f_Location.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/48e33e33e410883208442a14629913b75750a704b9fa2f8c68f54628951cfe1f_Location.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ponteiro_localizacao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ponteiro_localizacao.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagem_2024-09-15_001916411.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagem_2024-09-15_001916411.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletado.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box_item_coletar_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box_item_coletar_8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box_item_coletar_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\box_item_coletar_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/texto_pre_fase_plataforma.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/texto_pre_fase_plataforma.json\"}",
+        "name": "texto_pre_fase_plataforma",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Paróquia Nossa Senhora do Amparo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Paróquia Nossa Senhora do Amparo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Future.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "207e8de533dc48ba7a80c34d34350cb52f520e217c9d30f15a21bc3e2aade06e_Kenney Future.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/207e8de533dc48ba7a80c34d34350cb52f520e217c9d30f15a21bc3e2aade06e_Kenney Future.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icon_quiz_next_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon_quiz_next_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icon_quiz_next_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon_quiz_next_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icon_quiz_next_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon_quiz_next_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icon_quiz_next_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon_quiz_next_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icon_quiz_fim_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon_quiz_fim_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icon_quiz_fim_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon_quiz_fim_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/caverna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/caverna.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_informações_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "caixa_numero",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\box_item_coletar_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box_item_coletado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 9
+                      },
+                      {
+                        "x": 131,
+                        "y": 124
+                      },
+                      {
+                        "x": 11,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dialogo_box",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\dialogue_box",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\dialogue_box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 345
+                      },
+                      {
+                        "x": 0,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "90cac64ec9901c742b38aea323e8c52dc954197bfb5511ef86067aa187ac06c4",
+      "height": 1024,
+      "name": "ForestBackground",
+      "texture": "tiled_Forest Background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1024,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Pixelate",
+          "name": "Effect",
+          "doubleParameters": {
+            "size": 6
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "balao_texto",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "balao_text.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 345
+                      },
+                      {
+                        "x": 7,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "player",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "ignoreDefaultControls": false,
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_jump.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "caixa_informações_1"
+      },
+      {
+        "objectName": "dialogo_box"
+      },
+      {
+        "objectName": "ForestBackground"
+      },
+      {
+        "objectName": "balao_texto"
+      },
+      {
+        "objectName": "player"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -4338,7 +6738,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/fase_teste"
+      "referenceTo": "/layouts/fase_plataforma_teresina"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -4358,15 +6758,40 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/quiz-01"
+      "referenceTo": "/layouts/quiz_teresina"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame_clickpoint_teresina"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tela_mapa_selecao_cidade"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_fase_teresina_plataforma"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minigame_escavacao"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/gerar_pergunta"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/validar_resposta"
+    }
+  ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
