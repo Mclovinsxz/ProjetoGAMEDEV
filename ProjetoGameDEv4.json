@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 213,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -4970,7 +4970,7 @@
         "userAdded": true
       },
       {
-        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/pixel_art/pixelart.ttf",
+        "file": "pixelart2.ttf",
         "kind": "font",
         "metadata": "",
         "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\pixel_art\\pixelart.ttf",
@@ -5301,7 +5301,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_2.png",
+        "file": "box_item_coletar_22.png",
         "kind": "image",
         "metadata": "",
         "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_2.png",
@@ -5310,7 +5310,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_3.png",
+        "file": "box_item_coletar_32.png",
         "kind": "image",
         "metadata": "",
         "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_3.png",
@@ -5319,7 +5319,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_4.png",
+        "file": "box_item_coletar_42.png",
         "kind": "image",
         "metadata": "",
         "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_4.png",
@@ -5328,7 +5328,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "G:/Meu Drive/Aespi/Projeto de extensão/Projeto - Desenvolvimento de Games/artefatos/box_item_coletar_5.png",
+        "file": "box_item_coletar_52.png",
         "kind": "image",
         "metadata": "",
         "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_5.png",
@@ -5500,128 +5500,88 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/minigame_escavacao/caverna.png",
+        "file": "assets/tiled_Winter Tile Water Waves.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/minigame_escavacao/caverna.png",
+        "name": "tiled_Winter Tile Water Waves.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Winter/Background/5bd3a3d10a0550af297de9b7e78d9b4ea3fb7aab6b1bde81ccf040adf0d8d056_tiled_Winter Tile Water Waves.png",
+          "name": "tiled_Winter Tile Water Waves.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_7.png",
+        "file": "assets/tiled_Winter Tile Water.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/player_1_idle_7.png",
+        "name": "tiled_Winter Tile Water.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Winter/91910f5fb077be639f7415954118355ac8dc9ad2ae61b49c04f6bcce451f7fda_tiled_Winter Tile Water.png",
+          "name": "tiled_Winter Tile Water.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_6.png",
+        "file": "assets/tiled_Gray Background.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/player_1_idle_6.png",
+        "name": "tiled_Gray Background.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png",
+          "name": "tiled_Gray Background.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_5.png",
+        "file": "assets/cloud 7.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/player_1_idle_5.png",
+        "name": "cloud 7.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/fda55a57b0d01e7a8dfb482c53fcf1310b3051ecc884f30d5dd6b0d586e261cf_cloud 7.png",
+          "name": "cloud 7.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_4.png",
+        "file": "assets/cloud 8.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/player_1_idle_4.png",
+        "name": "cloud 8.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/8a35cd09be4dfc4399dc4fa080027afa87e160ef4d8f4928ee8609b53c3e2c4e_cloud 8.png",
+          "name": "cloud 8.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_3.png",
+        "file": "assets/tiled_Forest Background 2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets/player_1_idle_3.png",
+        "name": "tiled_Forest Background 2.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/bbc35ecdc7a4c74b8720f17f0f3cac945ba85c3844a9c30c0313051a9b22e1ff_tiled_Forest Background 2.png",
+          "name": "tiled_Forest Background 2.png"
+        }
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_idle_2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_idle_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_run_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_run_6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_run_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_run_5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_run_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_run_4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_run_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_run_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_run_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_run_2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_1_run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/player_1_run_1.png",
-        "smoothed": false,
+        "disablePreload": false,
+        "file": "assets/Oeiras_01.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Oeiras_01.json\"}",
+        "name": "Oeiras_01",
         "userAdded": true
       }
     ],
@@ -6742,7 +6702,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/fase2"
+      "referenceTo": "/layouts/fase_plataforma_oeiras"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6771,10 +6731,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/pre_fase_teresina_plataforma"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/minigame_escavacao"
     }
   ],
   "externalEvents": [
