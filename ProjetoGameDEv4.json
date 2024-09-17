@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 213,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -5583,6 +5583,132 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Oeiras_01.json\"}",
         "name": "Oeiras_01",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/caverna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/caverna.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6731,6 +6857,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/pre_fase_teresina_plataforma"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minigame_escavacao"
     }
   ],
   "externalEvents": [
