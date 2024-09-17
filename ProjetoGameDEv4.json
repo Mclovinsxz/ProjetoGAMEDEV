@@ -5709,6 +5709,33 @@
         "name": "assets/player_1_run_1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/tijeta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/tijeta.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/detector_desligado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/detector_desligado.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/detector_ligado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/detector_ligado.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

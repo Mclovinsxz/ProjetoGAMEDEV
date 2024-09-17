@@ -18,11 +18,39 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.5174985595891446,
+    "zoomFactor": 3.1477160928147008,
     "windowMask": false
   },
-  "objectsGroups": [],
-  "variables": [],
+  "objectsGroups": [
+    {
+      "name": "Artefatos",
+      "objects": [
+        {
+          "name": "Tijeta1"
+        },
+        {
+          "name": "Tijeta2"
+        },
+        {
+          "name": "Tijeta3"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "objeto_mais_proximo",
+      "type": "string",
+      "value": "\"\""
+    },
+    {
+      "folded": true,
+      "name": "menor_distancia",
+      "type": "number",
+      "value": 999999
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -61,6 +89,106 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 14,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tijeta1",
+      "persistentUuid": "0803f90c-8372-4a94-a041-303cfd727556",
+      "width": 14,
+      "x": 1047,
+      "y": 463,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 19,
+      "keepRatio": true,
+      "layer": "",
+      "name": "detector",
+      "persistentUuid": "680c72e7-e3d9-4452-9910-b8ceb10ee537",
+      "width": 19,
+      "x": 987,
+      "y": 442,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 17,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tijeta2",
+      "persistentUuid": "87fc6308-a924-4db5-a6cd-ce37bd28a0b6",
+      "width": 17,
+      "x": 831,
+      "y": 495,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 15,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tijeta3",
+      "persistentUuid": "1a4d245d-857d-48b0-b636-f5251840b129",
+      "width": 15,
+      "x": 982,
+      "y": 572,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "distancia",
+      "persistentUuid": "5d0ca59c-b56b-4c39-8941-ae030789fa52",
+      "width": 0,
+      "x": 894,
+      "y": 533,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "objeto",
+      "persistentUuid": "8c91f98f-3cd9-4420-8e0d-10f784a34522",
+      "width": 0,
+      "x": 900,
+      "y": 563,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -89,6 +217,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 800,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -98,9 +228,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 80,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -116,7 +244,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_idle_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -152,7 +286,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_idle_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -188,7 +328,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_idle_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -224,7 +370,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_idle_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -260,7 +412,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_idle_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -296,7 +454,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_idle_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -332,7 +496,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_idle_7.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -380,7 +550,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_run_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -416,7 +592,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_run_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -452,7 +634,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_run_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -488,7 +676,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_run_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -524,7 +718,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_run_5.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -560,7 +760,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/player_1_run_6.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "DetectorPoint",
+                      "x": 53,
+                      "y": -11
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -598,6 +804,364 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tijeta1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/tijeta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 11
+                      },
+                      {
+                        "x": 26,
+                        "y": 11
+                      },
+                      {
+                        "x": 26,
+                        "y": 22
+                      },
+                      {
+                        "x": 6,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "detector",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "piscar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 1.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/detector_desligado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 11
+                      },
+                      {
+                        "x": 21,
+                        "y": 11
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 11,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/detector_ligado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 11
+                      },
+                      {
+                        "x": 21,
+                        "y": 11
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 11,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tijeta2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/tijeta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 11
+                      },
+                      {
+                        "x": 26,
+                        "y": 11
+                      },
+                      {
+                        "x": 26,
+                        "y": 22
+                      },
+                      {
+                        "x": 6,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tijeta3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/tijeta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 11
+                      },
+                      {
+                        "x": 26,
+                        "y": 11
+                      },
+                      {
+                        "x": 26,
+                        "y": 22
+                      },
+                      {
+                        "x": 6,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "distancia",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "distancia",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "distancia",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "objeto",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "objeto",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "objeto",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -608,6 +1172,24 @@
       },
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "Tijeta1"
+      },
+      {
+        "objectName": "Tijeta2"
+      },
+      {
+        "objectName": "Tijeta3"
+      },
+      {
+        "objectName": "detector"
+      },
+      {
+        "objectName": "distancia"
+      },
+      {
+        "objectName": "objeto"
       }
     ]
   },
@@ -777,12 +1359,194 @@
       "actions": [
         {
           "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "detector",
+            "=",
+            "Player.PointX(\"DetectorPoint\")",
+            "=",
+            "Player.PointY(\"DetectorPoint\")"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
             "value": "SeparateFromObjects"
           },
           "parameters": [
-            "CaveTileMap",
             "Player",
+            "CaveTileMap",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "Artefatos",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            "=",
+            "Player.Distance(Artefatos)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "objeto_mais_proximo",
+            "=",
+            "Artefatos.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "distancia",
+            "Text",
+            "=",
+            "menor_distancia"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "objeto",
+            "Text",
+            "=",
+            "objeto_mais_proximo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            "<",
+            "50.0"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            ">",
+            "30.0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "detector",
+            "Animation",
+            "=",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            "<=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            ">",
+            "15.0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "detector",
+            "Animation",
+            "=",
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            ">=",
+            "50.0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "detector",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
@@ -870,6 +1634,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
