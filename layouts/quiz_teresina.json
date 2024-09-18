@@ -2291,6 +2291,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "teresina_concluida",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
