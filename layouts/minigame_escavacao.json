@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 3.1477160928147008,
+    "zoomFactor": 0.1644839130493766,
     "windowMask": false
   },
   "objectsGroups": [
@@ -163,13 +163,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "camada informações da cena",
       "name": "distancia",
-      "persistentUuid": "5d0ca59c-b56b-4c39-8941-ae030789fa52",
+      "persistentUuid": "019df9d5-73fe-4115-9331-b34653f62578",
       "width": 0,
-      "x": 894,
-      "y": 533,
-      "zOrder": 7,
+      "x": 820,
+      "y": 564,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -179,13 +179,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "camada informações da cena",
       "name": "objeto",
-      "persistentUuid": "8c91f98f-3cd9-4420-8e0d-10f784a34522",
+      "persistentUuid": "291aa190-a6a2-49b8-befb-589a1a4889b8",
       "width": 0,
-      "x": 900,
-      "y": 563,
-      "zOrder": 8,
+      "x": 822,
+      "y": 584,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -217,16 +217,16 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 800,
+          "deceleration": 800,
+          "maxSpeed": 80,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 800,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
-          "deceleration": 800,
           "ignoreDefaultControls": false,
-          "maxSpeed": 80,
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
@@ -1237,6 +1237,30 @@
       "conditions": [
         {
           "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "inverted": true,
             "value": "TopDownMovementBehavior::IsMoving"
           },
@@ -1579,6 +1603,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "camada informações da cena",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

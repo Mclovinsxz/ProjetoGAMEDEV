@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 212,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -5736,6 +5736,60 @@
         "name": "assets/minigame_escavacao/detector_ligado.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras_parnaiba.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras_parnaiba.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6839,7 +6893,38 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "teresina_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "oeiras_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "parnaiba_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "camporMaior_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "srn_concluida",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6888,6 +6973,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame_escavacao"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minigame_escavacao_edit_miller"
     }
   ],
   "externalEvents": [
