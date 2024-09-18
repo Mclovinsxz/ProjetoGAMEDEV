@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1644839130493766,
+    "zoomFactor": 2.0452942894724186,
     "windowMask": false
   },
   "objectsGroups": [
@@ -35,6 +35,17 @@
           "name": "Tijeta3"
         }
       ]
+    },
+    {
+      "name": "CaixaTextoAcao",
+      "objects": [
+        {
+          "name": "balao_texto"
+        },
+        {
+          "name": "TextoAcao"
+        }
+      ]
     }
   ],
   "variables": [
@@ -49,6 +60,12 @@
       "name": "menor_distancia",
       "type": "number",
       "value": 999999
+    },
+    {
+      "folded": true,
+      "name": "artefatos_inspecionados",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -117,8 +134,8 @@
       "name": "detector",
       "persistentUuid": "680c72e7-e3d9-4452-9910-b8ceb10ee537",
       "width": 19,
-      "x": 987,
-      "y": 442,
+      "x": 974,
+      "y": 437,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,6 +206,121 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "f41f4900-635f-4404-aefb-89ee0d3eb4e2",
+      "width": 57,
+      "x": 1036,
+      "y": 444,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "2ab831fc-96d1-4c79-a68c-c0cacf66c4b0",
+      "width": 0,
+      "x": 1041,
+      "y": 452,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "135c8645-8550-4fde-8c0d-4d45db499347",
+      "width": 0,
+      "x": 828,
+      "y": 484,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "45481e1e-417c-4997-b175-1a69abee9429",
+      "width": 57,
+      "x": 823,
+      "y": 476,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "9d2d8475-35af-4df3-833d-55f1ece819a2",
+      "width": 0,
+      "x": 978,
+      "y": 560,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "62b7fdc3-7d0a-4ec8-8bd6-08ca7e608745",
+      "width": 57,
+      "x": 973,
+      "y": 552,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "artefatos",
+      "persistentUuid": "c0e8b34d-b797-48a4-959b-85e2f91736a4",
+      "width": 0,
+      "x": 820,
+      "y": 542,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -217,11 +349,11 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 800,
           "deceleration": 800,
           "maxSpeed": 80,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -1162,6 +1294,66 @@
         "characterSize": 20,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TextoAcao",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Aperte i para inspecionar",
+        "opacity": 255,
+        "scale": 0.2,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "",
+        "textureAtlasResourceName": "",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "artefatos",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "artefatos",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "artefatos",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1190,6 +1382,12 @@
       },
       {
         "objectName": "objeto"
+      },
+      {
+        "objectName": "artefatos"
+      },
+      {
+        "objectName": "TextoAcao"
       }
     ]
   },
@@ -1228,6 +1426,22 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CaixaTextoAcao"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Artefatos"
           ]
         }
       ]
@@ -1480,6 +1694,34 @@
           },
           "parameters": [
             "menor_distancia",
+            ">=",
+            "50.0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "detector",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
             "<",
             "50.0"
           ]
@@ -1519,7 +1761,7 @@
           "parameters": [
             "menor_distancia",
             "<=",
-            "30"
+            "30.0"
           ]
         },
         {
@@ -1556,21 +1798,191 @@
           },
           "parameters": [
             "menor_distancia",
-            ">=",
-            "50.0"
+            "<=",
+            "15.0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "Artefatos",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "balao_texto",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PickNearest"
+          },
+          "parameters": [
+            "TextoAcao",
+            "Player.X()",
+            "Player.Y()",
+            ""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+            "value": "Montre"
           },
           "parameters": [
-            "detector",
-            "Animation",
+            "balao_texto",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextoAcao",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "i"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "artefatos_inspecionados",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Artefatos",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            ">",
+            "15.0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CaixaTextoAcao"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "artefatos",
+            "Text",
             "=",
-            "1"
+            "artefatos_inspecionados"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "artefatos_inspecionados",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "objeto_mais_proximo",
+            "=",
+            "\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "menor_distancia",
+            "=",
+            "99999"
           ]
         }
       ]
