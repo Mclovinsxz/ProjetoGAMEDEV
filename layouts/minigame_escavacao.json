@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4679972091400977,
+    "zoomFactor": 1.8515977016557488,
     "windowMask": false
   },
   "objectsGroups": [
@@ -26,13 +26,13 @@
       "name": "Artefatos",
       "objects": [
         {
-          "name": "Tijeta1"
+          "name": "Caveira"
         },
         {
-          "name": "Tijeta2"
+          "name": "Pedra"
         },
         {
-          "name": "Tijeta3"
+          "name": "Pedra2"
         }
       ]
     },
@@ -66,6 +66,12 @@
       "name": "artefatos_inspecionados",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "artefato_coletado",
+      "type": "string",
+      "value": "\"\""
     }
   ],
   "instances": [
@@ -110,23 +116,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 14,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tijeta1",
-      "persistentUuid": "0803f90c-8372-4a94-a041-303cfd727556",
-      "width": 14,
-      "x": 1047,
-      "y": 463,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 19,
       "keepRatio": true,
@@ -144,65 +133,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 17,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tijeta2",
-      "persistentUuid": "87fc6308-a924-4db5-a6cd-ce37bd28a0b6",
-      "width": 17,
-      "x": 831,
-      "y": 495,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 15,
       "keepRatio": true,
       "layer": "",
-      "name": "Tijeta3",
+      "name": "Caveira",
       "persistentUuid": "1a4d245d-857d-48b0-b636-f5251840b129",
       "width": 15,
       "x": 982,
       "y": 572,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "camada informações da cena",
-      "name": "distancia",
-      "persistentUuid": "019df9d5-73fe-4115-9331-b34653f62578",
-      "width": 0,
-      "x": 820,
-      "y": 564,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "camada informações da cena",
-      "name": "objeto",
-      "persistentUuid": "291aa190-a6a2-49b8-befb-589a1a4889b8",
-      "width": 0,
-      "x": 822,
-      "y": 584,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -311,13 +251,114 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "camada informações da cena",
       "name": "artefatos",
-      "persistentUuid": "c0e8b34d-b797-48a4-959b-85e2f91736a4",
+      "persistentUuid": "b15961ce-b4bc-4aad-9cc8-248630a003bc",
       "width": 0,
-      "x": 820,
-      "y": 542,
+      "x": 863,
+      "y": 586,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "camada informações da cena",
+      "name": "dialogo_box",
+      "persistentUuid": "49f0a7bd-fd6d-435f-9ef1-07fa4a2a7455",
+      "width": 273,
+      "x": 862,
+      "y": 600,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 39,
+      "keepRatio": true,
+      "layer": "camada informações da cena",
+      "name": "ArtefatoEncontrado",
+      "persistentUuid": "56baf2da-fc0d-42a5-a595-0377a19a7e15",
+      "width": 39,
+      "x": 881,
+      "y": 614,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "camada informações da cena",
+      "name": "NomeArtefato",
+      "persistentUuid": "4d90ca76-e224-42fd-9220-a433b5551410",
+      "width": 0,
+      "x": 889,
+      "y": 608,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 34,
+      "keepRatio": true,
+      "layer": "camada informações da cena",
+      "name": "InfoArtefato",
+      "persistentUuid": "a7687f2f-c87f-4221-9ec7-4d3dd4c37454",
+      "width": 181,
+      "x": 941,
+      "y": 621,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 19,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Pedra",
+      "persistentUuid": "33fc67dc-79f4-470e-bdd3-c40b910f0832",
+      "width": 19,
+      "x": 1043,
+      "y": 462,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Pedra2",
+      "persistentUuid": "46d0206c-8abc-41b5-92fb-d72bda6d7c5b",
+      "width": 25,
+      "x": 827,
+      "y": 490,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -940,66 +981,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Tijeta1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/minigame_escavacao/tijeta.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 11
-                      },
-                      {
-                        "x": 26,
-                        "y": 11
-                      },
-                      {
-                        "x": 26,
-                        "y": 22
-                      },
-                      {
-                        "x": 6,
-                        "y": 22
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "detector",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1096,7 +1077,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Tijeta2",
+      "name": "Caveira",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1113,7 +1094,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/minigame_escavacao/tijeta.png",
+                  "image": "assets/minigame_escavacao/Sprite_Caveira.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1129,80 +1110,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 11
+                        "x": 5,
+                        "y": 4
                       },
                       {
-                        "x": 26,
-                        "y": 11
+                        "x": 33,
+                        "y": 4
                       },
                       {
-                        "x": 26,
-                        "y": 22
+                        "x": 33,
+                        "y": 37
                       },
                       {
-                        "x": 6,
-                        "y": 22
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Tijeta3",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/minigame_escavacao/tijeta.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 11
-                      },
-                      {
-                        "x": 26,
-                        "y": 11
-                      },
-                      {
-                        "x": 26,
-                        "y": 22
-                      },
-                      {
-                        "x": 6,
-                        "y": 22
+                        "x": 5,
+                        "y": 37
                       }
                     ]
                   ]
@@ -1354,6 +1275,320 @@
         "characterSize": 20,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ArtefatoEncontrado",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Caveira",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_Caveira.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 33,
+                        "y": 4
+                      },
+                      {
+                        "x": 33,
+                        "y": 37
+                      },
+                      {
+                        "x": 5,
+                        "y": 37
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pedra",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_Pedra.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 33,
+                        "y": 4
+                      },
+                      {
+                        "x": 33,
+                        "y": 37
+                      },
+                      {
+                        "x": 5,
+                        "y": 37
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pedra2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_Pedra2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 33,
+                        "y": 4
+                      },
+                      {
+                        "x": 33,
+                        "y": 37
+                      },
+                      {
+                        "x": 5,
+                        "y": 37
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NomeArtefato",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "nome do artefato",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "",
+        "textureAtlasResourceName": "",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "InfoArtefato",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "descrição do artefato encontrado",
+        "opacity": 255,
+        "scale": 0.5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "",
+        "textureAtlasResourceName": "",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Pedra",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_Pedra.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 11
+                      },
+                      {
+                        "x": 53,
+                        "y": 11
+                      },
+                      {
+                        "x": 53,
+                        "y": 54
+                      },
+                      {
+                        "x": 13,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Pedra2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_Pedra2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 51,
+                        "y": 14
+                      },
+                      {
+                        "x": 51,
+                        "y": 51
+                      },
+                      {
+                        "x": 13,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1366,13 +1601,16 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Tijeta1"
+        "objectName": "ArtefatoEncontrado"
       },
       {
-        "objectName": "Tijeta2"
+        "objectName": "Caveira"
       },
       {
-        "objectName": "Tijeta3"
+        "objectName": "Pedra"
+      },
+      {
+        "objectName": "Pedra2"
       },
       {
         "objectName": "detector"
@@ -1388,6 +1626,12 @@
       },
       {
         "objectName": "TextoAcao"
+      },
+      {
+        "objectName": "NomeArtefato"
+      },
+      {
+        "objectName": "InfoArtefato"
       }
     ]
   },
@@ -1418,6 +1662,17 @@
         },
         {
           "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "4",
+            "\"camada informações da cena\"",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "CentreCamera"
           },
           "parameters": [
@@ -1442,6 +1697,47 @@
           },
           "parameters": [
             "Artefatos"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogo_box"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NomeArtefato"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InfoArtefato"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ArtefatoEncontrado"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "informacoes_artefatos"
           ]
         }
       ]
@@ -1870,8 +2166,55 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "Artefatos.ObjectName()"
+              ]
+            }
+          ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"text\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ScrollClippedText"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::CompleteClippedTextScrolling"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "InfoArtefato",
+                    "Text",
+                    "=",
+                    "DialogueTree::ClippedLineText()"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -1895,10 +2238,87 @@
                 },
                 {
                   "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "artefato_coletado",
+                    "=",
+                    "Artefatos.ObjectName()"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
                     "Artefatos",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_informacao\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NomeArtefato",
+                    "Text",
+                    "=",
+                    "artefato_coletado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "ArtefatoEncontrado",
+                    "Animation",
+                    "=",
+                    "artefato_coletado"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogo_box",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ArtefatoEncontrado",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "NomeArtefato",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "InfoArtefato",
                     ""
                   ]
                 }
@@ -1983,6 +2403,82 @@
             "menor_distancia",
             "=",
             "99999"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"timer_informacao\"",
+                ">=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "NumpadReturn"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogo_box"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NomeArtefato"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InfoArtefato"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ArtefatoEncontrado"
           ]
         }
       ]
