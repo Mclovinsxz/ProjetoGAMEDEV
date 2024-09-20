@@ -1926,6 +1926,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1935,6 +1936,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1978,6 +1985,64 @@
           },
           "parameters": [
             "texto_resposta_alternativa"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\quiz_tema.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\acertou.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\erro.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido_2.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\coletar_caixa.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\quiz_tema.mp3",
+            "0",
+            "yes",
+            "10",
+            "1"
           ]
         }
       ],
@@ -2287,8 +2352,46 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\level_concluido_2.wav",
+                    "3",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "teresina_concluida",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -2355,6 +2458,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [],
@@ -2384,6 +2493,12 @@
                     "=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -2455,6 +2570,19 @@
                     "=",
                     "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() + VariableString(explicacao_a)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -2483,6 +2611,12 @@
                     "!=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -2523,6 +2657,19 @@
                     "=",
                     "VariableString(explicacao_a)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -2542,6 +2689,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [],
@@ -2571,6 +2724,12 @@
                     "=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -2642,6 +2801,19 @@
                     "=",
                     "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_b)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -2670,6 +2842,12 @@
                     "!=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -2710,6 +2888,19 @@
                     "=",
                     "VariableString(explicacao_b)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -2729,6 +2920,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [],
@@ -2758,6 +2955,12 @@
                     "=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -2829,6 +3032,19 @@
                     "=",
                     "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_c)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -2857,6 +3073,12 @@
                     "!=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -2897,6 +3119,19 @@
                     "=",
                     "VariableString(explicacao_c)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -2916,6 +3151,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [],
@@ -2945,6 +3186,12 @@
                     "=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -3016,6 +3263,19 @@
                     "=",
                     "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_d)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -3044,6 +3304,12 @@
                     "!=",
                     "VariableString(resposta)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -3084,6 +3350,19 @@
                     "=",
                     "VariableString(explicacao_d)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -3110,6 +3389,12 @@
             "=",
             "Variable(total)"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [

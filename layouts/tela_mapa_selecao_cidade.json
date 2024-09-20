@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 222,
   "disableInputWhenNotFocused": true,
   "mangledName": "tela_95mapa_95selecao_95cidade",
   "name": "tela_mapa_selecao_cidade",
-  "r": 209,
+  "r": 80,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 136,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22916801610749005,
+    "zoomFactor": 0.2987985363606946,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -31,13 +31,13 @@
           "folded": true,
           "name": "x_position",
           "type": "number",
-          "value": 1365
+          "value": 1390
         },
         {
           "folded": true,
           "name": "y_position",
           "type": "number",
-          "value": 290
+          "value": 280
         }
       ]
     },
@@ -48,7 +48,7 @@
         {
           "name": "x_position",
           "type": "number",
-          "value": 1425
+          "value": 1460
         },
         {
           "name": "y_position",
@@ -64,13 +64,13 @@
         {
           "name": "x_position",
           "type": "number",
-          "value": 1471
+          "value": 1500
         },
         {
           "folded": true,
           "name": "y_position",
           "type": "number",
-          "value": 15
+          "value": 45
         }
       ]
     },
@@ -81,13 +81,13 @@
         {
           "name": "x_position",
           "type": "number",
-          "value": 1420
+          "value": 1400
         },
         {
           "folded": true,
           "name": "y_position",
           "type": "number",
-          "value": 250
+          "value": 155
         }
       ]
     },
@@ -98,17 +98,22 @@
         {
           "name": "x_position",
           "type": "number",
-          "value": 1360
+          "value": 1460
         },
         {
           "name": "y_position",
           "type": "number",
-          "value": 750
+          "value": 724
         }
       ]
     },
     {
       "name": "cidades",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "cidades_total",
       "type": "number",
       "value": 1
     }
@@ -143,7 +148,7 @@
       "width": 2811,
       "x": -14,
       "y": -225,
-      "zOrder": 0,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -158,8 +163,8 @@
       "name": "apontador_localizacao",
       "persistentUuid": "38d1d4e4-70e0-4648-865e-16114ce86340",
       "width": 60,
-      "x": 1467,
-      "y": 22,
+      "x": 1501,
+      "y": 45,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -186,15 +191,66 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 623,
+      "height": 225,
       "keepRatio": true,
       "layer": "",
       "name": "descricao_cidade",
       "persistentUuid": "6a1b4f00-720b-424a-a690-617a08df3fee",
-      "width": 834,
-      "x": 175,
-      "y": 326,
+      "width": 1046,
+      "x": 130,
+      "y": 307,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar_butão",
+      "persistentUuid": "9d9d5ead-9740-4579-87cb-fddb83e20d57",
+      "width": 656,
+      "x": 272,
+      "y": 612,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 11,
+      "height": 4411,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fundo_mapa",
+      "persistentUuid": "8c4b958d-a978-486d-8cbd-a28c65f8627c",
+      "width": 3994,
+      "x": -1738,
+      "y": -966,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 379,
+      "keepRatio": true,
+      "layer": "",
+      "name": "dialogo_box",
+      "persistentUuid": "84e06662-e62c-436e-9a3d-97b45eaed663",
+      "width": 1123,
+      "x": 93,
+      "y": 175,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -212,7 +268,295 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "1_teresina",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mapa_piaui_teresina.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 592,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 2722
+                      },
+                      {
+                        "x": 592,
+                        "y": 2722
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2_oeiras",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mapa_piaui_teresina_oeiras.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 592,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 2722
+                      },
+                      {
+                        "x": 592,
+                        "y": 2722
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3_parnaiba",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mapa_piaui_teresina_oeiras_parnaiba.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 592,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 2722
+                      },
+                      {
+                        "x": 592,
+                        "y": 2722
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4_cp_maior",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 592,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 2722
+                      },
+                      {
+                        "x": 592,
+                        "y": 2722
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5_SRN",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 592,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 2722
+                      },
+                      {
+                        "x": 592,
+                        "y": 2722
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "piaui",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mapa_piaui_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 592,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 170
+                      },
+                      {
+                        "x": 2304,
+                        "y": 2722
+                      },
+                      {
+                        "x": 592,
+                        "y": 2722
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "old_piaui",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -237,20 +581,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1030,
-                        "y": 215
+                        "x": 592,
+                        "y": 170
                       },
                       {
-                        "x": 3965,
-                        "y": 215
+                        "x": 2304,
+                        "y": 170
                       },
                       {
-                        "x": 3965,
-                        "y": 4557
+                        "x": 2304,
+                        "y": 2722
                       },
                       {
-                        "x": 1030,
-                        "y": 4557
+                        "x": 592,
+                        "y": 2722
                       }
                     ]
                   ]
@@ -268,7 +612,17 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "LightNight",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -430,6 +784,120 @@
         "align": "left",
         "wordWrap": true
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_cidade",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "numero",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "numero",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fundo_mapa",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Blur",
+          "name": "Effect",
+          "doubleParameters": {
+            "blur": 8,
+            "kernelSize": 5,
+            "quality": 1,
+            "resolution": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "brasil_pixel_art_qual.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1492,
+                        "y": 0
+                      },
+                      {
+                        "x": 1492,
+                        "y": 1648
+                      },
+                      {
+                        "x": 0,
+                        "y": 1648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -449,6 +917,12 @@
       },
       {
         "objectName": "descricao_cidade"
+      },
+      {
+        "objectName": "texto_cidade"
+      },
+      {
+        "objectName": "fundo_mapa"
       }
     ]
   },
@@ -474,6 +948,200 @@
             "label_cidade",
             "=",
             "\"Teresina\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cidades_total",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "teresina_concluida",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "mapa_piauí",
+                "Animation",
+                "=",
+                "\"2_oeiras\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "cidades_total",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "oeiras_concluida",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "mapa_piauí",
+                    "Animation",
+                    "=",
+                    "\"3_parnaiba\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "cidades_total",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "parnaiba_concluida",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "mapa_piauí",
+                        "Animation",
+                        "=",
+                        "\"4_cp_maior\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "cidades_total",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "camporMaior_concluida",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "mapa_piauí",
+                            "Animation",
+                            "=",
+                            "\"5_SRN\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "cidades_total",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
           ]
         }
       ]
@@ -506,6 +1174,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -647,6 +1320,16 @@
             "=",
             "\"Teresina\""
           ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "descricao_cidade",
+            "=",
+            "\"Bem-vindo à capital do sol e dos rios! Aqui, as primeiras pistas o aguardam.\""
+          ]
         }
       ]
     },
@@ -655,12 +1338,30 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "BuiltinCommonInstructions::And"
           },
-          "parameters": [
-            "cidades",
-            "=",
-            "2"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "cidades",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "teresina_concluida",
+                "True",
+                ""
+              ]
+            }
           ]
         }
       ],
@@ -674,6 +1375,16 @@
             "=",
             "\"Oeiras\""
           ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "descricao_cidade",
+            "=",
+            "\"Explore a antiga capital, onde as ruínas guardam segredos de um passado glorioso.\""
+          ]
         }
       ]
     },
@@ -682,12 +1393,30 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "BuiltinCommonInstructions::And"
           },
-          "parameters": [
-            "cidades",
-            "=",
-            "3"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "cidades",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "oeiras_concluida",
+                "True",
+                ""
+              ]
+            }
           ]
         }
       ],
@@ -701,6 +1430,16 @@
             "=",
             "\"Parnaíba\""
           ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "descricao_cidade",
+            "=",
+            "\"Entre mares e fortalezas, os mistérios da história marítima do Piauí te esperam.\""
+          ]
         }
       ]
     },
@@ -709,12 +1448,30 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "BuiltinCommonInstructions::And"
           },
-          "parameters": [
-            "cidades",
-            "=",
-            "4"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "cidades",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "parnaiba_concluida",
+                "True",
+                ""
+              ]
+            }
           ]
         }
       ],
@@ -728,6 +1485,16 @@
             "=",
             "\"Campo Maior\""
           ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "descricao_cidade",
+            "=",
+            "\"Campo Maior, onde o sacrifício pela liberdade deixou marcas eternas. Que segredos ela revelará?\""
+          ]
         }
       ]
     },
@@ -736,12 +1503,30 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "BuiltinCommonInstructions::And"
           },
-          "parameters": [
-            "cidades",
-            "=",
-            "5"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "cidades",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "camporMaior_concluida",
+                "True",
+                ""
+              ]
+            }
           ]
         }
       ],
@@ -754,6 +1539,16 @@
             "label_cidade",
             "=",
             "\"São Raimundo Nonato\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "descricao_cidade",
+            "=",
+            "\"Aventure-se pelos sítios arqueológicos e decifre inscrições milenares para salvar a história.\""
           ]
         }
       ]
@@ -784,6 +1579,15 @@
                 "",
                 "Left"
               ]
+            },
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
             }
           ]
         },
@@ -807,6 +1611,17 @@
             "cidades",
             "=",
             "cidades - 1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "texto_cidade",
+            "Text",
+            "=",
+            "cidades"
           ]
         }
       ]
@@ -837,6 +1652,15 @@
                 "",
                 "Right"
               ]
+            },
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
             }
           ]
         },
@@ -847,7 +1671,7 @@
           "parameters": [
             "cidades",
             "<",
-            "5"
+            "cidades_total"
           ]
         }
       ],
@@ -860,6 +1684,186 @@
             "cidades",
             "=",
             "cidades + 1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "texto_cidade",
+            "Text",
+            "=",
+            "cidades"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Jogar_butão",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "label_cidade",
+                "=",
+                "\"Teresina\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"pre_fase_teresina_plataforma\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "label_cidade",
+                "=",
+                "\"Oeiras\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"fase_plataforma_oeiras\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "label_cidade",
+                "=",
+                "\"Campo Maior\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"tela inicial\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "label_cidade",
+                "=",
+                "\"Parnaíba\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"introdução\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "label_cidade",
+                "=",
+                "\"São Raimundo Nonato\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"minigame_escavacao_edit_miller\"",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -947,6 +1951,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

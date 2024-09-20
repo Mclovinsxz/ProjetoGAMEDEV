@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25314140012989955,
+    "zoomFactor": 0.7077142870147702,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1000,8 +1000,8 @@
       "name": "Checkpoint_meio",
       "persistentUuid": "037052f8-d8de-497c-8733-92f069c1880d",
       "width": 79,
-      "x": 4486,
-      "y": 913,
+      "x": 4285,
+      "y": 621,
       "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
@@ -1271,9 +1271,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "5fcc7d11-0ca7-406b-a2dd-23226c7c8783",
-      "width": 334,
-      "x": 126,
-      "y": 786,
+      "width": 310,
+      "x": 124,
+      "y": 819,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -13913,7 +13913,21 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\caiu.wav",
+            "3",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -13986,7 +14000,7 @@
               "parameters": [
                 "player",
                 "=",
-                "4486"
+                "4280"
               ]
             },
             {
@@ -13996,7 +14010,7 @@
               "parameters": [
                 "player",
                 "=",
-                "840"
+                "610"
               ]
             },
             {
@@ -14281,6 +14295,64 @@
           },
           "parameters": [
             "text_checkpoint_final"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\Terra do Sol_tema.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\caiu.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\checkpoint.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\coletar_caixa.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\Terra do Sol_tema.mp3",
+            "1",
+            "yes",
+            "10",
+            "1"
           ]
         }
       ]
@@ -14786,6 +14858,19 @@
                 "=",
                 "\"off\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\coletar_caixa.wav",
+                "2",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         }
@@ -14918,6 +15003,19 @@
                 "Animation",
                 "=",
                 "\"off\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\coletar_caixa.wav",
+                "2",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
@@ -15052,6 +15150,19 @@
                 "=",
                 "\"off\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\coletar_caixa.wav",
+                "2",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         }
@@ -15184,6 +15295,19 @@
                 "Animation",
                 "=",
                 "\"off\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\coletar_caixa.wav",
+                "2",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
@@ -15318,6 +15442,19 @@
                 "=",
                 "\"off\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\coletar_caixa.wav",
+                "2",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         }
@@ -15451,6 +15588,19 @@
                 "=",
                 "\"off\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\coletar_caixa.wav",
+                "2",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         }
@@ -15533,6 +15683,19 @@
           "parameters": [
             "text_enter",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\coletar_caixa.wav",
+            "2",
+            "",
+            "50",
+            "1"
           ]
         }
       ],
@@ -15716,6 +15879,19 @@
                 "Animation",
                 "=",
                 "\"off\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\coletar_caixa.wav",
+                "2",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
@@ -15972,6 +16148,19 @@
                 "fase_concluida",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\level_concluido.wav",
+                "2",
+                "",
+                "50",
+                "1"
               ]
             }
           ]

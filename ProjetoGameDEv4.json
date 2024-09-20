@@ -1424,7 +1424,7 @@
         "alwaysLoaded": false,
         "file": "assets/tiled_Desert Background 2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/tiled_Desert Background 2.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiled_Desert Background 2.png",
         "smoothed": false,
         "userAdded": false,
@@ -5583,6 +5583,420 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Oeiras_01.json\"}",
         "name": "Oeiras_01",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/caverna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/caverna.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_1_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/player_1_run_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/tijeta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/tijeta.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/detector_desligado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/detector_desligado.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/detector_ligado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/detector_ligado.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras_parnaiba.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras_parnaiba.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "brasil_pixel art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "brasil_pixel art.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "brasil_pixel_art_qual.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "brasil_pixel_art_qual.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/Terra do Sol_tema.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\Terra do Sol_tema.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/caiu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\caiu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/checkpoint.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\checkpoint.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/level_concluido.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\level_concluido.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/coletar_caixa.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\coletar_caixa.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\click.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/level_concluido_2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\level_concluido_2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/point_click_tema.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\point_click_tema.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/quiz_tema.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\quiz_tema.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sons/acertou.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\acertou.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sons/erro.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\erro.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/torre_eolica_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\torre_eolica_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/torre_eolica_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\torre_eolica_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/torre_eolica_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\torre_eolica_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/parnaiba_arte.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\parnaiba_arte.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Sprite_Caveira.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Sprite_Caveira.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Sprite_Pedra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Sprite_Pedra.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Sprite_Pedra2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Sprite_Pedra2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/informacoes_artefatos.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/informacoes_artefatos.json\"}",
+        "name": "informacoes_artefatos",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Campo_Maior 01.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Campo_Maior 01.json\"}",
+        "name": "Campo_Maior 01",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6663,6 +7077,89 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Jogar_butão",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Jogar",
+          "font": "Poppins-Medium.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 20,
+            "r": 17
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jogar",
+            "font": "Poppins-Medium.ttf",
+            "textAlignment": "center",
+            "characterSize": 50,
+            "color": "17;20;15"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6682,11 +7179,45 @@
       },
       {
         "objectName": "player"
+      },
+      {
+        "objectName": "Jogar_butão"
       }
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "teresina_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "oeiras_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "parnaiba_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "camporMaior_concluida",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "srn_concluida",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6702,7 +7233,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fase_plataforma_parnaiba"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/fase_plataforma_oeiras"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fase_plataforma_campo_maior"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6731,6 +7270,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/pre_fase_teresina_plataforma"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minigame_escavacao"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minigame_escavacao_edit_miller"
     }
   ],
   "externalEvents": [

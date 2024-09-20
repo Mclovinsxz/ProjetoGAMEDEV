@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36458333333338094,
+    "zoomFactor": 0.25314140012989533,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2301,9 +2301,9 @@
       "layer": "",
       "name": "text_checkpoint_final",
       "persistentUuid": "21750cfb-6fb7-4a94-b87b-e507430cf2e3",
-      "width": 323,
-      "x": 9078,
-      "y": 725,
+      "width": 295,
+      "x": 9085,
+      "y": 706,
       "zOrder": 90,
       "numberProperties": [],
       "stringProperties": [],
@@ -12577,9 +12577,29 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\caiu.wav",
+            "3",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -12908,6 +12928,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -12947,6 +12973,64 @@
           },
           "parameters": [
             "text_checkpoint_final"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\Terra do Sol_tema.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\caiu.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\checkpoint.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\coletar_caixa.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\Terra do Sol_tema.mp3",
+            "1",
+            "yes",
+            "10",
+            "1"
           ]
         }
       ]
@@ -13200,14 +13284,6 @@
             "value": "Cache"
           },
           "parameters": [
-            "BlankSuperWide"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "Texto_Capivara"
           ]
         }
@@ -13230,15 +13306,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "BlankSuperWide",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "Montre"
@@ -13313,1080 +13380,1232 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Coletar Caixas"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_1",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"01_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "caixas coletadas",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_1",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"digitação\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_1",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"balao_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"01_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_1",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_1",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_2",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
         },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"02_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_2",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"balao_info\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_2",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"digitação\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"02_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_2",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_2",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_3",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
         },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"03_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_3",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"balao_info\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_3",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"digitação\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"03_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_3",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_3",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_4",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
         },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"04_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_4",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"balao_info\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_4",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"digitação\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"04_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_4",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_4",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_5",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
         },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"05_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_5",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"balao_info\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_5",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"digitação\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"05_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_5",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_5",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_6",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
         },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"06_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_6",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"balao_info\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_6",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"digitação\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"06_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_6",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_6",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_7",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
         },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"07_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_7",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"balao_info\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_7",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"digitação\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"07_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_7",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_7",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "caixa_informações_8",
-            "player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Informações Teresina"
-          ]
         },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"balao_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"digitação\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"08_info\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogo_box",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "texto_informações",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "text_enter",
-            ""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "caixa_informações_8",
-                "Animation",
-                "=",
-                "\"on\""
+                "player",
+                "",
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
-                "caixas_coletadas",
-                "+",
-                "1"
+                "",
+                "Informações Teresina"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixas_coletadas_info",
-                "Text",
-                "=",
-                "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                "",
+                "\"balao_info\""
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "caixa_informações_8",
-                "Animation",
-                "=",
-                "\"off\""
+                "",
+                "\"digitação\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"08_info\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogo_box",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "texto_informações",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_enter",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "caixa_informações_8",
+                    "Animation",
+                    "=",
+                    "\"on\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "caixas_coletadas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "caixas_coletadas_info",
+                    "Text",
+                    "=",
+                    "VariableString(caixas_coletadas) + \" / \" + VariableString(tota_caixas_fase)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "caixa_informações_8",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "2",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -14616,6 +14835,12 @@
                 "=",
                 "caixas_coletadas"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -14638,6 +14863,19 @@
                 "fase_concluida",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\level_concluido.wav",
+                "2",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
@@ -14719,7 +14957,7 @@
               "parameters": [
                 "text_checkpoint_final",
                 "=",
-                "\"Ainda falta coletar \"  + caixas_restante + \" caixas\" +  NewLine() +\" CONTINUE PROCURANDO A HISTÓRIA DO PIAUÍ\""
+                "\"Ainda falta coletar \"  + caixas_restante + \" caixas\" +  NewLine() +\"CONTINUE PROCURANDO ...\""
               ]
             }
           ]
@@ -14863,6 +15101,12 @@
             "False",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -14886,6 +15130,19 @@
             "check",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\checkpoint.wav",
+            "2",
+            "",
+            "50",
+            "1"
           ]
         }
       ]

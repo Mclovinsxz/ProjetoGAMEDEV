@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.7327683944532433,
+    "zoomFactor": 1.1259024631361794,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -879,23 +879,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 51,
-      "keepRatio": true,
-      "layer": "",
-      "name": "texto_final",
-      "persistentUuid": "3bfc1d68-461c-4620-80fb-dcb2f6f2e189",
-      "width": 356,
-      "x": 826,
-      "y": 467,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 74,
       "keepRatio": true,
       "layer": "",
@@ -921,6 +904,23 @@
       "x": 768,
       "y": 437,
       "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_concluido",
+      "persistentUuid": "e1416e94-c379-4fbf-a819-bf035a96685f",
+      "width": 358,
+      "x": 824,
+      "y": 463,
+      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3509,6 +3509,47 @@
         "align": "left",
         "wordWrap": true
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_concluido",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Parabéns, encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Parabéns, encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3648,6 +3689,9 @@
       },
       {
         "objectName": "texto_info_variaveis"
+      },
+      {
+        "objectName": "texto_concluido"
       }
     ]
   },
@@ -3662,6 +3706,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -3693,7 +3743,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "texto_final"
+            "texto_concluido"
           ]
         },
         {
@@ -3712,6 +3762,46 @@
             "texto_info_variaveis",
             "=",
             "objetos_coletados + \" / \" + objetos_total"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\click.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido_2.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\point_click_tema.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\point_click_tema.mp3",
+            "0",
+            "yes",
+            "10",
+            "1"
           ]
         }
       ]
@@ -3837,6 +3927,19 @@
                 "texto_info_variaveis",
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
               ]
             }
           ],
@@ -3969,6 +4072,19 @@
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -4099,6 +4215,19 @@
                 "texto_info_variaveis",
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
               ]
             }
           ],
@@ -4231,6 +4360,19 @@
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -4361,6 +4503,19 @@
                 "texto_info_variaveis",
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
               ]
             }
           ],
@@ -4493,6 +4648,19 @@
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -4623,6 +4791,19 @@
                 "texto_info_variaveis",
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
               ]
             }
           ],
@@ -4755,6 +4936,19 @@
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -4886,6 +5080,19 @@
                 "=",
                 "objetos_coletados + \" / \" + objetos_total"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\click.wav",
+                "1",
+                "",
+                "50",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -4932,6 +5139,12 @@
             ">=",
             "0.5"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -4949,8 +5162,21 @@
             "value": "Montre"
           },
           "parameters": [
-            "texto_final",
+            "texto_concluido",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido_2.wav",
+            "1",
+            "",
+            "50",
+            "1"
           ]
         },
         {

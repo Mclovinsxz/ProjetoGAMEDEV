@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "[b] Campo Maior foi fundada por portugueses e elevada a distrito em 1761. A criação da\r\nvila se deu em 8 de agosto de 1762, [/b] data comemorada como o aniversário da cidade. A\r\nconversão em município ocorreu em 28 de dezembro de 1899.",
+		"position": {
+			"x": 728,
+			"y": 95
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 01",
+		"tags": "",
+		"body": "[b]Campo Maior, no seu início, era uma localidade que funcionava como um corredor\r\nutilizado para interligar, por terra, os estados do Maranhão e Ceará. O gado cruzava esse\r\ncaminho em busca de novas pastagens, havendo melhores pastagens na região de\r\nCampo Maior. Assim, fazendas foram instaladas naquela região.\r\n[/b]",
+		"position": {
+			"x": 447,
+			"y": 351
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 02",
+		"tags": "",
+		"body": "[b]A Batalha do Jenipapo ocorreu em 13 de março de 1823, quando cearenses e\r\nmaranhenses se uniram aos piauienses. O confronto teve início após serem descobertas\r\nas intenções do comandante português de manter a região sob domínio luso para sufocar\r\nos movimentos de independência.\r\n[/b]",
+		"position": {
+			"x": 731,
+			"y": 351
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 03",
+		"tags": "",
+		"body": "[b]Na Batalha do Jenipapo, as tropas portuguesas, lideradas pelo major João José da Cunha\r\nFidié, que cumpria ordens do rei de Portugal, D. João VI, para que o norte do Brasil\r\npermanecesse sob domínio português, enfrentaram brasileiros — pessoas simples como\r\nlavradores, artesãos, escravos, roceiros e vaqueiros. Estes decidiram impedir o plano\r\ndos portugueses e iniciaram uma das batalhas mais sangrentas travadas em solo\r\nbrasileiro.\r\n[/b]",
+		"position": {
+			"x": 1036,
+			"y": 352
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 04",
+		"tags": "",
+		"body": "[b]O Obelisco da Batalha do Jenipapo guarda os restos mortais dos combatentes mortos na\r\nbatalha e é uma construção erguida no Cemitério do Batalhão.[/b]",
+		"position": {
+			"x": 453,
+			"y": 591
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 05",
+		"tags": "",
+		"body": "[b]A construção do Obelisco da Batalha do Jenipapo foi aprovada pelo Conselho\r\nMunicipal de Campo Maior em 23 de agosto de 1922, como uma homenagem aos\r\nmortos da batalha e para integrar as comemorações do primeiro centenário da\r\nindependência do Brasil.[/b]",
+		"position": {
+			"x": 732,
+			"y": 580
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 06",
+		"tags": "",
+		"body": "[b]A Catedral de Santo Antônio foi construída em homenagem a Santo Antônio, padroeiro\r\nda cidade, e se destaca como um dos principais pontos turísticos e religiosos do\r\nmunicípio.[/b]",
+		"position": {
+			"x": 1060,
+			"y": 596
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 07",
+		"tags": "",
+		"body": "[b]A construção da igreja começou em 1945 e foi concluída em 1962. Ela tornou-se a sede\r\nda Diocese de Campo Maior, criada em 1975 pelo Papa Paulo VI. A catedral combina\r\nestilos neoclássicos e modernos, com importantes celebrações, como a festa de Santo\r\nAntônio, que acontece em junho.[/b]",
+		"position": {
+			"x": 463,
+			"y": 827
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CM_ INfo 08",
+		"tags": "",
+		"body": "[b]O Açude Grande foi construído com o objetivo de armazenar água para combater os\r\nfreqüentes períodos de seca e garantir o abastecimento para a população local, além de\r\napoiar o desenvolvimento agrícola. Sua construção começou em 1834 e foi concluída\r\nem 1837, durante a administração de Manuel de Sousa Martins, o Visconde da\r\nParnaíba.\r\n[/b]",
+		"position": {
+			"x": 742,
+			"y": 827
+		},
+		"colorID": 0
+	}
+]
