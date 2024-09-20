@@ -6123,6 +6123,16 @@
         "name": "assets/minigame_escavacao/caverna.png2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/minigame_escavacao/beep.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/beep.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

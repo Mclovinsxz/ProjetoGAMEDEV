@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4753585087127303,
+    "zoomFactor": 3.253858118463532,
     "windowMask": false
   },
   "objectsGroups": [
@@ -255,8 +255,8 @@
       "name": "artefatos",
       "persistentUuid": "b15961ce-b4bc-4aad-9cc8-248630a003bc",
       "width": 0,
-      "x": 863,
-      "y": 586,
+      "x": 787,
+      "y": 425,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1991,7 +1991,7 @@
           "parameters": [
             "menor_distancia",
             ">=",
-            "50.0"
+            "70.0"
           ]
         }
       ],
@@ -2019,7 +2019,7 @@
           "parameters": [
             "menor_distancia",
             "<",
-            "50.0"
+            "70.0"
           ]
         },
         {
@@ -2479,6 +2479,76 @@
           },
           "parameters": [
             "ArtefatoEncontrado"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Sprite"
+          },
+          "parameters": [
+            "detector",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets/minigame_escavacao/beep.mp3",
+                "1",
+                "100",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Sprite"
+          },
+          "parameters": [
+            "detector",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
           ]
         }
       ]
