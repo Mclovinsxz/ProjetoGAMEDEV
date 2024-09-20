@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 213,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -6001,7 +6001,7 @@
     ],
     "resourceFolders": []
   },
-  "objects": [
+  "objects": 
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -6297,7 +6297,6 @@
         }
       ]
     },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogo_box",
@@ -6358,7 +6357,6 @@
         }
       ]
     },
-    {
       "assetStoreId": "90cac64ec9901c742b38aea323e8c52dc954197bfb5511ef86067aa187ac06c4",
       "height": 1024,
       "name": "ForestBackground",
@@ -7079,6 +7077,12 @@
       ]
     },
     {
+      "areaMaxX": 64,
+      "areaMaxY": 64,
+      "areaMaxZ": 64,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "Jogar_butão",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -7160,8 +7164,39 @@
           "width": 256
         }
       }
-    }
-  ],
+      },
+      "instances": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [

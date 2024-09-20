@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"caverna.png",
+ "imageheight":336,
+ "imagewidth":256,
+ "margin":0,
+ "name":"caverna",
+ "spacing":0,
+ "tilecount":336,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}
