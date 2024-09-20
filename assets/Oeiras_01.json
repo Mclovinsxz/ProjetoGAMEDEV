@@ -2,7 +2,7 @@
 	{
 		"title": "Oeiras_01 INfo",
 		"tags": "",
-		"body": "Oeiras foi a primeira capital do Piauí, entre 1939 e 1940. [b] A partir da segunda metade do século XX, acompanhando o fenômeno de urbanização experimentado pelo Brasil inteiro [/b]",
+		"body": "Oeiras foi a primeira capital do Piauí, entre 1939 e 1940.[b] A partir da segunda metade do século XX, acompanhando o fenômeno de urbanização experimentado pelo Brasil inteiro [/b]",
 		"position": {
 			"x": 563,
 			"y": 354
@@ -12,27 +12,27 @@
 	{
 		"title": "Oeiras_02 INfo",
 		"tags": "",
-		"body": "[b] O Museu foi criado para abrigar o acervo de\r\narte sacra e religiosa de Oeiras.[/b]",
+		"body": "[b]A Igreja Matriz de Nossa Senhora da Vitória fica em Oeiras e é templo primaz da primeira capital do Piauí.",
 		"position": {
-			"x": 802,
-			"y": 361
+			"x": 800,
+			"y": 362
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Oeiras_03 INfo",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "[b]Construção típica da arquitetura civil piauiense do início do século IXX. A casa perdeu dois cômodos da fachada principal e toda a fachada lateral.",
 		"position": {
 			"x": 1041,
-			"y": 360
+			"y": 359
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Oeiras_04 INfo",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Sofreu significativa alteração em seu formato em face do alargamento do conhecido beco de “Antônio Gentil”, em 1971.",
 		"position": {
 			"x": 562,
 			"y": 570
@@ -42,7 +42,7 @@
 	{
 		"title": "Oeiras_05 INfo",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "A casa perdeu dois cômodos da fachada principal e toda a fachada lateral.",
 		"position": {
 			"x": 805,
 			"y": 577
@@ -52,7 +52,7 @@
 	{
 		"title": "Oeiras_06 INfo",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "[b] Foi o primeiro templo regular do Piauí.[/b]",
 		"position": {
 			"x": 1049,
 			"y": 580
@@ -62,7 +62,7 @@
 	{
 		"title": "Oeiras_ 07 INfo",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Consta ter sido fundado pelo padre Miguel Carvalho em 1697 e concluído em 1733. Na origem teria sido um retângulo de 100 x 60 pés.",
 		"position": {
 			"x": 564,
 			"y": 789
@@ -72,7 +72,7 @@
 	{
 		"title": "Oeiras_08 INfo",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "[b]O Cine Teatro Oeiras foi inaugurado \nem Dezembro de 1940 durante o governo do Coronel Orlando Carvalho, prefeito da cidade.",
 		"position": {
 			"x": 807,
 			"y": 789
