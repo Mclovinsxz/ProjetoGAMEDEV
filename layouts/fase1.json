@@ -4757,6 +4757,10 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
     },

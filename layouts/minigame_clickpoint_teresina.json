@@ -5181,6 +5181,16 @@
         },
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Teresina\""
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -5193,7 +5203,7 @@
           },
           "parameters": [
             "",
-            "\"quiz_teresina\"",
+            "\"quiz_game\"",
             ""
           ]
         }
@@ -5264,6 +5274,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

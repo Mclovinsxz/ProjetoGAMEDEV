@@ -7464,31 +7464,37 @@
       "folded": true,
       "name": "teresina_concluida",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "folded": true,
       "name": "oeiras_concluida",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "folded": true,
       "name": "parnaiba_concluida",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "folded": true,
       "name": "camporMaior_concluida",
       "type": "boolean",
-      "value": false
+      "value": true
     },
     {
       "folded": true,
       "name": "srn_concluida",
       "type": "boolean",
-      "value": false
+      "value": true
+    },
+    {
+      "folded": true,
+      "name": "cidade_atual",
+      "type": "string",
+      "value": "Teresina"
     }
   ],
   "layouts": [
@@ -7530,7 +7536,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/quiz_teresina"
+      "referenceTo": "/layouts/quiz_game"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

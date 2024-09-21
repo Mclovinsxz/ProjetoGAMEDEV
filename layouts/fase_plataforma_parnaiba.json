@@ -17748,11 +17748,29 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Parnaíba\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"minigame_clickpoint_teresina\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
