@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.68462839166552,
+    "zoomFactor": 0.6846283916655267,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,9 +65,9 @@
       "name": "player",
       "persistentUuid": "44097a26-cfb7-45d1-93c8-46c5039f2457",
       "width": 112,
-      "x": 87,
-      "y": 905,
-      "zOrder": 129,
+      "x": 25,
+      "y": 776,
+      "zOrder": 133,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -81,9 +81,9 @@
       "layer": "",
       "name": "killzone",
       "persistentUuid": "05d9343f-7551-44d0-94ed-e64ada3f634b",
-      "width": 13499,
-      "x": 79,
-      "y": 1051,
+      "width": 8025,
+      "x": 139,
+      "y": 1054,
       "zOrder": -150,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,23 +119,6 @@
       "x": -50,
       "y": -223,
       "zOrder": -144,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "limite_baixo",
-      "persistentUuid": "e4928ad2-c330-4e08-bb0d-3783723a8369",
-      "width": 7774,
-      "x": 5568,
-      "y": 1058,
-      "zOrder": -142,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -535,8 +518,8 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "af0652ec-bea1-45b8-bcd9-85b7d53818d4",
-      "width": 142,
-      "x": 6893,
+      "width": 99,
+      "x": 6936,
       "y": 716,
       "zOrder": 113,
       "numberProperties": [],
@@ -781,9 +764,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "22f13498-d455-43cc-a276-c8fe6bea086e",
-      "width": 53,
-      "x": 4764,
-      "y": 861,
+      "width": 111,
+      "x": 4715,
+      "y": 780,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -983,8 +966,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "4ad34121-2ac1-4403-b48f-13b43ee3fcff",
       "width": 733,
-      "x": 4709,
-      "y": 1052,
+      "x": 4812,
+      "y": 1004,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1034,8 +1017,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "d69a4cc3-1a86-487f-b136-1f97ce05b03f",
       "width": 54,
-      "x": 5743,
-      "y": 904,
+      "x": 5793,
+      "y": 795,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1050,10 +1033,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "732450b8-c3af-4c37-92bd-cbeed3f96fab",
-      "width": 332,
-      "x": 7888,
-      "y": 717,
-      "zOrder": 113,
+      "width": 37,
+      "x": 9842,
+      "y": 736,
+      "zOrder": 132,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1120,23 +1103,6 @@
       "width": 0,
       "x": 11576,
       "y": 973,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "13f70f73-5f5b-4d44-883d-3adbaec184e3",
-      "width": 58,
-      "x": 11261,
-      "y": 620,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1225,55 +1191,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "a60996bb-20b9-4261-ad92-9652fd0352b3",
-      "width": 0,
-      "x": 11404,
-      "y": 669,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "041a033c-2c4c-4210-abc0-cac8b5f734cf",
-      "width": 0,
-      "x": 11413,
-      "y": 670,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "blocos_da_plataforma",
-      "persistentUuid": "1ef26d7a-0014-4c0b-a1fe-de062d14155a",
-      "width": 367,
-      "x": 7545,
-      "y": 942,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 64,
@@ -1281,91 +1198,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "dc2300bc-0a52-4abb-8551-b127bf7a0877",
-      "width": 623,
-      "x": 7545,
-      "y": 991,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece36",
-      "persistentUuid": "c8b841dd-e380-49b4-b3ae-d00f0c683bc9",
-      "width": 0,
-      "x": 7418,
-      "y": 940,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 66,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece37",
-      "persistentUuid": "0126cbb9-3bc3-4442-88b5-2c94218730bc",
-      "width": 64,
-      "x": 7482,
-      "y": 940,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 69,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "8083e9ed-4274-41ce-8fc5-005762fe3d67",
-      "width": 144,
-      "x": 7683,
-      "y": 886,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "53636c75-5a07-4b80-a013-7f246d596dc2",
-      "width": 0,
-      "x": 7729,
-      "y": 836,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "211e3c67-310d-4811-9be6-f9d9a7633970",
-      "width": 0,
-      "x": 7763,
-      "y": 836,
+      "width": 972,
+      "x": 9882,
+      "y": 968,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1514,9 +1349,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "c414f9fb-a073-4177-9ea7-67a51dbeae62",
-      "width": 623,
-      "x": 7545,
-      "y": 941,
+      "width": 225,
+      "x": 9881,
+      "y": 817,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1616,8 +1451,8 @@
       "name": "caixa_informações_3",
       "persistentUuid": "88b11a24-db48-48d4-997c-95fe880abe1f",
       "width": 71,
-      "x": 4820,
-      "y": 879,
+      "x": 4836,
+      "y": 778,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1644,64 +1479,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "3a0ab42c-ec18-42a9-aeb6-30c05ba4aa40",
-      "width": 71,
-      "x": 11276,
-      "y": 346,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece36",
-      "persistentUuid": "bd7ccce2-8fd3-419a-8f55-175f4fe57d58",
-      "width": 0,
-      "x": 7558,
-      "y": 887,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 66,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece37",
-      "persistentUuid": "01cc072f-7d44-404c-a228-4acf3ab2f41a",
-      "width": 64,
-      "x": 7622,
-      "y": 887,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 21,
+      "height": 37,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "9aa867ae-f073-41a6-8d45-33b6f5df2db9",
-      "width": 373,
-      "x": 4765,
-      "y": 860,
+      "width": 480,
+      "x": 4766,
+      "y": 744,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1716,8 +1501,8 @@
       "name": "TilesetPiece1",
       "persistentUuid": "0e3da394-5443-46a0-900d-4be9fc2d8c2d",
       "width": 0,
-      "x": 5130,
-      "y": 859,
+      "x": 5175,
+      "y": 781,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1732,8 +1517,8 @@
       "name": "TilesetPiece4",
       "persistentUuid": "43540d3d-f8f6-4c97-a42e-302c5d442824",
       "width": 0,
-      "x": 5139,
-      "y": 860,
+      "x": 5184,
+      "y": 782,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1845,8 +1630,8 @@
       "name": "Checkpoint_meio",
       "persistentUuid": "037052f8-d8de-497c-8733-92f069c1880d",
       "width": 79,
-      "x": 5270,
-      "y": 690,
+      "x": 5456,
+      "y": 700,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1861,9 +1646,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "341f6593-4114-4cce-8a90-24bd5d594f20",
-      "width": 113,
-      "x": 5381,
-      "y": 957,
+      "width": 85,
+      "x": 5488,
+      "y": 901,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1896,7 +1681,7 @@
       "name": "TilesetPiece3",
       "persistentUuid": "82268da6-efcc-4486-9cc9-5c8bf0f4252d",
       "width": 57,
-      "x": 6501,
+      "x": 6469,
       "y": 598,
       "zOrder": 113,
       "numberProperties": [],
@@ -1980,7 +1765,7 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "e194d102-ab62-45e1-ba7e-00eecc5c073f",
-      "width": 121,
+      "width": 106,
       "x": 6344,
       "y": 524,
       "zOrder": 113,
@@ -2066,8 +1851,8 @@
       "name": "caixa_informações_6",
       "persistentUuid": "8f31c934-6997-4429-9f9f-e2d6e9241e9e",
       "width": 90,
-      "x": 8972,
-      "y": 778,
+      "x": 8706,
+      "y": 516,
       "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
@@ -2083,8 +1868,8 @@
       "name": "caixa_informações_7",
       "persistentUuid": "91ef4d9a-265b-4b60-bf7a-f75423d05244",
       "width": 88,
-      "x": 10730,
-      "y": 806,
+      "x": 10872,
+      "y": 669,
       "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
@@ -2100,8 +1885,8 @@
       "name": "caixa_informações_8",
       "persistentUuid": "414700da-5896-4748-b69d-d59a5b704211",
       "width": 77,
-      "x": 11775,
-      "y": 726,
+      "x": 11886,
+      "y": 660,
       "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
@@ -2421,8 +2206,8 @@
       "name": "independencia_monumeto",
       "persistentUuid": "8b699189-368b-49bb-af28-c5765219e9bc",
       "width": 0,
-      "x": 4749,
-      "y": 191,
+      "x": 4770,
+      "y": 76,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2437,9 +2222,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "7d3ef5f7-ea53-4a73-95cf-41d90c85d55b",
-      "width": 115,
-      "x": 4701,
-      "y": 925,
+      "width": 390,
+      "x": 4436,
+      "y": 934,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2454,9 +2239,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "1d05e567-53c9-4b1f-a53a-4521562ed474",
-      "width": 334,
-      "x": 5258,
-      "y": 767,
+      "width": 69,
+      "x": 5448,
+      "y": 782,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2498,14 +2283,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 22,
+      "height": 35,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "251b89f7-fc47-48d5-807d-1b63943a8603",
       "width": 257,
-      "x": 4812,
-      "y": 1031,
+      "x": 4814,
+      "y": 975,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2521,8 +2306,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "f50bd30a-f614-4082-9a46-90bb0b12f450",
       "width": 160,
-      "x": 5129,
-      "y": 921,
+      "x": 5174,
+      "y": 843,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2538,8 +2323,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "a895071a-d3a8-484a-bf04-a407e000ee60",
       "width": 54,
-      "x": 5635,
-      "y": 963,
+      "x": 5664,
+      "y": 860,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2572,8 +2357,8 @@
       "name": "luis_correia_monumento",
       "persistentUuid": "2581e2c4-f387-499a-8e2d-b0695a6d3186",
       "width": 1345,
-      "x": 10074,
-      "y": 573,
+      "x": 10545,
+      "y": 576,
       "zOrder": 111,
       "numberProperties": [],
       "stringProperties": [],
@@ -2588,8 +2373,8 @@
       "name": "cerca",
       "persistentUuid": "a3644968-f205-4590-ba79-5e8ad9f09d2f",
       "width": 0,
-      "x": 8891,
-      "y": 916,
+      "x": 9312,
+      "y": 730,
       "zOrder": 120,
       "numberProperties": [],
       "stringProperties": [],
@@ -2636,8 +2421,8 @@
       "name": "cerca",
       "persistentUuid": "8b1f6e3a-6915-4256-a19a-225e22d61d6c",
       "width": 0,
-      "x": 8325,
-      "y": 916,
+      "x": 8175,
+      "y": 732,
       "zOrder": 120,
       "numberProperties": [],
       "stringProperties": [],
@@ -2652,26 +2437,10 @@
       "layer": "",
       "name": "WaterCaveBrightDesatSurface",
       "persistentUuid": "9b3ccf44-1a7d-4a42-aa91-b2fbad0ad101",
-      "width": 1199,
-      "x": 8316,
-      "y": 889,
-      "zOrder": 117,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Checkpoint_meio_2",
-      "persistentUuid": "e2848614-af61-40bc-9a78-627154593510",
-      "width": 0,
-      "x": 7753,
-      "y": 772,
-      "zOrder": 118,
+      "width": 1698,
+      "x": 8171,
+      "y": 1012,
+      "zOrder": 136,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2685,9 +2454,9 @@
       "layer": "",
       "name": "Tileset_areia",
       "persistentUuid": "eb48989d-0ed4-4277-ba8d-2b6beefb57e6",
-      "width": 3392,
-      "x": 8168,
-      "y": 992,
+      "width": 1827,
+      "x": 9874,
+      "y": 1030,
       "zOrder": 119,
       "numberProperties": [],
       "stringProperties": [],
@@ -2703,8 +2472,8 @@
       "name": "placa_identificação",
       "persistentUuid": "3b399884-b49d-473a-89d9-768d6568666d",
       "width": 244,
-      "x": 9943,
-      "y": 802,
+      "x": 10273,
+      "y": 699,
       "zOrder": 122,
       "numberProperties": [],
       "stringProperties": [],
@@ -2720,8 +2489,8 @@
       "name": "nome_lagoa_do_portinho",
       "persistentUuid": "87b8d427-356b-4943-a161-abad5dcac005",
       "width": 117,
-      "x": 8189,
-      "y": 834,
+      "x": 8259,
+      "y": 674,
       "zOrder": 123,
       "numberProperties": [],
       "stringProperties": [],
@@ -2737,8 +2506,8 @@
       "name": "placa_identificação",
       "persistentUuid": "89ca63fb-e778-4e0e-a981-771ae64bbb09",
       "width": 221,
-      "x": 8138,
-      "y": 778,
+      "x": 8211,
+      "y": 618,
       "zOrder": 122,
       "numberProperties": [],
       "stringProperties": [],
@@ -2753,8 +2522,8 @@
       "name": "nome_praia_de_atalaia",
       "persistentUuid": "80971b24-8bfa-434f-83fd-ae59eead2e09",
       "width": 0,
-      "x": 9995,
-      "y": 847,
+      "x": 10331,
+      "y": 749,
       "zOrder": 124,
       "numberProperties": [],
       "stringProperties": [],
@@ -2769,8 +2538,8 @@
       "name": "nome_luis_correia",
       "persistentUuid": "a4a4a9d3-8c99-4d0a-b7f2-03e24c2d6e8e",
       "width": 0,
-      "x": 9997,
-      "y": 868,
+      "x": 10333,
+      "y": 770,
       "zOrder": 125,
       "numberProperties": [],
       "stringProperties": [],
@@ -2785,8 +2554,8 @@
       "name": "placa_identificação",
       "persistentUuid": "b1374d79-6d0a-4afd-9f43-79fe1b084ce2",
       "width": 0,
-      "x": -32,
-      "y": 698,
+      "x": 1,
+      "y": 697,
       "zOrder": 126,
       "numberProperties": [],
       "stringProperties": [],
@@ -2801,8 +2570,8 @@
       "name": "texto_teatro",
       "persistentUuid": "9042585d-9d1c-4631-bb91-f684b666a93d",
       "width": 0,
-      "x": 77,
-      "y": 799,
+      "x": 110,
+      "y": 798,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -2829,14 +2598,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 145,
+      "height": 93,
       "keepRatio": true,
       "layer": "",
       "name": "torre_eolica_longe",
       "persistentUuid": "1ca28f43-46b9-4a8c-9230-fff829687c38",
-      "width": 87,
-      "x": 11467,
-      "y": 616,
+      "width": 56,
+      "x": 11457,
+      "y": 577,
       "zOrder": 128,
       "numberProperties": [],
       "stringProperties": [],
@@ -2885,10 +2654,10 @@
       "layer": "",
       "name": "limite_baixo",
       "persistentUuid": "2efd10aa-2aa9-4c2d-b869-6b6e46c761fd",
-      "width": 4755,
+      "width": 13240,
       "x": -20,
       "y": 1061,
-      "zOrder": -142,
+      "zOrder": 137,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2900,12 +2669,464 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "limite_baixo",
-      "persistentUuid": "1cb16e88-b93b-4d35-b830-d45135b8e656",
-      "width": 841,
-      "x": 4734,
-      "y": 1116,
-      "zOrder": -142,
+      "name": "TilesetPiece3",
+      "persistentUuid": "1787cf55-9ea9-4ee3-b279-e637822d377d",
+      "width": 212,
+      "x": 4613,
+      "y": 844,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "46e7e317-12c0-4de8-bd68-74c94d51e2a8",
+      "width": 309,
+      "x": 4517,
+      "y": 891,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 295,
+      "keepRatio": true,
+      "layer": "",
+      "name": "agua",
+      "persistentUuid": "7ca9bbdd-9b11-442d-8d14-a216c5c6cdd1",
+      "width": 1706,
+      "x": 8174,
+      "y": 813,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "a0860693-d164-4e74-95a5-5c27fe703348",
+      "width": 37,
+      "x": 8186,
+      "y": 737,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2f1a11bf-2122-4fd5-b876-506d5044d71d",
+      "width": 37,
+      "x": 9323,
+      "y": 739,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2b0f4d38-33f2-4030-99cb-cb95a203f3ed",
+      "width": 37,
+      "x": 9275,
+      "y": 739,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "killzone",
+      "persistentUuid": "6cc8d3f8-1d01-49c8-9d94-90a26183cdc8",
+      "width": 5687,
+      "x": 8042,
+      "y": 1041,
+      "zOrder": 134,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2f5161e9-5159-4bef-9697-95788a9bc635",
+      "width": 580,
+      "x": 9882,
+      "y": 929,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "9a5cfc64-2d7a-4c24-bb79-4f64d870f20c",
+      "width": 370,
+      "x": 9882,
+      "y": 869,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2feca8ed-ffe1-4b22-b5dd-878e5ddeebcf",
+      "width": 37,
+      "x": 9271,
+      "y": 738,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cerca",
+      "persistentUuid": "c8f52eab-7344-40ab-8e4f-10d1941828f1",
+      "width": 0,
+      "x": 8741,
+      "y": 732,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "41dea5b4-37ef-4c9c-956a-7c718547ba28",
+      "width": 37,
+      "x": 8752,
+      "y": 741,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "04294fd1-886c-40c0-96bc-e1c2886279ea",
+      "width": 37,
+      "x": 8704,
+      "y": 741,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "43f1104e-194f-416d-8139-efb0e68b3529",
+      "width": 620,
+      "x": 7553,
+      "y": 989,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece36",
+      "persistentUuid": "5ffc1a3c-e858-4901-a4c1-79a3b85b0f4b",
+      "width": 0,
+      "x": 7263,
+      "y": 910,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece37",
+      "persistentUuid": "964efbe2-51da-44cd-ba28-cd6228005d67",
+      "width": 64,
+      "x": 7327,
+      "y": 910,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "c9df6c71-1cd5-425e-a058-7b9a0aac7c78",
+      "width": 144,
+      "x": 7690,
+      "y": 800,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "1a525325-d967-4492-a25b-6be07ff03bee",
+      "width": 0,
+      "x": 7736,
+      "y": 750,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "687a82e7-985a-4377-b7d4-313023e1bc4a",
+      "width": 0,
+      "x": 7770,
+      "y": 750,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "0ee8eddf-7ed7-45a1-97ce-927b24dbd22a",
+      "width": 623,
+      "x": 7549,
+      "y": 853,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece36",
+      "persistentUuid": "e9e28592-4077-4a0a-8452-6e42a2e6cf94",
+      "width": 0,
+      "x": 7565,
+      "y": 801,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece37",
+      "persistentUuid": "83652b76-46a0-44d8-b4ef-fc20e44eac99",
+      "width": 64,
+      "x": 7629,
+      "y": 801,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Checkpoint_meio_2",
+      "persistentUuid": "0668521e-8c53-43ea-bc78-a746d7965bd4",
+      "width": 0,
+      "x": 7753,
+      "y": 772,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "b986ab3b-76e1-4be7-bb31-a84a14484c36",
+      "width": 476,
+      "x": 7696,
+      "y": 806,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "d21ba19d-8c42-4f3e-a0d6-1ba51c767618",
+      "width": 956,
+      "x": 7216,
+      "y": 949,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "7d750f24-9d66-4123-b1c6-f1a4042d7365",
+      "width": 782,
+      "x": 7390,
+      "y": 905,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece37",
+      "persistentUuid": "80a45e9a-ae5b-4a9d-91c9-06901c58a3d5",
+      "width": 64,
+      "x": 7489,
+      "y": 854,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece36",
+      "persistentUuid": "88ef09ff-04e2-4be2-96ce-d75c5061c7eb",
+      "width": 0,
+      "x": 7425,
+      "y": 854,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14436,6 +14657,174 @@
         "characterSize": 14,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "agua",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DynamicWaterBody",
+          "type": "DynamicWater::DynamicWaterBody",
+          "Tension": 0.025,
+          "Dampening": 0.025,
+          "Spread": 0.1,
+          "Columns": 50,
+          "Thickness": 8,
+          "SurfaceColor": "107;165;233",
+          "SufaceOpacity": 100,
+          "BodyColor": "74;144;226",
+          "BodyOpacity": 100,
+          "SurfaceSize": 1,
+          "WavePeriod": 0.1,
+          "WaveMagnitude": 8,
+          "WaveLength": 0.2,
+          "WaveDirection": "Right",
+          "AutoWave": true,
+          "ColorOfColumns": "255;255;255",
+          "ShowColumns": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "colisao_agua",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "agua_efeito",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     }
   ],
   "objectsFolderStructure": {
@@ -14692,6 +15081,15 @@
       },
       {
         "objectName": "WaterCaveBrightDesatSurface"
+      },
+      {
+        "objectName": "agua"
+      },
+      {
+        "objectName": "colisao_agua"
+      },
+      {
+        "objectName": "agua_efeito"
       }
     ]
   },
@@ -14950,7 +15348,7 @@
               "parameters": [
                 "player",
                 "=",
-                "100"
+                "10000"
               ]
             }
           ]
@@ -14998,7 +15396,7 @@
               "parameters": [
                 "player",
                 "=",
-                "100"
+                "100000"
               ]
             }
           ]
@@ -15337,6 +15735,16 @@
             "yes",
             "10",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "player",
+            "=",
+            "100000"
           ]
         }
       ]
@@ -15690,6 +16098,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "caixas coletadas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -16914,6 +17323,7 @@
       "parameters": []
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -17088,6 +17498,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -17452,6 +17863,179 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "agua interações",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "DynamicWater::DynamicWaterBody::WaterBodyAndCollision"
+          },
+          "parameters": [
+            "agua",
+            "DynamicWaterBody",
+            "agua_efeito",
+            "colisao_agua",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DynamicWater::DynamicWaterBody::CheckSurfaceCollisions"
+          },
+          "parameters": [
+            "agua",
+            "DynamicWaterBody",
+            "player",
+            "colisao_agua",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DynamicWater::DynamicWaterBody::AddForce"
+          },
+          "parameters": [
+            "agua",
+            "DynamicWaterBody",
+            "25",
+            "colisao_agua",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "agua",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::MaxFallingSpeed"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject",
+            "=",
+            "150",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedJump::AdvancedJump::SetAirJumpCountMaximum"
+          },
+          "parameters": [
+            "player",
+            "AdvancedJump",
+            "100000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "player",
+            "Animation",
+            "=",
+            "\"run\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "agua",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::MaxFallingSpeed"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject",
+            "=",
+            "700",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedJump::AdvancedJump::SetAirJumpCountMaximum"
+          },
+          "parameters": [
+            "player",
+            "AdvancedJump",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::JumpSpeed"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject",
+            "=",
+            "600"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -17535,8 +18119,16 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "DynamicWaterBody",
+      "type": "DynamicWater::DynamicWaterBody"
     },
     {
       "name": "Effect",

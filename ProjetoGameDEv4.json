@@ -6240,6 +6240,24 @@
         "name": "assets\\parnaiba\\placa bem vindo.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6691,6 +6709,18 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump",
+          "PlatformerBehavior": "PlatformerObject",
+          "CoyoteTimeFrameDuration": 0.25,
+          "CanCoyoteJump": false,
+          "WasInTheAir": false,
+          "AirJumpCountMaximum": 1,
+          "AreFloorJumpCountedAsAirJump": true,
+          "AirJumpCount": 0,
+          "WasJumpKeyReleased": false
+        },
         {
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
@@ -7534,6 +7564,14 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dynamicwater"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/arraytools"
