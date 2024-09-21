@@ -6266,6 +6266,35 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Informações Parnaiba.json\"}",
         "name": "Informações Parnaiba",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Resource Stone.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Resource Stone.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival/Rock/e0f0cf17914a5cfd9e30e3eab1b830eedcbd5bf344683f02743fa7c82867a0ae_Resource Stone.glb",
+          "name": "Resource Stone.glb"
+        }
       }
     ],
     "resourceFolders": []
@@ -7565,6 +7594,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame_escavacao_edit_miller"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/aquatico"
     }
   ],
   "externalEvents": [
