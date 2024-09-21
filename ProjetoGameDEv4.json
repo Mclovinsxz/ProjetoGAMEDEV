@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 213,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -5968,7 +5968,7 @@
         "alwaysLoaded": false,
         "file": "assets/minigame_escavacao/Sprite_Pedra.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/minigame_escavacao/Sprite_Pedra.png\",\"extension\":\".png\"}",
         "name": "assets/minigame_escavacao/Sprite_Pedra.png",
         "smoothed": false,
         "userAdded": false
@@ -6295,6 +6295,105 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival/Rock/e0f0cf17914a5cfd9e30e3eab1b830eedcbd5bf344683f02743fa7c82867a0ae_Resource Stone.glb",
           "name": "Resource Stone.glb"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_escavacao_Sprite_Pedra.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/minigame_escavacao/Sprite_Pedra",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/pegada_fossilizada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/pegada_fossilizada.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/femur_megafauna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/femur_megafauna.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Sprite_PeixeFossil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Sprite_PeixeFossil.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/lamina_silex.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/lamina_silex.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Sprite_PlantaFossil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Sprite_PlantaFossil.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/colar_de_ossos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/colar_de_ossos.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Pintura_Rupestre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Pintura_Rupestre.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/pintura_rupestre_capivara.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/pintura_rupestre_capivara.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/pintura_rupestre_4capvaras.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/pintura_rupestre_4capvaras.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_escavacao_Sprite_Pedra2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/minigame_escavacao/Sprite_Pedra2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7389,6 +7488,12 @@
       ]
     },
     {
+      "areaMaxX": 64,
+      "areaMaxY": 64,
+      "areaMaxZ": 64,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "Jogar_butão",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -7469,7 +7574,38 @@
           "topMargin": 32,
           "width": 256
         }
-      }
+      },
+      "instances": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {

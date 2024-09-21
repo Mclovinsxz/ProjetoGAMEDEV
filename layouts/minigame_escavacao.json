@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.662295566550691,
+    "zoomFactor": 0.7077142870147444,
     "windowMask": false
   },
   "objectsGroups": [
@@ -26,13 +26,40 @@
       "name": "Artefatos",
       "objects": [
         {
-          "name": "Caveira"
+          "name": "CranioAntigo"
         },
         {
-          "name": "Pedra"
+          "name": "FragmentoCeramica"
         },
         {
-          "name": "Pedra2"
+          "name": "PontaFlecha"
+        },
+        {
+          "name": "PegadaFossilizada"
+        },
+        {
+          "name": "FemurMegafauna"
+        },
+        {
+          "name": "FossilPeixe"
+        },
+        {
+          "name": "FossilPlanta"
+        },
+        {
+          "name": "LaminaSilex"
+        },
+        {
+          "name": "ColarOssos"
+        },
+        {
+          "name": "PinturaRupestre1"
+        },
+        {
+          "name": "PinturaRupestre2"
+        },
+        {
+          "name": "PinturaRupestre3"
         }
       ]
     },
@@ -137,11 +164,11 @@
       "height": 15,
       "keepRatio": true,
       "layer": "",
-      "name": "Caveira",
+      "name": "CranioAntigo",
       "persistentUuid": "1a4d245d-857d-48b0-b636-f5251840b129",
       "width": 15,
-      "x": 982,
-      "y": 572,
+      "x": 1136,
+      "y": 596,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,8 +216,8 @@
       "name": "TextoAcao",
       "persistentUuid": "135c8645-8550-4fde-8c0d-4d45db499347",
       "width": 0,
-      "x": 828,
-      "y": 484,
+      "x": 764,
+      "y": 510,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,8 +233,8 @@
       "name": "balao_texto",
       "persistentUuid": "45481e1e-417c-4997-b175-1a69abee9429",
       "width": 57,
-      "x": 823,
-      "y": 476,
+      "x": 759,
+      "y": 502,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,8 +249,8 @@
       "name": "TextoAcao",
       "persistentUuid": "9d2d8475-35af-4df3-833d-55f1ece819a2",
       "width": 0,
-      "x": 978,
-      "y": 560,
+      "x": 1132,
+      "y": 584,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -239,8 +266,8 @@
       "name": "balao_texto",
       "persistentUuid": "62b7fdc3-7d0a-4ec8-8bd6-08ca7e608745",
       "width": 57,
-      "x": 973,
-      "y": 552,
+      "x": 1127,
+      "y": 576,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -289,9 +316,9 @@
       "name": "ArtefatoEncontrado",
       "persistentUuid": "56baf2da-fc0d-42a5-a595-0377a19a7e15",
       "width": 39,
-      "x": 881,
-      "y": 614,
-      "zOrder": 15,
+      "x": 882,
+      "y": 616,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -336,7 +363,7 @@
       "height": 19,
       "keepRatio": true,
       "layer": "",
-      "name": "Pedra",
+      "name": "FragmentoCeramica",
       "persistentUuid": "33fc67dc-79f4-470e-bdd3-c40b910f0832",
       "width": 19,
       "x": 1043,
@@ -353,12 +380,462 @@
       "height": 25,
       "keepRatio": true,
       "layer": "",
-      "name": "Pedra2",
+      "name": "PontaFlecha",
       "persistentUuid": "46d0206c-8abc-41b5-92fb-d72bda6d7c5b",
       "width": 25,
-      "x": 827,
-      "y": 490,
+      "x": 763,
+      "y": 516,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 15,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ColarOssos",
+      "persistentUuid": "e6eb4214-99b3-4be9-82af-c96fd7261283",
+      "width": 15,
+      "x": 557,
+      "y": 331,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "59962415-7b1f-417a-ae2c-69f33d62d06b",
+      "width": 0,
+      "x": 550,
+      "y": 324,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "b2899ec3-a288-4981-bbc3-46d7343436dd",
+      "width": 57,
+      "x": 545,
+      "y": 316,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PegadaFossilizada",
+      "persistentUuid": "a9ac2ae6-5a5b-4739-9558-9a3c21a2d8b4",
+      "width": 16,
+      "x": 901,
+      "y": 771,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "16dd7ae6-f35a-48b9-b679-1716ab170abd",
+      "width": 0,
+      "x": 799,
+      "y": 1046,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "6dcf338d-72b3-43ec-9e86-a2f6dfa4a039",
+      "width": 57,
+      "x": 794,
+      "y": 1038,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 17,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FossilPeixe",
+      "persistentUuid": "1b650852-6d7a-47b4-9970-2d7d3efa1a3a",
+      "width": 17,
+      "x": 1396,
+      "y": 561,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "1d4c7483-c280-4ce1-a342-698e5592aa03",
+      "width": 0,
+      "x": 1389,
+      "y": 549,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "07d11c1c-03af-4f2d-b6b9-de08f9dcd8b9",
+      "width": 57,
+      "x": 1384,
+      "y": 541,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FossilPlanta",
+      "persistentUuid": "5fd13383-b829-42d0-aec2-3f474f3f620a",
+      "width": 21,
+      "x": 1268,
+      "y": 769,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "04710005-49fa-4953-8c8b-ad711b2e330e",
+      "width": 0,
+      "x": 1263,
+      "y": 759,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "8259e843-5a4b-480c-a441-5dc3da95c7e2",
+      "width": 57,
+      "x": 1257,
+      "y": 751,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LaminaSilex",
+      "persistentUuid": "f9128ec7-e999-492d-84cc-2349b64bf367",
+      "width": 16,
+      "x": 802,
+      "y": 1058,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "0725b1e0-03f9-4987-a1a5-2f7f842259c3",
+      "width": 0,
+      "x": 898,
+      "y": 759,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "a19f1d5c-f339-4269-8ad6-37ed031a2f5f",
+      "width": 57,
+      "x": 893,
+      "y": 751,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FemurMegafauna",
+      "persistentUuid": "bcd2434d-f8d2-4d06-b5de-f38232d9cf34",
+      "width": 21,
+      "x": 1454,
+      "y": 956,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "f5424a19-1761-4e7f-a288-62054fabcd8e",
+      "width": 57,
+      "x": 1440,
+      "y": 936,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "d5d3ba67-f260-42f5-8cb7-4235f0c16df1",
+      "width": 0,
+      "x": 1445,
+      "y": 944,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PinturaRupestre1",
+      "persistentUuid": "a500958e-ba57-417e-b0d3-16f53a30265e",
+      "width": 24,
+      "x": 1202,
+      "y": 1106,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "ab63634c-f243-45d5-8802-ed2e4975a338",
+      "width": 0,
+      "x": 1206,
+      "y": 1098,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "07c00f8d-98ff-41d8-add7-9896dc68026e",
+      "width": 57,
+      "x": 1199,
+      "y": 1090,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PinturaRupestre2",
+      "persistentUuid": "a1ce34f0-458c-4b8a-af8a-09be01c1895c",
+      "width": 18,
+      "x": 537,
+      "y": 704,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "95424558-8635-47f9-aab1-e71d426f4b97",
+      "width": 0,
+      "x": 541,
+      "y": 698,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "684089dd-1313-412a-8fec-a8459ffa824a",
+      "width": 57,
+      "x": 535,
+      "y": 690,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextoAcao",
+      "persistentUuid": "d2713b94-1381-40af-b1b9-d39d1a6d56f2",
+      "width": 0,
+      "x": 1172,
+      "y": 916,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "6c66a90f-cf4d-42d8-af7c-b7db4dc89e15",
+      "width": 57,
+      "x": 1167,
+      "y": 908,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PinturaRupestre3",
+      "persistentUuid": "c9ed6761-6234-4b37-869c-31a74c7a68d4",
+      "width": 16,
+      "x": 1177,
+      "y": 927,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1077,7 +1554,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Caveira",
+      "name": "CranioAntigo",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1287,7 +1764,343 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Caveira",
+          "name": "FemurMegafauna",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/femur_megafauna.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PinturaRupestre3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/pintura_rupestre_4capvaras.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PinturaRupestre2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/pintura_rupestre_capivara.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PinturaRupestre1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Pintura_Rupestre.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FossilPlanta",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_PlantaFossil.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FossilPeixe",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_PeixeFossil.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PegadaFossilizada",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/pegada_fossilizada.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CranioAntigo",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1312,20 +2125,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
-                        "y": 4
+                        "x": 0,
+                        "y": 7
                       },
                       {
-                        "x": 33,
-                        "y": 4
+                        "x": 32,
+                        "y": 7
                       },
                       {
-                        "x": 33,
-                        "y": 37
+                        "x": 32,
+                        "y": 25
                       },
                       {
-                        "x": 5,
-                        "y": 37
+                        "x": 0,
+                        "y": 25
                       }
                     ]
                   ]
@@ -1335,11 +2148,12 @@
           ]
         },
         {
-          "name": "Pedra",
+          "name": "FragmentoCeramica",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -1360,20 +2174,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
-                        "y": 4
+                        "x": 0,
+                        "y": 7
                       },
                       {
-                        "x": 33,
-                        "y": 4
+                        "x": 32,
+                        "y": 7
                       },
                       {
-                        "x": 33,
-                        "y": 37
+                        "x": 32,
+                        "y": 25
                       },
                       {
-                        "x": 5,
-                        "y": 37
+                        "x": 0,
+                        "y": 25
                       }
                     ]
                   ]
@@ -1383,7 +2197,7 @@
           ]
         },
         {
-          "name": "Pedra2",
+          "name": "PontaFlecha",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1408,20 +2222,116 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
-                        "y": 4
+                        "x": 0,
+                        "y": 7
                       },
                       {
-                        "x": 33,
-                        "y": 4
+                        "x": 32,
+                        "y": 7
                       },
                       {
-                        "x": 33,
-                        "y": 37
+                        "x": 32,
+                        "y": 25
                       },
                       {
-                        "x": 5,
-                        "y": 37
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LaminaSilex",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/lamina_silex.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ColarOssos",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/colar_de_ossos.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
                       }
                     ]
                   ]
@@ -1473,7 +2383,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Pedra",
+      "name": "FragmentoCeramica",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1481,16 +2391,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/minigame_escavacao/Sprite_Pedra",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/minigame_escavacao/Sprite_Pedra.png",
+                  "image": "assets/minigame_escavacao/Sprite_Pedra2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1510,16 +2421,16 @@
                         "y": 11
                       },
                       {
-                        "x": 53,
+                        "x": 47,
                         "y": 11
                       },
                       {
-                        "x": 53,
-                        "y": 54
+                        "x": 47,
+                        "y": 51
                       },
                       {
                         "x": 13,
-                        "y": 54
+                        "y": 51
                       }
                     ]
                   ]
@@ -1533,7 +2444,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Pedra2",
+      "name": "PontaFlecha",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1589,6 +2500,546 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PegadaFossilizada",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/pegada_fossilizada.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 30
+                      },
+                      {
+                        "x": 1,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FemurMegafauna",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/femur_megafauna.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FossilPeixe",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_PeixeFossil.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 7
+                      },
+                      {
+                        "x": 60,
+                        "y": 7
+                      },
+                      {
+                        "x": 60,
+                        "y": 59
+                      },
+                      {
+                        "x": 4,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LaminaSilex",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/lamina_silex.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 8
+                      },
+                      {
+                        "x": 27,
+                        "y": 26
+                      },
+                      {
+                        "x": 4,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FossilPlanta",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Sprite_PlantaFossil.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 52,
+                        "y": 9
+                      },
+                      {
+                        "x": 52,
+                        "y": 54
+                      },
+                      {
+                        "x": 9,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ColarOssos",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/colar_de_ossos.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 3,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PinturaRupestre1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/Pintura_Rupestre.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1318,
+                        "y": 0
+                      },
+                      {
+                        "x": 1318,
+                        "y": 672
+                      },
+                      {
+                        "x": 0,
+                        "y": 672
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PinturaRupestre2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/pintura_rupestre_capivara.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1044,
+                        "y": 0
+                      },
+                      {
+                        "x": 1044,
+                        "y": 752
+                      },
+                      {
+                        "x": 0,
+                        "y": 752
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PinturaRupestre3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/pintura_rupestre_4capvaras.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 550,
+                        "y": 0
+                      },
+                      {
+                        "x": 550,
+                        "y": 550
+                      },
+                      {
+                        "x": 0,
+                        "y": 550
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1604,13 +3055,13 @@
         "objectName": "ArtefatoEncontrado"
       },
       {
-        "objectName": "Caveira"
+        "objectName": "CranioAntigo"
       },
       {
-        "objectName": "Pedra"
+        "objectName": "FragmentoCeramica"
       },
       {
-        "objectName": "Pedra2"
+        "objectName": "PontaFlecha"
       },
       {
         "objectName": "detector"
@@ -1632,6 +3083,33 @@
       },
       {
         "objectName": "InfoArtefato"
+      },
+      {
+        "objectName": "PegadaFossilizada"
+      },
+      {
+        "objectName": "FemurMegafauna"
+      },
+      {
+        "objectName": "FossilPeixe"
+      },
+      {
+        "objectName": "LaminaSilex"
+      },
+      {
+        "objectName": "FossilPlanta"
+      },
+      {
+        "objectName": "ColarOssos"
+      },
+      {
+        "objectName": "PinturaRupestre1"
+      },
+      {
+        "objectName": "PinturaRupestre2"
+      },
+      {
+        "objectName": "PinturaRupestre3"
       }
     ]
   },
@@ -2288,6 +3766,28 @@
                 },
                 {
                   "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "ArtefatoEncontrado",
+                    "Resizable",
+                    "=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "ArtefatoEncontrado",
+                    "Resizable",
+                    "=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -2380,7 +3880,7 @@
           "parameters": [
             "artefatos_inspecionados",
             "=",
-            "3"
+            "12"
           ]
         }
       ],
