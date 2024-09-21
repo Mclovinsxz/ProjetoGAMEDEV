@@ -1,0 +1,82 @@
+[
+	{
+		"title": "01_info",
+		"tags": "",
+		"body": "[b]Parnaíba foi fundada em 1711[/b], sendo uma das cidades mais antigas do estado do Piauí.",
+		"position": {
+			"x": -649,
+			"y": -189
+		},
+		"colorID": 0
+	},
+	{
+		"title": "02_info",
+		"tags": "",
+		"body": "O [b]Porto das Barcas[/b] foi o principal ponto de escoamento de mercadorias, especialmente algodão, no século XIX.",
+		"position": {
+			"x": -430,
+			"y": -189
+		},
+		"colorID": 0
+	},
+	{
+		"title": "03_info",
+		"tags": "",
+		"body": "Independência do Piauí: Parnaíba foi uma das primeiras cidades piauienses a declarar apoio à independência do Brasil em 1822.",
+		"position": {
+			"x": -189,
+			"y": -191
+		},
+		"colorID": 0
+	},
+	{
+		"title": "04_info",
+		"tags": "",
+		"body": "Invasão Holandesa: Parnaíba sofreu tentativas de invasão por parte dos holandeses no século XVII.",
+		"position": {
+			"x": 24,
+			"y": -191
+		},
+		"colorID": 0
+	},
+	{
+		"title": "05_info",
+		"tags": "",
+		"body": "Elevação a Cidade: [b]Em 1844[/b], [b]Parnaíba foi elevada à categoria de cidade[/b], consolidando seu papel econômico e político no estado.",
+		"position": {
+			"x": -650,
+			"y": 19
+		},
+		"colorID": 0
+	},
+	{
+		"title": "06_info",
+		"tags": "",
+		"body": "A Lagoa do Portinho, localizada entre as cidades de Parnaíba e Luís Correia, é uma das principais atrações da região, famosa por sua beleza natural, sendo um ponto de visita para turistas que exploram o litoral piauiense.",
+		"position": {
+			"x": -421,
+			"y": 25
+		},
+		"colorID": 0
+	},
+	{
+		"title": "07_info",
+		"tags": "",
+		"body": "Luís Correia foi oficialmente fundado em 22 de agosto de 1961, a partir da emancipação de uma parte do município de Parnaíba.",
+		"position": {
+			"x": -196,
+			"y": 24
+		},
+		"colorID": 0
+	},
+	{
+		"title": "08_info",
+		"tags": "",
+		"body": "Parnaíba é a segunda maior e mais rica cidade do Piauí, e é conhecida como a \"[b]Capital do Delta[/b]\" por ser o portal de entrada para o Delta do Parnaíba, o único delta em mar aberto das Américas.",
+		"position": {
+			"x": 21,
+			"y": 29
+		},
+		"colorID": 0
+	}
+]

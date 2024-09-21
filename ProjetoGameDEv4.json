@@ -6258,6 +6258,14 @@
         "name": "NewSprite12",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Informações Parnaiba.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Informações Parnaiba.json\"}",
+        "name": "Informações Parnaiba",
+        "userAdded": true
       }
     ],
     "resourceFolders": []

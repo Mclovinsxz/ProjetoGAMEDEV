@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6846283916655267,
+    "zoomFactor": 0.236895637254508,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -15733,7 +15733,7 @@
             "assets\\sons\\Terra do Sol_tema.mp3",
             "1",
             "yes",
-            "10",
+            "50",
             "1"
           ]
         },
@@ -16126,7 +16126,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -16278,7 +16278,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -16430,7 +16430,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -16582,7 +16582,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -16734,7 +16734,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -16886,7 +16886,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -17038,7 +17038,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -17190,7 +17190,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -18114,7 +18114,7 @@
       "isLocked": false,
       "name": "background",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
