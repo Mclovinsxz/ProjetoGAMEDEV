@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2796226521839875,
+    "zoomFactor": 0.7562477198108671,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,8 +65,8 @@
       "name": "player",
       "persistentUuid": "44097a26-cfb7-45d1-93c8-46c5039f2457",
       "width": 112,
-      "x": 8049,
-      "y": 587,
+      "x": -3,
+      "y": 814,
       "zOrder": 133,
       "numberProperties": [],
       "stringProperties": [],
@@ -1316,8 +1316,8 @@
       "name": "caixa_informações_1",
       "persistentUuid": "65f37483-017f-499f-af4c-1c20e2eb8165",
       "width": 81,
-      "x": 961,
-      "y": 213,
+      "x": 990,
+      "y": 170,
       "zOrder": 99,
       "numberProperties": [],
       "stringProperties": [],
@@ -1630,9 +1630,9 @@
       "name": "Checkpoint_meio",
       "persistentUuid": "037052f8-d8de-497c-8733-92f069c1880d",
       "width": 79,
-      "x": 5456,
-      "y": 700,
-      "zOrder": 113,
+      "x": 4994,
+      "y": 668,
+      "zOrder": 138,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1851,8 +1851,8 @@
       "name": "caixa_informações_6",
       "persistentUuid": "8f31c934-6997-4429-9f9f-e2d6e9241e9e",
       "width": 90,
-      "x": 8706,
-      "y": 516,
+      "x": 8712,
+      "y": 475,
       "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
@@ -3040,8 +3040,8 @@
       "name": "Checkpoint_meio_2",
       "persistentUuid": "0668521e-8c53-43ea-bc78-a746d7965bd4",
       "width": 0,
-      "x": 7753,
-      "y": 772,
+      "x": 7759,
+      "y": 685,
       "zOrder": 118,
       "numberProperties": [],
       "stringProperties": [],
@@ -17460,7 +17460,7 @@
             "",
             "\"balao_info\"",
             ">=",
-            "5"
+            "tempo_informações_na_tela"
           ]
         }
       ],
@@ -17761,7 +17761,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
+                "1"
               ]
             },
             {

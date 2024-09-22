@@ -38,6 +38,15 @@
       "actions": [
         {
           "type": {
+            "value": "RemoveTimer"
+          },
+          "parameters": [
+            "",
+            "\"correta\""
+          ]
+        },
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -52,24 +61,6 @@
           "parameters": [
             "texto_personagem",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"tempo_texto_correto\""
-          ]
-        },
-        {
-          "type": {
-            "value": "UnPauseTimer"
-          },
-          "parameters": [
-            "",
-            "\"tempo_texto_correto\""
           ]
         },
         {
@@ -89,10 +80,43 @@
             "texto_resposta_alternativa",
             "Text"
           ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_personagem"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_resposta_alternativa"
+          ]
         }
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -103,7 +127,7 @@
             "",
             "\"tempo_texto_correto\"",
             ">=",
-            "6"
+            "10"
           ]
         },
         {
@@ -114,6 +138,24 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_texto_correto\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_texto_correto\""
+          ]
+        },
         {
           "type": {
             "value": "Cache"
@@ -141,6 +183,7 @@
       ],
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -212,6 +255,15 @@
       "actions": [
         {
           "type": {
+            "value": "RemoveTimer"
+          },
+          "parameters": [
+            "",
+            "\"incorreta\""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -219,24 +271,6 @@
             "Text",
             "=",
             "\"Tente novamente!\" + NewLine() + \"Resposta Errada\""
-          ]
-        },
-        {
-          "type": {
-            "value": "UnPauseTimer"
-          },
-          "parameters": [
-            "",
-            "\"tempo_texto\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"tempo_texto\""
           ]
         },
         {
@@ -265,10 +299,43 @@
             "texto_resposta_alternativa",
             "Text"
           ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_personagem"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_resposta_alternativa"
+          ]
         }
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -279,7 +346,7 @@
             "",
             "\"tempo_texto\"",
             ">=",
-            "2"
+            "5"
           ]
         },
         {
@@ -290,6 +357,24 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_texto\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_texto\""
+          ]
+        },
         {
           "type": {
             "value": "Cache"
