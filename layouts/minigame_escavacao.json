@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8926462115231252,
+    "zoomFactor": 1.2436836988381685,
     "windowMask": false
   },
   "objectsGroups": [
@@ -64,13 +64,13 @@
       ]
     },
     {
-      "name": "CaixaTextoAcao",
+      "name": "CaixaTextoConclusao",
       "objects": [
         {
-          "name": "balao_texto"
+          "name": "TextoFinal"
         },
         {
-          "name": "TextoAcao"
+          "name": "caixa_texto_final"
         }
       ]
     }
@@ -170,105 +170,6 @@
       "x": 1136,
       "y": 596,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "f41f4900-635f-4404-aefb-89ee0d3eb4e2",
-      "width": 57,
-      "x": 1036,
-      "y": 444,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "2ab831fc-96d1-4c79-a68c-c0cacf66c4b0",
-      "width": 0,
-      "x": 1041,
-      "y": 452,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "135c8645-8550-4fde-8c0d-4d45db499347",
-      "width": 0,
-      "x": 764,
-      "y": 510,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "45481e1e-417c-4997-b175-1a69abee9429",
-      "width": 57,
-      "x": 759,
-      "y": 502,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "9d2d8475-35af-4df3-833d-55f1ece819a2",
-      "width": 0,
-      "x": 1132,
-      "y": 584,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "62b7fdc3-7d0a-4ec8-8bd6-08ca7e608745",
-      "width": 57,
-      "x": 1127,
-      "y": 576,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -409,39 +310,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "59962415-7b1f-417a-ae2c-69f33d62d06b",
-      "width": 0,
-      "x": 550,
-      "y": 324,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "b2899ec3-a288-4981-bbc3-46d7343436dd",
-      "width": 57,
-      "x": 545,
-      "y": 316,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 16,
@@ -453,39 +321,6 @@
       "x": 901,
       "y": 771,
       "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "16dd7ae6-f35a-48b9-b679-1716ab170abd",
-      "width": 0,
-      "x": 799,
-      "y": 1046,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "6dcf338d-72b3-43ec-9e86-a2f6dfa4a039",
-      "width": 57,
-      "x": 794,
-      "y": 1038,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -509,39 +344,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "1d4c7483-c280-4ce1-a342-698e5592aa03",
-      "width": 0,
-      "x": 1389,
-      "y": 549,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "07d11c1c-03af-4f2d-b6b9-de08f9dcd8b9",
-      "width": 57,
-      "x": 1384,
-      "y": 541,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 21,
@@ -559,39 +361,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "04710005-49fa-4953-8c8b-ad711b2e330e",
-      "width": 0,
-      "x": 1263,
-      "y": 759,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "8259e843-5a4b-480c-a441-5dc3da95c7e2",
-      "width": 57,
-      "x": 1257,
-      "y": 751,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 16,
@@ -603,39 +372,6 @@
       "x": 802,
       "y": 1058,
       "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "0725b1e0-03f9-4987-a1a5-2f7f842259c3",
-      "width": 0,
-      "x": 898,
-      "y": 759,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "a19f1d5c-f339-4269-8ad6-37ed031a2f5f",
-      "width": 57,
-      "x": 893,
-      "y": 751,
-      "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -660,39 +396,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "f5424a19-1761-4e7f-a288-62054fabcd8e",
-      "width": 57,
-      "x": 1440,
-      "y": 936,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "d5d3ba67-f260-42f5-8cb7-4235f0c16df1",
-      "width": 0,
-      "x": 1445,
-      "y": 944,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 12,
       "keepRatio": true,
@@ -703,39 +406,6 @@
       "x": 1202,
       "y": 1106,
       "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "ab63634c-f243-45d5-8802-ed2e4975a338",
-      "width": 0,
-      "x": 1206,
-      "y": 1098,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "07c00f8d-98ff-41d8-add7-9896dc68026e",
-      "width": 57,
-      "x": 1199,
-      "y": 1090,
-      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -759,72 +429,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "95424558-8635-47f9-aab1-e71d426f4b97",
-      "width": 0,
-      "x": 541,
-      "y": 698,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "684089dd-1313-412a-8fec-a8459ffa824a",
-      "width": 57,
-      "x": 535,
-      "y": 690,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TextoAcao",
-      "persistentUuid": "d2713b94-1381-40af-b1b9-d39d1a6d56f2",
-      "width": 0,
-      "x": 1172,
-      "y": 916,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "balao_texto",
-      "persistentUuid": "6c66a90f-cf4d-42d8-af7c-b7db4dc89e15",
-      "width": 57,
-      "x": 1167,
-      "y": 908,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 16,
@@ -836,6 +440,244 @@
       "x": 1177,
       "y": 927,
       "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 34,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "3947c9c2-4d3a-40ea-b08b-f90e31968ea4",
+      "width": 81,
+      "x": 541,
+      "y": 307,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "abcaa4cb-fab9-4e19-a2d8-12e1355684f2",
+      "width": 57,
+      "x": 760,
+      "y": 504,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "80f74636-60b3-4fd8-a3ae-4beb15186e6e",
+      "width": 57,
+      "x": 1034,
+      "y": 447,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "f2b60969-5887-4f7b-a6aa-cd30336e9097",
+      "width": 57,
+      "x": 1126,
+      "y": 576,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "49ba5783-759f-40f4-b052-fd7d1e21b5cf",
+      "width": 57,
+      "x": 1386,
+      "y": 543,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "63c41b61-081c-44d4-8de2-562fba67aa08",
+      "width": 57,
+      "x": 1262,
+      "y": 751,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "5960ada0-ac52-4618-a33d-fca8415fef89",
+      "width": 57,
+      "x": 1445,
+      "y": 937,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "26cad033-28cd-4bcb-8de6-83439427ce36",
+      "width": 57,
+      "x": 1167,
+      "y": 904,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "6979b405-35a0-4bfd-9fae-c4edb97f1263",
+      "width": 57,
+      "x": 891,
+      "y": 751,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "5e24319a-24a3-43d4-b5cc-553a71ddf9b7",
+      "width": 57,
+      "x": 530,
+      "y": 686,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "35e65ce6-558b-4d9b-a554-eeacab67e02e",
+      "width": 57,
+      "x": 793,
+      "y": 1039,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BalaoAcao",
+      "persistentUuid": "792cc003-8392-46cc-83af-de0544209a15",
+      "width": 57,
+      "x": 1194,
+      "y": 1087,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "camada informações da cena",
+      "name": "caixa_texto_final",
+      "persistentUuid": "1acce343-df67-4d68-bd70-3d3b67540197",
+      "width": 370,
+      "x": 815,
+      "y": 504,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "camada informações da cena",
+      "name": "TextoFinal",
+      "persistentUuid": "644002ec-bc08-4cae-a631-3dde689f1fb9",
+      "width": 337,
+      "x": 832,
+      "y": 516,
+      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1691,25 +1533,6 @@
         "textAlignment": "left",
         "characterSize": 20,
         "color": "255;255;255"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "TextoAcao",
-      "type": "BitmapText::BitmapTextObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "Aperte i para inspecionar",
-        "opacity": 255,
-        "scale": 0.2,
-        "fontSize": 20,
-        "tint": "0;0;0",
-        "bitmapFontResourceName": "",
-        "textureAtlasResourceName": "",
-        "align": "left",
-        "wordWrap": true
       }
     },
     {
@@ -3040,6 +2863,107 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BalaoAcao",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/minigame_escavacao/balao_texto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 7
+                      },
+                      {
+                        "x": 821,
+                        "y": 345
+                      },
+                      {
+                        "x": 7,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TextoFinal",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Parabéns! Você encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de São Raimundo Nonato.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Parabéns! Você encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de São Raimundo Nonato.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3076,9 +3000,6 @@
         "objectName": "artefatos"
       },
       {
-        "objectName": "TextoAcao"
-      },
-      {
         "objectName": "NomeArtefato"
       },
       {
@@ -3110,6 +3031,12 @@
       },
       {
         "objectName": "PinturaRupestre3"
+      },
+      {
+        "objectName": "BalaoAcao"
+      },
+      {
+        "objectName": "TextoFinal"
       }
     ]
   },
@@ -3166,7 +3093,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "CaixaTextoAcao"
+            "BalaoAcao"
           ]
         },
         {
@@ -3216,6 +3143,36 @@
           "parameters": [
             "",
             "informacoes_artefatos"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "BalaoAcao",
+            "Resizable",
+            "=",
+            "81"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+          },
+          "parameters": [
+            "BalaoAcao",
+            "Resizable",
+            "=",
+            "34"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CaixaTextoConclusao"
           ]
         }
       ]
@@ -3592,18 +3549,7 @@
             "value": "PickNearest"
           },
           "parameters": [
-            "balao_texto",
-            "Player.X()",
-            "Player.Y()",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PickNearest"
-          },
-          "parameters": [
-            "TextoAcao",
+            "BalaoAcao",
             "Player.X()",
             "Player.Y()",
             ""
@@ -3616,16 +3562,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "balao_texto",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "TextoAcao",
+            "BalaoAcao",
             ""
           ]
         }
@@ -3848,7 +3785,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "CaixaTextoAcao"
+            "BalaoAcao"
           ]
         }
       ]
@@ -3865,7 +3802,7 @@
             "artefatos",
             "Text",
             "=",
-            "artefatos_inspecionados"
+            "artefatos_inspecionados + \"/\" + \"12\""
           ]
         }
       ]
@@ -3903,6 +3840,15 @@
             "menor_distancia",
             "=",
             "99999"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "CaixaTextoConclusao",
+            ""
           ]
         }
       ]
