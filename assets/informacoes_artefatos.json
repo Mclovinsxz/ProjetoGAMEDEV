@@ -1,8 +1,8 @@
 [
 	{
-		"title": "Caveira",
+		"title": "CranioAntigo",
 		"tags": "",
-		"body": "caveira",
+		"body": "Os restos de um dos primeiros habitantes desta regiao, oferecendo pistas sobre sua dieta e estilo de vida ha milhares de anos.",
 		"position": {
 			"x": 552,
 			"y": 350
@@ -10,9 +10,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Pedra",
+		"title": "FragmentoCeramica",
 		"tags": "",
-		"body": "pedra",
+		"body": "Parte de um vaso de ceramica utilizado por antigas tribos para armazenamento e cerimonias.",
 		"position": {
 			"x": 303,
 			"y": 349
@@ -20,12 +20,102 @@
 		"colorID": 0
 	},
 	{
-		"title": "Pedra2",
+		"title": "PontaFlecha",
 		"tags": "",
-		"body": "pedra2",
+		"body": "Uma ferramenta utilizada pelos cacadores antigos para capturar animais na vasta regiao.",
 		"position": {
 			"x": 801,
 			"y": 346
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LaminaSilex",
+		"tags": "",
+		"body": "Uma lamina feita de silex, usada para cortar e raspar. Essas ferramentas eram essenciais para a caca e sobrevivencia das antigas civilizacoes.",
+		"position": {
+			"x": 1035,
+			"y": 348
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FossilPlanta",
+		"tags": "",
+		"body": "Este fragmento fossilizado de planta oferece pistas sobre o clima e a flora da regiao ha milhares de anos.",
+		"position": {
+			"x": 302,
+			"y": 578
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FossilPeixe",
+		"tags": "",
+		"body": "Um peixe fossilizado, lembranca de que esta terra ja foi coberta por grandes rios e lagos.",
+		"position": {
+			"x": 555,
+			"y": 578
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FemurMegafauna",
+		"tags": "",
+		"body": "Um femur fossilizado de uma das grandes criaturas pre-historicas que habitavam a regiao, a preguica-gigante.",
+		"position": {
+			"x": 802,
+			"y": 581
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ColarOssos",
+		"tags": "",
+		"body": "Ornamento feito de ossos, usado em rituais e cerimonias tribais, simbolizando status ou conexao espiritual.",
+		"position": {
+			"x": 1040,
+			"y": 585
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PegadaFossilizada",
+		"tags": "",
+		"body": "Alguem pisou aqui ha milhares de anos atras.",
+		"position": {
+			"x": 300,
+			"y": 818
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PinturaRupestre1",
+		"tags": "",
+		"body": "Esta pintura retrata um grupo de animais da regiao.",
+		"position": {
+			"x": 558,
+			"y": 821
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PinturaRupestre3",
+		"tags": "",
+		"body": "Uma das iconicas representacoes rupestres da Serra da Capivara.",
+		"position": {
+			"x": 1044,
+			"y": 810
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PinturaRupestre2",
+		"tags": "",
+		"body": "Esta e uma das pinturas rupestres mais conhecidas da Serra da Capivara. Ela retrata uma mamae capivara e seu filhote.",
+		"position": {
+			"x": 803,
+			"y": 818
 		},
 		"colorID": 0
 	}

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25314140012989533,
+    "zoomFactor": 0.4163025217733874,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -13029,7 +13029,7 @@
             "assets\\sons\\Terra do Sol_tema.mp3",
             "1",
             "yes",
-            "10",
+            "50",
             "1"
           ]
         }
@@ -14744,7 +14744,7 @@
             "",
             "\"balao_info\"",
             ">=",
-            "5"
+            "tempo_informações_na_tela"
           ]
         }
       ],
@@ -15228,6 +15228,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

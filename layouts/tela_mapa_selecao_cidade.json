@@ -1748,11 +1748,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Teresina\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"pre_fase_teresina_plataforma\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
@@ -1775,11 +1785,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Oeiras\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"fase_plataforma_oeiras\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
@@ -1802,11 +1822,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Campo Maior\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"tela inicial\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
@@ -1829,11 +1859,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Parnaíba\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"introdução\"",
+                "\"fase_plataforma_parnaiba\"",
                 ""
               ]
             }
@@ -1856,11 +1896,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"São Raimundo Nonato\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"minigame_escavacao_edit_miller\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
@@ -1916,6 +1966,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

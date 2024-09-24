@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3526904934771706,
+    "zoomFactor": 0.7562477198108671,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,9 +65,9 @@
       "name": "player",
       "persistentUuid": "44097a26-cfb7-45d1-93c8-46c5039f2457",
       "width": 112,
-      "x": 87,
-      "y": 905,
-      "zOrder": 98,
+      "x": -3,
+      "y": 814,
+      "zOrder": 133,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -81,9 +81,9 @@
       "layer": "",
       "name": "killzone",
       "persistentUuid": "05d9343f-7551-44d0-94ed-e64ada3f634b",
-      "width": 9922,
-      "x": 59,
-      "y": 1051,
+      "width": 8025,
+      "x": 139,
+      "y": 1054,
       "zOrder": -150,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,7 +101,7 @@
       "width": 367,
       "x": 3283,
       "y": 984,
-      "zOrder": 96,
+      "zOrder": -197,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -127,31 +127,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "limite_baixo",
-      "persistentUuid": "e4928ad2-c330-4e08-bb0d-3783723a8369",
-      "width": 9928,
-      "x": -20,
-      "y": 1061,
-      "zOrder": -142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1367,
       "keepRatio": true,
       "layer": "",
       "name": "limite_direita",
       "persistentUuid": "b35001a3-4e72-4011-89ee-cfac312439da",
       "width": 64,
-      "x": 9851,
-      "y": -202,
+      "x": 13107,
+      "y": -187,
       "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
@@ -166,10 +149,10 @@
       "layer": "",
       "name": "limite_alto",
       "persistentUuid": "e90fa9e6-ee73-4af8-bb73-1b9823ad4d38",
-      "width": 9937,
+      "width": 13202,
       "x": -11,
       "y": -219,
-      "zOrder": 19,
+      "zOrder": 102,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -180,11 +163,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "TEATRO",
+      "name": "porto_nome_monumentos",
       "persistentUuid": "53245a46-b7e4-474a-b35d-7e81aad6a8a6",
       "width": 0,
-      "x": 1633,
-      "y": 639,
+      "x": 2633,
+      "y": 542,
       "zOrder": 97,
       "numberProperties": [],
       "stringProperties": [],
@@ -200,9 +183,9 @@
       "name": "Checkpoint_final",
       "persistentUuid": "c097addb-85cf-4c13-b51d-93d961edc0aa",
       "width": 122,
-      "x": 9083,
-      "y": 807,
-      "zOrder": 41,
+      "x": 12339,
+      "y": 822,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -216,7 +199,7 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "a518f238-360f-4498-8c7d-60c89bad33c4",
-      "width": 965,
+      "width": 1303,
       "x": -136,
       "y": 1001,
       "zOrder": 47,
@@ -228,14 +211,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 39,
+      "height": 59,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "74e88751-55d3-4444-b98f-837e731a9076",
       "width": 57,
-      "x": 868,
-      "y": 981,
+      "x": 315,
+      "y": 946,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -251,9 +234,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "84ed2c2f-d346-45d8-b582-f4bf5f7275e3",
       "width": 41,
-      "x": 3935,
-      "y": 668,
-      "zOrder": 48,
+      "x": 3995,
+      "y": -303,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -270,7 +253,7 @@
       "width": 1524,
       "x": 1627,
       "y": 982,
-      "zOrder": 96,
+      "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -284,10 +267,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "b5264fed-72a1-4e0d-bdd8-019b10a50cba",
-      "width": 106,
-      "x": 997,
-      "y": 971,
-      "zOrder": 48,
+      "width": 169,
+      "x": 1617,
+      "y": 746,
+      "zOrder": 105,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -302,8 +285,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "eaf269a6-1290-4c07-b0ee-ed60609bc5c9",
       "width": 275,
-      "x": 1166,
-      "y": 1006,
+      "x": 1167,
+      "y": 1002,
       "zOrder": 96,
       "numberProperties": [],
       "stringProperties": [],
@@ -335,8 +318,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "d0680b1d-c9d9-44ac-87e3-35b55d0f698d",
       "width": 71,
-      "x": 1489,
-      "y": 959,
+      "x": 1502,
+      "y": 956,
       "zOrder": 96,
       "numberProperties": [],
       "stringProperties": [],
@@ -355,23 +338,6 @@
       "x": 2099,
       "y": 846,
       "zOrder": 96,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "049ee640-2990-40d4-922e-7a50936c0c18",
-      "width": 80,
-      "x": 2238,
-      "y": 744,
-      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -403,9 +369,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "7f0910e9-2e4a-41eb-8e7d-9087046ad855",
       "width": 222,
-      "x": 4517,
-      "y": 208,
-      "zOrder": 48,
+      "x": 4577,
+      "y": -763,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -420,9 +386,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "0b20490f-f680-47ba-a99c-71b1bf50da2d",
       "width": 230,
-      "x": 5374,
-      "y": 634,
-      "zOrder": 48,
+      "x": 5419,
+      "y": 1365,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -437,9 +403,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "3c8a3bc9-aaf7-436c-8de3-275260ac00a8",
       "width": 1466,
-      "x": 8444,
-      "y": 1014,
-      "zOrder": 52,
+      "x": 11700,
+      "y": 1029,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -453,9 +419,9 @@
       "name": "TilesetPiece36",
       "persistentUuid": "d983e67c-66b2-4ecd-a447-c8cc1dfe80b8",
       "width": 0,
-      "x": 8445,
-      "y": 919,
-      "zOrder": 53,
+      "x": 11701,
+      "y": 934,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -470,9 +436,9 @@
       "name": "TilesetPiece37",
       "persistentUuid": "e31413ad-3be9-4ff7-a048-69878023a032",
       "width": 64,
-      "x": 8509,
-      "y": 919,
-      "zOrder": 54,
+      "x": 11765,
+      "y": 934,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -487,9 +453,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "8e19bfdb-31e0-4636-82ec-0b9a9f8bea47",
       "width": 144,
-      "x": 8570,
-      "y": 918,
-      "zOrder": 55,
+      "x": 11826,
+      "y": 933,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -536,9 +502,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "30687da7-c2b9-4122-b5db-2ea13d82a0ef",
       "width": 0,
-      "x": 4682,
-      "y": 950,
-      "zOrder": 96,
+      "x": 4691,
+      "y": 1258,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -552,10 +518,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "af0652ec-bea1-45b8-bcd9-85b7d53818d4",
-      "width": 142,
-      "x": 6893,
+      "width": 99,
+      "x": 6936,
       "y": 716,
-      "zOrder": 80,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -570,9 +536,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "ee5bae05-3067-442b-9049-890593cbd02e",
       "width": 45,
-      "x": 4804,
-      "y": 517,
-      "zOrder": 48,
+      "x": 4864,
+      "y": -454,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -586,9 +552,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "c8a70b5a-4eba-4851-a27e-a7537e9b2f1c",
       "width": 0,
-      "x": 8616,
-      "y": 868,
-      "zOrder": 56,
+      "x": 11872,
+      "y": 883,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -602,9 +568,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "1b212d69-5526-4311-9b10-3433a7305af1",
       "width": 0,
-      "x": 4674,
-      "y": 949,
-      "zOrder": 96,
+      "x": 4645,
+      "y": 1258,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -618,9 +584,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "81c521e4-e9b8-4528-b100-242beb6804ea",
       "width": 0,
-      "x": 8650,
-      "y": 868,
-      "zOrder": 58,
+      "x": 11906,
+      "y": 883,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -634,9 +600,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "85ca6741-ff45-4cf0-bc42-ee86f19df792",
       "width": 0,
-      "x": 4902,
-      "y": 936,
-      "zOrder": 56,
+      "x": 4885,
+      "y": 1224,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -650,9 +616,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "4f305514-2a7f-4415-8b32-c33fccc8f49e",
       "width": 0,
-      "x": 4931,
-      "y": 937,
-      "zOrder": 58,
+      "x": 4914,
+      "y": 1225,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -668,7 +634,7 @@
       "width": 0,
       "x": 4171,
       "y": 953,
-      "zOrder": 96,
+      "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -684,7 +650,7 @@
       "width": 0,
       "x": 4163,
       "y": 952,
-      "zOrder": 96,
+      "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -747,7 +713,7 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "d4914e03-a7db-4e9a-aa58-4884c39812db",
-      "width": 1214,
+      "width": 1034,
       "x": 3779,
       "y": 989,
       "zOrder": 52,
@@ -765,9 +731,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "5a58edeb-4348-43f8-879d-9058cd69e849",
       "width": 1196,
-      "x": 8615,
-      "y": 923,
-      "zOrder": 52,
+      "x": 11871,
+      "y": 938,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -782,9 +748,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "d8ac8546-cb3a-47ec-82a7-fea8d2b91071",
       "width": 78,
-      "x": 8304,
-      "y": 997,
-      "zOrder": 59,
+      "x": 11560,
+      "y": 1012,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -798,10 +764,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "22f13498-d455-43cc-a276-c8fe6bea086e",
-      "width": 722,
-      "x": 5058,
-      "y": 989,
-      "zOrder": 52,
+      "width": 111,
+      "x": 4715,
+      "y": 780,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -818,7 +784,7 @@
       "width": 1631,
       "x": 6027,
       "y": 990,
-      "zOrder": 76,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -833,9 +799,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "ec022368-a6c8-4e7e-9705-cb5777f0cfd2",
       "width": 1467,
-      "x": 8444,
-      "y": 972,
-      "zOrder": 52,
+      "x": 11700,
+      "y": 987,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -850,25 +816,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "1a960e36-bee5-499f-a497-1282a621a46a",
       "width": 1287,
-      "x": 8625,
-      "y": 918,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "a243f443-3d1e-4670-b8f7-072c6130c957",
-      "width": 0,
-      "x": 8162,
-      "y": 990,
-      "zOrder": 61,
+      "x": 11881,
+      "y": 933,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -964,10 +914,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "fcddc2b9-5cd9-41ad-8f26-85ec63a36fd0",
-      "width": 127,
-      "x": 2864,
-      "y": 859,
-      "zOrder": 96,
+      "width": 466,
+      "x": 2459,
+      "y": 508,
+      "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -982,9 +932,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "0a1369ac-9ffb-45ca-b81a-53cea61abf10",
       "width": 127,
-      "x": 2664,
-      "y": 728,
-      "zOrder": 48,
+      "x": 3158,
+      "y": 893,
+      "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1010,15 +960,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 22,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "4ad34121-2ac1-4403-b48f-13b43ee3fcff",
-      "width": 74,
-      "x": 4916,
-      "y": 879,
-      "zOrder": 48,
+      "width": 733,
+      "x": 4812,
+      "y": 1004,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1033,9 +983,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "05ba75d6-a1b2-4f1c-836b-993ce88f59c9",
       "width": 450,
-      "x": 4230,
-      "y": 640,
-      "zOrder": 48,
+      "x": 4290,
+      "y": -331,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1050,9 +1000,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "badf3ace-1a59-476f-9728-0e79cdee5a07",
       "width": 516,
-      "x": 3916,
-      "y": 259,
-      "zOrder": 48,
+      "x": 3976,
+      "y": -712,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1067,9 +1017,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "d69a4cc3-1a86-487f-b136-1f97ce05b03f",
       "width": 54,
-      "x": 5040,
+      "x": 5793,
       "y": 795,
-      "zOrder": 48,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1083,10 +1033,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "732450b8-c3af-4c37-92bd-cbeed3f96fab",
-      "width": 332,
-      "x": 7888,
-      "y": 717,
-      "zOrder": 48,
+      "width": 37,
+      "x": 9842,
+      "y": 736,
+      "zOrder": 132,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1101,9 +1051,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "a6d5e1f9-0083-4ac0-b140-a64d87a0b08a",
       "width": 278,
-      "x": 4714,
-      "y": 312,
-      "zOrder": 48,
+      "x": 4774,
+      "y": -659,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1118,9 +1068,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "db4fa487-5ffc-4930-b6c5-f7d391c41e0e",
       "width": 159,
-      "x": 5023,
-      "y": 456,
-      "zOrder": 48,
+      "x": 5083,
+      "y": -515,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1135,9 +1085,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "bbcc53ee-b101-4a15-8dd5-c6814765b259",
       "width": 49,
-      "x": 8302,
-      "y": 958,
-      "zOrder": 60,
+      "x": 11558,
+      "y": 973,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1151,26 +1101,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "678f3e1f-38fc-4b16-ab56-08a37d54973b",
       "width": 0,
-      "x": 8320,
-      "y": 958,
-      "zOrder": 61,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "13f70f73-5f5b-4d44-883d-3adbaec184e3",
-      "width": 58,
-      "x": 8005,
-      "y": 605,
-      "zOrder": 48,
+      "x": 11576,
+      "y": 973,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1185,9 +1118,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "31fbc878-6695-4984-b2d9-9c4e93d2a516",
       "width": 74,
-      "x": 5227,
-      "y": 540,
-      "zOrder": 48,
+      "x": 5287,
+      "y": -431,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1201,9 +1134,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "0ccbabe7-27fc-420b-b3de-e90549346e2a",
       "width": 0,
-      "x": 5064,
-      "y": 417,
-      "zOrder": 61,
+      "x": 5124,
+      "y": -554,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1217,9 +1150,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "a9104db2-f371-4d30-8a53-0fd06452d615",
       "width": 0,
-      "x": 5055,
-      "y": 416,
-      "zOrder": 60,
+      "x": 5115,
+      "y": -555,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1235,7 +1168,7 @@
       "width": 0,
       "x": 5862,
       "y": 993,
-      "zOrder": 60,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1251,56 +1184,7 @@
       "width": 0,
       "x": 5878,
       "y": 994,
-      "zOrder": 61,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "a60996bb-20b9-4261-ad92-9652fd0352b3",
-      "width": 0,
-      "x": 8148,
-      "y": 654,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "041a033c-2c4c-4210-abc0-cac8b5f734cf",
-      "width": 0,
-      "x": 8157,
-      "y": 655,
-      "zOrder": 61,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "blocos_da_plataforma",
-      "persistentUuid": "1ef26d7a-0014-4c0b-a1fe-de062d14155a",
-      "width": 367,
-      "x": 7545,
-      "y": 942,
-      "zOrder": -167,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1314,92 +1198,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "dc2300bc-0a52-4abb-8551-b127bf7a0877",
-      "width": 623,
-      "x": 7545,
-      "y": 991,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece36",
-      "persistentUuid": "c8b841dd-e380-49b4-b3ae-d00f0c683bc9",
-      "width": 0,
-      "x": 7418,
-      "y": 940,
-      "zOrder": 78,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 66,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece37",
-      "persistentUuid": "0126cbb9-3bc3-4442-88b5-2c94218730bc",
-      "width": 64,
-      "x": 7482,
-      "y": 940,
-      "zOrder": 77,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 69,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "8083e9ed-4274-41ce-8fc5-005762fe3d67",
-      "width": 144,
-      "x": 7683,
-      "y": 886,
-      "zOrder": 77,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "53636c75-5a07-4b80-a013-7f246d596dc2",
-      "width": 0,
-      "x": 7729,
-      "y": 836,
-      "zOrder": 77,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "211e3c67-310d-4811-9be6-f9d9a7633970",
-      "width": 0,
-      "x": 7763,
-      "y": 836,
-      "zOrder": 77,
+      "width": 972,
+      "x": 9882,
+      "y": 968,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1416,7 +1218,7 @@
       "width": 442,
       "x": 7563,
       "y": 500,
-      "zOrder": 48,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1432,7 +1234,7 @@
       "width": 0,
       "x": 7860,
       "y": 437,
-      "zOrder": 60,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1448,7 +1250,7 @@
       "width": 0,
       "x": 7869,
       "y": 438,
-      "zOrder": 61,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1463,9 +1265,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "7a0920ec-2570-4aab-82f0-fe538b626a50",
       "width": 237,
-      "x": 4738,
-      "y": 642,
-      "zOrder": 48,
+      "x": 4798,
+      "y": -329,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1514,8 +1316,8 @@
       "name": "caixa_informações_1",
       "persistentUuid": "65f37483-017f-499f-af4c-1c20e2eb8165",
       "width": 81,
-      "x": 1699,
-      "y": 737,
+      "x": 990,
+      "y": 170,
       "zOrder": 99,
       "numberProperties": [],
       "stringProperties": [],
@@ -1547,10 +1349,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "c414f9fb-a073-4177-9ea7-67a51dbeae62",
-      "width": 623,
-      "x": 7545,
-      "y": 941,
-      "zOrder": 77,
+      "width": 225,
+      "x": 9881,
+      "y": 817,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1598,9 +1400,9 @@
       "name": "caixa_informações_2",
       "persistentUuid": "9b64552f-78f2-4ce2-b00f-9575117158c5",
       "width": 81,
-      "x": 2589,
-      "y": 312,
-      "zOrder": 71,
+      "x": 2661,
+      "y": 298,
+      "zOrder": 102,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1617,7 +1419,7 @@
       "width": 58,
       "x": 4052,
       "y": 794,
-      "zOrder": 96,
+      "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1632,9 +1434,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "79c4314f-bde2-4812-86e1-2a0cac3000e6",
       "width": 291,
-      "x": 4296,
-      "y": 394,
-      "zOrder": 48,
+      "x": 4356,
+      "y": -577,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1649,9 +1451,9 @@
       "name": "caixa_informações_3",
       "persistentUuid": "88b11a24-db48-48d4-997c-95fe880abe1f",
       "width": 71,
-      "x": 3799,
-      "y": 530,
-      "zOrder": 72,
+      "x": 4836,
+      "y": 778,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1666,9 +1468,9 @@
       "name": "caixa_informações_4",
       "persistentUuid": "f2df8561-df9c-40fd-9702-818f376dd7e9",
       "width": 79,
-      "x": 4415,
-      "y": 223,
-      "zOrder": 73,
+      "x": 6303,
+      "y": 616,
+      "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1677,65 +1479,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "3a0ab42c-ec18-42a9-aeb6-30c05ba4aa40",
-      "width": 71,
-      "x": 8020,
-      "y": 331,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece36",
-      "persistentUuid": "bd7ccce2-8fd3-419a-8f55-175f4fe57d58",
-      "width": 0,
-      "x": 7558,
-      "y": 887,
-      "zOrder": 77,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 66,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece37",
-      "persistentUuid": "01cc072f-7d44-404c-a228-4acf3ab2f41a",
-      "width": 64,
-      "x": 7622,
-      "y": 887,
-      "zOrder": 77,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "height": 37,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "9aa867ae-f073-41a6-8d45-33b6f5df2db9",
-      "width": 723,
-      "x": 5057,
-      "y": 942,
-      "zOrder": 52,
+      "width": 480,
+      "x": 4766,
+      "y": 744,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1749,9 +1501,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "0e3da394-5443-46a0-900d-4be9fc2d8c2d",
       "width": 0,
-      "x": 5473,
-      "y": 593,
-      "zOrder": 60,
+      "x": 5175,
+      "y": 781,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1765,9 +1517,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "43540d3d-f8f6-4c97-a42e-302c5d442824",
       "width": 0,
-      "x": 5482,
-      "y": 594,
-      "zOrder": 61,
+      "x": 5184,
+      "y": 782,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1781,9 +1533,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "939b5310-c206-43f6-a029-015b8ede2edd",
       "width": 0,
-      "x": 6068,
-      "y": 929,
-      "zOrder": 75,
+      "x": 6251,
+      "y": 926,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1797,9 +1549,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "3a095875-8a62-46c6-b79b-4a66c70bbf93",
       "width": 0,
-      "x": 6026,
-      "y": 929,
-      "zOrder": 75,
+      "x": 6231,
+      "y": 926,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1815,7 +1567,7 @@
       "width": 0,
       "x": 5877,
       "y": 952,
-      "zOrder": 61,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1831,7 +1583,7 @@
       "width": 0,
       "x": 5861,
       "y": 951,
-      "zOrder": 60,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1847,7 +1599,7 @@
       "width": 0,
       "x": 5877,
       "y": 917,
-      "zOrder": 75,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1863,7 +1615,7 @@
       "width": 0,
       "x": 5861,
       "y": 916,
-      "zOrder": 75,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1878,9 +1630,9 @@
       "name": "Checkpoint_meio",
       "persistentUuid": "037052f8-d8de-497c-8733-92f069c1880d",
       "width": 79,
-      "x": 4486,
-      "y": 913,
-      "zOrder": 96,
+      "x": 4994,
+      "y": 668,
+      "zOrder": 138,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1894,10 +1646,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "341f6593-4114-4cce-8a90-24bd5d594f20",
-      "width": 561,
-      "x": 5146,
-      "y": 716,
-      "zOrder": 48,
+      "width": 85,
+      "x": 5488,
+      "y": 901,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1911,10 +1663,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "93394aae-e153-46a7-99d7-c1ad10ab2027",
-      "width": 328,
-      "x": 6756,
-      "y": 879,
-      "zOrder": 80,
+      "width": 165,
+      "x": 6726,
+      "y": 820,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1928,10 +1680,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "82268da6-efcc-4486-9cc9-5c8bf0f4252d",
-      "width": 86,
-      "x": 6259,
-      "y": 589,
-      "zOrder": 80,
+      "width": 57,
+      "x": 6469,
+      "y": 598,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1945,10 +1697,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "ae402c32-bea3-4349-889c-71fe51fc1f02",
-      "width": 133,
-      "x": 6364,
-      "y": 715,
-      "zOrder": 80,
+      "width": 96,
+      "x": 6505,
+      "y": 751,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1962,10 +1714,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "4e7e37dc-14ac-4908-bd8f-4dd07516ee1c",
-      "width": 300,
-      "x": 6548,
-      "y": 374,
-      "zOrder": 80,
+      "width": 199,
+      "x": 6718,
+      "y": 523,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1979,10 +1731,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "a0268921-70fa-4a61-8693-6593b8db0520",
-      "width": 313,
-      "x": 6309,
-      "y": 877,
-      "zOrder": 80,
+      "width": 81,
+      "x": 6368,
+      "y": 833,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1996,27 +1748,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "db50b76c-d340-4519-983a-2086e114b52c",
-      "width": 131,
-      "x": 6651,
-      "y": 773,
-      "zOrder": 80,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 12,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "f84a3ee1-d012-4661-9dc6-fd6fc7489948",
       "width": 60,
-      "x": 6428,
-      "y": 269,
-      "zOrder": 80,
+      "x": 6641,
+      "y": 675,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2030,10 +1765,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "e194d102-ab62-45e1-ba7e-00eecc5c073f",
-      "width": 60,
-      "x": 6409,
-      "y": 479,
-      "zOrder": 80,
+      "width": 106,
+      "x": 6344,
+      "y": 524,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2048,9 +1783,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "eec20685-ce54-4ade-823a-3a03ab358b0a",
       "width": 84,
-      "x": 6271,
-      "y": 374,
-      "zOrder": 80,
+      "x": 6578,
+      "y": 426,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2082,9 +1817,9 @@
       "name": "fundo_efeito",
       "persistentUuid": "226ae6db-5498-42f5-a3eb-071c3aa1ad91",
       "width": 10347,
-      "x": -56,
-      "y": -280,
-      "zOrder": -196,
+      "x": -855,
+      "y": 1461,
+      "zOrder": -198,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2099,9 +1834,9 @@
       "name": "caixa_informações_5",
       "persistentUuid": "fefa2f14-f3c7-4d10-b91f-64df978e0abb",
       "width": 89,
-      "x": 5632,
-      "y": 436,
-      "zOrder": 84,
+      "x": 6769,
+      "y": 285,
+      "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2116,9 +1851,9 @@
       "name": "caixa_informações_6",
       "persistentUuid": "8f31c934-6997-4429-9f9f-e2d6e9241e9e",
       "width": 90,
-      "x": 6746,
-      "y": 564,
-      "zOrder": 85,
+      "x": 8712,
+      "y": 475,
+      "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2133,9 +1868,9 @@
       "name": "caixa_informações_7",
       "persistentUuid": "91ef4d9a-265b-4b60-bf7a-f75423d05244",
       "width": 88,
-      "x": 6522,
-      "y": 134,
-      "zOrder": 86,
+      "x": 10872,
+      "y": 669,
+      "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2150,9 +1885,9 @@
       "name": "caixa_informações_8",
       "persistentUuid": "414700da-5896-4748-b69d-d59a5b704211",
       "width": 77,
-      "x": 8042,
-      "y": 151,
-      "zOrder": 87,
+      "x": 11886,
+      "y": 660,
+      "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2167,9 +1902,9 @@
       "name": "balao_texto",
       "persistentUuid": "d5b1da3a-ecb7-4707-a26d-f9f54aecbfe3",
       "width": 358,
-      "x": 9061,
-      "y": 688,
-      "zOrder": 89,
+      "x": 12317,
+      "y": 703,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2184,9 +1919,9 @@
       "name": "text_checkpoint_final",
       "persistentUuid": "21750cfb-6fb7-4a94-b87b-e507430cf2e3",
       "width": 295,
-      "x": 9085,
-      "y": 706,
-      "zOrder": 90,
+      "x": 12341,
+      "y": 721,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2195,14 +1930,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 634,
+      "height": 675,
       "keepRatio": true,
       "layer": "",
       "name": "torre_eolica",
       "persistentUuid": "19a7761f-1c46-4c4a-9ce0-321f7b11a15a",
-      "width": 380,
-      "x": 911,
-      "y": 326,
+      "width": 405,
+      "x": 2013,
+      "y": 127,
       "zOrder": 91,
       "numberProperties": [],
       "stringProperties": [],
@@ -2217,10 +1952,10 @@
       "layer": "",
       "name": "DesertBackground2",
       "persistentUuid": "411138f2-da37-40e4-a5d5-492cc349c060",
-      "width": 11651,
+      "width": 13562,
       "x": -461,
       "y": 126,
-      "zOrder": -195,
+      "zOrder": -199,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2269,9 +2004,1129 @@
       "name": "porto",
       "persistentUuid": "9b94c12a-6aa7-4186-b2e8-f408c930d8b7",
       "width": 3128,
-      "x": 1146,
-      "y": 225,
+      "x": 1149,
+      "y": 223,
       "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "porto_nome_monumentos2",
+      "persistentUuid": "bfffc9cf-999c-4153-8706-82081849fc83",
+      "width": 0,
+      "x": 2624,
+      "y": 621,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "59b95e26-aa9c-4bb7-b425-600509902128",
+      "width": 127,
+      "x": 2976,
+      "y": 780,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "1037520d-f3c6-479e-8f57-626a44aa0d9f",
+      "width": 95,
+      "x": 2931,
+      "y": 594,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 1173,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FEDERAÇÃO_COMERCIO",
+      "persistentUuid": "e9dc11f9-f3f6-4665-ac53-1a93dfadf047",
+      "width": 1089,
+      "x": 487,
+      "y": -159,
+      "zOrder": -198,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 28,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "b719c579-0b31-4467-b753-475103b79d30",
+      "width": 106,
+      "x": 453,
+      "y": 821,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 28,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "8613cc3e-23ff-4219-b134-9ed266217dc9",
+      "width": 106,
+      "x": 665,
+      "y": 739,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 28,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "500b9fc9-384a-4ea6-8a39-46bd1340f279",
+      "width": 106,
+      "x": 850,
+      "y": 623,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 28,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "669ee683-c146-4dde-b9c8-43e4f5fa0619",
+      "width": 106,
+      "x": 631,
+      "y": 506,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 285,
+      "keepRatio": true,
+      "layer": "",
+      "name": "porto_nome_monumentos3",
+      "persistentUuid": "c60c9a61-69ed-4611-af26-59408c63f754",
+      "width": 520,
+      "x": 767,
+      "y": 408,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 28,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "e5e2fb59-5938-4ec4-8078-9b2cbf341883",
+      "width": 352,
+      "x": 839,
+      "y": 375,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 28,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "387384e6-403a-47cc-82ea-6a9165d8b447",
+      "width": 293,
+      "x": 1192,
+      "y": 637,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "independencia_monumeto",
+      "persistentUuid": "8b699189-368b-49bb-af28-c5765219e9bc",
+      "width": 0,
+      "x": 4770,
+      "y": 76,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "7d3ef5f7-ea53-4a73-95cf-41d90c85d55b",
+      "width": 390,
+      "x": 4436,
+      "y": 934,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "1d05e567-53c9-4b1f-a53a-4521562ed474",
+      "width": 69,
+      "x": 5448,
+      "y": 782,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "0b9f3529-f5cf-42e3-bfe1-c9122371db8e",
+      "width": 0,
+      "x": 5488,
+      "y": 1322,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "92212646-4c18-4809-b97d-4faebe77f31b",
+      "width": 0,
+      "x": 5527,
+      "y": 1325,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 35,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "251b89f7-fc47-48d5-807d-1b63943a8603",
+      "width": 257,
+      "x": 4814,
+      "y": 975,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "f50bd30a-f614-4082-9a46-90bb0b12f450",
+      "width": 160,
+      "x": 5174,
+      "y": 843,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 19,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "a895071a-d3a8-484a-bf04-a407e000ee60",
+      "width": 54,
+      "x": 5664,
+      "y": 860,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 953,
+      "keepRatio": true,
+      "layer": "",
+      "name": "catedral_monumento",
+      "persistentUuid": "d6ab473e-6212-45cb-bc11-2a6b59f5afff",
+      "width": 953,
+      "x": 5993,
+      "y": 69,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 334,
+      "keepRatio": true,
+      "layer": "",
+      "name": "luis_correia_monumento",
+      "persistentUuid": "2581e2c4-f387-499a-8e2d-b0695a6d3186",
+      "width": 1345,
+      "x": 10545,
+      "y": 576,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cerca",
+      "persistentUuid": "a3644968-f205-4590-ba79-5e8ad9f09d2f",
+      "width": 0,
+      "x": 9312,
+      "y": 730,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "06ffce9c-9413-4f3e-a6a6-1abdfe136b6f",
+      "width": 0,
+      "x": 6068,
+      "y": 929,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "f151f502-08b1-4937-993e-b7efd2968181",
+      "width": 0,
+      "x": 6026,
+      "y": 929,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cerca",
+      "persistentUuid": "8b1f6e3a-6915-4256-a19a-225e22d61d6c",
+      "width": 0,
+      "x": 8175,
+      "y": 732,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 83,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WaterCaveBrightDesatSurface",
+      "persistentUuid": "9b3ccf44-1a7d-4a42-aa91-b2fbad0ad101",
+      "width": 1698,
+      "x": 8171,
+      "y": 1012,
+      "zOrder": 136,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tileset_areia",
+      "persistentUuid": "eb48989d-0ed4-4277-ba8d-2b6beefb57e6",
+      "width": 1827,
+      "x": 9874,
+      "y": 1030,
+      "zOrder": 119,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 187,
+      "keepRatio": true,
+      "layer": "",
+      "name": "placa_identificação",
+      "persistentUuid": "3b399884-b49d-473a-89d9-768d6568666d",
+      "width": 244,
+      "x": 10273,
+      "y": 699,
+      "zOrder": 122,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "nome_lagoa_do_portinho",
+      "persistentUuid": "87b8d427-356b-4943-a161-abad5dcac005",
+      "width": 117,
+      "x": 8259,
+      "y": 674,
+      "zOrder": 123,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 221,
+      "keepRatio": true,
+      "layer": "",
+      "name": "placa_identificação",
+      "persistentUuid": "89ca63fb-e778-4e0e-a981-771ae64bbb09",
+      "width": 221,
+      "x": 8211,
+      "y": 618,
+      "zOrder": 122,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "nome_praia_de_atalaia",
+      "persistentUuid": "80971b24-8bfa-434f-83fd-ae59eead2e09",
+      "width": 0,
+      "x": 10331,
+      "y": 749,
+      "zOrder": 124,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "nome_luis_correia",
+      "persistentUuid": "a4a4a9d3-8c99-4d0a-b7f2-03e24c2d6e8e",
+      "width": 0,
+      "x": 10333,
+      "y": 770,
+      "zOrder": 125,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "placa_identificação",
+      "persistentUuid": "b1374d79-6d0a-4afd-9f43-79fe1b084ce2",
+      "width": 0,
+      "x": 1,
+      "y": 697,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_teatro",
+      "persistentUuid": "9042585d-9d1c-4631-bb91-f684b666a93d",
+      "width": 0,
+      "x": 110,
+      "y": 798,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 145,
+      "keepRatio": true,
+      "layer": "",
+      "name": "torre_eolica_longe",
+      "persistentUuid": "1ba2d7a4-25f5-40bb-954f-ce00bc4884c6",
+      "width": 87,
+      "x": 9046,
+      "y": 648,
+      "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 93,
+      "keepRatio": true,
+      "layer": "",
+      "name": "torre_eolica_longe",
+      "persistentUuid": "1ca28f43-46b9-4a8c-9230-fff829687c38",
+      "width": 56,
+      "x": 11457,
+      "y": 577,
+      "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 145,
+      "keepRatio": true,
+      "layer": "",
+      "name": "torre_eolica_longe",
+      "persistentUuid": "c6b9839f-6ee3-4723-bb9a-6d83b8008af8",
+      "width": 87,
+      "x": 9722,
+      "y": 623,
+      "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "abd7ec98-6e38-47fb-84f9-460f852f1192",
+      "width": 127,
+      "x": 3150,
+      "y": 655,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "limite_baixo",
+      "persistentUuid": "2efd10aa-2aa9-4c2d-b869-6b6e46c761fd",
+      "width": 13240,
+      "x": -20,
+      "y": 1061,
+      "zOrder": 137,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "1787cf55-9ea9-4ee3-b279-e637822d377d",
+      "width": 212,
+      "x": 4613,
+      "y": 844,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "46e7e317-12c0-4de8-bd68-74c94d51e2a8",
+      "width": 309,
+      "x": 4517,
+      "y": 891,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 295,
+      "keepRatio": true,
+      "layer": "",
+      "name": "agua",
+      "persistentUuid": "7ca9bbdd-9b11-442d-8d14-a216c5c6cdd1",
+      "width": 1706,
+      "x": 8174,
+      "y": 813,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "a0860693-d164-4e74-95a5-5c27fe703348",
+      "width": 37,
+      "x": 8186,
+      "y": 737,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2f1a11bf-2122-4fd5-b876-506d5044d71d",
+      "width": 37,
+      "x": 9323,
+      "y": 739,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2b0f4d38-33f2-4030-99cb-cb95a203f3ed",
+      "width": 37,
+      "x": 9275,
+      "y": 739,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "killzone",
+      "persistentUuid": "6cc8d3f8-1d01-49c8-9d94-90a26183cdc8",
+      "width": 5687,
+      "x": 8042,
+      "y": 1041,
+      "zOrder": 134,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2f5161e9-5159-4bef-9697-95788a9bc635",
+      "width": 580,
+      "x": 9882,
+      "y": 929,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "9a5cfc64-2d7a-4c24-bb79-4f64d870f20c",
+      "width": 370,
+      "x": 9882,
+      "y": 869,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2feca8ed-ffe1-4b22-b5dd-878e5ddeebcf",
+      "width": 37,
+      "x": 9271,
+      "y": 738,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cerca",
+      "persistentUuid": "c8f52eab-7344-40ab-8e4f-10d1941828f1",
+      "width": 0,
+      "x": 8741,
+      "y": 732,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "41dea5b4-37ef-4c9c-956a-7c718547ba28",
+      "width": 37,
+      "x": 8752,
+      "y": 741,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "04294fd1-886c-40c0-96bc-e1c2886279ea",
+      "width": 37,
+      "x": 8704,
+      "y": 741,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "43f1104e-194f-416d-8139-efb0e68b3529",
+      "width": 620,
+      "x": 7553,
+      "y": 989,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece36",
+      "persistentUuid": "5ffc1a3c-e858-4901-a4c1-79a3b85b0f4b",
+      "width": 0,
+      "x": 7263,
+      "y": 910,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece37",
+      "persistentUuid": "964efbe2-51da-44cd-ba28-cd6228005d67",
+      "width": 64,
+      "x": 7327,
+      "y": 910,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "c9df6c71-1cd5-425e-a058-7b9a0aac7c78",
+      "width": 144,
+      "x": 7690,
+      "y": 800,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "1a525325-d967-4492-a25b-6be07ff03bee",
+      "width": 0,
+      "x": 7736,
+      "y": 750,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "687a82e7-985a-4377-b7d4-313023e1bc4a",
+      "width": 0,
+      "x": 7770,
+      "y": 750,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "0ee8eddf-7ed7-45a1-97ce-927b24dbd22a",
+      "width": 623,
+      "x": 7549,
+      "y": 853,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece36",
+      "persistentUuid": "e9e28592-4077-4a0a-8452-6e42a2e6cf94",
+      "width": 0,
+      "x": 7565,
+      "y": 801,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece37",
+      "persistentUuid": "83652b76-46a0-44d8-b4ef-fc20e44eac99",
+      "width": 64,
+      "x": 7629,
+      "y": 801,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Checkpoint_meio_2",
+      "persistentUuid": "0668521e-8c53-43ea-bc78-a746d7965bd4",
+      "width": 0,
+      "x": 7759,
+      "y": 685,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "b986ab3b-76e1-4be7-bb31-a84a14484c36",
+      "width": 476,
+      "x": 7696,
+      "y": 806,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "d21ba19d-8c42-4f3e-a0d6-1ba51c767618",
+      "width": 956,
+      "x": 7216,
+      "y": 949,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "7d750f24-9d66-4123-b1c6-f1a4042d7365",
+      "width": 782,
+      "x": 7390,
+      "y": 905,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece37",
+      "persistentUuid": "80a45e9a-ae5b-4a9d-91c9-06901c58a3d5",
+      "width": 64,
+      "x": 7489,
+      "y": 854,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece36",
+      "persistentUuid": "88ef09ff-04e2-4be2-96ce-d75c5061c7eb",
+      "width": 0,
+      "x": 7425,
+      "y": 854,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4469,9 +5324,9 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "THEATRO 4 DE SETEMBRO",
+        "text": "Bem-Vindo\nParnaiba",
         "opacity": 255,
-        "scale": 1,
+        "scale": 2,
         "fontSize": 20,
         "tint": "255;255;255",
         "bitmapFontResourceName": "",
@@ -4484,25 +5339,25 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "TEATRO",
+      "name": "porto_nome_monumentos",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "PORTO DAS BARCAS",
+      "string": "PORTO",
       "font": "Minecraft.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": true,
+        "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "59;58;58",
@@ -4514,11 +5369,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "PORTO DAS BARCAS",
+        "text": "PORTO",
         "font": "Minecraft.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
-        "color": "0;0;0"
+        "characterSize": 70,
+        "color": "255;255;255"
       }
     },
     {
@@ -7314,529 +8169,6 @@
       "effects": [],
       "behaviors": [],
       "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "6ca8a592a45b4ec75f68a4f41dfcfb90d8b0a448ffec6391908cd257dd0111d5",
-      "name": "cabeça_de_cuia",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.2,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_idle_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_idle_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_idle_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_idle_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_idle_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_idle_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "attack",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.3,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_atack_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_atack_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_atack_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_atack_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_atack_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_atack_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "crispim_atack_7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 1
-                      },
-                      {
-                        "x": 82,
-                        "y": 99
-                      },
-                      {
-                        "x": 19,
-                        "y": 99
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Running",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": []
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "",
@@ -12195,7 +12527,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\parnaiba\\parnaiba_arte.png",
+                  "image": "assets\\parnaiba\\parnaiba_Porto_das_barcas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12212,11 +12544,11 @@
                     [
                       {
                         "x": 8,
-                        "y": 371
+                        "y": 292
                       },
                       {
                         "x": 2977,
-                        "y": 371
+                        "y": 292
                       },
                       {
                         "x": 2977,
@@ -12234,6 +12566,2265 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "porto_nome_monumentos2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "DAS BARCAS",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "59;58;58",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "DAS BARCAS",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FEDERAÇÃO_COMERCIO",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\parnaiba\\parnaiba_federacao.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 22
+                      },
+                      {
+                        "x": 628,
+                        "y": 22
+                      },
+                      {
+                        "x": 628,
+                        "y": 690
+                      },
+                      {
+                        "x": 13,
+                        "y": 690
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "porto_nome_monumentos3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "FEDERACAO\nDO \nCOMERCIO",
+      "font": "Minecraft.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "FEDERACAO\nDO \nCOMERCIO",
+        "font": "Minecraft.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "independencia_monumeto",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\parnaiba\\parnaiba_monumento_independencia.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 8
+                      },
+                      {
+                        "x": 476,
+                        "y": 8
+                      },
+                      {
+                        "x": 476,
+                        "y": 675
+                      },
+                      {
+                        "x": 21,
+                        "y": 675
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "catedral_monumento",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\parnaiba\\parnaiba_igreja_catedral.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 101,
+                        "y": 79
+                      },
+                      {
+                        "x": 784,
+                        "y": 79
+                      },
+                      {
+                        "x": 784,
+                        "y": 770
+                      },
+                      {
+                        "x": 101,
+                        "y": 770
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "luis_correia_monumento",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\parnaiba\\luis_correia_praia.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 55,
+                        "y": 63
+                      },
+                      {
+                        "x": 1186,
+                        "y": 63
+                      },
+                      {
+                        "x": 1186,
+                        "y": 255
+                      },
+                      {
+                        "x": 55,
+                        "y": 255
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cerca",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\parnaiba\\parnaiba_mureta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 9
+                      },
+                      {
+                        "x": 567,
+                        "y": 9
+                      },
+                      {
+                        "x": 567,
+                        "y": 82
+                      },
+                      {
+                        "x": 11,
+                        "y": 82
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "12ce1dc8ef53c7901c4874207f8b0b958268de802dee97fe042d5374dd95fb01",
+      "name": "WaterType1FgBrightSurface",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WaterType1 FG Bright Surface.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 288,
+                        "y": 0
+                      },
+                      {
+                        "x": 288,
+                        "y": 286
+                      },
+                      {
+                        "x": 0,
+                        "y": 286
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "de00701465ae9dec88f047f9b4055f439092faba68d57959209659c13a380987",
+      "name": "WaterCaveBrightDesatSurface",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "water cave bright desat surface.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 288,
+                        "y": 0
+                      },
+                      {
+                        "x": 288,
+                        "y": 288
+                      },
+                      {
+                        "x": 0,
+                        "y": 288
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "104a56c64b620e91d5a1b0dcd1e4cbe7ad024adbc962103e7c50afcd84d99463",
+      "name": "Checkpoint_meio_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "check",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Flag Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Idle_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flag Out",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.0385,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_25.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_Flag Out_26.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "No Flag",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Checkpoint_No Flag.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 18
+                      },
+                      {
+                        "x": 49,
+                        "y": 64
+                      },
+                      {
+                        "x": 19,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "715bdec225a9f2e5fad34f80d8c9a8232ba7991f9dad2e17cb4007f1827dd08b",
+      "height": 64,
+      "name": "Tileset_areia",
+      "texture": "tiled_Tileset Piece 3.png4",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 65,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "placa_identificação",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\parnaiba\\placa bem vindo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 74,
+                        "y": 78
+                      },
+                      {
+                        "x": 321,
+                        "y": 78
+                      },
+                      {
+                        "x": 321,
+                        "y": 308
+                      },
+                      {
+                        "x": 74,
+                        "y": 308
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "nome_lagoa_do_portinho",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Lagoa\ndo Portinho",
+      "font": "Minecraft.ttf",
+      "textAlignment": "center",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "59;58;58",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Lagoa\ndo Portinho",
+        "font": "Minecraft.ttf",
+        "textAlignment": "center",
+        "characterSize": 18,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "nome_praia_de_atalaia",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Praia de Atalaia",
+      "font": "Minecraft.ttf",
+      "textAlignment": "center",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "59;58;58",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Praia de Atalaia",
+        "font": "Minecraft.ttf",
+        "textAlignment": "center",
+        "characterSize": 18,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "nome_luis_correia",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Luis Correia - PI",
+      "font": "Minecraft.ttf",
+      "textAlignment": "center",
+      "characterSize": 14,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "59;58;58",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Luis Correia - PI",
+        "font": "Minecraft.ttf",
+        "textAlignment": "center",
+        "characterSize": 14,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "agua",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DynamicWaterBody",
+          "type": "DynamicWater::DynamicWaterBody",
+          "Tension": 0.025,
+          "Dampening": 0.025,
+          "Spread": 0.1,
+          "Columns": 50,
+          "Thickness": 8,
+          "SurfaceColor": "107;165;233",
+          "SufaceOpacity": 100,
+          "BodyColor": "74;144;226",
+          "BodyOpacity": 100,
+          "SurfaceSize": 1,
+          "WavePeriod": 0.1,
+          "WaveMagnitude": 8,
+          "WaveLength": 0.2,
+          "WaveDirection": "Right",
+          "AutoWave": true,
+          "ColorOfColumns": "255;255;255",
+          "ShowColumns": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "colisao_agua",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "agua_efeito",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     }
   ],
   "objectsFolderStructure": {
@@ -12333,7 +14924,22 @@
         "objectName": "texto_teatro"
       },
       {
-        "objectName": "TEATRO"
+        "objectName": "porto_nome_monumentos"
+      },
+      {
+        "objectName": "porto_nome_monumentos3"
+      },
+      {
+        "objectName": "porto_nome_monumentos2"
+      },
+      {
+        "objectName": "nome_lagoa_do_portinho"
+      },
+      {
+        "objectName": "nome_praia_de_atalaia"
+      },
+      {
+        "objectName": "nome_luis_correia"
       },
       {
         "objectName": "NewSprite"
@@ -12357,6 +14963,9 @@
         "objectName": "Checkpoint_meio"
       },
       {
+        "objectName": "Checkpoint_meio_2"
+      },
+      {
         "objectName": "BlankEmote"
       },
       {
@@ -12367,6 +14976,9 @@
       },
       {
         "objectName": "TilesetPiece3"
+      },
+      {
+        "objectName": "Tileset_areia"
       },
       {
         "objectName": "TilesetPiece1"
@@ -12390,13 +15002,13 @@
         "objectName": "NewSprite2"
       },
       {
-        "objectName": "cabeça_de_cuia"
-      },
-      {
         "objectName": "texto_informações"
       },
       {
         "objectName": "caixa_informações_2"
+      },
+      {
+        "objectName": "FEDERAÇÃO_COMERCIO"
       },
       {
         "objectName": "caixa_informações_3"
@@ -12409,6 +15021,9 @@
       },
       {
         "objectName": "caixa_informações_6"
+      },
+      {
+        "objectName": "placa_identificação"
       },
       {
         "objectName": "caixa_informações_7"
@@ -12448,6 +15063,33 @@
       },
       {
         "objectName": "porto"
+      },
+      {
+        "objectName": "independencia_monumeto"
+      },
+      {
+        "objectName": "catedral_monumento"
+      },
+      {
+        "objectName": "luis_correia_monumento"
+      },
+      {
+        "objectName": "cerca"
+      },
+      {
+        "objectName": "WaterType1FgBrightSurface"
+      },
+      {
+        "objectName": "WaterCaveBrightDesatSurface"
+      },
+      {
+        "objectName": "agua"
+      },
+      {
+        "objectName": "colisao_agua"
+      },
+      {
+        "objectName": "agua_efeito"
       }
     ]
   },
@@ -12706,7 +15348,7 @@
               "parameters": [
                 "player",
                 "=",
-                "100"
+                "10000"
               ]
             }
           ]
@@ -12734,7 +15376,7 @@
               "parameters": [
                 "player",
                 "=",
-                "4486"
+                "5570"
               ]
             },
             {
@@ -12744,7 +15386,7 @@
               "parameters": [
                 "player",
                 "=",
-                "840"
+                "680"
               ]
             },
             {
@@ -12754,7 +15396,7 @@
               "parameters": [
                 "player",
                 "=",
-                "100"
+                "100000"
               ]
             }
           ]
@@ -13091,8 +15733,18 @@
             "assets\\sons\\Terra do Sol_tema.mp3",
             "1",
             "yes",
-            "10",
+            "50",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "player",
+            "=",
+            "100000"
           ]
         }
       ]
@@ -13446,6 +16098,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "caixas coletadas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13473,7 +16126,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -13625,7 +16278,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -13777,7 +16430,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -13929,7 +16582,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -14081,7 +16734,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -14233,7 +16886,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -14385,7 +17038,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -14537,7 +17190,7 @@
               },
               "parameters": [
                 "",
-                "Informações Teresina"
+                "Informações Parnaiba"
               ]
             },
             {
@@ -14670,6 +17323,7 @@
       "parameters": []
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -14806,7 +17460,7 @@
             "",
             "\"balao_info\"",
             ">=",
-            "5"
+            "tempo_informações_na_tela"
           ]
         }
       ],
@@ -14844,6 +17498,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -15093,11 +17748,29 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Parnaíba\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"minigame_clickpoint_teresina\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
@@ -15208,6 +17881,179 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "agua interações",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "DynamicWater::DynamicWaterBody::WaterBodyAndCollision"
+          },
+          "parameters": [
+            "agua",
+            "DynamicWaterBody",
+            "agua_efeito",
+            "colisao_agua",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DynamicWater::DynamicWaterBody::CheckSurfaceCollisions"
+          },
+          "parameters": [
+            "agua",
+            "DynamicWaterBody",
+            "player",
+            "colisao_agua",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DynamicWater::DynamicWaterBody::AddForce"
+          },
+          "parameters": [
+            "agua",
+            "DynamicWaterBody",
+            "25",
+            "colisao_agua",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "agua",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::MaxFallingSpeed"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject",
+            "=",
+            "150",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedJump::AdvancedJump::SetAirJumpCountMaximum"
+          },
+          "parameters": [
+            "player",
+            "AdvancedJump",
+            "100000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "player",
+            "Animation",
+            "=",
+            "\"run\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "agua",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::MaxFallingSpeed"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject",
+            "=",
+            "700",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedJump::AdvancedJump::SetAirJumpCountMaximum"
+          },
+          "parameters": [
+            "player",
+            "AdvancedJump",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::JumpSpeed"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject",
+            "=",
+            "600"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -15291,8 +18137,16 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "DynamicWaterBody",
+      "type": "DynamicWater::DynamicWaterBody"
     },
     {
       "name": "Effect",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22169247275008608,
+    "zoomFactor": 0.7077142870147777,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,8 +65,8 @@
       "name": "player",
       "persistentUuid": "44097a26-cfb7-45d1-93c8-46c5039f2457",
       "width": 112,
-      "x": 151,
-      "y": 903,
+      "x": 7141,
+      "y": 532,
       "zOrder": 82,
       "numberProperties": [],
       "stringProperties": [],
@@ -303,8 +303,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "758aaf34-040b-4df9-87d3-331e64ff1b87",
       "width": 193,
-      "x": 1909,
-      "y": 921,
+      "x": 1908,
+      "y": 924,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -515,14 +515,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 36,
+      "height": 14,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "732450b8-c3af-4c37-92bd-cbeed3f96fab",
-      "width": 545,
-      "x": 7683,
-      "y": 694,
+      "width": 109,
+      "x": 7688,
+      "y": 736,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -557,23 +557,6 @@
       "x": 8313,
       "y": 958,
       "zOrder": 61,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "13f70f73-5f5b-4d44-883d-3adbaec184e3",
-      "width": 58,
-      "x": 8005,
-      "y": 605,
-      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -629,81 +612,17 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "a60996bb-20b9-4261-ad92-9652fd0352b3",
-      "width": 0,
-      "x": 8150,
-      "y": 647,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "041a033c-2c4c-4210-abc0-cac8b5f734cf",
-      "width": 0,
-      "x": 8163,
-      "y": 647,
-      "zOrder": 61,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 16,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "dc2300bc-0a52-4abb-8551-b127bf7a0877",
       "width": 391,
       "x": 7293,
-      "y": 668,
+      "y": 716,
       "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "9f6318b7-beb4-4e29-beb3-dd7ac4f7afab",
-      "width": 0,
-      "x": 7860,
-      "y": 437,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "fe2cf86a-997c-445f-b720-01cbad35b08c",
-      "width": 0,
-      "x": 7869,
-      "y": 438,
-      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -839,23 +758,6 @@
       "x": 3829,
       "y": 186,
       "zOrder": 72,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "3a0ab42c-ec18-42a9-aeb6-30c05ba4aa40",
-      "width": 71,
-      "x": 7828,
-      "y": 652,
-      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1101,7 +1003,7 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "eec20685-ce54-4ade-823a-3a03ab358b0a",
-      "width": 84,
+      "width": 50,
       "x": 6215,
       "y": 448,
       "zOrder": 80,
@@ -1136,8 +1038,8 @@
       "name": "caixa_informações_7",
       "persistentUuid": "91ef4d9a-265b-4b60-bf7a-f75423d05244",
       "width": 88,
-      "x": 7043,
-      "y": 808,
+      "x": 7045,
+      "y": 726,
       "zOrder": 86,
       "numberProperties": [],
       "stringProperties": [],
@@ -1153,8 +1055,8 @@
       "name": "caixa_informações_8",
       "persistentUuid": "414700da-5896-4748-b69d-d59a5b704211",
       "width": 77,
-      "x": 8295,
-      "y": 870,
+      "x": 8290,
+      "y": 747,
       "zOrder": -201,
       "numberProperties": [],
       "stringProperties": [],
@@ -1425,8 +1327,8 @@
       "name": "TilesetPiece36",
       "persistentUuid": "515e5d7b-84b7-40a9-a8e6-facdd7c5a066",
       "width": 81,
-      "x": 1829,
-      "y": 860,
+      "x": 1828,
+      "y": 865,
       "zOrder": 91,
       "numberProperties": [],
       "stringProperties": [],
@@ -1611,9 +1513,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "e91a09d7-f791-434d-9166-e8a59957d85d",
-      "width": 310,
-      "x": 3556,
-      "y": 558,
+      "width": 148,
+      "x": 3981,
+      "y": 426,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -2036,8 +1938,8 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "8cde532d-37f5-486e-a0d7-d04446a2d894",
-      "width": 274,
-      "x": 4643,
+      "width": 178,
+      "x": 4739,
       "y": 140,
       "zOrder": 49,
       "numberProperties": [],
@@ -2087,8 +1989,8 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "14a6d10d-e3a1-46dd-a50f-3a1fa9d76f65",
-      "width": 129,
-      "x": 4315,
+      "width": 154,
+      "x": 4318,
       "y": 289,
       "zOrder": 99,
       "numberProperties": [],
@@ -2104,9 +2006,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "32559567-1f3a-40b3-b607-613d807e07c2",
-      "width": 64,
-      "x": 4314,
-      "y": 235,
+      "width": 59,
+      "x": 4320,
+      "y": 230,
       "zOrder": 99,
       "numberProperties": [],
       "stringProperties": [],
@@ -2122,8 +2024,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "e314464f-a22b-4535-be25-226eb6e57d3c",
       "width": 86,
-      "x": 4448,
-      "y": 150,
+      "x": 4500,
+      "y": 139,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -2625,38 +2527,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "a044456d-887c-4e9a-8b49-95c53e8394f3",
-      "width": 0,
-      "x": 7730,
-      "y": 574,
-      "zOrder": 61,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "b71c2b2a-eb53-4502-b637-ecccc5414dac",
-      "width": 0,
-      "x": 7725,
-      "y": 575,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 69,
@@ -2986,23 +2856,6 @@
       "width": 185,
       "x": 6818,
       "y": 629,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 63,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "88dc89b1-9bc6-495e-85ab-c775769f6a84",
-      "width": 475,
-      "x": 6818,
-      "y": 578,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -3385,8 +3238,8 @@
       "name": "Casa_12_janelas",
       "persistentUuid": "c73fe2c7-fde6-4c5b-ab7f-d14b610505e2",
       "width": 1505,
-      "x": 4537,
-      "y": 600,
+      "x": 4544,
+      "y": 530,
       "zOrder": -195,
       "numberProperties": [],
       "stringProperties": [],
@@ -3402,8 +3255,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "15958395-63a0-4d62-b0ae-1c1b672b5c5e",
       "width": 41,
-      "x": 3779,
-      "y": 739,
+      "x": 3775,
+      "y": 746,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -3481,14 +3334,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 820,
+      "height": 530,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite3",
       "persistentUuid": "eba7c808-62ec-4f2e-975c-0e8d374a1d0d",
-      "width": 1040,
+      "width": 672,
       "x": 8619,
-      "y": 99,
+      "y": 389,
       "zOrder": -197,
       "numberProperties": [],
       "stringProperties": [],
@@ -3521,8 +3374,8 @@
       "name": "caixa_informações_5",
       "persistentUuid": "4e5f1e50-182c-4ebf-8498-2ce273a4bb3c",
       "width": 77,
-      "x": 4309,
-      "y": 70,
+      "x": 4357,
+      "y": 51,
       "zOrder": -200,
       "numberProperties": [],
       "stringProperties": [],
@@ -3558,6 +3411,159 @@
       "x": 7841,
       "y": 299,
       "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "aa84c9a3-55b0-4b45-91d0-465a656ae823",
+      "width": 46,
+      "x": 3606,
+      "y": 529,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "9cae4bdb-8b5d-4f88-af45-6e7009242f35",
+      "width": 46,
+      "x": 3451,
+      "y": 594,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 124,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fundo_preto",
+      "persistentUuid": "e07711d2-7e02-4208-b816-d4c4a73b6788",
+      "width": 1385,
+      "x": 4640,
+      "y": 988,
+      "zOrder": -205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 13,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "c1e7efa9-bd83-4d34-88bc-af67a2ec89ad",
+      "width": 109,
+      "x": 7808,
+      "y": 765,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "6693482f-74d9-4c9a-ad21-eecc1d1d0d14",
+      "width": 47,
+      "x": 7277,
+      "y": 423,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "ba137e5d-14e9-4a5f-95a7-8d44be0c7736",
+      "width": 47,
+      "x": 7403,
+      "y": 414,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "2e1e1437-ba19-4182-967c-80bb3eda4c26",
+      "width": 47,
+      "x": 7568,
+      "y": 430,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "783b4784-cf6c-4f8a-b824-421c4dbaace4",
+      "width": 47,
+      "x": 7724,
+      "y": 466,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "6c87dda5-96e7-47b0-be0c-fc57c9c58ede",
+      "width": 67,
+      "x": 7849,
+      "y": 401,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8520,10 +8526,6 @@
                   },
                   "customCollisionMask": [
                     [
-                      {
-                        "x": 0,
-                        "y": 62
-                      },
                       {
                         "x": 64,
                         "y": 30.5
@@ -13987,6 +13989,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fundo_preto",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -14234,6 +14297,9 @@
       },
       {
         "objectName": "NewSprite3"
+      },
+      {
+        "objectName": "fundo_preto"
       }
     ]
   },
@@ -14770,6 +14836,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -14863,9 +14935,9 @@
           "parameters": [
             "",
             "assets\\sons\\Terra do Sol_tema.mp3",
-            "1",
+            "0",
             "yes",
-            "10",
+            "50",
             "1"
           ]
         }
@@ -15120,14 +15192,6 @@
             "value": "Cache"
           },
           "parameters": [
-            "BlankSuperWide"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "Texto_Capivara"
           ]
         }
@@ -15150,15 +15214,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "BlankSuperWide",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "Montre"
@@ -16549,7 +16604,7 @@
             "",
             "\"balao_info\"",
             ">=",
-            "5"
+            "tempo_informações_na_tela"
           ]
         }
       ],
@@ -16830,11 +16885,29 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Oeiras\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"minigame_clickpoint_teresina\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
@@ -17008,6 +17081,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

@@ -1,0 +1,3916 @@
+{
+  "b": 202,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "quiz_95game",
+  "name": "quiz_game",
+  "r": 95,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 191,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4448515998886668,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "listaPerguntas",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "listaRespostas",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "certas",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "total",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "realizadas",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "resposta",
+      "type": "string",
+      "value": "\"\""
+    },
+    {
+      "folded": true,
+      "name": "habilitar",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "name": "explicacao_a",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "explicacao_b",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "explicacao_c",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "explicacao_d",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 1084,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fundo",
+      "persistentUuid": "6238a520-a92b-41bf-b47e-74f0167d80b5",
+      "width": 2274,
+      "x": 1,
+      "y": -2,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 273,
+      "keepRatio": true,
+      "layer": "",
+      "name": "pergunta",
+      "persistentUuid": "ae213a47-04f1-46a4-8fa9-65e83364de0b",
+      "width": 1077,
+      "x": 1263,
+      "y": 287,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "5bd30ef6-97c7-4c2a-872c-bf82d280cbe3",
+      "width": 1083,
+      "x": 1258,
+      "y": 892,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "166c97e6-008f-48da-8725-7046f2e79288",
+      "width": 1083,
+      "x": 1258,
+      "y": 504,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "c1d1dca8-6b26-4325-b917-aff2390b47eb",
+      "width": 1083,
+      "x": 1258,
+      "y": 635,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "respostas",
+      "persistentUuid": "152306a1-daca-4d84-a24c-6945799d046b",
+      "width": 1083,
+      "x": 1258,
+      "y": 764,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 162,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_pergunta",
+      "persistentUuid": "bb9bd028-2c35-4ef4-988b-c20a54d5f7ea",
+      "width": 993,
+      "x": 766,
+      "y": 202,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta1",
+      "persistentUuid": "fb5afc6a-a347-4dc3-a59a-258a8e8c99a1",
+      "width": 1000,
+      "x": 756,
+      "y": 458,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta2",
+      "persistentUuid": "ba273414-5b47-4ae1-b6ae-72fe6dffdf7f",
+      "width": 1008,
+      "x": 756,
+      "y": 588,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta3",
+      "persistentUuid": "9c9d8770-81cc-486e-9380-25e4e44450cd",
+      "width": 977,
+      "x": 756,
+      "y": 718,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_titulo",
+      "persistentUuid": "23681703-0439-4138-adf5-9bff6abe7b26",
+      "width": 1105,
+      "x": 388,
+      "y": 29,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 70,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta4",
+      "persistentUuid": "a7a96b0c-9f5a-4836-8dcb-8b45e0f9844d",
+      "width": 998,
+      "x": 755,
+      "y": 846,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "botão",
+      "persistentUuid": "3c3da29a-4462-4265-9ae4-46a5cd98bc32",
+      "width": 371,
+      "x": 1478,
+      "y": 984,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 347,
+      "keepRatio": true,
+      "layer": "",
+      "name": "player",
+      "persistentUuid": "8e7c0c2a-5516-47e8-814f-ce00d4c084a8",
+      "width": 347,
+      "x": 3,
+      "y": 678,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 402,
+      "keepRatio": true,
+      "layer": "",
+      "name": "balao_texto",
+      "persistentUuid": "0962b47d-899f-4cd1-ba9d-cdd6c4fdd6a7",
+      "width": 711,
+      "x": 24,
+      "y": 310,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 220,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_resposta_alternativa",
+      "persistentUuid": "81c789ad-276a-4e45-bf59-22d4cc390c27",
+      "width": 559,
+      "x": 81,
+      "y": 374,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "",
+      "name": "botão_seguinte",
+      "persistentUuid": "0f15ef5a-cf61-4554-aeda-3a5489323309",
+      "width": 231,
+      "x": 1637,
+      "y": 950,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fundo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\fundo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "pergunta",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pergunta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 350.5,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 185
+                      },
+                      {
+                        "x": 14,
+                        "y": 185
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "respostas",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\respostas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 350.5,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 14
+                      },
+                      {
+                        "x": 685,
+                        "y": 78
+                      },
+                      {
+                        "x": 15,
+                        "y": 78
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_pergunta",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Texto da pergunta é!!!",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Texto da pergunta é!!!",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 1!!",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 1!!",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 2!!",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 2!!",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 3!!",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 3!!",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "acertos",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "acertos\n0/0",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "acertos\n0/0",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_titulo",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Piauí: Crônicas do Tempo",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Piauí: Crônicas do Tempo",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta 4!!",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta 4!!",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "botão_seguinte",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "seguinte",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_next_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_next_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_next_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_next_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "finalizar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_fim_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icon_quiz_fim_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 43
+                      },
+                      {
+                        "x": 10,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta_correta",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Resposta correta",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Resposta correta",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_total",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Total\n0/0",
+      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Total\n0/0",
+        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "player",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_run_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player_1_jump.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 3
+                      },
+                      {
+                        "x": 72,
+                        "y": 95
+                      },
+                      {
+                        "x": 28,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_personagem",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Parabéns!!!!!!",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Parabéns!!!!!!",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_resposta_alternativa",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Texto alternativo das respostas",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Texto alternativo das respostas",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_cidade_atual",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Cidade: ",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Cidade: ",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "fundo"
+      },
+      {
+        "objectName": "player"
+      },
+      {
+        "objectName": "pergunta"
+      },
+      {
+        "objectName": "respostas"
+      },
+      {
+        "objectName": "texto_pergunta"
+      },
+      {
+        "objectName": "texto_cidade_atual"
+      },
+      {
+        "objectName": "texto_resposta1"
+      },
+      {
+        "objectName": "texto_resposta2"
+      },
+      {
+        "objectName": "texto_resposta3"
+      },
+      {
+        "objectName": "texto_resposta4"
+      },
+      {
+        "objectName": "texto_resposta_alternativa"
+      },
+      {
+        "objectName": "texto_resposta_correta"
+      },
+      {
+        "objectName": "acertos"
+      },
+      {
+        "objectName": "texto_total"
+      },
+      {
+        "objectName": "texto_titulo"
+      },
+      {
+        "objectName": "texto_personagem"
+      },
+      {
+        "objectName": "botão_seguinte"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"tela_mapa_selecao_cidade\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"correta\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"incorreta\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "botão_seguinte"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_resposta_alternativa"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\quiz_tema.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\acertou.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\erro.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido_2.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\coletar_caixa.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\quiz_tema.mp3",
+            "0",
+            "yes",
+            "50",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let listaPerguntas = runtimeScene.getVariables().get(\"listaPerguntas\");",
+            "let listaRespostas = runtimeScene.getVariables().get(\"listaRespostas\");",
+            "let total = runtimeScene.getVariables().get(\"total\");",
+            "",
+            "let cidadeAtual = runtimeScene.getGame().getVariables().get(\"cidade_atual\").getAsString(); // Recupera a cidade atual",
+            "",
+            "let textoPergunta = runtimeScene.getObjects(\"texto_pergunta\");",
+            "let textoCidade = runtimeScene.getObjects(\"texto_cidade_atual\");",
+            "let textoTotal = runtimeScene.getObjects(\"texto_total\");",
+            "",
+            "let dados_perguntas = [];",
+            "let dados_respostas = [];",
+            "console.log(\"entrando no quiz\");",
+            "",
+            "switch (cidadeAtual) {",
+            "    case \"Teresina\":",
+            "        console.log(\"entrando no case teresina\");",
+            "        dados_perguntas = [",
+            "            {\"pergunta\": \"Quem realizou a mudança da capital do Piauí de Oeiras para Teresina?\"},",
+            "            {\"pergunta\": \"Qual bairro é considerado o primeiro bairro de Teresina?\"},",
+            "            {\"pergunta\": \"Em que ano Teresina foi oficialmente fundada?\"},",
+            "            {\"pergunta\": \"Qual foi a primeira capital do Piauí antes de Teresina?\"},",
+            "            {\"pergunta\": \"Qual é o nome da ponte mais famosa de Teresina, considerada um símbolo da cidade?\"},",
+            "            {\"pergunta\": \"Qual rio corta a cidade de Teresina, sendo importante para sua economia e urbanização?\"}",
+            "        ];",
+            "        console.log(\"cidade teresina switch\");",
+            "",
+            "        dados_respostas = [",
+            "            {",
+            "                \"a\": \"Dom Pedro II\",",
+            "                \"b\": \"João Isidoro França\",",
+            "                \"c\": \"Simplício Mendes\",",
+            "                \"d\": \"José Antônio Saraiva\",",
+            "                \"r\": \"José Antônio Saraiva\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Dom Pedro II foi o imperador na época, mas não foi responsável pela mudança da capital.\",",
+            "                    \"b\": \"João Isidoro França foi o engenheiro responsável pelo planejamento de Teresina, mas não fez a mudança.\",",
+            "                    \"c\": \"Simplício Mendes não esteve envolvido na transferência da capital.\",",
+            "                    \"d\": \"José Antônio Saraiva foi o presidente da província que realizou a mudança da capital de Oeiras para Teresina.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"Mafuá\",",
+            "                \"b\": \"Piçarra\",",
+            "                \"c\": \"Poty Velho\",",
+            "                \"d\": \"Cajueiro\",",
+            "                \"r\": \"Poty Velho\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Mafuá é um bairro tradicional, mas não o primeiro de Teresina.\",",
+            "                    \"b\": \"Piçarra também é um bairro antigo, mas não o mais antigo.\",",
+            "                    \"c\": \"Poty Velho é o bairro mais antigo de Teresina, originando-se com a fundação da cidade.\",",
+            "                    \"d\": \"Cajueiro é um bairro de Teresina, mas não foi o primeiro.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"1842\",",
+            "                \"b\": \"1852\",",
+            "                \"c\": \"1862\",",
+            "                \"d\": \"1872\",",
+            "                \"r\": \"1852\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"1842 é uma data antes da fundação de Teresina.\",",
+            "                    \"b\": \"1852 é o ano correto da fundação da cidade.\",",
+            "                    \"c\": \"1862 foi 10 anos após a fundação de Teresina.\",",
+            "                    \"d\": \"1872 é uma data posterior à fundação de Teresina.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"Parnaíba\",",
+            "                \"b\": \"Floriano\",",
+            "                \"c\": \"São Raimundo Nonato\",",
+            "                \"d\": \"Oeiras\",",
+            "                \"r\": \"Oeiras\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Parnaíba é uma cidade importante, mas nunca foi capital do Piauí.\",",
+            "                    \"b\": \"Floriano nunca foi capital do Piauí.\",",
+            "                    \"c\": \"São Raimundo Nonato é conhecida pelos sítios arqueológicos, mas nunca foi capital.\",",
+            "                    \"d\": \"Oeiras foi a primeira capital do Piauí até 1852.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"Ponte Juscelino Kubitschek\",",
+            "                \"b\": \"Ponte Estaiada João Isidoro França\",",
+            "                \"c\": \"Ponte Metálica\",",
+            "                \"d\": \"Ponte da Amizade\",",
+            "                \"r\": \"Ponte Estaiada João Isidoro França\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Ponte Juscelino Kubitschek é uma ponte importante, mas está localizada em Brasília.\",",
+            "                    \"b\": \"Ponte Estaiada João Isidoro França é o principal cartão postal de Teresina.\",",
+            "                    \"c\": \"A Ponte Metálica é uma ponte histórica, mas não é considerada o símbolo mais famoso.\",",
+            "                    \"d\": \"Ponte da Amizade existe, mas não é o símbolo mais conhecido de Teresina.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"Rio Poti\",",
+            "                \"b\": \"Rio Parnaíba\",",
+            "                \"c\": \"Rio São Francisco\",",
+            "                \"d\": \"Rio Gurguéia\",",
+            "                \"r\": \"Rio Poti\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Rio Poti é um dos rios que corta Teresina, sendo o mais importante para a urbanização da cidade.\",",
+            "                    \"b\": \"Rio Parnaíba é importante, mas o Rio Poti tem mais relevância dentro de Teresina.\",",
+            "                    \"c\": \"O Rio São Francisco não passa por Teresina.\",",
+            "                    \"d\": \"O Rio Gurguéia está localizado em outra região do Piauí.\"",
+            "                }",
+            "            }",
+            "        ];",
+            "        break;",
+            "",
+            "    case \"Oeiras\":",
+            "        dados_perguntas = [",
+            "            {\"pergunta\": \"Qual foi o primeiro presidente da província do Piauí?\"}, ",
+            "            {\"pergunta\": \"Em que ano Oeiras foi fundada oficialmente?\"}, ",
+            "            {\"pergunta\": \"Qual é o nome da igreja histórica mais importante de Oeiras?\"}, ",
+            "            {\"pergunta\": \"Qual foi a principal atividade econômica de Oeiras no século XIX?\"}, ",
+            "            {\"pergunta\": \"Qual monumento ou conjunto arquitetônico de Oeiras é tombado como patrimônio histórico?\"}, ",
+            "            {\"pergunta\": \"Quando Oeiras deixou de ser a capital do Piauí?\"}",
+            "            // outras perguntas de Oeiras...",
+            "        ];",
+            "",
+            "        dados_respostas = [",
+            "            {",
+            "                \"a\": \"Domingos Jorge Velho\",",
+            "                \"b\": \"João José da Silva\",",
+            "                \"c\": \"Pedro II\",",
+            "                \"d\": \"Luís do Rego Barreto\",",
+            "                \"r\": \"João José da Silva\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Domingos Jorge Velho foi um bandeirante.\",",
+            "                    \"b\": \"João José da Silva foi o primeiro presidente.\",",
+            "                    \"c\": \"Pedro II foi o imperador do Brasil, mas não esteve diretamente envolvido no Piauí.\",",
+            "                    \"d\": \"Luís do Rego Barreto foi governador de Pernambuco\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"1697\",",
+            "                \"b\": \"1723\",",
+            "                \"c\": \"1750\",",
+            "                \"d\": \"1800\",",
+            "                \"r\": \"1697\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Correta: 1697 é o ano da fundação oficial de Oeiras.\",",
+            "                    \"b\": \"1723 é uma data posterior, e a cidade já estava consolidada.\",",
+            "                    \"c\": \"1750 é incorreto, pois a cidade já existia.\",",
+            "                    \"d\": \"1800 é muito depois da fundação.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"Igreja de São Francisco\",",
+            "                \"b\": \"Igreja de Nossa Senhora da Vitória\",",
+            "                \"c\": \"Igreja São Benedito\",",
+            "                \"d\": \"Igreja de São Raimundo Nonato\",",
+            "                \"r\": \"Igreja de Nossa Senhora da Vitória\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Igreja de São Francisco está localizada em outro estado.\",",
+            "                    \"b\": \"A Igreja de Nossa Senhora da Vitória é o principal monumento religioso de Oeiras.\",",
+            "                    \"c\": \"A Igreja de São Benedito está localizada na capital do Piauí.\",",
+            "                    \"d\": \"A Igreja de São Raimundo Nonato está em outra cidade.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"Mineração de ouro\",",
+            "                \"b\": \"Pecuária\",",
+            "                \"c\": \"Indústria têxtil\",",
+            "                \"d\": \"Produção de algodão\",",
+            "                \"r\": \"Produção de algodão\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Mineração de ouro não foi uma atividade relevante na região.\",",
+            "                    \"b\": \"Pecuária existia, mas não foi a principal atividade.\",",
+            "                    \"c\": \"A indústria têxtil se desenvolveu em outras áreas.\",",
+            "                    \"d\": \"A produção de algodão foi uma das principais fontes de renda da cidade no século XIX.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"Sítios Arqueológicos de Oeiras\",",
+            "                \"b\": \"Palácio de Karnak\",",
+            "                \"c\": \"Centro Histórico de Oeiras\",",
+            "                \"d\": \"Ponte Metálica\",",
+            "                \"r\": \"Centro Histórico de Oeiras\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Oeiras não é conhecida por seus sítios arqueológicos.\",",
+            "                    \"b\": \"O Palácio de Karnak está em Teresina.\",",
+            "                    \"c\": \"O Centro Histórico de Oeiras é tombado pelo IPHAN como patrimônio nacional.\",",
+            "                    \"d\": \"A Ponte Metálica está entre Timon e Teresina.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"1850\",",
+            "                \"b\": \"1852\",",
+            "                \"c\": \"1860\",",
+            "                \"d\": \"1872\",",
+            "                \"r\": \"1852\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"1850 é um pouco antes da transferência da capital.\",",
+            "                    \"b\": \"1852 foi o ano da mudança da capital para Teresina.\",",
+            "                    \"c\": \"1860 é posterior à mudança.\",",
+            "                    \"d\": \"1872 é muito depois da transferência.\"",
+            "                }",
+            "            }",
+            "            // outras respostas de Oeiras...",
+            "        ];",
+            "        break;",
+            "",
+            "    case \"Parnaíba\":",
+            "        dados_perguntas = [",
+            "            {\"pergunta\": \"Qual é o apelido de Parnaíba, devido à sua localização?\"}, ",
+            "            {\"pergunta\": \"Em que data a cidade de Parnaíba foi oficialmente fundada?\"}, ",
+            "            {\"pergunta\": \"Domingos Dias da Silva foi um personagem importante na história de Parnaíba devido ao seu papel como:\"}, ",
+            "            {\"pergunta\": \"Qual povo indígena habitava a região onde hoje está localizada a cidade de Parnaíba?\"}, ",
+            "            {\"pergunta\": \"Qual é o nome do rio que passa pelo Porto das Barcas de Parnaíba?\"} , ",
+            "            {\"pergunta\": \"Quando a cidade de Luís Correia foi emancipada?\"} ",
+            "            ",
+            "        ];",
+            "",
+            "        dados_respostas = [",
+            "            {",
+            "                \"a\": \"Capital do Sertão\",",
+            "                \"b\": \"Capital do Litoral\",",
+            "                \"c\": \"Capital do Sol\",",
+            "                \"d\": \"Capital do Delta\",",
+            "                \"r\": \"Capital do Delta\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Incorreta\",",
+            "                    \"b\": \"Resposta Incorreta\",",
+            "                    \"c\": \"Resposta Incorreta\",",
+            "                    \"d\": \"Resposta Correta\"                    ",
+            "                }               ",
+            "            },",
+            "            {",
+            "                \"a\": \"1º de janeiro de 1822\",",
+            "                \"b\": \"14 de agosto de 1844\",",
+            "                \"c\": \"7 de setembro de 1850\",",
+            "                \"d\": \"15 de novembro de 1889\",",
+            "                \"r\": \"14 de agosto de 1844\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Incorreta \",",
+            "                    \"b\": \"Resposta Correta \",",
+            "                    \"c\": \"Resposta Incorreta\",",
+            "                    \"d\": \"Resposta Inconrreta\"                    ",
+            "                }               ",
+            "            },",
+            "            {",
+            "                \"a\": \"Líder político\",",
+            "                \"b\": \"Missionário\",",
+            "                \"c\": \"Proprietário de terras e comerciante\",",
+            "                \"d\": \"Explorador\",",
+            "                \"r\": \"Proprietário de terras e comerciante\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Incorreta\",",
+            "                    \"b\": \"Resposta Incorreta\",",
+            "                    \"c\": \"Resposta Correta\",",
+            "                    \"d\": \"Resposta Incorreta\"                    ",
+            "                }               ",
+            "            },",
+            "            {",
+            "                \"a\": \"Tupi\",",
+            "                \"b\": \"Tremembé\",",
+            "                \"c\": \"Guarani\",",
+            "                \"d\": \"Paramirin\",",
+            "                \"r\": \"Tremembé\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Incorreta\",",
+            "                    \"b\": \"Resposta Correta\",",
+            "                    \"c\": \"Resposta Incorreta\",",
+            "                    \"d\": \"Resposta Incorreta\"                    ",
+            "                }               ",
+            "            }",
+            "            ,",
+            "            {",
+            "                \"a\": \"Rio Amazonas\",",
+            "                \"b\": \"Rio São Francisco\",",
+            "                \"c\": \"Rio Igaraçu\",",
+            "                \"d\": \"Rio Tocantins\",",
+            "                \"r\": \"Rio Igaraçu\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Incorreta\",",
+            "                    \"b\": \"Resposta Incorreta\",",
+            "                    \"c\": \"Resposta Correta\",",
+            "                    \"d\": \"Resposta Incorreta\"                    ",
+            "                }               ",
+            "            },",
+            "            {",
+            "                \"a\": \"1º de janeiro de 1822\",",
+            "                \"b\": \"14 de agosto de 1844\",",
+            "                \"c\": \"7 de setembro de 1850\",",
+            "                \"d\": \"15 de novembro de 1889\",",
+            "                \"r\": \"14 de agosto de 1844\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Incorreta \",",
+            "                    \"b\": \"Resposta Correta \",",
+            "                    \"c\": \"Resposta Incorreta\",",
+            "                    \"d\": \"Resposta Inconrreta\"                    ",
+            "                }               ",
+            "            }",
+            "           ",
+            "        ];",
+            "        break;",
+            "",
+            "    case \"Campo Maior\":",
+            "        dados_perguntas = [",
+            "            {\"pergunta\": \"Qual evento histórico em Campo Maior foi fundamental para a independência do Brasil no Piauí?\"}, ",
+            "            {\"pergunta\": \"Em que ano ocorreu a Batalha do Jenipapo?\"}, ",
+            "            {\"pergunta\": \"Qual é o principal monumento em Campo Maior que homenageia os heróis da Batalha do Jenipapo?\"}, ",
+            "            {\"pergunta\": \"Quando Campo Maior foi elevada à categoria de cidade?\"}, ",
+            "            {\"pergunta\": \"Qual foi a principal atividade econômica de Campo Maior no início de sua história?\"}, ",
+            "            {\"pergunta\": \"Que papel Campo Maior teve na luta pela Independência do Brasil?\"} ",
+            "            // outras perguntas de Campo Maior...",
+            "        ];",
+            "",
+            "        dados_respostas = [",
+            "            {",
+            "                \"a\": \"Revolta de Canudos\",",
+            "                \"b\": \"Guerra dos Emboabas\",",
+            "                \"c\": \"Inconfidência Mineira\",",
+            "                \"d\": \"Batalha do Jenipapo\",",
+            "                \"r\": \"Batalha do Jenipapo\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Revolta de Canudos ocorreu na Bahia.\",",
+            "                    \"b\": \"A Guerra dos Emboabas ocorreu em Minas Gerais.\",",
+            "                    \"c\": \"A Inconfidência Mineira ocorreu em Minas Gerais e não tem relação com Campo Maior.\",",
+            "                    \"d\": \"A Batalha do Jenipapo foi crucial para a independência no Piauí.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"1820\",",
+            "                \"b\": \"1821\",",
+            "                \"c\": \"1823\",",
+            "                \"d\": \"1825\",",
+            "                \"r\": \"1823\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"1820 foi antes da Independência do Brasil.\",",
+            "                    \"b\": \"1821 é anterior ao evento.\",",
+            "                    \"c\": \"1823 foi o ano correto da Batalha do Jenipapo.\",",
+            "                    \"d\": \"1825 é posterior ao evento.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"Monumento aos Heróis do Jenipapo\",",
+            "                \"b\": \" Obelisco da Independência\",",
+            "                \"c\": \"Monumento do Jenipapo\",",
+            "                \"d\": \"Estátua da Liberdade\",",
+            "                \"r\": \"Monumento aos Heróis do Jenipapo\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Este Monumento foi erguido em Campo Maior para homenagear os combatentes.\",",
+            "                    \"b\": \"O obelisco da Independência está em São Paulo.\",",
+            "                    \"c\": \"Não é esse o nome correto do monumento\",",
+            "                    \"d\": \"A Estátua da Liberdade está nos EUA, sem relação com Campo Maior.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"1762\",",
+            "                \"b\": \"1823\",",
+            "                \"c\": \"1861\",",
+            "                \"d\": \"1910\",",
+            "                \"r\": \"1861\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"1762 foi o ano de fundação, mas não de elevação a cidade.\",",
+            "                    \"b\": \"1823 foi o ano da Batalha do Jenipapo, mas não de elevação a cidade.\",",
+            "                    \"c\": \"Em 1861, Campo Maior foi elevada à categoria de cidade.\",",
+            "                    \"d\": \"1910 é muito posterior ao evento.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"Mineração de ouro\",",
+            "                \"b\": \"Produção de café\",",
+            "                \"c\": \"Comércio de açúcar\",",
+            "                \"d\": \"Extração de carnaúba\",",
+            "                \"r\": \"Extração de carnaúba\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Mineração de ouro não foi relevante para a cidade.\",",
+            "                    \"b\": \"A produção de café não era destaque em Campo Maior.\",",
+            "                    \"c\": \"O comércio de açúcar não foi significativo na cidade.\",",
+            "                    \"d\": \"A extração de carnaúba foi uma das principais atividades econômicas de Campo Maior.\"",
+            "                }",
+            "            },",
+            "             {",
+            "                \"a\": \"Foi o local de nascimento de Dom Pedro I.\",",
+            "                \"b\": \"Tornou-se um centro de resistência contra tropas portuguesas.\",",
+            "                \"c\": \"Foi o local onde ocorreu a assinatura da independência do Brasil.\",",
+            "                \"d\": \"Abrigou a sede do governo provisório do Piauí após a independência.\",",
+            "                \"r\": \"Tornou-se um centro de resistência contra tropas portuguesas.\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Dom Pedro I nasceu em Portugal, não em Campo Maior.\",",
+            "                    \"b\": \"A cidade foi um ponto importante de resistência na Batalha do Jenipapo.\",",
+            "                    \"c\": \"A assinatura da independência ocorreu no Rio de Janeiro.\",",
+            "                    \"d\": \"A sede do governo provisório não esteve em Campo Maior.\"",
+            "                }",
+            "            }",
+            "            // outras respostas de Campo Maior...",
+            "        ];",
+            "        break;",
+            "",
+            "    case \"São Raimundo Nonato\":",
+            "        dados_perguntas = [",
+            "            {\"pergunta\": \"Em que ano o Parque Nacional Serra da Capivara foi criado?\"}, ",
+            "            {\"pergunta\": \"Qual é o principal atrativo arqueológico de São Raimundo Nonato?\"}, ",
+            "            {\"pergunta\": \"O Parque Nacional Serra da Capivara é reconhecido por qual organização internacional?\"}, ",
+            "            {\"pergunta\": \"Qual a importância do Museu do Homem Americano em São Raimundo Nonato?\"}, ",
+            "            {\"pergunta\": \"Qual é a evidência mais antiga encontrada na Serra da Capivara sobre a presença humana?\"}, ",
+            "            {\"pergunta\": \"O Parque Nacional Serra da Capivara foi criado com que objetivo principal?\"}",
+            "            // outras perguntas de São Raimundo Nonato...",
+            "        ];",
+            "",
+            "        dados_respostas = [",
+            "            {",
+            "                \"a\": \"1979\",",
+            "                \"b\": \"1985\",",
+            "                \"c\": \"1990\",",
+            "                \"d\": \"1995\",",
+            "                \"r\": \"1979\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Resposta Correta: 1979 é o ano correto de criação do Parque.\",",
+            "                    \"b\": \"1985 é uma data incorreta.\",",
+            "                    \"c\": \"1990 não está relacionado à criação do Parque.\",",
+            "                    \"d\": \"1995 é uma data posterior ao evento.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"emplos Incas\",",
+            "                \"b\": \"Pinturas Rupestres\",",
+            "                \"c\": \"Pirâmides\",",
+            "                \"d\": \"Ruínas de Palácios\",",
+            "                \"r\": \"Pinturas Rupestres\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Templos Incas estão na América do Sul, mas fora do Brasil.\",",
+            "                    \"b\": \"As pinturas rupestres da Serra da Capivara são o principal atrativo arqueológico.\",",
+            "                    \"c\": \"Pirâmides são encontradas no Egito e América Central, não no Piauí.\",",
+            "                    \"d\": \"Não há ruínas de palácios na região.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"ONU\",",
+            "                \"b\": \"NASA\",",
+            "                \"c\": \"Greenpeace\",",
+            "                \"d\": \"UNESCO\",",
+            "                \"r\": \"UNESCO\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"A ONU engloba várias áreas, mas não é essa a organização específica.\",",
+            "                    \"b\": \"NASA é uma agência espacial e não está relacionada ao reconhecimento cultural.\",",
+            "                    \"c\": \"Greenpeace é uma ONG ambiental, sem relação com o reconhecimento do parque.\",",
+            "                    \"d\": \"A UNESCO reconheceu o parque como Patrimônio Mundial.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"Ele abriga artefatos arqueológicos e promove pesquisas sobre a presença humana na América.\",",
+            "                \"b\": \"Serve como sede de governo local.\",",
+            "                \"c\": \"Foi construído para homenagear reis e imperadores.\",",
+            "                \"d\": \"É um centro de estudos sobre a fauna e flora do Brasil.\",",
+            "                \"r\": \"Ele abriga artefatos arqueológicos e promove pesquisas sobre a presença humana na América.\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Ele abriga artefatos arqueológicos e promove pesquisas sobre a presença humana na América.\",",
+            "                    \"b\": \"Incorreta: Não é uma sede de governo.\",",
+            "                    \"c\": \"Incorreta: Não está relacionado a reis ou imperadores.\",",
+            "                    \"d\": \"Incorreta: O museu foca em arqueologia humana, não em fauna ou flora.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"Ferramentas de metal\",",
+            "                \"b\": \"Pirâmides de 10 mil anos\",",
+            "                \"c\": \"Pinturas Rupestres de até 50 mil anos\",",
+            "                \"d\": \"Esqueletos de 20 mil anos\",",
+            "                \"r\": \"Pinturas Rupestres de até 50 mil anos\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"Incorreta: Ferramentas de metal não são as mais antigas, pois pertencem a períodos mais recentes.\",",
+            "                    \"b\": \"Incorreta: Não há pirâmides na Serra da Capivara.\",",
+            "                    \"c\": \"As pinturas rupestres são as evidências mais antigas encontradas.\",",
+            "                    \"d\": \"Incorreta: Esqueletos humanos são encontrados, mas não tão antigos quanto as pinturas.\"",
+            "                }",
+            "            },",
+            "            {",
+            "                \"a\": \"Proteger as espécies ameaçadas de extinção da região.\",",
+            "                \"b\": \"Preservar os sítios arqueológicos e pinturas rupestres.\",",
+            "                \"c\": \"Tornar-se uma área de cultivo agrícola.\",",
+            "                \"d\": \"Servir como reserva militar.\",",
+            "                \"r\": \"Preservar os sítios arqueológicos e pinturas rupestres.\",",
+            "                \"explicacoes\": {",
+            "                    \"a\": \"A fauna não é o principal foco do parque, mas sim os achados arqueológicos.\",",
+            "                    \"b\": \"O parque foi criado para preservar o patrimônio histórico e arqueológico.\",",
+            "                    \"c\": \"O parque não tem relação com atividades agrícolas.\",",
+            "                    \"d\": \"Não é uma área militar.\"",
+            "                }",
+            "            }",
+            "            // outras respostas de São Raimundo Nonato...",
+            "        ];",
+            "        break;",
+            "",
+            "    default:",
+            "        console.log(\"Cidade desconhecida\");",
+            "        break;",
+            "}",
+            "",
+            "",
+            "for(let i = 0; i< dados_perguntas.length; i++){",
+            "    listaPerguntas.getChild(i).getChild(\"pergunta\").setString(dados_perguntas[i].pergunta);",
+            "}",
+            "",
+            "for(let i = 0; i< dados_respostas.length; i++){",
+            "    listaRespostas.getChild(i).getChild(\"a\").setString(dados_respostas[i].a);",
+            "    listaRespostas.getChild(i).getChild(\"b\").setString(dados_respostas[i].b);",
+            "    listaRespostas.getChild(i).getChild(\"c\").setString(dados_respostas[i].c);",
+            "    listaRespostas.getChild(i).getChild(\"d\").setString(dados_respostas[i].d);",
+            "    listaRespostas.getChild(i).getChild(\"r\").setString(dados_respostas[i].r);",
+            "",
+            "    // Exibindo a explicação da resposta correta e incorretas",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_a\").setString(dados_respostas[i].explicacoes.a);",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_b\").setString(dados_respostas[i].explicacoes.b);",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_c\").setString(dados_respostas[i].explicacoes.c);",
+            "    listaRespostas.getChild(i).getChild(\"explicacao_d\").setString(dados_respostas[i].explicacoes.d);",
+            "",
+            "}",
+            "",
+            "total.setString(listaPerguntas.getChildrenCount());",
+            "",
+            "//textoPergunta[0].setString(listaPerguntas.getChild(0).getChild(\"pergunta\").getAsString());",
+            "//textoCidade[0].setString(cidadeAtual);",
+            "//textoTotal[0].setString(total);",
+            "",
+            "",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Gerar_pergunta"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "texto_total",
+                "Text",
+                "=",
+                "\"Total\" + NewLine() + VariableString(realizadas) +\" / \" + VariableString(total)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "acertos",
+                "Text",
+                "=",
+                "\"Acertos\" + NewLine() + VariableString(certas) +\" /0\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "botão_seguinte",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "texto_total",
+            "Text",
+            "=",
+            "\"Total\" + NewLine() + VariableString(realizadas) +\" / \" + VariableString(total)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "acertos",
+            "Text",
+            "=",
+            "\"acertos\" + NewLine() + VariableString(certas) +\" / \" + VariableString(realizadas)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "respostas",
+            "\"255;255;255\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "habilitar",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "balao_texto"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_resposta_alternativa"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "botão_seguinte"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "botão_seguinte",
+                "Animation",
+                "=",
+                "\"seguinte\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Gerar_pergunta"
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "botão_seguinte",
+                "Animation",
+                "=",
+                "\"finalizar\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\level_concluido_2.wav",
+                    "3",
+                    "",
+                    "70",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "teresina_concluida",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"tela_mapa_selecao_cidade\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "respostas",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "habilitar",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "respostas",
+                "texto_resposta1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  1 Certa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta1",
+                    "Text",
+                    "=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"150;241;51\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "certas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "acertos",
+                    "Text",
+                    "=",
+                    "\"acertos\" + NewLine() + VariableString(certas) +\" / \" + VariableString(realizadas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "habilitar",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() + VariableString(explicacao_a)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  1 Incorreta"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta1",
+                    "Text",
+                    "!=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"208;2;27\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_a)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "respostas",
+                "texto_resposta2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  2 Certa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta2",
+                    "Text",
+                    "=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"150;241;51\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "certas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "acertos",
+                    "Text",
+                    "=",
+                    "\"acertos\" + NewLine() + VariableString(certas) +\" / \" + VariableString(realizadas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "habilitar",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_b)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  2 Incorreta"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta2",
+                    "Text",
+                    "!=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"208;2;27\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_b)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "respostas",
+                "texto_resposta3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  3 Certa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta3",
+                    "Text",
+                    "=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"150;241;51\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "certas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "acertos",
+                    "Text",
+                    "=",
+                    "\"acertos\" + NewLine() + VariableString(certas) +\" / \" + VariableString(realizadas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "habilitar",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_c)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  3 Incorreta"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta3",
+                    "Text",
+                    "!=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"208;2;27\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_c)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "respostas",
+                "texto_resposta4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  4 Certa"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta4",
+                    "Text",
+                    "=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"150;241;51\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "certas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "acertos",
+                    "Text",
+                    "=",
+                    "\"acertos\" + NewLine() + VariableString(certas) +\" / \" + VariableString(realizadas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "habilitar",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"correta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "\"Parabéns!!\" + \" Certa Resposta!\" + NewLine() +  VariableString(explicacao_d)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\coletar_caixa.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Resposta  4 Incorreta"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "texto_resposta4",
+                    "Text",
+                    "!=",
+                    "VariableString(resposta)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "respostas",
+                    "\"208;2;27\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incorreta\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "texto_resposta_alternativa",
+                    "Text",
+                    "=",
+                    "VariableString(explicacao_d)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sons\\erro.wav",
+                    "1",
+                    "",
+                    "60",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "validar_resposta"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "realizadas",
+            "=",
+            "Variable(total)"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "botão_seguinte",
+            "Animation",
+            "=",
+            "\"finalizar\""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PlatformerCharacterAnimator",
+      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}
