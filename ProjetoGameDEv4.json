@@ -1,9 +1,9 @@
 {
   "firstLayout": "fase_plataforma_Campo_Maior",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 213,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -6114,6 +6114,619 @@
         "name": "TEATRO_OEIRAS2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_escavacao_caverna.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/minigame_escavacao/caverna.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/minigame_escavacao/beep.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/beep.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/parnaiba_Porto_das_barcas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\parnaiba_Porto_das_barcas.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/parnaiba_federacao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\parnaiba_federacao.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/parnaiba_monumento_independencia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\parnaiba_monumento_independencia.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/parnaiba_igreja_catedral.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\parnaiba_igreja_catedral.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/luis_correia_praia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\luis_correia_praia.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/parnaiba_mureta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\parnaiba_mureta.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterType1 FG Bright Surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterType1 FG Bright Surface.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/FG Type1/2959705609946bcbda8b229feb2fe8001e20c1a4358a66be5e384d6bfb84386b_WaterType1 FG Bright Surface.png",
+          "name": "WaterType1 FG Bright Surface.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water cave bright desat surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water cave bright desat surface.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/0ddf2187a3a7b646517502da5b35d53aeac38db2f1aa7f05d007047a9d65b666_water cave bright desat surface.png",
+          "name": "water cave bright desat surface.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tileset Piece 3.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Tileset Piece 3.png4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/parnaiba/placa bem vindo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\parnaiba\\placa bem vindo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Informações Parnaiba.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Informações Parnaiba.json\"}",
+        "name": "Informações Parnaiba",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Resource Stone.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Resource Stone.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival/Rock/e0f0cf17914a5cfd9e30e3eab1b830eedcbd5bf344683f02743fa7c82867a0ae_Resource Stone.glb",
+          "name": "Resource Stone.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_escavacao_Sprite_Pedra.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/minigame_escavacao/Sprite_Pedra",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/pegada_fossilizada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/pegada_fossilizada.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/femur_megafauna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/femur_megafauna.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Sprite_PeixeFossil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Sprite_PeixeFossil.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/lamina_silex.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/lamina_silex.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Sprite_PlantaFossil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Sprite_PlantaFossil.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/colar_de_ossos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/colar_de_ossos.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/Pintura_Rupestre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/Pintura_Rupestre.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/pintura_rupestre_capivara.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/pintura_rupestre_capivara.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/pintura_rupestre_4capvaras.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/pintura_rupestre_4capvaras.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_escavacao_Sprite_Pedra2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/minigame_escavacao/Sprite_Pedra2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "777febacd90ab64f8861bf40c1b1312a4a37e92bee0e9ec44919a26917afd16f_Stone.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/Rock/777febacd90ab64f8861bf40c1b1312a4a37e92bee0e9ec44919a26917afd16f_Stone.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "96409107ae77918bbcde7a715c09e12b1b6c8ef16524b06b0d162955f1bd1a27_Red bar.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/96409107ae77918bbcde7a715c09e12b1b6c8ef16524b06b0d162955f1bd1a27_Red bar.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/canoa_player.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\canoa_player.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/canoaplayer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\canoaplayer.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone_Shadow.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Stone_Shadow.png\",\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Resources/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tree trunk thin tiled sprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d2ad9eb11a26b1e532eb4fb9181912278f1670b0211605f9f840da846b1965c4_tiled_Tree trunk thin tiled sprite.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/d2ad9eb11a26b1e532eb4fb9181912278f1670b0211605f9f840da846b1965c4_tiled_Tree trunk thin tiled sprite.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/sprite_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\sprite_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "17d2a171a383b51f7939d41190ccdcfa64ab03bce79bf692bddc54e540b9ab65_Heart_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Casino Craze/Card Suit/17d2a171a383b51f7939d41190ccdcfa64ab03bce79bf692bddc54e540b9ab65_Heart_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_escavacao/balao_texto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/minigame_escavacao/balao_texto.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Catedral_de_Campo_Maior-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Catedral_de_Campo_Maior-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pedra furada sem fundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pedra furada sem fundo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Museu do homem americano .jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Museu do homem americano .jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Museu_do_homem_americano_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Museu_do_homem_americano_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pedra_furada_sem_fundo-2-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pedra_furada_sem_fundo-2-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/São Raimundo Nonato 01.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/São Raimundo Nonato 01.json\"}",
+        "name": "São Raimundo Nonato 01",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "01-ChicoRasta_FormacoesRochosas_SerraDaCapivara_SaoRaimundoNonato_PI-MTur-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "01-ChicoRasta_FormacoesRochosas_SerraDaCapivara_SaoRaimundoNonato_PI-MTur-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/e88334de6c9ad921b4719b34a512d70b923fcf36112610a7f9ed4d56aa77cfd0_Square White Toggle_Off.png",
+          "name": "Square White Toggle_Off.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/ebdb63dcba9c53d41a0a468ba28929bf88b1b8698d672fc17568723fe1fbc3cc_Square White Toggle_On.png",
+          "name": "Square White Toggle_On.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Teresina pixelart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Teresina pixelart.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Checked",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "test4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "test4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GAME PLATAFORMA TERESINA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GAME PLATAFORMA TERESINA.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mini gaem.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mini gaem.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiz game.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiz game.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7208,12 +7821,6 @@
       ]
     },
     {
-      "areaMaxX": 64,
-      "areaMaxY": 64,
-      "areaMaxZ": 64,
-      "areaMinX": 0,
-      "areaMinY": 0,
-      "areaMinZ": 0,
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "Jogar_butão",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -7295,6 +7902,66 @@
           "width": 256
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_texto_final",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/dialogue_box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 345
+                      },
+                      {
+                        "x": 0,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7432,6 +8099,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame_escavacao_edit_miller"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/aquatico"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase"
     }
   ],
   "externalEvents": [
@@ -7445,6 +8120,18 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dynamicwater"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/arraytools"
