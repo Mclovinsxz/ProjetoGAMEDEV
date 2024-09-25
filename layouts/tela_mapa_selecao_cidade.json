@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2987985363606946,
+    "zoomFactor": 0.8926462115230379,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -139,23 +139,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1648,
-      "keepRatio": true,
-      "layer": "",
-      "name": "background_nordeste_pixel",
-      "persistentUuid": "252d609b-a78a-41aa-9dd6-a9d9da5b5e0d",
-      "width": 2811,
-      "x": -14,
-      "y": -225,
-      "zOrder": -5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1.2,
       "height": 60,
       "keepRatio": true,
@@ -165,7 +148,7 @@
       "width": 60,
       "x": 1501,
       "y": 45,
-      "zOrder": 2,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -254,6 +237,90 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 101,
+      "keepRatio": true,
+      "layer": "",
+      "name": "teresina_local",
+      "persistentUuid": "62ea2145-c72e-4298-8770-69d02d7f7ed2",
+      "width": 101,
+      "x": 1363,
+      "y": 305,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 149,
+      "keepRatio": true,
+      "layer": "",
+      "name": "oeiras_local",
+      "persistentUuid": "f3d997dd-e093-4486-922e-b30e9f0d8493",
+      "width": 149,
+      "x": 1404,
+      "y": 515,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CP_Maior_local",
+      "persistentUuid": "099123e0-bb6d-4b90-89f4-89fe0fa3f9bb",
+      "width": 0,
+      "x": 1392,
+      "y": 198,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SRn_local",
+      "persistentUuid": "6d994e9e-6035-4148-91c4-465a763b56d3",
+      "width": 144,
+      "x": 1404,
+      "y": 743,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 86,
+      "keepRatio": true,
+      "layer": "",
+      "name": "parnaiba_local",
+      "persistentUuid": "ffb64682-c3e1-494f-945b-5bec68922489",
+      "width": 86,
+      "x": 1477,
+      "y": 61,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -267,6 +334,54 @@
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "5_SRN",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 592,
+                        "y": 124
+                      },
+                      {
+                        "x": 2304,
+                        "y": 124
+                      },
+                      {
+                        "x": 2304,
+                        "y": 2722
+                      },
+                      {
+                        "x": 592,
+                        "y": 2722
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "1_teresina",
           "useMultipleDirections": false,
@@ -294,11 +409,11 @@
                     [
                       {
                         "x": 592,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
@@ -342,11 +457,11 @@
                     [
                       {
                         "x": 592,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
@@ -390,11 +505,11 @@
                     [
                       {
                         "x": 592,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
@@ -438,59 +553,11 @@
                     [
                       {
                         "x": 592,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
-                        "y": 170
-                      },
-                      {
-                        "x": 2304,
-                        "y": 2722
-                      },
-                      {
-                        "x": 592,
-                        "y": 2722
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "5_SRN",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 592,
-                        "y": 170
-                      },
-                      {
-                        "x": 2304,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
@@ -534,11 +601,11 @@
                     [
                       {
                         "x": 592,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
@@ -582,11 +649,11 @@
                     [
                       {
                         "x": 592,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
-                        "y": 170
+                        "y": 124
                       },
                       {
                         "x": 2304,
@@ -898,6 +965,311 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "teresina_local",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 62
+                      },
+                      {
+                        "x": 2,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "oeiras_local",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 62
+                      },
+                      {
+                        "x": 2,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "parnaiba_local",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 62
+                      },
+                      {
+                        "x": 2,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CP_Maior_local",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 62
+                      },
+                      {
+                        "x": 2,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SRn_local",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 62
+                      },
+                      {
+                        "x": 2,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -923,6 +1295,21 @@
       },
       {
         "objectName": "fundo_mapa"
+      },
+      {
+        "objectName": "teresina_local"
+      },
+      {
+        "objectName": "oeiras_local"
+      },
+      {
+        "objectName": "parnaiba_local"
+      },
+      {
+        "objectName": "CP_Maior_local"
+      },
+      {
+        "objectName": "SRn_local"
       }
     ]
   },
@@ -958,6 +1345,88 @@
             "cidades_total",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "oeiras_local",
+            "=",
+            "-100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "teresina_local",
+            "=",
+            "-100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "parnaiba_local",
+            "=",
+            "-100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "SRn_local",
+            "=",
+            "-100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "CP_Maior_local",
+            "=",
+            "-100"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CP_Maior_local"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "parnaiba_local"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "oeiras_local"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "SRn_local"
           ]
         }
       ],
@@ -997,6 +1466,15 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "oeiras_local",
+                ""
+              ]
             }
           ],
           "events": [
@@ -1034,6 +1512,15 @@
                     "cidades_total",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "parnaiba_local",
+                    ""
                   ]
                 }
               ],
@@ -1073,6 +1560,15 @@
                         "+",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "CP_Maior_local",
+                        ""
+                      ]
                     }
                   ],
                   "events": [
@@ -1111,6 +1607,15 @@
                             "+",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "SRn_local",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -1138,9 +1643,19 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "PopScene"
           },
           "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"tela inicial\"",
             ""
           ]
         }
@@ -1762,7 +2277,7 @@
               },
               "parameters": [
                 "",
-                "\"quiz_game\"",
+                "\"pre_Select_Fase_Teresina\"",
                 ""
               ]
             }
@@ -1799,7 +2314,7 @@
               },
               "parameters": [
                 "",
-                "\"quiz_game\"",
+                "\"pre_Select_Fase_oeiras\"",
                 ""
               ]
             }
@@ -1836,7 +2351,7 @@
               },
               "parameters": [
                 "",
-                "\"quiz_game\"",
+                "\"pre_Select_Fase_campo_maior\"",
                 ""
               ]
             }
@@ -1873,7 +2388,7 @@
               },
               "parameters": [
                 "",
-                "\"fase_plataforma_parnaiba\"",
+                "\"pre_Select_Fase_Parnaiba\"",
                 ""
               ]
             }
@@ -1910,10 +2425,200 @@
               },
               "parameters": [
                 "",
-                "\"quiz_game\"",
+                "\"pre_Select_Fase_SRN\"",
                 ""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "teresina_local",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Teresina\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cidades",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "oeiras_local",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Oeiras\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cidades",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "parnaiba_local",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cidades",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Parnaíba\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "CP_Maior_local",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cidades",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Campo Maior\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "SRn_local",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cidades",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"São Raimundo Nonato\""
           ]
         }
       ]

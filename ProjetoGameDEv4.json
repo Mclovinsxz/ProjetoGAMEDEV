@@ -6727,6 +6727,168 @@
         "name": "quiz game.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite22.png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_minigame_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_minigame_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_minigame_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_minigame_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiz_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiz_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiz_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiz_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_minigame_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_minigame_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_minigame_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_minigame_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_minigame_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_minigame_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_minigame_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_minigame_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oeiras_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oeiras_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oeiras_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oeiras_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8106,7 +8268,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/pre_select_fase"
+      "referenceTo": "/layouts/pre_select_fase_teresina"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_campo_maior"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_oeiras"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_parnaiba"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_srn"
     }
   ],
   "externalEvents": [
