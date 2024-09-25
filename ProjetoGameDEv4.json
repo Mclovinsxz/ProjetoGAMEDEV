@@ -6889,6 +6889,51 @@
         "name": "srn_plataforma_2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_05.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

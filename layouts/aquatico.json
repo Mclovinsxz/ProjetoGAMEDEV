@@ -83,23 +83,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 224,
-      "keepRatio": true,
-      "layer": "",
-      "name": "barco",
-      "persistentUuid": "e79cddd7-6474-4623-843f-5ba19da7e411",
-      "width": 320,
-      "x": 96,
-      "y": 448,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 90,
       "customSize": true,
       "depth": 1,
@@ -126,9 +109,9 @@
       "name": "instrucao_inicio",
       "persistentUuid": "a4c9e75e-eec4-491b-bf12-f0ea377589a8",
       "width": 1728,
-      "x": 96,
-      "y": 503,
-      "zOrder": 5,
+      "x": 160,
+      "y": 384,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -177,6 +160,23 @@
       "x": 320,
       "y": 64,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "barco",
+      "persistentUuid": "46e0728c-8a8d-47a3-ab7d-754b7823d635",
+      "width": 480,
+      "x": 32,
+      "y": 480,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -367,12 +367,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\canoaplayer.png",
+                  "image": "bote_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -388,20 +388,164 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 195
+                        "x": 17,
+                        "y": 8
                       },
                       {
-                        "x": 1800,
-                        "y": 195
+                        "x": 177,
+                        "y": 8
                       },
                       {
-                        "x": 1800,
-                        "y": 825
+                        "x": 177,
+                        "y": 79
                       },
                       {
-                        "x": 150,
-                        "y": 825
+                        "x": 17,
+                        "y": 79
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bote_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 79
+                      },
+                      {
+                        "x": 17,
+                        "y": 79
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bote_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 79
+                      },
+                      {
+                        "x": 17,
+                        "y": 79
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bote_04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 79
+                      },
+                      {
+                        "x": 17,
+                        "y": 79
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bote_05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 79
+                      },
+                      {
+                        "x": 17,
+                        "y": 79
                       }
                     ]
                   ]
@@ -2328,6 +2472,22 @@
           "parameters": [
             "vida3",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "barco",
+            "=",
+            "1000"
           ]
         }
       ]
