@@ -1,0 +1,1477 @@
+{
+  "b": 245,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "pre_95Select_95Fase_95Teresina",
+  "name": "pre_Select_Fase_Teresina",
+  "r": 198,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 243,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.2890516203134925,
+    "windowMask": true
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1326,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PRE_select",
+      "persistentUuid": "caaa733b-4709-43b3-b862-ebc40e40782d",
+      "width": 2356,
+      "x": -247,
+      "y": -58,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar_butão",
+      "persistentUuid": "93d34be7-2e22-4edd-a8d5-f423c93ccffa",
+      "width": 0,
+      "x": 224,
+      "y": 854,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogo_de_Plataforma",
+      "persistentUuid": "fecab9c4-fd07-4e31-86f2-2c53cb1889ea",
+      "width": 544,
+      "x": 192,
+      "y": 256,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Quiz_Game",
+      "persistentUuid": "3243aa28-7f8e-4b0c-991b-85e3491f475d",
+      "width": 0,
+      "x": 1472,
+      "y": 272,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Mini_game",
+      "persistentUuid": "bd22a209-f039-4d39-8987-952f3f875b63",
+      "width": 0,
+      "x": 925,
+      "y": 272,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar__Minigame",
+      "persistentUuid": "600c8fe6-b324-4fb2-80ee-b68e4cf107d3",
+      "width": 0,
+      "x": 864,
+      "y": 854,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar_Quiz",
+      "persistentUuid": "5b1f3dd9-bb8b-476a-a67a-0cdb13022e96",
+      "width": 0,
+      "x": 1408,
+      "y": 854,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Game_de_Plataforma",
+      "persistentUuid": "2772efa8-f43e-46fa-b564-fefc96808540",
+      "width": 0,
+      "x": 208,
+      "y": 352,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Mini_game3",
+      "persistentUuid": "59370ec1-faf9-443b-afeb-c28ab4fac164",
+      "width": 0,
+      "x": 816,
+      "y": 352,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Quiz_game",
+      "persistentUuid": "19abb1a7-01b1-40ed-8a9b-1c4f794596af",
+      "width": 0,
+      "x": 1344,
+      "y": 352,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Limite",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PRE_select",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "test4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 682
+                      },
+                      {
+                        "x": 0,
+                        "y": 682
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Game_de_Plataforma",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "teresina_plataforma_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 392
+                      },
+                      {
+                        "x": 8,
+                        "y": 392
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "teresina_plataforma_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 392
+                      },
+                      {
+                        "x": 8,
+                        "y": 392
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mini_game3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "teresina_minigame_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 392
+                      },
+                      {
+                        "x": 8,
+                        "y": 392
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "teresina_minigame_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 392
+                      },
+                      {
+                        "x": 8,
+                        "y": 392
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Quiz_game",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "quiz_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 392
+                      },
+                      {
+                        "x": 8,
+                        "y": 392
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "quiz_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 9
+                      },
+                      {
+                        "x": 392,
+                        "y": 392
+                      },
+                      {
+                        "x": 8,
+                        "y": 392
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Jogo_de_Plataforma",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Game de Plataforma",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 10,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Game de Plataforma",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Quiz_Game",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Quiz Game",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 10,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Quiz Game",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Mini_game",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Mini Game",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 10,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Mini Game",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "Jogar__Minigame",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Jogar",
+          "font": "Poppins-Medium.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jogar",
+            "font": "Poppins-Medium.ttf",
+            "textAlignment": "center",
+            "characterSize": 50,
+            "color": "139;87;42"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "Jogar_Quiz",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Grey Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Grey Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Jogar",
+          "font": "Poppins-Medium.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 79,
+            "g": 72,
+            "r": 72
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jogar",
+            "font": "Poppins-Medium.ttf",
+            "textAlignment": "center",
+            "characterSize": 50,
+            "color": "72;72;79"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Grey Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Limite"
+      },
+      {
+        "objectName": "PRE_select"
+      },
+      {
+        "objectName": "Game_de_Plataforma"
+      },
+      {
+        "objectName": "Mini_game3"
+      },
+      {
+        "objectName": "Quiz_game"
+      },
+      {
+        "objectName": "Jogo_de_Plataforma"
+      },
+      {
+        "objectName": "Quiz_Game"
+      },
+      {
+        "objectName": "Mini_game"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Jogar__Minigame"
+      },
+      {
+        "objectName": "Jogar_Quiz"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Jogar_butão",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Jogar_butão",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"fase_plataforma_teresina\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Jogar__Minigame",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"minigame_clickpoint_teresina\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Jogar_Quiz",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Teresina\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"quiz_game\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Game_de_Plataforma",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Game_de_Plataforma",
+            "Animation",
+            "=",
+            "\"on\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"fase_plataforma_teresina\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Game_de_Plataforma",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Game_de_Plataforma",
+            "Animation",
+            "=",
+            "\"off\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Mini_game3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mini_game3",
+            "Animation",
+            "=",
+            "\"off\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Mini_game3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mini_game3",
+            "Animation",
+            "=",
+            "\"on\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"minigame_clickpoint_teresina\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Quiz_game",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Quiz_game",
+            "Animation",
+            "=",
+            "\"on\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"quiz_game\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Teresina\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Quiz_game",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Quiz_game",
+            "Animation",
+            "=",
+            "\"off\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"tela_mapa_selecao_cidade\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PlatformerCharacterAnimator",
+      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}

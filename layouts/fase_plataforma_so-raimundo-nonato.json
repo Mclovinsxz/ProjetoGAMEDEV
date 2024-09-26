@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45985214267370883,
+    "zoomFactor": 0.22169247275008916,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -586,9 +586,9 @@
       "name": "dialogo_box",
       "persistentUuid": "283612f6-0b1d-4b23-be72-52caefcba969",
       "width": 1775,
-      "x": 77,
-      "y": 160,
-      "zOrder": 64,
+      "x": 99,
+      "y": 155,
+      "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -904,8 +904,8 @@
       "name": "caixa_informações_6",
       "persistentUuid": "8f31c934-6997-4429-9f9f-e2d6e9241e9e",
       "width": 90,
-      "x": 7849,
-      "y": 350,
+      "x": 5900,
+      "y": 885,
       "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
@@ -921,8 +921,8 @@
       "name": "caixa_informações_7",
       "persistentUuid": "91ef4d9a-265b-4b60-bf7a-f75423d05244",
       "width": 88,
-      "x": 5890,
-      "y": 880,
+      "x": 7846,
+      "y": 292,
       "zOrder": 86,
       "numberProperties": [],
       "stringProperties": [],
@@ -1643,8 +1643,8 @@
       "name": "Cloud9",
       "persistentUuid": "24ca96fa-42e2-46e1-aed5-567c45574c95",
       "width": 0,
-      "x": 1093,
-      "y": 184,
+      "x": 1774,
+      "y": -595,
       "zOrder": -197,
       "numberProperties": [],
       "stringProperties": [],
@@ -3146,14 +3146,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1123,
+      "height": 1315,
       "keepRatio": true,
       "layer": "",
       "name": "Pedra_Furada",
       "persistentUuid": "19bc62ab-e734-4dcd-8ffc-e22b48e7217d",
-      "width": 2742,
-      "x": 2082,
-      "y": -78,
+      "width": 5816,
+      "x": -147,
+      "y": -225,
       "zOrder": -198,
       "numberProperties": [],
       "stringProperties": [],
@@ -3168,8 +3168,8 @@
       "layer": "",
       "name": "Museu_do_Homem_Moderno_",
       "persistentUuid": "47878cce-39ee-4520-bf91-28318670a4a2",
-      "width": 1484,
-      "x": 8374,
+      "width": 1782,
+      "x": 8076,
       "y": 156,
       "zOrder": -194,
       "numberProperties": [],
@@ -3178,17 +3178,16 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1055,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite3",
-      "persistentUuid": "bb6a4949-10ef-48e6-a1e9-39836d8183af",
-      "width": 2224,
-      "x": -10,
-      "y": 24,
-      "zOrder": -196,
+      "name": "fundo_efeito",
+      "persistentUuid": "f16dd874-8316-4d72-8114-de5067f241ac",
+      "width": 0,
+      "x": 8059,
+      "y": 1450,
+      "zOrder": 111,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13498,6 +13497,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "cfd3d9f36ec02cca8b8613d55d453f0e2efaf8360b08942636abc4b5c4af1a23",
+      "name": "RockWithGrass2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rock with grass 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 158,
+                        "y": 0
+                      },
+                      {
+                        "x": 158,
+                        "y": 78
+                      },
+                      {
+                        "x": 0,
+                        "y": 78
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "eea45868e262a3050686fe0b35baebe854a8dcdbd141dbfde8a4887e0eef7492",
+      "name": "Rock3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rock 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 162,
+                        "y": 0
+                      },
+                      {
+                        "x": 162,
+                        "y": 118
+                      },
+                      {
+                        "x": 0,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13739,6 +13858,12 @@
       },
       {
         "objectName": "NewSprite3"
+      },
+      {
+        "objectName": "RockWithGrass2"
+      },
+      {
+        "objectName": "Rock3"
       }
     ]
   },
@@ -16411,6 +16536,15 @@
             "check",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\checkpoint.wav"
           ]
         }
       ]

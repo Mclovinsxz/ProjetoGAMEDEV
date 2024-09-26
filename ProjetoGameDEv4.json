@@ -6727,6 +6727,266 @@
         "name": "quiz game.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite22.png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_minigame_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_minigame_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teresina_minigame_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teresina_minigame_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiz_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiz_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "quiz_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "quiz_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_minigame_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_minigame_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "parnaiba_minigame_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parnaiba_minigame_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_minigame_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_minigame_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_minigame_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_minigame_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oeiras_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oeiras_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "oeiras_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "oeiras_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_plataforma_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_plataforma_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "srn_plataforma_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "srn_plataforma_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bote_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bote_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "catedral_cmaoir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "catedral_cmaoir.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "monumento_soldados.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "monumento_soldados.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "batalha_jenipapo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "batalha_jenipapo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock with grass 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock with grass 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/6e343a5721109a7667d3ec0a01c07264628b32321770c07c95b0ab418802ad0a_Rock with grass 2.png",
+          "name": "Rock with grass 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/a99ca2cdbce83720ee93308d158a61a5fbffafd444622176a4c489652f786ed7_Rock 3.png",
+          "name": "Rock 3.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -8106,7 +8366,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/pre_select_fase"
+      "referenceTo": "/layouts/pre_select_fase_teresina"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_campo_maior"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_oeiras"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_parnaiba"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre_select_fase_srn"
     }
   ],
   "externalEvents": [

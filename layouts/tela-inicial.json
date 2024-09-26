@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.529035740215685,
+    "zoomFactor": 0.47893418845352564,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -44,14 +44,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 51.61290322580645,
+      "depth": 52,
       "height": 120,
       "layer": "",
       "name": "Jogar",
       "persistentUuid": "4cf37f44-4260-4ab2-b272-a65663aaf7b4",
-      "width": 400,
-      "x": 569,
-      "y": 494,
+      "width": 656,
+      "x": 645,
+      "y": 503,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -118,23 +118,6 @@
       "x": 411,
       "y": 220,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 114,
-      "keepRatio": true,
-      "layer": "",
-      "name": "continuar",
-      "persistentUuid": "a8a5cea1-2b66-459d-bb6c-7f69611568d6",
-      "width": 435,
-      "x": 997,
-      "y": 496,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -855,7 +838,7 @@
           },
           "parameters": [
             "",
-            "\"introdução\"",
+            "\"tela_mapa_selecao_cidade\"",
             ""
           ]
         }

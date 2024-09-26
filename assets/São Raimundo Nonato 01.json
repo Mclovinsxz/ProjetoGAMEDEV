@@ -2,17 +2,17 @@
 	{
 		"title": "SRN INfo 01",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "[b]O vale do Rio Piauí.[/b]",
 		"position": {
 			"x": 569,
-			"y": 343
+			"y": 342
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 02",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Onde a região se localizava,era habitado por indígenas silvícolas",
 		"position": {
 			"x": 820,
 			"y": 356
@@ -22,7 +22,7 @@
 	{
 		"title": "SRN INfo 03",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "tribo dos tapuias em diversos aldeamentos.",
 		"position": {
 			"x": 1082,
 			"y": 358
@@ -32,27 +32,27 @@
 	{
 		"title": "SRN INfo 04",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "[b]Parque Nacional Serra da Capivara[/b]",
 		"position": {
-			"x": 558,
-			"y": 588
+			"x": 571,
+			"y": 581
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 05",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Junto a 17 outros municípios do estado",
 		"position": {
-			"x": 815,
-			"y": 581
+			"x": 828,
+			"y": 583
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 06",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "O município integra a região turística do polo das origens,",
 		"position": {
 			"x": 1095,
 			"y": 586
@@ -62,7 +62,7 @@
 	{
 		"title": "SRN INfo 07",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "[b]Museu do Homem Americano[/b].Situado na sede da Fumdham, o Museu foicriado para divulgar a importância do patrimônio cultural",
 		"position": {
 			"x": 568,
 			"y": 818
@@ -72,10 +72,10 @@
 	{
 		"title": "SRN INfo 08",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "A exposição mostra os resultados de mais de quatro décadas de pesquisas realizadas na região do Parque.",
 		"position": {
-			"x": 841,
-			"y": 817
+			"x": 825,
+			"y": 818
 		},
 		"colorID": 0
 	}
