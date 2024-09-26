@@ -6987,6 +6987,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/a99ca2cdbce83720ee93308d158a61a5fbffafd444622176a4c489652f786ed7_Rock 3.png",
           "name": "Rock 3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tiled_Desert_praia_inicio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Desert_praia_inicio.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tiled_Desert_praia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Desert_praia.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/game piaui.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\game piaui.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
