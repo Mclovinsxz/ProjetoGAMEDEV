@@ -7015,6 +7015,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/sons/Navegando no Mar.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\Navegando no Mar.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -1439,6 +1439,43 @@
             "1000"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\Navegando no Mar.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\Navegando no Mar.mp3",
+                "0",
+                "",
+                "60",
+                "1"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
