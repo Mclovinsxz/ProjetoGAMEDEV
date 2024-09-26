@@ -62,6 +62,18 @@
       "name": "vidas",
       "type": "number",
       "value": 3
+    },
+    {
+      "folded": true,
+      "name": "sofrendoDano",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "temporizadorOnOff",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -349,6 +361,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "agua_parada",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\minigame_navegacao\\correnteza.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 400,
+                        "y": 0
+                      },
+                      {
+                        "x": 400,
+                        "y": 400
+                      },
+                      {
+                        "x": 0,
+                        "y": 400
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -363,7 +423,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "barco_acelerando",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -517,6 +577,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "bote_05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 8
+                      },
+                      {
+                        "x": 177,
+                        "y": 79
+                      },
+                      {
+                        "x": 17,
+                        "y": 79
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "barco_parado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bote_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1284,12 +1392,51 @@
       "actions": [
         {
           "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
             "value": "SetBooleanVariable"
           },
           "parameters": [
             "iniciado",
             "False",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "vidas",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "barco",
+            "=",
+            "1000"
           ]
         }
       ]
@@ -1316,15 +1463,6 @@
             "iniciado",
             "True",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"tempo_obstaculos\""
           ]
         },
         {
@@ -1395,6 +1533,17 @@
             "-6",
             "0",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "agua",
+            "Animation",
+            "=",
+            "\"correnteza\""
           ]
         }
       ]
@@ -1487,6 +1636,26 @@
                 "",
                 "s"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
             }
           ]
         }
@@ -1529,6 +1698,16 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "False",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1538,6 +1717,182 @@
           },
           "parameters": [
             "instrucao_inicio"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "agua",
+            "Animation",
+            "=",
+            "\"correnteza\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "barco",
+            "Animation",
+            "=",
+            "\"barco_acelerando\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "quando o jogo é perdido:"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "iniciado",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "temporizadorOnOff",
+                "False",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "agua",
+            "Animation",
+            "=",
+            "\"agua_parada\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "barco",
+            "Animation",
+            "=",
+            "\"barco_parado\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "pedra"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "pedra2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "tronco"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "tronco2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "barco_alheio"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "barco_alheio2"
           ]
         }
       ]
@@ -1797,6 +2152,16 @@
             "=",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1846,6 +2211,16 @@
             "obstaculo_mobilizado",
             "=",
             "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
           ]
         }
       ],
@@ -1897,6 +2272,16 @@
             "=",
             "3"
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1946,6 +2331,16 @@
             "obstaculo_mobilizado",
             "=",
             "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
           ]
         }
       ],
@@ -1997,6 +2392,16 @@
             "=",
             "5"
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -2046,6 +2451,16 @@
             "obstaculo_mobilizado",
             "=",
             "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
           ]
         }
       ],
@@ -2282,35 +2697,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "barco",
-            "pedra",
-            "",
-            "",
-            "yes"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "vidas",
-            "=",
-            "vidas - 1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "NumberVariable"
           },
           "parameters": [
@@ -2478,16 +2864,257 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "sofrendoDano",
+            "False",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "barco",
+            "sofrendoDano",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "vidas",
             "=",
-            "1000"
+            "vidas - 1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "sofrendoDano",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "vidas",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "False",
+            ""
           ]
         }
       ]
