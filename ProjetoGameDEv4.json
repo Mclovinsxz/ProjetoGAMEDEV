@@ -1,5 +1,5 @@
 {
-  "firstLayout": "fase_plataforma_Campo_Maior",
+  "firstLayout": "tela inicial",
   "gdVersion": {
     "build": 213,
     "major": 5,
@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.unipGameDev.cronicasDoPiaui",
     "pixelsRounding": true,
     "projectUuid": "7f1cc61b-17cb-4577-bb89-38936c12cb4c",
     "scaleMode": "nearest",
