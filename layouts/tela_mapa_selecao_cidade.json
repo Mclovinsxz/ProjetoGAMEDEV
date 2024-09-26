@@ -5,7 +5,7 @@
   "name": "tela_mapa_selecao_cidade",
   "r": 80,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 136,
   "uiSettings": {

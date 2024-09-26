@@ -5,7 +5,7 @@
   "name": "pre_Select_Fase_campo_maior",
   "r": 198,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 243,
   "uiSettings": {

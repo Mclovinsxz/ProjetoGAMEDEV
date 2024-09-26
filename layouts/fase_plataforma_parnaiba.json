@@ -7796,8 +7796,8 @@
       "behaviors": [
         {
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "platformType": "NormalPlatform",
           "canBeGrabbed": true,
           "yGrabOffset": 0
         }
@@ -15808,11 +15808,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "",
+            "\"tela_mapa_selecao_cidade\"",
             ""
           ]
         }
