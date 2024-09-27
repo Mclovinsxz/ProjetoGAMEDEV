@@ -6996,6 +6996,357 @@
         "name": "assets\\minigame_navegacao\\correnteza.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_P.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0f138438828f2bcc4d07aaa295be556f0c77bf310237b36bdd504e9ad2993fa9_Letter Key_P.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/0f138438828f2bcc4d07aaa295be556f0c77bf310237b36bdd504e9ad2993fa9_Letter Key_P.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9be41b7872c4231de3bfc4b2d91937448974b5928fce9e4b8226549e03581cc6_Letter Key_A.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/9be41b7872c4231de3bfc4b2d91937448974b5928fce9e4b8226549e03581cc6_Letter Key_A.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "816089540d0ff018cd953418b0716a70d06c90adf924f6317c0fe9f7e36881ad_Letter Key_R.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/816089540d0ff018cd953418b0716a70d06c90adf924f6317c0fe9f7e36881ad_Letter Key_R.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_N.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "69d46f4b8544d2d3693f02bd534ef62c4f842ae911df33e5dd23f640efbedf04_Letter Key_N.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/69d46f4b8544d2d3693f02bd534ef62c4f842ae911df33e5dd23f640efbedf04_Letter Key_N.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_I.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7980f0bea922d2ab69a1cb00101bb8dce2fd0fd5205a63447888cde4e5eda46c_Letter Key_I.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/7980f0bea922d2ab69a1cb00101bb8dce2fd0fd5205a63447888cde4e5eda46c_Letter Key_I.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10ad9fd0d421f71cd167ec71b772da2bd89bff9091866dacafd62ce30bde365a_Letter Key_B.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/10ad9fd0d421f71cd167ec71b772da2bd89bff9091866dacafd62ce30bde365a_Letter Key_B.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Bottle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Other Objects/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objeto_coletavel_parado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "objeto_coletavel_parado",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Branch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Plant/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/pedra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\pedra.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/pixel-heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\pixel-heart.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pixel-heart.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pixel-heart",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pixel-heart2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_pixel-heart2.png\"}",
+        "name": "assets\\minigame_navegacao\\pixel-heart2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_pixel-heart-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\assets_minigame_navegacao_pixel-heart-1.png.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/tronco_arvore.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\tronco_arvore.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_tronco_arvore.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\tronco_arvore",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer7",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8405,6 +8756,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
