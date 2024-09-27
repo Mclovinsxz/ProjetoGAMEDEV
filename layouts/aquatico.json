@@ -18,7 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
+
     "zoomFactor": 0.30887412163426936,
+
+    "zoomFactor": 0.2796226521839402,
+
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3159,6 +3163,43 @@
             "texto_venceu",
             "=",
             "1001"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\Navegando no Mar.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\Navegando no Mar.mp3",
+                "0",
+                "",
+                "60",
+                "1"
+              ]
+            }
           ]
         }
       ]

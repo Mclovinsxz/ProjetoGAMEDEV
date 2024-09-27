@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333948,
+    "zoomFactor": 0.24488383633729596,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -13186,11 +13186,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "",
+            "\"tela_mapa_selecao_cidade\"",
             ""
           ]
         }
@@ -13494,7 +13494,7 @@
             "assets\\sons\\Terra do Sol_tema.mp3",
             "1",
             "yes",
-            "10",
+            "40",
             "1"
           ]
         }

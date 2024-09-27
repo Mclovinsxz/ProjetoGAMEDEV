@@ -1,9 +1,9 @@
 {
-  "firstLayout": "fase_plataforma_Campo_Maior",
+  "firstLayout": "tela inicial",
   "gdVersion": {
-    "build": 213,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.unipGameDev.cronicasDoPiaui",
     "pixelsRounding": true,
     "projectUuid": "7f1cc61b-17cb-4577-bb89-38936c12cb4c",
     "scaleMode": "nearest",
@@ -6990,15 +6990,16 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/minigame_navegacao/correnteza.png",
+        "file": "tiled_Desert_praia_inicio.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\minigame_navegacao\\correnteza.png",
+        "name": "tiled_Desert_praia_inicio.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+
         "file": "assets/Letter Key_P.png",
         "kind": "image",
         "metadata": "",
@@ -7346,6 +7347,33 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\canoaplayer7",
         "smoothed": false,
+
+        "file": "tiled_Desert_praia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Desert_praia.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/game piaui.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\game piaui.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sons/Navegando no Mar.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\Navegando no Mar.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+
         "userAdded": true
       }
     ],
@@ -8441,6 +8469,12 @@
       ]
     },
     {
+      "areaMaxX": 64,
+      "areaMaxY": 64,
+      "areaMaxZ": 64,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "Jogar_butão",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -8521,12 +8555,103 @@
           "topMargin": 32,
           "width": 256
         }
-      }
+      },
+      "instances": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "caixa_texto_final",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/dialogue_box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 345
+                      },
+                      {
+                        "x": 0,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "caixa_texto_final2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8607,6 +8732,9 @@
       },
       {
         "objectName": "caixa_texto_final"
+      },
+      {
+        "objectName": "caixa_texto_final2"
       }
     ]
   },

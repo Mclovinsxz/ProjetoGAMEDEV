@@ -2,7 +2,7 @@
 	{
 		"title": "01_info",
 		"tags": "",
-		"body": "[b]Parnaíba foi fundada em 1711[/b], sendo uma das cidades mais antigas do estado do Piauí.",
+		"body": "A região onde se localiza Parnaíba foi habitada por índios Tremembé e foi alvo de ação dos jesuítas a partir de 1607.",
 		"position": {
 			"x": -649,
 			"y": -189
@@ -12,7 +12,7 @@
 	{
 		"title": "02_info",
 		"tags": "",
-		"body": "O [b]Porto das Barcas[/b] foi o principal ponto de escoamento de mercadorias, especialmente algodão, no século XIX.",
+		"body": "O [b]Porto das Barcas[/b] se localiza na margem direita do [b]rio Igaraçu[/b]. O rio Igaraçu foi, a porta de entrada para o Porto das Barcas (Porto Fluvial de Parnaíba), viabilizando o transporte das riquezas do Piauí a outras regiões do país e internacionais.",
 		"position": {
 			"x": -430,
 			"y": -189
@@ -32,7 +32,7 @@
 	{
 		"title": "04_info",
 		"tags": "",
-		"body": "Invasão Holandesa: Parnaíba sofreu tentativas de invasão por parte dos holandeses no século XVII.",
+		"body": "Em 1758, Domingos Dias da Silva, um português do Rio Grande do Sul, instalou-se na região e trouxe uma grande fortuna em ouro e prata, tornando-se um poderoso comerciante e grande proprietário de terras.",
 		"position": {
 			"x": 24,
 			"y": -191
@@ -42,10 +42,10 @@
 	{
 		"title": "05_info",
 		"tags": "",
-		"body": "Elevação a Cidade: [b]Em 1844[/b], [b]Parnaíba foi elevada à categoria de cidade[/b], consolidando seu papel econômico e político no estado.",
+		"body": "Elevação a Cidade: [b] 14 de agosto de 1844[/b], [b]Parnaíba foi elevada à categoria de cidade[/b], consolidando seu papel econômico e político no estado.",
 		"position": {
-			"x": -650,
-			"y": 19
+			"x": -652,
+			"y": 17
 		},
 		"colorID": 0
 	},
@@ -62,10 +62,10 @@
 	{
 		"title": "07_info",
 		"tags": "",
-		"body": "Luís Correia foi oficialmente fundado em 22 de agosto de 1961, a partir da emancipação de uma parte do município de Parnaíba.",
+		"body": "A [b]cidade de Luís Correi[/b]a, no Piauí, foi fundada em 1820, quando começou a ser povoada a antiga Vila da Amarração. A cidade foi emancipada em [b]26 de julho de 1938[/b].",
 		"position": {
 			"x": -196,
-			"y": 24
+			"y": 23
 		},
 		"colorID": 0
 	},
