@@ -18,10 +18,28 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.6762448643326453,
+    "zoomFactor": 1.4201106106003145,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "info",
+      "objects": [
+        {
+          "name": "item"
+        },
+        {
+          "name": "caixa_texto_final2"
+        },
+        {
+          "name": "informacao_item"
+        },
+        {
+          "name": "fechar_info"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "ObjetosAEncontrar",
@@ -84,6 +102,22 @@
       "name": "objetos_coletados",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "informacoes",
+      "type": "structure",
+      "children": [
+        {
+          "name": "conselheiro_saraiva",
+          "type": "string",
+          "value": "José Antônio Saraiva encomendou uma planta para Teresina e realizou a transferência da capital."
+        },
+        {
+          "name": "quadro",
+          "type": "string",
+          "value": "No início da construção de Teresina, o Rio Poty foi usado para transporte fluvial, e ao seu lado fica o primeiro bairro da capital, o Poty Velho."
+        }
+      ]
     }
   ],
   "instances": [
@@ -921,6 +955,73 @@
       "x": 824,
       "y": 463,
       "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 35,
+      "keepRatio": true,
+      "layer": "",
+      "name": "item",
+      "persistentUuid": "8326e873-85c3-4fad-8ab2-8bc517e6c682",
+      "width": 42,
+      "x": 896,
+      "y": 608,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 65,
+      "keepRatio": true,
+      "layer": "",
+      "name": "caixa_texto_final2",
+      "persistentUuid": "68469f94-0492-4906-8e47-8db98595826d",
+      "width": 327,
+      "x": 876,
+      "y": 593,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "informacao_item",
+      "persistentUuid": "f216fbaf-d8f2-4575-b079-06cc1d993b2e",
+      "width": 246,
+      "x": 947,
+      "y": 599,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fechar_info",
+      "persistentUuid": "9dc4870d-ecbe-4c93-a081-aa9a4f61e7e9",
+      "width": 0,
+      "x": 1091,
+      "y": 640,
+      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3490,6 +3591,196 @@
         "characterSize": 15,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "item",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "conselheiro_saraiva",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/point_click_teresina/conselheiro-saraiva-escultura.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 32
+                      },
+                      {
+                        "x": 1,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "quadro",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/point_click_teresina/quadro_rios.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 32
+                      },
+                      {
+                        "x": 1,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "informacao_item",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 10,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "fechar_info",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pressione Enter para fechar",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 8,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pressione Enter para fechar",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 8,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3542,6 +3833,9 @@
       },
       {
         "objectName": "conselheiro_saraiva"
+      },
+      {
+        "objectName": "item"
       },
       {
         "objectName": "conselheiro_saraiva_item"
@@ -3629,6 +3923,12 @@
       },
       {
         "objectName": "texto_concluido"
+      },
+      {
+        "objectName": "informacao_item"
+      },
+      {
+        "objectName": "fechar_info"
       }
     ]
   },
@@ -3739,6 +4039,36 @@
             "yes",
             "10",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "info"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "item",
+            "Resizable",
+            "=",
+            "24"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+          },
+          "parameters": [
+            "item",
+            "Resizable",
+            "=",
+            "24"
           ]
         }
       ]
@@ -4120,6 +4450,46 @@
             "conselheiro_saraiva_item.Y()-5",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "item",
+            "Animation",
+            "=",
+            "\"conselheiro_saraiva\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "informacao_item",
+            "Text",
+            "=",
+            "informacoes.conselheiro_saraiva"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "info",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_mostrar_info\""
+          ]
         }
       ],
       "events": [
@@ -4263,6 +4633,46 @@
             "quadro_item.X()-5",
             "quadro_item.Y()-5",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "item",
+            "Animation",
+            "=",
+            "\"quadro\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "informacao_item",
+            "Text",
+            "=",
+            "informacoes.quadro"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "info",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_mostrar_info\""
           ]
         }
       ],
@@ -5162,6 +5572,58 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"tempo_mostrar_info\"",
+                ">=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "NumpadReturn"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "info"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
