@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733874,
+    "zoomFactor": 0.07671019818341905,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -12715,11 +12715,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "",
+            "\"tela_mapa_selecao_cidade\"",
             ""
           ]
         }

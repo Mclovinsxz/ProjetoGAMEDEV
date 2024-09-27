@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.44485159988866946,
+    "zoomFactor": 0.2796226521839402,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -62,6 +62,83 @@
       "name": "vidas",
       "type": "number",
       "value": 3
+    },
+    {
+      "folded": true,
+      "name": "sofrendoDano",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "temporizadorOnOff",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "qnt_coletaveis",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "objetivo_unificadorDeColisao",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "tempo_aleatorio_objetivo",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "y_objetivo",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "posicao_aleatoria_objetivo",
+      "type": "structure",
+      "children": [
+        {
+          "name": "posicao1",
+          "type": "number",
+          "value": 175
+        },
+        {
+          "name": "posicao2",
+          "type": "number",
+          "value": 405
+        },
+        {
+          "name": "posicao3",
+          "type": "number",
+          "value": 675
+        },
+        {
+          "name": "posicao4",
+          "type": "number",
+          "value": 905
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "mobilizando_objetivo",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "linha_mobilizacao_objetivo",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "tangivel",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -77,7 +154,7 @@
       "width": 2170,
       "x": -5,
       "y": -5,
-      "zOrder": 1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -92,7 +169,7 @@
       "name": "colisor_reinicio_obstaculos",
       "persistentUuid": "a2137ad6-309f-4548-984f-ab0ea763d37b",
       "width": 1568,
-      "x": -1056,
+      "x": -1344,
       "y": 480,
       "zOrder": 4,
       "numberProperties": [],
@@ -103,14 +180,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 192,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
       "name": "instrucao_inicio",
       "persistentUuid": "a4c9e75e-eec4-491b-bf12-f0ea377589a8",
-      "width": 1728,
-      "x": 160,
-      "y": 384,
+      "width": 1382,
+      "x": 282,
+      "y": 832,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -118,15 +195,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
       "name": "vida1",
       "persistentUuid": "2be32dfb-e0ef-4b8b-823d-e81133e621e3",
-      "width": 0,
+      "width": 91,
       "x": 64,
-      "y": 64,
+      "y": 47,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -134,15 +212,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
       "name": "vida2",
       "persistentUuid": "30b54192-f363-4929-9b54-a5d432cdb74d",
-      "width": 0,
-      "x": 192,
-      "y": 64,
+      "width": 91,
+      "x": 210,
+      "y": 47,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -150,15 +229,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
       "name": "vida3",
       "persistentUuid": "235ae5c4-4633-4142-a454-e2fc5c171b55",
-      "width": 0,
-      "x": 320,
-      "y": 64,
+      "width": 91,
+      "x": 357,
+      "y": 47,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -177,6 +257,248 @@
       "x": 32,
       "y": 480,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraP",
+      "persistentUuid": "0351a5d6-7a74-446b-bafc-9f7993e1dea3",
+      "width": 0,
+      "x": 575,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraN",
+      "persistentUuid": "634fa6c0-20c2-425b-839c-41161f076a9e",
+      "width": 0,
+      "x": 863,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraA_2",
+      "persistentUuid": "5f020802-b10d-412a-9b06-7e893adcac6f",
+      "width": 0,
+      "x": 959,
+      "y": 45,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraA_1",
+      "persistentUuid": "21690865-4162-4f6b-824b-e92e8227c9dd",
+      "width": 0,
+      "x": 671,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraR",
+      "persistentUuid": "3fbf9a24-b4ab-4cd7-812e-41ff01c5e839",
+      "width": 0,
+      "x": 767,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraI",
+      "persistentUuid": "fd02b824-f6b3-4d5c-a499-b013ae77e0b6",
+      "width": 0,
+      "x": 1055,
+      "y": 45,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraB",
+      "persistentUuid": "176a1a73-6414-4a3f-bed3-2346d169bdd1",
+      "width": 0,
+      "x": 1151,
+      "y": 45,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letraA_3",
+      "persistentUuid": "f8618a62-df22-4eb2-8d8d-228aa2cbc74c",
+      "width": 0,
+      "x": 1249,
+      "y": 45,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "limitador_borda",
+      "persistentUuid": "11d19d61-a590-4d52-8469-98191e40656d",
+      "width": 2188,
+      "x": -12,
+      "y": -52,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "limitador_borda",
+      "persistentUuid": "71433a1f-6cbf-464e-bc9e-8f80f3b8bb87",
+      "width": 2208,
+      "x": -32,
+      "y": 1111,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tutorial_inicio",
+      "persistentUuid": "18b6738d-4c94-4cad-8e0a-4edbc4cb9e82",
+      "width": 0,
+      "x": 334,
+      "y": 755,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tutorial_inicio2",
+      "persistentUuid": "e87dba14-7585-40f2-9225-7804fc414202",
+      "width": 0,
+      "x": 192,
+      "y": 301,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "caixa_texto_final",
+      "persistentUuid": "413d4b4f-1425-4431-98bb-c93623d3a987",
+      "width": 0,
+      "x": 73,
+      "y": 391,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_venceu",
+      "persistentUuid": "8c589a2c-0540-47ed-87e5-0016234370bf",
+      "width": 0,
+      "x": 275,
+      "y": 512,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "texto_perdeu",
+      "persistentUuid": "65565b22-f7fd-477c-9bc1-22288c881747",
+      "width": 0,
+      "x": 325,
+      "y": 448,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -349,21 +671,90 @@
               ]
             }
           ]
+        },
+        {
+          "name": "agua_parada",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\minigame_navegacao\\correnteza.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 400,
+                        "y": 0
+                      },
+                      {
+                        "x": 400,
+                        "y": 400
+                      },
+                      {
+                        "x": 0,
+                        "y": 400
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "barco",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 0,
+          "canGoDownFromJumpthru": false,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": false,
+          "deceleration": 0,
+          "gravity": 0,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 0,
+          "jumpSustainTime": 0,
+          "ladderClimbingSpeed": 0,
+          "maxFallingSpeed": 0,
+          "maxSpeed": 9999,
+          "slopeMaxAngle": 0,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "barco_acelerando",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -388,20 +779,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 8
+                        "x": 33,
+                        "y": 71
                       },
                       {
-                        "x": 177,
-                        "y": 8
+                        "x": 35,
+                        "y": 35
                       },
                       {
-                        "x": 177,
-                        "y": 79
+                        "x": 71,
+                        "y": 31.5
                       },
                       {
-                        "x": 17,
-                        "y": 79
+                        "x": 103,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 148,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 176,
+                        "y": 41
+                      },
+                      {
+                        "x": 165,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 71
                       }
                     ]
                   ]
@@ -424,20 +835,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 8
+                        "x": 33,
+                        "y": 71
                       },
                       {
-                        "x": 177,
-                        "y": 8
+                        "x": 35,
+                        "y": 35
                       },
                       {
-                        "x": 177,
-                        "y": 79
+                        "x": 71,
+                        "y": 31.5
                       },
                       {
-                        "x": 17,
-                        "y": 79
+                        "x": 103,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 148,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 176,
+                        "y": 41
+                      },
+                      {
+                        "x": 165,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 71
                       }
                     ]
                   ]
@@ -460,20 +891,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 8
+                        "x": 33,
+                        "y": 71
                       },
                       {
-                        "x": 177,
-                        "y": 8
+                        "x": 35,
+                        "y": 35
                       },
                       {
-                        "x": 177,
-                        "y": 79
+                        "x": 71,
+                        "y": 31.5
                       },
                       {
-                        "x": 17,
-                        "y": 79
+                        "x": 103,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 148,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 176,
+                        "y": 41
+                      },
+                      {
+                        "x": 165,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 71
                       }
                     ]
                   ]
@@ -496,20 +947,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 8
+                        "x": 33,
+                        "y": 71
                       },
                       {
-                        "x": 177,
-                        "y": 8
+                        "x": 35,
+                        "y": 35
                       },
                       {
-                        "x": 177,
-                        "y": 79
+                        "x": 71,
+                        "y": 31.5
                       },
                       {
-                        "x": 17,
-                        "y": 79
+                        "x": 103,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 148,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 176,
+                        "y": 41
+                      },
+                      {
+                        "x": 165,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 71
                       }
                     ]
                   ]
@@ -532,20 +1003,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 8
+                        "x": 33,
+                        "y": 71
                       },
                       {
-                        "x": 177,
-                        "y": 8
+                        "x": 35,
+                        "y": 35
                       },
                       {
-                        "x": 177,
-                        "y": 79
+                        "x": 71,
+                        "y": 31.5
                       },
                       {
-                        "x": 17,
-                        "y": 79
+                        "x": 103,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 148,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 176,
+                        "y": 41
+                      },
+                      {
+                        "x": 165,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 71
                       }
                     ]
                   ]
@@ -553,31 +1044,18 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "pedra",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
+        },
         {
-          "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow",
+          "name": "barco_parado",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAipJREFUWEftlj1Iw1AQxy+Ti0vtIPgJfg0WqoPg4KpTwUERHBxEUBfHboK0gltnQS3WwUEQHApuBQfRSVAj6mBF/IQOtouDW+VevOTlNS/pS1O69C1p7t3d/3d3L2k0aPDSGqwPTQBfHWgPdZT50RVKX77yYA6lQBLeOz5i+he5K3Y92EnZjpIKUFUAorDXwV2emzddvGA8AVCcKvYSdtonGBmIFEC1ai84GYgjQK1Vy2DwzOB54btRAYDii6txmJgc8yrKcT+1vgvxrRXHvcx2Di7P0nKAoCoXIbLZF/j+eGZQCIAPX6H0yYq3dQABYrNrzHEwGoHIcMhXF/ggFKeFEFUBoLi4VGF44UAAqgXC9g+NTzl2rqYOyGbxpN9D/u4Bwp19zCXc1S8dW10AUA0hSsVfV3H0awIodSC2MM1mefJqjLTlPGvOlvZODw2bygiS6SSLibZp9vdA4rps/sfP9BpaJK7yMqBYinHKQT4IoelFQ9iPmAqY6EsQDIAX389Xpl0asNsSNwCJ0VrkrViNWk/Cbz/GZk8rAP2mewqrxi4C8vkxNy4sjAGIVaOACMDXSwlEINHOx1BOtPH5TQC+qmCaa2UhMB6CdjXIWKc/aGG3rrFOPOqgweZtGbqj9dSuzP2umzYDwG0RHBfEgMV7zIE2WTG8P/pujAgfJAiCRrqikwhH+wQs3pOdh+CF/0X5et0/ywnAIVDaNBqph7B1CIOevtNIXQr4A6g9N5AxHFygAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAVxJREFUWEftljsOwjAQRB3xERIFPRUtDUfgCrSIAyJarsARaGip6CmQEB+BJmisZWPH5pdQeJsQ4njfzK4dZ6bmyGrObxJAciA5kBxIDuQOTJebG66LybAyR5AT+TImrwMAOf8DYHc4m363VXkJrAMEqLIMLH1eAglQBYTsuyeAX4HIhDwAMVcBgAPQE98MJERgXvw+Xa5m0Os8VgFpOEgn5uB3gLb7o2k3G/ZVCsP/bwHwxTIYjsEVIQHoghMAD10u0AFaF3ICyhBavSxvAYBkGgLJEZzUVyYJBZt96r0O4IFUygkJEAsha6ytDzrgAtAgdCLUA67aS/UUZFeBdMDVC9KJUA+UJWdvUIj9GOkG00pjal8GJktD9fnnGDfcqZhEqkUdQ5uSD06/x8aEOJ497AFEb5evLjmfeiblczpbAJATuPbumLrHjNGnro+PYOP5Oj/O6VjNRlFz3wFkjh9igUmRXgAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow2\"],\"name\":\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow2",
+                  "image": "bote_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -593,7 +1071,89 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 33,
+                        "y": 71
+                      },
+                      {
+                        "x": 35,
+                        "y": 35
+                      },
+                      {
+                        "x": 71,
+                        "y": 31.5
+                      },
+                      {
+                        "x": 103,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 148,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 176,
+                        "y": 41
+                      },
+                      {
+                        "x": 165,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "pedra",
+      "preScale": 3,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAVJJREFUWEdjZBhgwDjA9jOMOoCsEBAXlPqPHHUv3z8jyxyQGSRphFk8e/UKsP1H95wB0wtm9qAkJVIcRJQD0C0mlHBTQyPgSgg5hqADQJbDfEzIYmzyMMfgcghOB5Dqa0KOw+UQrA6g1Ne4HANKM6D0ghwaGA4AWZ6QXsJg7WJCyFNY5XuqZzGUtKZhlZs/bQ/Dsf1zcDuAWj5Hd8SmTfcZ3j65C3YUyAGgzPfy/VOw51FCAOQA7+AcsEJVPW0GbS1BskIBWRPIchgAOYIoB4AsRwekOgbZYqo4gFgHgYJfzdwVa8hRFAK44uL2pasMdy5fYxCWVgIrEZZRxhltNHEAyDaQI96/+4HXcpA6gg4AKUpKafuPLQ3gS41UdQDIovZJG1FqO0JZgeoOIGQhTB7mUFIcsH5dE0rWJ1gZEesYctWNOmA0BEZDYDQERkNgwEMAAASzviGWU1ZQAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAOJJREFUWEdjZBhgwDjA9jOMOmA0BEZDYDQERkMAHAIRG6//15DTYGgwZKRbiDSc//8fZN+AOuDGoxuQumCgQgDuAJAjYEFCr9oRZB+GA8AOoVM6QEkDyNFAD0eALIfZg5Lq7ZZd+u+kqQuPBWqFBsxC5Ojdd/0yw6EoPcxsB3IESCGyQ6iRLkAWgoAUNyvDs6+/wZaD+DjzPcwhIEW//vxlUODnIMsdDz7+YGBjYYbrhVkMEyCq4LFYdP4/zAEgAwk5ZoW/JlHm4g0BsrxLhiaiXUqG2URpGXXAaAiMhsBoCAAAJxVbvv4f0yQAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5\"],\"name\":\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
                         "y": 4
                       },
                       {
@@ -602,11 +1162,11 @@
                       },
                       {
                         "x": 32,
-                        "y": 32
+                        "y": 22
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 1,
+                        "y": 22
                       }
                     ]
                   ]
@@ -688,16 +1248,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\minigame_navegacao\\canoaplayer",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\sprite_0.png",
+                  "image": "assets\\minigame_navegacao\\canoaplayer7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -713,20 +1274,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 27,
+                        "y": 52
                       },
                       {
-                        "x": 32,
-                        "y": 4
+                        "x": 328,
+                        "y": 52
                       },
                       {
-                        "x": 32,
-                        "y": 32
+                        "x": 328,
+                        "y": 103
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 27,
+                        "y": 103
                       }
                     ]
                   ]
@@ -741,6 +1302,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tronco",
+      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -748,16 +1310,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\minigame_navegacao\\tronco_arvore",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\sprite_0.png",
+                  "image": "assets\\minigame_navegacao\\tronco_arvore",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -773,20 +1336,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 27,
+                        "y": 26
                       },
                       {
-                        "x": 32,
-                        "y": 4
+                        "x": 74,
+                        "y": 26
                       },
                       {
-                        "x": 32,
-                        "y": 32
+                        "x": 74,
+                        "y": 69
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 27,
+                        "y": 69
                       }
                     ]
                   ]
@@ -811,7 +1374,7 @@
       "string": "Aperte espaço para iniciar o minigame",
       "font": "pixelart.ttf",
       "textAlignment": "center",
-      "characterSize": 82,
+      "characterSize": 38,
       "color": {
         "b": 255,
         "g": 255,
@@ -834,7 +1397,7 @@
         "text": "Aperte espaço para iniciar o minigame",
         "font": "pixelart.ttf",
         "textAlignment": "center",
-        "characterSize": 82,
+        "characterSize": 38,
         "color": "255;255;255"
       }
     },
@@ -842,12 +1405,62 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "pedra2",
+      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 45,
+                        "y": 0
+                      },
+                      {
+                        "x": 45,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow",
           "useMultipleDirections": false,
@@ -876,19 +1489,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 4
+                        "y": 0
                       },
                       {
-                        "x": 32,
-                        "y": 4
+                        "x": 45,
+                        "y": 0
                       },
                       {
-                        "x": 32,
-                        "y": 32
+                        "x": 45,
+                        "y": 24
                       },
                       {
                         "x": 0,
-                        "y": 32
+                        "y": 24
                       }
                     ]
                   ]
@@ -903,6 +1516,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "barco_alheio2",
+      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -919,7 +1533,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\sprite_0.png",
+                  "image": "assets\\minigame_navegacao\\pedra.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -935,7 +1549,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 4
                       },
                       {
@@ -944,11 +1558,11 @@
                       },
                       {
                         "x": 32,
-                        "y": 32
+                        "y": 22
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 1,
+                        "y": 22
                       }
                     ]
                   ]
@@ -963,6 +1577,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tronco2",
+      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -979,7 +1594,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\sprite_0.png",
+                  "image": "assets\\minigame_navegacao\\pedra.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -995,7 +1610,7 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 4
                       },
                       {
@@ -1004,11 +1619,11 @@
                       },
                       {
                         "x": 32,
-                        "y": 32
+                        "y": 22
                       },
                       {
-                        "x": 0,
-                        "y": 32
+                        "x": 1,
+                        "y": 22
                       }
                     ]
                   ]
@@ -1030,16 +1645,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\minigame_navegacao\\pixel-heart",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "17d2a171a383b51f7939d41190ccdcfa64ab03bce79bf692bddc54e540b9ab65_Heart_1.png",
+                  "image": "assets\\minigame_navegacao\\pixel-heart2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1055,20 +1671,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 6,
+                        "y": 11
                       },
                       {
-                        "x": 62,
-                        "y": 2
+                        "x": 73,
+                        "y": 11
                       },
                       {
-                        "x": 62,
-                        "y": 58
+                        "x": 73,
+                        "y": 69
                       },
                       {
-                        "x": 2,
-                        "y": 58
+                        "x": 6,
+                        "y": 69
                       }
                     ]
                   ]
@@ -1099,7 +1715,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "17d2a171a383b51f7939d41190ccdcfa64ab03bce79bf692bddc54e540b9ab65_Heart_1.png",
+                  "image": "assets\\minigame_navegacao\\assets_minigame_navegacao_pixel-heart-1.png.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1115,20 +1731,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 6,
+                        "y": 11
                       },
                       {
-                        "x": 62,
-                        "y": 2
+                        "x": 73,
+                        "y": 11
                       },
                       {
-                        "x": 62,
-                        "y": 58
+                        "x": 73,
+                        "y": 69
                       },
                       {
-                        "x": 2,
-                        "y": 58
+                        "x": 6,
+                        "y": 69
                       }
                     ]
                   ]
@@ -1159,7 +1775,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "17d2a171a383b51f7939d41190ccdcfa64ab03bce79bf692bddc54e540b9ab65_Heart_1.png",
+                  "image": "assets\\minigame_navegacao\\assets_minigame_navegacao_pixel-heart-1.png.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1175,20 +1791,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 6,
+                        "y": 11
                       },
                       {
-                        "x": 62,
-                        "y": 2
+                        "x": 73,
+                        "y": 11
                       },
                       {
-                        "x": 62,
-                        "y": 58
+                        "x": 73,
+                        "y": 69
                       },
                       {
-                        "x": 2,
-                        "y": 58
+                        "x": 6,
+                        "y": 69
                       }
                     ]
                   ]
@@ -1198,6 +1814,992 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraP",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "0f138438828f2bcc4d07aaa295be556f0c77bf310237b36bdd504e9ad2993fa9_Letter Key_P.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraA_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9be41b7872c4231de3bfc4b2d91937448974b5928fce9e4b8226549e03581cc6_Letter Key_A.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraR",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "816089540d0ff018cd953418b0716a70d06c90adf924f6317c0fe9f7e36881ad_Letter Key_R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraN",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "69d46f4b8544d2d3693f02bd534ef62c4f842ae911df33e5dd23f640efbedf04_Letter Key_N.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraA_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9be41b7872c4231de3bfc4b2d91937448974b5928fce9e4b8226549e03581cc6_Letter Key_A.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraI",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "7980f0bea922d2ab69a1cb00101bb8dce2fd0fd5205a63447888cde4e5eda46c_Letter Key_I.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraB",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "10ad9fd0d421f71cd167ec71b772da2bd89bff9091866dacafd62ce30bde365a_Letter Key_B.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "letraA_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9be41b7872c4231de3bfc4b2d91937448974b5928fce9e4b8226549e03581cc6_Letter Key_A.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 14
+                      },
+                      {
+                        "x": 87,
+                        "y": 86
+                      },
+                      {
+                        "x": 13,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "objetivo_coletavel",
+      "preScale": 4,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 20,
+            "innerStrength": 0,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "250;255;149"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.18,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 34
+                      },
+                      {
+                        "x": 15,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 34
+                      },
+                      {
+                        "x": 15,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 34
+                      },
+                      {
+                        "x": 15,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 34
+                      },
+                      {
+                        "x": 15,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "objeto_coletavel_parado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objeto_coletavel_parado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 34
+                      },
+                      {
+                        "x": 15,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "limitador_borda",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 253,
+                        "y": 0
+                      },
+                      {
+                        "x": 253,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "tutorial_inicio",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "utilize as teclas W e S (ou setas) para movimentar o barco para cima e para baixo.",
+      "font": "pixelart.ttf",
+      "textAlignment": "center",
+      "characterSize": 38,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "224;224;224",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 80,
+        "smoothed": true,
+        "underlined": false,
+        "text": "utilize as teclas W e S (ou setas) para movimentar o barco para cima e para baixo.",
+        "font": "pixelart.ttf",
+        "textAlignment": "center",
+        "characterSize": 38,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "tutorial_inicio2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "COLETE TODAS AS GARRAFAS CONTENDO AS LETRAS E FORME A PALAVRA!",
+      "font": "pixelart.ttf",
+      "textAlignment": "center",
+      "characterSize": 42,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "224;224;224",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 80,
+        "smoothed": true,
+        "underlined": false,
+        "text": "COLETE TODAS AS GARRAFAS CONTENDO AS LETRAS E FORME A PALAVRA!",
+        "font": "pixelart.ttf",
+        "textAlignment": "center",
+        "characterSize": 42,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "texto_venceu",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "PARABÉNS! Você conseguiu completar a fase.",
+      "font": "pixelart.ttf",
+      "textAlignment": "center",
+      "characterSize": 68,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "224;224;224",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 80,
+        "smoothed": true,
+        "underlined": false,
+        "text": "PARABÉNS! Você conseguiu completar a fase.",
+        "font": "pixelart.ttf",
+        "textAlignment": "center",
+        "characterSize": 68,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "texto_perdeu",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "VOCE PERDEU!\n\nPressione ESPAÇO para tentar novamente",
+      "font": "pixelart.ttf",
+      "textAlignment": "center",
+      "characterSize": 68,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "224;224;224",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 80,
+        "smoothed": true,
+        "underlined": false,
+        "text": "VOCE PERDEU!\n\nPressione ESPAÇO para tentar novamente",
+        "font": "pixelart.ttf",
+        "textAlignment": "center",
+        "characterSize": 68,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1207,10 +2809,25 @@
         "objectName": "colisor_reinicio_obstaculos"
       },
       {
+        "objectName": "limitador_borda"
+      },
+      {
         "objectName": "agua"
       },
       {
         "objectName": "instrucao_inicio"
+      },
+      {
+        "objectName": "tutorial_inicio"
+      },
+      {
+        "objectName": "tutorial_inicio2"
+      },
+      {
+        "objectName": "texto_venceu"
+      },
+      {
+        "objectName": "texto_perdeu"
       },
       {
         "objectName": "barco"
@@ -1241,6 +2858,36 @@
       },
       {
         "objectName": "vida3"
+      },
+      {
+        "objectName": "letraP"
+      },
+      {
+        "objectName": "letraA_1"
+      },
+      {
+        "objectName": "letraR"
+      },
+      {
+        "objectName": "letraN"
+      },
+      {
+        "objectName": "letraA_2"
+      },
+      {
+        "objectName": "letraI"
+      },
+      {
+        "objectName": "letraB"
+      },
+      {
+        "objectName": "letraA_3"
+      },
+      {
+        "objectName": "objetivo_coletavel"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -1284,12 +2931,271 @@
       "actions": [
         {
           "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_objetivos\""
+          ]
+        },
+        {
+          "type": {
             "value": "SetBooleanVariable"
           },
           "parameters": [
             "iniciado",
             "False",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "vidas",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "barco",
+            "=",
+            "999"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "caixa_texto_final"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_venceu"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_perdeu"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "mobilizando_objetivo",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "tutorial_inicio",
+            "Opacity",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "instrucao_inicio",
+            "Opacity",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "tangivel",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "caixa_texto_final",
+            "=",
+            "1000"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "texto_venceu",
+            "=",
+            "1001"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\Navegando no Mar.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\Navegando no Mar.mp3",
+                "0",
+                "",
+                "60",
+                "1"
+              ]
+            }
           ]
         }
       ]
@@ -1320,11 +3226,12 @@
         },
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "",
-            "\"tempo_obstaculos\""
+            "tempo_aleatorio",
+            "=",
+            "RandomInRange(1,2)"
           ]
         },
         {
@@ -1332,9 +3239,9 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "tempo_aleatorio",
+            "tempo_aleatorio_objetivo",
             "=",
-            "RandomInRange(1,2)"
+            "RandomInRange(10,14)"
           ]
         }
       ]
@@ -1395,6 +3302,17 @@
             "-6",
             "0",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "agua",
+            "Animation",
+            "=",
+            "\"correnteza\""
           ]
         }
       ]
@@ -1487,6 +3405,26 @@
                 "",
                 "s"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
             }
           ]
         }
@@ -1529,6 +3467,16 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "False",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1538,6 +3486,225 @@
           },
           "parameters": [
             "instrucao_inicio"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "tutorial_inicio"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "tutorial_inicio2"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "agua",
+            "Animation",
+            "=",
+            "\"correnteza\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "barco",
+            "Animation",
+            "=",
+            "\"barco_acelerando\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_objetivos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_objetivos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "quando o jogo é perdido:"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "iniciado",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "temporizadorOnOff",
+                "False",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "agua",
+            "Animation",
+            "=",
+            "\"agua_parada\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "barco",
+            "Animation",
+            "=",
+            "\"barco_parado\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_obstaculos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "pedra"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "pedra2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "tronco"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "tronco2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "barco_alheio"
+          ]
+        },
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "barco_alheio2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_objetivos\""
           ]
         }
       ]
@@ -1645,7 +3812,7 @@
           "parameters": [
             "y_min",
             "=",
-            "30"
+            "80"
           ]
         },
         {
@@ -1781,7 +3948,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "criaçãao dos obstáculos usando o posicionamento das etapas anteriores e adicionando velocidade a eles"
+          "comment": "criação dos obstáculos usando o posicionamento das etapas anteriores e adicionando velocidade a eles"
         }
       ]
     },
@@ -1796,6 +3963,16 @@
             "obstaculo_mobilizado",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
           ]
         }
       ],
@@ -1847,6 +4024,16 @@
             "=",
             "2"
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1896,6 +4083,16 @@
             "obstaculo_mobilizado",
             "=",
             "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
           ]
         }
       ],
@@ -1947,6 +4144,16 @@
             "=",
             "4"
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1997,6 +4204,16 @@
             "=",
             "5"
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -2046,6 +4263,16 @@
             "obstaculo_mobilizado",
             "=",
             "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
           ]
         }
       ],
@@ -2282,35 +4509,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "barco",
-            "pedra",
-            "",
-            "",
-            "yes"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "vidas",
-            "=",
-            "vidas - 1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "NumberVariable"
           },
           "parameters": [
@@ -2478,16 +4676,1774 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "sofrendoDano",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "tangivel",
+            "True",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "ChangePlan"
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "sofrendoDano",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "vidas",
+            "=",
+            "vidas - 1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "tangivel",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_crash\""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
             "barco",
+            "Opacity",
             "=",
-            "1000"
+            "180"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_crash\"",
+            ">=",
+            "1.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "tangivel",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "barco",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "pedra2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "tronco2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "barco",
+                "barco_alheio2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "sofrendoDano",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "vidas",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "caixa_texto_final",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_perdeu",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_objetivos\"",
+            ">=",
+            "tempo_aleatorio_objetivo"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "tempo_aleatorio_objetivo",
+            "=",
+            "RandomInRange(9,11)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "mobilizando_objetivo",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "linha_mobilizacao_objetivo",
+            "=",
+            "RandomInRange(1,4)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_objetivos\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "linha_mobilizacao_objetivo",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "y_objetivo",
+            "=",
+            "175"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "linha_mobilizacao_objetivo",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "y_objetivo",
+            "=",
+            "405"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "linha_mobilizacao_objetivo",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "y_objetivo",
+            "=",
+            "675"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "linha_mobilizacao_objetivo",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "y_objetivo",
+            "=",
+            "905"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "mobilizando_objetivo",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "mobilizando_objetivo",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "objetivo_coletavel",
+            "2100",
+            "y_objetivo",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "objetivo_coletavel",
+            "-300",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "mobilizando_objetivo",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "barco",
+            "objetivo_coletavel",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "objetivo_unificadorDeColisao",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "<",
+            "9"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "objetivo_coletavel",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "qnt_coletaveis + 1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "objetivo_unificadorDeColisao",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "barco",
+            "objetivo_coletavel",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "objetivo_unificadorDeColisao",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "6"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "7"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "8"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_1",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraR",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraN",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_2",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraI",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraB",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraA_3",
+            "Opacity",
+            "=",
+            "300"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "letraP",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "qnt_coletaveis",
+            ">=",
+            "8"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "temporizadorOnOff",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "caixa_texto_final",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_venceu",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_troca_cena\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_troca_cena\"",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"pre_Select_Fase_campo_maior\"",
+            ""
           ]
         }
       ]
@@ -2537,6 +6493,39 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -2559,6 +6548,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
     },
     {
       "name": "PlatformerCharacterAnimator",

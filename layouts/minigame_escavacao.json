@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2436836988381685,
+    "zoomFactor": 0.6406912462477298,
     "windowMask": false
   },
   "objectsGroups": [
@@ -135,7 +135,7 @@
       "width": 30,
       "x": 944,
       "y": 435,
-      "zOrder": 2,
+      "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -152,7 +152,7 @@
       "width": 19,
       "x": 974,
       "y": 437,
-      "zOrder": 4,
+      "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3051,6 +3051,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -3174,6 +3180,46 @@
           "parameters": [
             "CaixaTextoConclusao"
           ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\game piaui.mp3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\checkpoint.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido.wav"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\game piaui.mp3",
+            "0",
+            "yes",
+            "60",
+            "1"
+          ]
         }
       ]
     },
@@ -3193,9 +3239,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
+            "",
+            "\"tela_mapa_selecao_cidade\"",
             ""
           ]
         }
@@ -3589,6 +3637,19 @@
               "parameters": [
                 "Artefatos.ObjectName()"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\sons\\checkpoint.wav",
+                "2",
+                "",
+                "70",
+                ""
+              ]
             }
           ],
           "events": [
@@ -3848,6 +3909,47 @@
           },
           "parameters": [
             "CaixaTextoConclusao",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\level_concluido.wav",
+            "3",
+            "",
+            "90",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"São Raimundo Nonato\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"quiz_game\"",
             ""
           ]
         }

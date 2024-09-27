@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.18169065978489496,
+    "zoomFactor": 0.4163025217734103,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,8 +65,8 @@
       "name": "player",
       "persistentUuid": "44097a26-cfb7-45d1-93c8-46c5039f2457",
       "width": 112,
-      "x": -3,
-      "y": 814,
+      "x": 13,
+      "y": 896,
       "zOrder": 133,
       "numberProperties": [],
       "stringProperties": [],
@@ -135,7 +135,7 @@
       "width": 64,
       "x": 13107,
       "y": -187,
-      "zOrder": 62,
+      "zOrder": 148,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -185,7 +185,7 @@
       "width": 122,
       "x": 12339,
       "y": 822,
-      "zOrder": 113,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -220,23 +220,6 @@
       "x": 315,
       "y": 946,
       "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "84ed2c2f-d346-45d8-b582-f4bf5f7275e3",
-      "width": 41,
-      "x": 3995,
-      "y": -303,
-      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -360,23 +343,6 @@
       "initialVariables": []
     },
     {
-      "angle": 25,
-      "customSize": true,
-      "depth": 1,
-      "height": 10,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "7f0910e9-2e4a-41eb-8e7d-9087046ad855",
-      "width": 222,
-      "x": 4577,
-      "y": -763,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "depth": 1,
@@ -421,7 +387,7 @@
       "width": 0,
       "x": 11701,
       "y": 934,
-      "zOrder": 113,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -438,7 +404,7 @@
       "width": 64,
       "x": 11765,
       "y": 934,
-      "zOrder": 113,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -455,7 +421,7 @@
       "width": 144,
       "x": 11826,
       "y": 933,
-      "zOrder": 113,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -518,27 +484,10 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "af0652ec-bea1-45b8-bcd9-85b7d53818d4",
-      "width": 99,
-      "x": 6936,
+      "width": 82,
+      "x": 6953,
       "y": 716,
       "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 22,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "ee5bae05-3067-442b-9049-890593cbd02e",
-      "width": 45,
-      "x": 4864,
-      "y": -454,
-      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -554,7 +503,7 @@
       "width": 0,
       "x": 11872,
       "y": 883,
-      "zOrder": 113,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -586,7 +535,7 @@
       "width": 0,
       "x": 11906,
       "y": 883,
-      "zOrder": 113,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -748,9 +697,9 @@
       "name": "TilesetPiece3",
       "persistentUuid": "d8ac8546-cb3a-47ec-82a7-fea8d2b91071",
       "width": 78,
-      "x": 11560,
-      "y": 1012,
-      "zOrder": 113,
+      "x": 11314,
+      "y": 1011,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -977,40 +926,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 22,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "05ba75d6-a1b2-4f1c-836b-993ce88f59c9",
-      "width": 450,
-      "x": 4290,
-      "y": -331,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 335,
-      "customSize": true,
-      "depth": 1,
-      "height": 12,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "badf3ace-1a59-476f-9728-0e79cdee5a07",
-      "width": 516,
-      "x": 3976,
-      "y": -712,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 19,
       "keepRatio": true,
       "layer": "",
@@ -1042,40 +957,6 @@
       "initialVariables": []
     },
     {
-      "angle": 25,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "a6d5e1f9-0083-4ac0-b140-a64d87a0b08a",
-      "width": 278,
-      "x": 4774,
-      "y": -659,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "db4fa487-5ffc-4930-b6c5-f7d391c41e0e",
-      "width": 159,
-      "x": 5083,
-      "y": -515,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "depth": 1,
@@ -1085,9 +966,9 @@
       "name": "TilesetPiece1",
       "persistentUuid": "bbcc53ee-b101-4a15-8dd5-c6814765b259",
       "width": 49,
-      "x": 11558,
-      "y": 973,
-      "zOrder": 113,
+      "x": 11312,
+      "y": 972,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1101,58 +982,9 @@
       "name": "TilesetPiece4",
       "persistentUuid": "678f3e1f-38fc-4b16-ab56-08a37d54973b",
       "width": 0,
-      "x": 11576,
-      "y": 973,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "31fbc878-6695-4984-b2d9-9c4e93d2a516",
-      "width": 74,
-      "x": 5287,
-      "y": -431,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "0ccbabe7-27fc-420b-b3de-e90549346e2a",
-      "width": 0,
-      "x": 5124,
-      "y": -554,
-      "zOrder": 116,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "a9104db2-f371-4d30-8a53-0fd06452d615",
-      "width": 0,
-      "x": 5115,
-      "y": -555,
-      "zOrder": 116,
+      "x": 11330,
+      "y": 972,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1202,72 +1034,6 @@
       "x": 9882,
       "y": 968,
       "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "1e075329-a5e4-491f-9258-e03006b4e25a",
-      "width": 442,
-      "x": 7563,
-      "y": 500,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece1",
-      "persistentUuid": "9f6318b7-beb4-4e29-beb3-dd7ac4f7afab",
-      "width": 0,
-      "x": 7860,
-      "y": 437,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece4",
-      "persistentUuid": "fe2cf86a-997c-445f-b720-01cbad35b08c",
-      "width": 0,
-      "x": 7869,
-      "y": 438,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 22,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "7a0920ec-2570-4aab-82f0-fe538b626a50",
-      "width": 237,
-      "x": 4798,
-      "y": -329,
-      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1420,23 +1186,6 @@
       "x": 4052,
       "y": 794,
       "zOrder": 109,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 13,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TilesetPiece3",
-      "persistentUuid": "79c4314f-bde2-4812-86e1-2a0cac3000e6",
-      "width": 291,
-      "x": 4356,
-      "y": -577,
-      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1630,8 +1379,8 @@
       "name": "Checkpoint_meio",
       "persistentUuid": "037052f8-d8de-497c-8733-92f069c1880d",
       "width": 79,
-      "x": 4994,
-      "y": 668,
+      "x": 5000,
+      "y": 672,
       "zOrder": 138,
       "numberProperties": [],
       "stringProperties": [],
@@ -1811,14 +1560,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1429,
+      "height": 257,
       "keepRatio": true,
       "layer": "",
       "name": "fundo_efeito",
       "persistentUuid": "226ae6db-5498-42f5-a3eb-071c3aa1ad91",
-      "width": 10347,
-      "x": -833,
-      "y": 1508,
+      "width": 4199,
+      "x": 10496,
+      "y": 1564,
       "zOrder": -198,
       "numberProperties": [],
       "stringProperties": [],
@@ -1870,7 +1619,7 @@
       "width": 88,
       "x": 10872,
       "y": 669,
-      "zOrder": 115,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1887,7 +1636,7 @@
       "width": 77,
       "x": 11886,
       "y": 660,
-      "zOrder": 115,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1902,9 +1651,9 @@
       "name": "balao_texto",
       "persistentUuid": "d5b1da3a-ecb7-4707-a26d-f9f54aecbfe3",
       "width": 358,
-      "x": 12317,
-      "y": 703,
-      "zOrder": 113,
+      "x": 12313,
+      "y": 708,
+      "zOrder": 145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1921,7 +1670,7 @@
       "width": 295,
       "x": 12341,
       "y": 721,
-      "zOrder": 113,
+      "zOrder": 146,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1952,10 +1701,10 @@
       "layer": "",
       "name": "DesertBackground2",
       "persistentUuid": "411138f2-da37-40e4-a5d5-492cc349c060",
-      "width": 13562,
+      "width": 10313,
       "x": -461,
       "y": 126,
-      "zOrder": -199,
+      "zOrder": -201,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2351,15 +2100,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 334,
+      "height": 191,
       "keepRatio": true,
       "layer": "",
       "name": "luis_correia_monumento",
       "persistentUuid": "2581e2c4-f387-499a-8e2d-b0695a6d3186",
-      "width": 1345,
-      "x": 10545,
-      "y": 576,
-      "zOrder": 111,
+      "width": 770,
+      "x": 12629,
+      "y": 731,
+      "zOrder": 143,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2432,29 +2181,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 83,
-      "keepRatio": true,
-      "layer": "",
-      "name": "WaterCaveBrightDesatSurface",
-      "persistentUuid": "9b3ccf44-1a7d-4a42-aa91-b2fbad0ad101",
-      "width": 1698,
-      "x": 8171,
-      "y": 1012,
-      "zOrder": 136,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "Tileset_areia",
       "persistentUuid": "eb48989d-0ed4-4277-ba8d-2b6beefb57e6",
-      "width": 1827,
+      "width": 1146,
       "x": 9874,
       "y": 1030,
       "zOrder": 119,
@@ -2472,9 +2204,9 @@
       "name": "placa_identificação",
       "persistentUuid": "3b399884-b49d-473a-89d9-768d6568666d",
       "width": 244,
-      "x": 10273,
-      "y": 699,
-      "zOrder": 122,
+      "x": 10271,
+      "y": 731,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2522,9 +2254,9 @@
       "name": "nome_praia_de_atalaia",
       "persistentUuid": "80971b24-8bfa-434f-83fd-ae59eead2e09",
       "width": 0,
-      "x": 10331,
-      "y": 749,
-      "zOrder": 124,
+      "x": 10322,
+      "y": 798,
+      "zOrder": 147,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2538,9 +2270,9 @@
       "name": "nome_luis_correia",
       "persistentUuid": "a4a4a9d3-8c99-4d0a-b7f2-03e24c2d6e8e",
       "width": 0,
-      "x": 10333,
-      "y": 770,
-      "zOrder": 125,
+      "x": 10328,
+      "y": 774,
+      "zOrder": 147,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2598,15 +2330,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 93,
+      "height": 62,
       "keepRatio": true,
       "layer": "",
       "name": "torre_eolica_longe",
       "persistentUuid": "1ca28f43-46b9-4a8c-9230-fff829687c38",
-      "width": 56,
-      "x": 11457,
-      "y": 577,
-      "zOrder": 128,
+      "width": 37,
+      "x": 10180,
+      "y": 574,
+      "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2776,7 +2508,7 @@
       "width": 5687,
       "x": 8042,
       "y": 1041,
-      "zOrder": 134,
+      "zOrder": -203,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3040,8 +2772,8 @@
       "name": "Checkpoint_meio_2",
       "persistentUuid": "0668521e-8c53-43ea-bc78-a746d7965bd4",
       "width": 0,
-      "x": 7759,
-      "y": 685,
+      "x": 7760,
+      "y": 687,
       "zOrder": 118,
       "numberProperties": [],
       "stringProperties": [],
@@ -3127,6 +2859,290 @@
       "x": 7425,
       "y": 854,
       "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NOME_IGREJA",
+      "persistentUuid": "b06efbcb-1223-4a1a-bed3-729d6bbda7de",
+      "width": 0,
+      "x": 6337,
+      "y": 577,
+      "zOrder": 141,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 159,
+      "customSize": true,
+      "depth": 2,
+      "height": 27,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ç",
+      "persistentUuid": "fc4400f7-a2c2-4d0e-a150-9c14e34b923b",
+      "width": 16,
+      "x": 6691,
+      "y": 583,
+      "zOrder": 140,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "INDEPENDENCIA",
+      "persistentUuid": "d1a78bc3-be14-4e11-bca3-eaddcd049a0f",
+      "width": 0,
+      "x": 4920,
+      "y": 671,
+      "zOrder": 142,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 83,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WaterCaveBrightDesatSurface",
+      "persistentUuid": "2482f9ec-c301-4cc2-a796-510dc667c48c",
+      "width": 1698,
+      "x": 8171,
+      "y": 1012,
+      "zOrder": 136,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 334,
+      "keepRatio": true,
+      "layer": "",
+      "name": "luis_correia_monumento",
+      "persistentUuid": "a076549a-f245-4f5b-9ae6-6649ceeceab7",
+      "width": 1345,
+      "x": 10541,
+      "y": 625,
+      "zOrder": 143,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "praia_inicio",
+      "persistentUuid": "80171332-6fdb-4307-9ab1-2b136f29c6ee",
+      "width": 0,
+      "x": 9163,
+      "y": 118,
+      "zOrder": -200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1024,
+      "keepRatio": true,
+      "layer": "",
+      "name": "praia_fundo",
+      "persistentUuid": "58830e4e-cab8-48b1-ba09-c3b677b4aa1a",
+      "width": 1186,
+      "x": 12160,
+      "y": 116,
+      "zOrder": -202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "045a1a16-2b6c-496b-b557-e0532db2bd48",
+      "width": 78,
+      "x": 11560,
+      "y": 1012,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "eba53630-d192-45ec-873f-3e8a7c3caef9",
+      "width": 49,
+      "x": 11558,
+      "y": 973,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "9eb3af38-0b73-4ff8-8686-fef0273517fc",
+      "width": 0,
+      "x": 11576,
+      "y": 973,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece3",
+      "persistentUuid": "f43382a7-55f1-44ef-9aae-ccd57859fa22",
+      "width": 78,
+      "x": 11102,
+      "y": 1042,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece1",
+      "persistentUuid": "ba5d9376-fb16-463e-b5b6-3d976363734b",
+      "width": 49,
+      "x": 11100,
+      "y": 1003,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TilesetPiece4",
+      "persistentUuid": "90193c83-43fa-4ac4-8527-06bab8d2bde1",
+      "width": 0,
+      "x": 11118,
+      "y": 1003,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "torre_eolica_longe",
+      "persistentUuid": "522133c0-59c0-4d61-ac57-f4743f60281b",
+      "width": 46,
+      "x": 11435,
+      "y": 558,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "",
+      "name": "torre_eolica_longe",
+      "persistentUuid": "7daf21e9-6150-4599-bbad-316306e5705c",
+      "width": 49,
+      "x": 10869,
+      "y": 556,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 93,
+      "keepRatio": true,
+      "layer": "",
+      "name": "torre_eolica_longe",
+      "persistentUuid": "e03d5492-5900-4f3c-b798-13a09d42d7e1",
+      "width": 56,
+      "x": 10108,
+      "y": 561,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1024,
+      "keepRatio": true,
+      "layer": "",
+      "name": "praia_fundo",
+      "persistentUuid": "85b4970b-a323-40e6-a260-7028d1017d15",
+      "width": 1186,
+      "x": 11187,
+      "y": 118,
+      "zOrder": -202,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7781,8 +7797,8 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
           "platformType": "NormalPlatform",
+          "canBeGrabbed": true,
           "yGrabOffset": 0
         }
       ]
@@ -12222,7 +12238,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "\"Parabéns coletou todas as caixas\" \n \"Vamos para a proxíma fase ...\"",
+        "text": "\"Parabéns coletou todas as caixas. Vamos para a proxíma fase ...\"",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -14598,7 +14614,7 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "59;58;58",
@@ -14631,7 +14647,7 @@
       "string": "Luis Correia - PI",
       "font": "Minecraft.ttf",
       "textAlignment": "center",
-      "characterSize": 14,
+      "characterSize": 15,
       "color": {
         "b": 255,
         "g": 255,
@@ -14639,7 +14655,7 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "59;58;58",
@@ -14654,7 +14670,7 @@
         "text": "Luis Correia - PI",
         "font": "Minecraft.ttf",
         "textAlignment": "center",
-        "characterSize": 14,
+        "characterSize": 15,
         "color": "255;255;255"
       }
     },
@@ -14665,7 +14681,36 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Adjustment",
+          "name": "Effect2",
+          "doubleParameters": {
+            "alpha": 0.8,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "DynamicWaterBody",
@@ -14825,6 +14870,249 @@
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
       "antialiasing": "none"
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NOME_IGREJA",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "CATETEDRAL NOSSA SENHROA DA GRACA",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "59;58;58",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "CATETEDRAL NOSSA SENHROA DA GRACA",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 18,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ç",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "´",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "59;58;58",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "´",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 18,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "INDEPENDENCIA",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "MONUMENTO DA INDEPENDENCIA",
+      "font": "Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 12,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "59;58;58",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "MONUMENTO DA INDEPENDENCIA",
+        "font": "Minecraft.ttf",
+        "textAlignment": "left",
+        "characterSize": 12,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "praia_inicio",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tiled_Desert_praia_inicio.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2040,
+                        "y": 0
+                      },
+                      {
+                        "x": 2040,
+                        "y": 1024
+                      },
+                      {
+                        "x": 0,
+                        "y": 1024
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "praia_fundo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tiled_Desert_praia.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 1022
+                      },
+                      {
+                        "x": 0,
+                        "y": 1022
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -14931,6 +15219,15 @@
       },
       {
         "objectName": "porto_nome_monumentos2"
+      },
+      {
+        "objectName": "NOME_IGREJA"
+      },
+      {
+        "objectName": "INDEPENDENCIA"
+      },
+      {
+        "objectName": "ç"
       },
       {
         "objectName": "nome_lagoa_do_portinho"
@@ -15090,6 +15387,12 @@
       },
       {
         "objectName": "agua_efeito"
+      },
+      {
+        "objectName": "praia_inicio"
+      },
+      {
+        "objectName": "praia_fundo"
       }
     ]
   },
@@ -15358,13 +15661,32 @@
           "conditions": [
             {
               "type": {
-                "value": "BooleanObjectVariable"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "Checkpoint_meio",
-                "check",
-                "True",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Checkpoint_meio",
+                    "check",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Checkpoint_meio_2",
+                    "check",
+                    "False",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -15376,7 +15698,7 @@
               "parameters": [
                 "player",
                 "=",
-                "5570"
+                "5000"
               ]
             },
             {
@@ -15387,6 +15709,73 @@
                 "player",
                 "=",
                 "680"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "100000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Checkpoint_meio",
+                    "check",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Checkpoint_meio_2",
+                    "check",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "7760"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterY"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "670"
               ]
             },
             {
@@ -15419,11 +15808,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "",
+            "\"tela_mapa_selecao_cidade\"",
             ""
           ]
         }
@@ -17862,6 +18251,77 @@
           },
           "parameters": [
             "Checkpoint_meio",
+            "check",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\checkpoint.wav",
+            "2",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "Checkpoint_meio_2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Checkpoint_meio_2",
+            "check",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Checkpoint_meio_2",
+            "Animation",
+            "=",
+            "\"Flag Out\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Checkpoint_meio_2",
             "check",
             "True",
             ""
