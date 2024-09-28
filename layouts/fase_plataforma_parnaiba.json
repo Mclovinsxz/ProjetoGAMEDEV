@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5427920802474295,
+    "zoomFactor": 0.6846283916655339,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1049,7 +1049,7 @@
       "persistentUuid": "283612f6-0b1d-4b23-be72-52caefcba969",
       "width": 1775,
       "x": 109,
-      "y": 173,
+      "y": 87,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -1066,7 +1066,7 @@
       "persistentUuid": "3085b7a1-49d5-4a70-b984-db80f8ac6bbc",
       "width": 1695,
       "x": 143,
-      "y": 204,
+      "y": 118,
       "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
@@ -1100,7 +1100,7 @@
       "persistentUuid": "6858804e-da90-4479-9f51-e7aff396c79e",
       "width": 608,
       "x": 1249,
-      "y": 483,
+      "y": 397,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -1143,12 +1143,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 77,
+      "height": 80,
       "keepRatio": true,
       "layer": "background",
       "name": "fundo_informações",
       "persistentUuid": "59488267-1d80-440a-b7c5-cb9465cf4680",
-      "width": 2398,
+      "width": 313,
       "x": -39,
       "y": -1,
       "zOrder": 63,
@@ -15472,6 +15472,12 @@
             "player",
             "PlatformerObject"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -15484,6 +15490,19 @@
             "Animation",
             "=",
             "\"jump\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\jump_som.mp3",
+            "5",
+            "",
+            "20",
+            "1"
           ]
         }
       ]
@@ -15602,7 +15621,7 @@
             "assets\\sons\\caiu.wav",
             "3",
             "",
-            "50",
+            "80",
             "1"
           ]
         }
@@ -15893,11 +15912,28 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "w"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
           ]
         }
       ],
@@ -16115,6 +16151,15 @@
         },
         {
           "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\jump_som.mp3"
+          ]
+        },
+        {
+          "type": {
             "value": "PlayMusicCanal"
           },
           "parameters": [
@@ -16122,7 +16167,7 @@
             "assets\\sons\\Terra do Sol_tema.mp3",
             "1",
             "yes",
-            "50",
+            "70",
             "1"
           ]
         },
@@ -16487,7 +16532,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "caixas coletadas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -16636,7 +16680,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -16788,7 +16832,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -16940,7 +16984,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -17092,7 +17136,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -17244,7 +17288,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -17396,7 +17440,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -17548,7 +17592,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -17700,7 +17744,7 @@
                     "assets\\sons\\coletar_caixa.wav",
                     "2",
                     "",
-                    "50",
+                    "80",
                     "1"
                   ]
                 }
@@ -18125,7 +18169,7 @@
               },
               "parameters": [
                 "",
-                "\"quiz_game\"",
+                "\"aquatico\"",
                 ""
               ]
             }

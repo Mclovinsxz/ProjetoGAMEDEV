@@ -3257,21 +3257,38 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "w"
-          ]
-        },
-        {
-          "type": {
             "value": "BooleanVariable"
           },
           "parameters": [
             "iniciado",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
           ]
         }
       ],
@@ -3316,21 +3333,38 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "s"
-          ]
-        },
-        {
-          "type": {
             "value": "BooleanVariable"
           },
           "parameters": [
             "iniciado",
             "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
+            }
           ]
         }
       ],
@@ -6425,18 +6459,28 @@
             "",
             "\"tempo_troca_cena\"",
             ">=",
-            "4"
+            "2"
           ]
         }
       ],
       "actions": [
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Parnaíba\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"pre_Select_Fase_campo_maior\"",
+            "\"quiz_game\"",
             ""
           ]
         }

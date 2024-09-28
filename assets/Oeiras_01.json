@@ -2,17 +2,17 @@
 	{
 		"title": "Oeiras_01 INfo",
 		"tags": "",
-		"body": "Oeiras foi a primeira capital do Piauí, entre 1939 e 1940.[b] A partir da segunda metade do século XX, acompanhando o fenômeno de urbanização experimentado pelo Brasil inteiro [/b]",
+		"body": "[b]Oeiras foi a primeira capital do Piauí[/b], [b]até 1852[/b], quando a sede foi transferida para Teresina. [b]João José da Silva[/b] foi o [b]primeiro presidente do Piauí[/b] e ajudou a consolidar Oeiras como a capital administrativa da província no início do século XIX.",
 		"position": {
-			"x": 563,
-			"y": 354
+			"x": 562,
+			"y": 353
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Oeiras_02 INfo",
 		"tags": "",
-		"body": "[b]A Igreja Matriz de Nossa Senhora da Vitória fica em Oeiras e é templo primaz da primeira capital do Piauí.",
+		"body": "[b]A Igreja Matriz de Nossa Senhora da Vitória fica em Oeiras e é templo primaz da primeira capital do Piauí.A igreja mais antiga de Oeiras, construída no século XVIII, é um símbolo da arquitetura colonial.",
 		"position": {
 			"x": 800,
 			"y": 362
@@ -22,27 +22,27 @@
 	{
 		"title": "Oeiras_03 INfo",
 		"tags": "",
-		"body": "[b]Construção típica da arquitetura civil piauiense do início do século IXX. A casa perdeu dois cômodos da fachada principal e toda a fachada lateral.",
+		"body": "[b]Construção típica da arquitetura civil piauiense do início do século IXX. A casa perdeu dois cômodos da fachada principal e toda a fachada lateral.Sofreu significativa alteração em seu formato em face do alargamento do conhecido beco de “Antônio Gentil”, em 1971.",
 		"position": {
-			"x": 1041,
-			"y": 359
+			"x": 1039,
+			"y": 358
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Oeiras_04 INfo",
 		"tags": "",
-		"body": "Sofreu significativa alteração em seu formato em face do alargamento do conhecido beco de “Antônio Gentil”, em 1971.",
+		"body": "[b]Caminho da Independência:[/b] Oeiras foi um dos principais cenários da luta pela independência do Piauí.",
 		"position": {
 			"x": 562,
-			"y": 570
+			"y": 569
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Oeiras_05 INfo",
 		"tags": "",
-		"body": "A casa perdeu dois cômodos da fachada principal e toda a fachada lateral.",
+		"body": "[b]Economia do Algodão:[/b] No século XIX, Oeiras foi um importante centro de produção de algodão.",
 		"position": {
 			"x": 805,
 			"y": 577
@@ -52,17 +52,17 @@
 	{
 		"title": "Oeiras_06 INfo",
 		"tags": "",
-		"body": "[b] Foi o primeiro templo regular do Piauí.[/b]",
+		"body": "[b]Fundação:[/b] A cidade foi oficialmente fundada em [b]1697[/b], sendo uma das mais antigas do Piauí.",
 		"position": {
-			"x": 1049,
-			"y": 580
+			"x": 1048,
+			"y": 579
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Oeiras_ 07 INfo",
 		"tags": "",
-		"body": "Consta ter sido fundado pelo padre Miguel Carvalho em 1697 e concluído em 1733. Na origem teria sido um retângulo de 100 x 60 pés.",
+		"body": "[b]Centro Histórico:[/b] Oeiras possui um conjunto arquitetônico tombado como patrimônio histórico nacional.",
 		"position": {
 			"x": 564,
 			"y": 789
