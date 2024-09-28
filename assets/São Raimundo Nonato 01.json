@@ -2,7 +2,7 @@
 	{
 		"title": "SRN INfo 01",
 		"tags": "",
-		"body": "[b]O vale do Rio Piauí.[/b]",
+		"body": "[b]Descoberta da Serra da Capivara (1960)[/b]: Arqueólogos descobriram pinturas rupestres datadas de até 50 mil anos.",
 		"position": {
 			"x": 569,
 			"y": 342
@@ -12,17 +12,17 @@
 	{
 		"title": "SRN INfo 02",
 		"tags": "",
-		"body": "Onde a região se localizava,era habitado por indígenas silvícolas",
+		"body": "[b]Importância Arqueológica Global[/b]: A região contém os vestígios mais antigos da presença humana no continente americano.",
 		"position": {
-			"x": 820,
-			"y": 356
+			"x": 818,
+			"y": 355
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 03",
 		"tags": "",
-		"body": "tribo dos tapuias em diversos aldeamentos.",
+		"body": "[b]Primeira Ocupação Humana da Região:[/b] Há evidências de que a área foi habitada há mais de 50 mil anos.",
 		"position": {
 			"x": 1082,
 			"y": 358
@@ -32,47 +32,47 @@
 	{
 		"title": "SRN INfo 04",
 		"tags": "",
-		"body": "[b]Parque Nacional Serra da Capivara[/b]",
+		"body": "[b]Criação do Parque Nacional Serra da Capivara (1979)[/b]: O parque foi fundado [b]para preservar a riqueza arqueológica da região.[/b]",
 		"position": {
-			"x": 571,
-			"y": 581
+			"x": 570,
+			"y": 580
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 05",
 		"tags": "",
-		"body": "Junto a 17 outros municípios do estado",
+		"body": "[b]Patrimônio Mundial da UNESCO (1991):[/b] O Parque Nacional Serra da Capivara foi reconhecido como Patrimônio Mundial pela UNESCO.",
 		"position": {
 			"x": 828,
-			"y": 583
+			"y": 582
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 06",
 		"tags": "",
-		"body": "O município integra a região turística do polo das origens,",
+		"body": "[b]Desenvolvimento Turístico[/b]: São Raimundo Nonato tornou-se um centro turístico importante por conta do parque e seu valor histórico. O município integra a região turística do polo das origens.",
 		"position": {
 			"x": 1095,
-			"y": 586
+			"y": 585
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 07",
 		"tags": "",
-		"body": "[b]Museu do Homem Americano[/b].Situado na sede da Fumdham, o Museu foicriado para divulgar a importância do patrimônio cultural",
+		"body": "[b]Museu do Homem Americano[/b].Situado na sede da Fumdham, o Museu foicriado para divulgar a importância do patrimônio cultural. [b]O Museu do Homem Americano foi fundado em 1998[/b], Criado para abrigar artefatos e promover pesquisas sobre a presença humana na América.",
 		"position": {
-			"x": 568,
-			"y": 818
+			"x": 567,
+			"y": 817
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SRN INfo 08",
 		"tags": "",
-		"body": "A exposição mostra os resultados de mais de quatro décadas de pesquisas realizadas na região do Parque.",
+		"body": "[b]Construção de Infraestrutura Científica[/b]: Laboratórios de arqueologia e centros de pesquisa foram instalados para apoiar estudos contínuos e conta com uma exposição que apresenta os resultados de mais de quatro décadas de pesquisas realizadas na região do Parque.",
 		"position": {
 			"x": 825,
 			"y": 818

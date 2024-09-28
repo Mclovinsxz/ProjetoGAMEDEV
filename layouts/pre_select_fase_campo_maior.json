@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5610952083582087,
+    "zoomFactor": 0.2890516203134925,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -37,6 +37,22 @@
       "x": -247,
       "y": -58,
       "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar_butão",
+      "persistentUuid": "93d34be7-2e22-4edd-a8d5-f423c93ccffa",
+      "width": 0,
+      "x": 522,
+      "y": 854,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -70,6 +86,22 @@
       "x": 1228,
       "y": 272,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar_Quiz",
+      "persistentUuid": "5b1f3dd9-bb8b-476a-a67a-0cdb13022e96",
+      "width": 0,
+      "x": 1164,
+      "y": 854,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -199,7 +231,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "teresina_plataforma_2.png",
+                  "image": "assets\\campo_maior_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -216,19 +248,19 @@
                     [
                       {
                         "x": 8,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 392
+                        "y": 393
                       },
                       {
                         "x": 8,
-                        "y": 392
+                        "y": 393
                       }
                     ]
                   ]
@@ -247,7 +279,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "teresina_plataforma_1.png",
+                  "image": "assets\\campo_maior_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -264,19 +296,19 @@
                     [
                       {
                         "x": 8,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 392
+                        "y": 393
                       },
                       {
                         "x": 8,
-                        "y": 392
+                        "y": 393
                       }
                     ]
                   ]
@@ -885,33 +917,7 @@
           },
           "parameters": [
             "",
-            "\"fase_plataforma_teresina\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "Jogar__Minigame",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"minigame_clickpoint_teresina\"",
+            "\"fase_plataforma_Campo_Maior\"",
             ""
           ]
         }
@@ -938,7 +944,7 @@
           "parameters": [
             "cidade_atual",
             "=",
-            "\"Teresina\""
+            "\"Campo Maior\""
           ]
         },
         {
@@ -1053,111 +1059,6 @@
             "Animation",
             "=",
             "\"off\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Mini_game3",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Mini_game3",
-            "Animation",
-            "=",
-            "\"off\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Mini_game3",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Mini_game3",
-            "Animation",
-            "=",
-            "\"on\""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Return"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"minigame_clickpoint_teresina\"",
-                ""
-              ]
-            }
           ]
         }
       ]

@@ -18,8 +18,8 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.24488383633729596,
-    "windowMask": false
+    "zoomFactor": 0.1941505911274407,
+    "windowMask": true
   },
   "objectsGroups": [],
   "variables": [
@@ -116,8 +116,8 @@
       "name": "limite_esquerda",
       "persistentUuid": "0ea239c0-1b6b-4363-8786-7c160e337f27",
       "width": 68,
-      "x": -51,
-      "y": -223,
+      "x": 43,
+      "y": -204,
       "zOrder": -144,
       "numberProperties": [],
       "stringProperties": [],
@@ -502,7 +502,7 @@
       "persistentUuid": "283612f6-0b1d-4b23-be72-52caefcba969",
       "width": 1833,
       "x": 77,
-      "y": 160,
+      "y": 95,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -519,7 +519,7 @@
       "persistentUuid": "3085b7a1-49d5-4a70-b984-db80f8ac6bbc",
       "width": 1695,
       "x": 143,
-      "y": 204,
+      "y": 139,
       "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
@@ -535,8 +535,8 @@
       "name": "caixa_informações_1",
       "persistentUuid": "65f37483-017f-499f-af4c-1c20e2eb8165",
       "width": 81,
-      "x": 326,
-      "y": 780,
+      "x": 347,
+      "y": 740,
       "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
@@ -553,7 +553,7 @@
       "persistentUuid": "6858804e-da90-4479-9f51-e7aff396c79e",
       "width": 608,
       "x": 1234,
-      "y": 535,
+      "y": 470,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -602,8 +602,8 @@
       "name": "caixa_informações_2",
       "persistentUuid": "9b64552f-78f2-4ce2-b00f-9575117158c5",
       "width": 81,
-      "x": 2722,
-      "y": 80,
+      "x": 2727,
+      "y": 50,
       "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
@@ -619,8 +619,8 @@
       "name": "caixa_informações_3",
       "persistentUuid": "88b11a24-db48-48d4-997c-95fe880abe1f",
       "width": 71,
-      "x": 2937,
-      "y": 660,
+      "x": 2942,
+      "y": 620,
       "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
@@ -636,8 +636,8 @@
       "name": "caixa_informações_4",
       "persistentUuid": "f2df8561-df9c-40fd-9702-818f376dd7e9",
       "width": 79,
-      "x": 4908,
-      "y": 364,
+      "x": 4892,
+      "y": 268,
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
@@ -721,8 +721,8 @@
       "name": "caixa_informações_5",
       "persistentUuid": "fefa2f14-f3c7-4d10-b91f-64df978e0abb",
       "width": 89,
-      "x": 5096,
-      "y": 776,
+      "x": 5098,
+      "y": 720,
       "zOrder": 84,
       "numberProperties": [],
       "stringProperties": [],
@@ -739,7 +739,7 @@
       "persistentUuid": "8f31c934-6997-4429-9f9f-e2d6e9241e9e",
       "width": 90,
       "x": 6042,
-      "y": -9,
+      "y": -79,
       "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
@@ -755,8 +755,8 @@
       "name": "caixa_informações_7",
       "persistentUuid": "91ef4d9a-265b-4b60-bf7a-f75423d05244",
       "width": 88,
-      "x": 7846,
-      "y": 281,
+      "x": 7848,
+      "y": 199,
       "zOrder": 86,
       "numberProperties": [],
       "stringProperties": [],
@@ -772,8 +772,8 @@
       "name": "caixa_informações_8",
       "persistentUuid": "414700da-5896-4748-b69d-d59a5b704211",
       "width": 77,
-      "x": 8294,
-      "y": 842,
+      "x": 8297,
+      "y": 744,
       "zOrder": 87,
       "numberProperties": [],
       "stringProperties": [],
@@ -1207,8 +1207,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "db205167-c3ca-4ea3-8ee5-0b076f0d92fd",
       "width": 127,
-      "x": 500,
-      "y": 965,
+      "x": 502,
+      "y": 970,
       "zOrder": -178,
       "numberProperties": [],
       "stringProperties": [],
@@ -2372,8 +2372,8 @@
       "layer": "",
       "name": "GrassAndTreeBackground",
       "persistentUuid": "162dc40f-dfd5-449e-8d91-2ab04d1642c4",
-      "width": 9958,
-      "x": -37,
+      "width": 10279,
+      "x": -358,
       "y": 64,
       "zOrder": -195,
       "numberProperties": [],
@@ -13115,7 +13115,7 @@
               "parameters": [
                 "player",
                 "=",
-                "100"
+                "1000"
               ]
             }
           ]
@@ -13163,7 +13163,7 @@
               "parameters": [
                 "player",
                 "=",
-                "100"
+                "1000"
               ]
             }
           ]
@@ -15442,11 +15442,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "cidade_atual",
+                "=",
+                "\"Campo Maior\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"minigame_clickpoint_teresina\"",
+                "\"quiz_game\"",
                 ""
               ]
             }
@@ -15539,11 +15549,15 @@
         },
         {
           "type": {
-            "value": "PreloadMusic"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
-            "assets\\sons\\checkpoint.wav"
+            "assets\\sons\\checkpoint.wav",
+            "2",
+            "",
+            "80",
+            "1"
           ]
         }
       ]

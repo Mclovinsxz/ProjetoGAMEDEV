@@ -43,6 +43,22 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar_butão",
+      "persistentUuid": "93d34be7-2e22-4edd-a8d5-f423c93ccffa",
+      "width": 0,
+      "x": 522,
+      "y": 854,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 79,
@@ -70,6 +86,22 @@
       "x": 1228,
       "y": 272,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jogar_Quiz",
+      "persistentUuid": "5b1f3dd9-bb8b-476a-a67a-0cdb13022e96",
+      "width": 0,
+      "x": 1164,
+      "y": 854,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -885,33 +917,7 @@
           },
           "parameters": [
             "",
-            "\"fase_plataforma_teresina\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "Jogar__Minigame",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"minigame_clickpoint_teresina\"",
+            "\"fase_plataforma_oeiras\"",
             ""
           ]
         }
@@ -938,7 +944,7 @@
           "parameters": [
             "cidade_atual",
             "=",
-            "\"Teresina\""
+            "\"Oeiras\""
           ]
         },
         {

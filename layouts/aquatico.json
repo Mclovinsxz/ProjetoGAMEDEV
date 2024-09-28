@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2796226521839402,
+    "zoomFactor": 0.3192894589690196,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1119,7 +1119,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "pedra",
-      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1132,12 +1131,12 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAVJJREFUWEdjZBhgwDjA9jOMOoCsEBAXlPqPHHUv3z8jyxyQGSRphFk8e/UKsP1H95wB0wtm9qAkJVIcRJQD0C0mlHBTQyPgSgg5hqADQJbDfEzIYmzyMMfgcghOB5Dqa0KOw+UQrA6g1Ne4HANKM6D0ghwaGA4AWZ6QXsJg7WJCyFNY5XuqZzGUtKZhlZs/bQ/Dsf1zcDuAWj5Hd8SmTfcZ3j65C3YUyAGgzPfy/VOw51FCAOQA7+AcsEJVPW0GbS1BskIBWRPIchgAOYIoB4AsRwekOgbZYqo4gFgHgYJfzdwVa8hRFAK44uL2pasMdy5fYxCWVgIrEZZRxhltNHEAyDaQI96/+4HXcpA6gg4AKUpKafuPLQ3gS41UdQDIovZJG1FqO0JZgeoOIGQhTB7mUFIcsH5dE0rWJ1gZEesYctWNOmA0BEZDYDQERkNgwEMAAASzviGWU1ZQAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAOJJREFUWEdjZBhgwDjA9jOMOmA0BEZDYDQERkMAHAIRG6//15DTYGgwZKRbiDSc//8fZN+AOuDGoxuQumCgQgDuAJAjYEFCr9oRZB+GA8AOoVM6QEkDyNFAD0eALIfZg5Lq7ZZd+u+kqQuPBWqFBsxC5Ojdd/0yw6EoPcxsB3IESCGyQ6iRLkAWgoAUNyvDs6+/wZaD+DjzPcwhIEW//vxlUODnIMsdDz7+YGBjYYbrhVkMEyCq4LFYdP4/zAEgAwk5ZoW/JlHm4g0BsrxLhiaiXUqG2URpGXXAaAiMhsBoCAAAJxVbvv4f0yQAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5\"],\"name\":\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\"}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAz5JREFUeF7tnD1rFUEYhef+hJAioKmUWBiwElLYmspSBEsRPxrLdHaCsUllIUQFLQVBMXXASisrRRsNNiqk0NumU7y4uvfu7O7Mu7OTs94nZTIfZ84z533vbkhGji8pB0ZSahDjACJ2CQACEDEHxOSQEICIOSAmh4QARMwBMTkkBCBiDojJISEAEXNATI58QpYWjvyM9Wx//E3+XHVnkhcOkNjrmGB8k+kPnj6p3eHV7hvvzx5vb5lUKSRLIiEA+Xd/AFLK0lwmxJeGprJkqj3GSVcvXGycmQNY9oQApPm2AKTkDwn5YwYlK3NTL5cpFfMtbaYpQan6S5aSBZBw/AAJ98oNKiHWh7sIP6SH+mBZyliyhACk+gwDkEPMkERC/pdmnZpj8dLT95KzLTWdShZA/CgBkvqKd1wPIB0NTD09O5CiVF26vvH3LGfOnk59rl7X27p5v7L+xu1rSfZ8dG93ss7rlw8r63XuIcpvZ5O4V1rkN6RQKDs7n6e2//5lryLHB8S5kdsff63t3a1NHSB+7ABJHQfPeiQkg8kxWwAkxq0MYwcL5Nz5GxV7Vk6tTn1v9eRCBgvzbjHbN+p2Lxp8tqYOkOaLcGhAZlNhua9qSQpNQdNZAWK5CTVzACLWawACkKmsmp7Ui6ZOD/HXvUH3EEv5T/FBwPdy8cTaukVOZQ5ADDYCxGBayJSPb99Xhn1692HyvcWjx2qXWFw+HrK8aczcJaTsEkCccymbuukKliYBBCCtd4iSNWMRPaT1zuQdUJSx8Y+DysZ9NvNis14T4rPy8pXNyd+Op3gw7AMVQPpwtcOacwek8OrO3RfR/2Whg8/BUwESbFWegQDJ43PwLgAJtirPQIDk8Tl4l7kFEuxQTwPrPlSoAHn+7Fbr75tmrYme0JO3pmUBYrKNSTEODDohMQcdyliAiJECCEDEHBCTQ0IAIuaAmBwSAhAxB8TkkBCAiDkgJoeEAETMATE5JAQgYg6IySEhABFzQEwOCQGImANickgIQMQcEJNDQgAi5oCYHBICEDEHxOSQEICIOSAmh4QARMwBMTkkBCBiDojJISEAEXNATA4JAYiYA2JySAhAxBwQk0NCxID8AkIMUIMbtG+EAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAApdJREFUeF7tmbtKA0EARSf4QLCwtxBLLRTsrCz8AVvxa/ItFmLrD1j4A4IWphQLewtBfBBZIULcWXeSmWyOclKGedw9Zy+jk17wgyLQQ6UxTFAI7CVQiEJgBGBxbIhCYARgcWyIQmAEYHFsiEJgBGBxbIhCYARgcWyIQmAEYHFsiEJgBGBxbIhCYARgcWyIQmAEYHFsiEJgBGBxbIhCYARgcWyIQmAEYHFsiEJgBGBxbIhCYARgcWyIQmAEYHFsiEJgBGBxbIhCYARgcWwIVcjxxd3wZ7atja3Q3+sprbC0/vWwxnrE+Ru2QgpT/2U5hXTHOmmnmJDBw+Brrg1JQlh2kELK8sxeTSHZCMsuoJCyPLNXU0g2wrILKKQsz+zVkoTEdqkm+o9hNv/aAgopzzRrRYVk4Ss/WSHlmWatqJAsfOUnZwmJHvbeAGdZSrpcjO1Q3QBXV/BNH/8Cm9xLTEa1Su36XSGTw51mRpaQasODs5vajymH2zutWf57e5rAtoIJIVze3daGXZ3sft28t/4aqJA4YoWkvHodjlFIh7BTtlJICqUOx8xNSOwZpz1XOuTV+Vaxg3p9damW4/H5LYwO8FjI1kNdIWlu5yokVVJs3Ov7x9jXm2sraU8MGHX/9PKdYnlxoTXRb01omjxVQxQSgkJa38fZD7Ahs2c80Q4KmQjX7Af/KSGpOPZPr8fuxpoO9dHDd3nonx9tFztTU3n8HDf3ANMG/6/zFAIzqxCFwAjA4tgQhcAIwOLYEIXACMDi2BCFwAjA4tgQhcAIwOLYEIXACMDi2BCFwAjA4tgQhcAIwOLYEIXACMDi2BCFwAjA4tgQhcAIwOLYEIXACMDi2BCFwAjA4tgQhcAIwOLYEIXACMDifAJSmiLo5EFhWwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow8\"],\"name\":\"6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5",
+                  "image": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1153,20 +1152,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 4
+                        "x": 2,
+                        "y": 13
                       },
                       {
-                        "x": 32,
-                        "y": 4
+                        "x": 100,
+                        "y": 13
                       },
                       {
-                        "x": 32,
-                        "y": 22
+                        "x": 100,
+                        "y": 68
                       },
                       {
-                        "x": 1,
-                        "y": 22
+                        "x": 2,
+                        "y": 68
                       }
                     ]
                   ]
@@ -1258,7 +1257,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\canoaplayer7",
+                  "image": "assets\\minigame_navegacao\\canoaplayer10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1275,19 +1274,19 @@
                     [
                       {
                         "x": 27,
-                        "y": 52
+                        "y": 53
                       },
                       {
                         "x": 328,
-                        "y": 52
+                        "y": 53
                       },
                       {
                         "x": 328,
-                        "y": 103
+                        "y": 102
                       },
                       {
                         "x": 27,
-                        "y": 103
+                        "y": 102
                       }
                     ]
                   ]
@@ -1302,7 +1301,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tronco",
-      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1320,7 +1318,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\tronco_arvore",
+                  "image": "assets\\minigame_navegacao\\tronco_arvore4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1336,20 +1334,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 27,
-                        "y": 26
+                        "x": 53,
+                        "y": 52
                       },
                       {
-                        "x": 74,
-                        "y": 26
+                        "x": 148,
+                        "y": 52
                       },
                       {
-                        "x": 74,
-                        "y": 69
+                        "x": 148,
+                        "y": 139
                       },
                       {
-                        "x": 27,
-                        "y": 69
+                        "x": 53,
+                        "y": 139
                       }
                     ]
                   ]
@@ -1405,7 +1403,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "pedra2",
-      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1423,7 +1420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch2",
+                  "image": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1443,16 +1440,16 @@
                         "y": 0
                       },
                       {
-                        "x": 45,
+                        "x": 90,
                         "y": 0
                       },
                       {
-                        "x": 45,
-                        "y": 24
+                        "x": 90,
+                        "y": 48
                       },
                       {
                         "x": 0,
-                        "y": 24
+                        "y": 48
                       }
                     ]
                   ]
@@ -1492,16 +1489,16 @@
                         "y": 0
                       },
                       {
-                        "x": 45,
+                        "x": 90,
                         "y": 0
                       },
                       {
-                        "x": 45,
-                        "y": 24
+                        "x": 90,
+                        "y": 48
                       },
                       {
                         "x": 0,
-                        "y": 24
+                        "y": 48
                       }
                     ]
                   ]
@@ -1516,7 +1513,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "barco_alheio2",
-      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1524,16 +1520,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\minigame_navegacao\\pedra",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\pedra.png",
+                  "image": "assets\\minigame_navegacao\\pedra6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1549,20 +1546,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 4
-                      },
-                      {
-                        "x": 32,
-                        "y": 4
-                      },
-                      {
-                        "x": 32,
+                        "x": 15,
                         "y": 22
                       },
                       {
-                        "x": 1,
+                        "x": 85,
                         "y": 22
+                      },
+                      {
+                        "x": 85,
+                        "y": 62
+                      },
+                      {
+                        "x": 15,
+                        "y": 62
                       }
                     ]
                   ]
@@ -1577,7 +1574,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tronco2",
-      "preScale": 3,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1585,16 +1581,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\minigame_navegacao\\pedra",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\minigame_navegacao\\pedra.png",
+                  "image": "assets\\minigame_navegacao\\pedra8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1610,20 +1607,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 4
+                        "x": 3,
+                        "y": 20
                       },
                       {
-                        "x": 32,
-                        "y": 4
+                        "x": 150,
+                        "y": 20
                       },
                       {
-                        "x": 32,
-                        "y": 22
+                        "x": 150,
+                        "y": 104
                       },
                       {
-                        "x": 1,
-                        "y": 22
+                        "x": 3,
+                        "y": 104
                       }
                     ]
                   ]
@@ -2299,7 +2296,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "objetivo_coletavel",
-      "preScale": 4,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2331,7 +2327,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle3",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle11",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2347,27 +2343,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 10
+                        "x": 34,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 10
+                        "x": 65,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 34
+                        "x": 65,
+                        "y": 75
                       },
                       {
-                        "x": 15,
-                        "y": 34
+                        "x": 34,
+                        "y": 75
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle4",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2383,27 +2379,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 10
+                        "x": 34,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 10
+                        "x": 65,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 34
+                        "x": 65,
+                        "y": 75
                       },
                       {
-                        "x": 15,
-                        "y": 34
+                        "x": 34,
+                        "y": 75
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle5",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2419,27 +2415,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 10
+                        "x": 34,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 10
+                        "x": 65,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 34
+                        "x": 65,
+                        "y": 75
                       },
                       {
-                        "x": 15,
-                        "y": 34
+                        "x": 34,
+                        "y": 75
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle6",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2455,20 +2451,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 10
+                        "x": 34,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 10
+                        "x": 65,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 34
+                        "x": 65,
+                        "y": 75
                       },
                       {
-                        "x": 15,
-                        "y": 34
+                        "x": 34,
+                        "y": 75
                       }
                     ]
                   ]
@@ -2488,7 +2484,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "objeto_coletavel_parado",
+                  "image": "objeto_coletavel_parado2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2504,20 +2500,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 10
+                        "x": 34,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 10
+                        "x": 65,
+                        "y": 23
                       },
                       {
-                        "x": 29,
-                        "y": 34
+                        "x": 65,
+                        "y": 75
                       },
                       {
-                        "x": 15,
-                        "y": 34
+                        "x": 34,
+                        "y": 75
                       }
                     ]
                   ]
@@ -2676,47 +2672,6 @@
         "textAlignment": "center",
         "characterSize": 42,
         "color": "255;255;255"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 20,
-        "color": "0;0;0"
       }
     },
     {
@@ -2885,9 +2840,6 @@
       },
       {
         "objectName": "objetivo_coletavel"
-      },
-      {
-        "objectName": "NewText"
       }
     ]
   },
@@ -3517,13 +3469,13 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
             "barco",
             "Animation",
             "=",
-            "\"barco_acelerando\""
+            "0"
           ]
         },
         {
@@ -4826,7 +4778,7 @@
             "barco",
             "Opacity",
             "=",
-            "180"
+            "120"
           ]
         }
       ]
@@ -5023,6 +4975,52 @@
           },
           "parameters": [
             "texto_perdeu",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "vidas",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "iniciado",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"aquatico\"",
             ""
           ]
         }
@@ -6373,6 +6371,15 @@
       "actions": [
         {
           "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"tempo_troca_cena\""
+          ]
+        },
+        {
+          "type": {
             "value": "SetBooleanVariable"
           },
           "parameters": [
@@ -6408,15 +6415,6 @@
             "texto_venceu",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"tempo_troca_cena\""
-          ]
         }
       ]
     },
@@ -6443,7 +6441,7 @@
           "parameters": [
             "",
             "\"pre_Select_Fase_campo_maior\"",
-            ""
+            "yes"
           ]
         }
       ]

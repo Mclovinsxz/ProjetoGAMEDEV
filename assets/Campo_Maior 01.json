@@ -4,17 +4,17 @@
 		"tags": "",
 		"body": "[b] Campo Maior foi fundada por portugueses e elevada a distrito em 1761. A criação da\r\nvila se deu em 8 de agosto de 1762, [/b] data comemorada como o aniversário da cidade. A\r\nconversão em município ocorreu em 28 de dezembro de 1899.",
 		"position": {
-			"x": 728,
-			"y": 95
+			"x": 456,
+			"y": 34
 		},
 		"colorID": 0
 	},
 	{
 		"title": "CM_ INfo 01",
 		"tags": "",
-		"body": "[b]Campo Maior, no seu início, era uma localidade que funcionava como um corredor utilizado para interligar, por terra, os estados do Maranhão e Ceará.[/b]",
+		"body": "[b]Fundação de Campo Maior[/b]: A cidade foi fundada oficialmente em [b]1762[/b], sendo uma das mais antigas do estado. No seu início, era uma localidade que funcionava como um corredor utilizado para interligar, por terra, os estados do Maranhão e Ceará.",
 		"position": {
-			"x": 447,
+			"x": 446,
 			"y": 351
 		},
 		"colorID": 0
@@ -22,7 +22,7 @@
 	{
 		"title": "CM_ INfo 02",
 		"tags": "",
-		"body": "[b]A Batalha do Jenipapo ocorreu em 13 de março de 1823.[/b]",
+		"body": "[b]A Batalha do Jenipapo ocorreu em 13 de março de 1823[/b]: Foi um dos eventos mais importantes da luta pela independência do Brasil no Piauí.",
 		"position": {
 			"x": 729,
 			"y": 351
@@ -32,20 +32,20 @@
 	{
 		"title": "CM_ INfo 03",
 		"tags": "",
-		"body": "[b]Na Batalha do Jenipapo[/b], as tropas portuguesas, lideradas pelo major João José da Cunha Fidié, que cumpria ordens do rei de Portugal, D. João VI, para que o norte do Brasil permanecesse sob domínio português,",
+		"body": "[b]Na Batalha do Jenipapo[/b], as tropas portuguesas, lideradas pelo major João José da Cunha Fidié, que cumpria ordens do rei de Portugal, D. João VI, para que o norte do Brasil permanecesse sob domínio português. Campo Maior foi um palco crucial durante a Guerra da Independência do Brasil, contra as tropas portuguesas.",
 		"position": {
-			"x": 1036,
-			"y": 352
+			"x": 1035,
+			"y": 351
 		},
 		"colorID": 0
 	},
 	{
 		"title": "CM_ INfo 04",
 		"tags": "",
-		"body": "[b]O Obelisco da Batalha do Jenipapo[/b] guarda os restos mortais dos combatentes mortos na batalha e é uma construção erguida no Cemitério do Batalhão.",
+		"body": "[b]Monumento aos Heróis do Jenipapo[/b]: O monumento homenageia os que lutaram e morreram na Batalha do Jenipapo. [b]O Obelisco da Batalha do Jenipapo[/b] guarda os restos mortais dos combatentes mortos na batalha e é uma construção erguida no Cemitério do Batalhão.",
 		"position": {
-			"x": 453,
-			"y": 591
+			"x": 451,
+			"y": 590
 		},
 		"colorID": 0
 	},
@@ -62,27 +62,27 @@
 	{
 		"title": "CM_ INfo 06",
 		"tags": "",
-		"body": "[b]A Catedral de Santo Antônio[/b] foi construída em homenagem a Santo Antônio, padroeiro da cidade, e se destaca como um dos principais pontos turísticos e religiosos do município.",
+		"body": "[b]A Catedral de Santo Antônio[/b] foi construída em homenagem a Santo Antônio, padroeiro da cidade, e se destaca como um dos principais pontos turísticos e religiosos do município. Construída no século XIX, é um marco arquitetônico e religioso da cidade.",
 		"position": {
-			"x": 1060,
-			"y": 596
+			"x": 1057,
+			"y": 594
 		},
 		"colorID": 0
 	},
 	{
 		"title": "CM_ INfo 07",
 		"tags": "",
-		"body": "[b] A construção da igreja começou em 1945 e foi concluída em 1962. Ela tornou-se a sede da Diocese de Campo Maior.",
+		"body": "[b]Crescimento Econômico pelo Extrativismo:[/b] A economia da cidade, no passado, se destacou pelo extrativismo vegetal, [b]especialmente carnaúba[/b].",
 		"position": {
-			"x": 463,
-			"y": 827
+			"x": 462,
+			"y": 826
 		},
 		"colorID": 0
 	},
 	{
 		"title": "CM_ INfo 08",
 		"tags": "",
-		"body": "Foi criada em 1975 pelo Papa Paulo VI. A catedral combina estilos neoclássicos e modernos, com importantes celebrações, como a festa de Santo Antônio, que acontece em junho.",
+		"body": "[b]Elevação a Cidade (1861)[/b]: Campo Maior foi elevada à categoria de cidade em 1861.",
 		"position": {
 			"x": 742,
 			"y": 827
