@@ -1,9 +1,9 @@
 {
   "firstLayout": "tela inicial",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 213,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -7367,6 +7367,159 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/Museu do homem americano .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\Museu do homem americano .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/mountain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\mountain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/arvores/arvores_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\arvores\\arvores_14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/pedras_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\pedras_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/pedras_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\pedras_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/pedras_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\pedras_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/pedras_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\pedras_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SRN/Igreja SRN .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SRN\\Igreja SRN .png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/campo_maior_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\campo_maior_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/campo_maior_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\campo_maior_2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8461,12 +8614,6 @@
       ]
     },
     {
-      "areaMaxX": 64,
-      "areaMaxY": 64,
-      "areaMaxZ": 64,
-      "areaMinX": 0,
-      "areaMinY": 0,
-      "areaMinZ": 0,
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "Jogar_butão",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -8547,38 +8694,7 @@
           "topMargin": 32,
           "width": 256
         }
-      },
-      "instances": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ]
+      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -8835,10 +8951,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame_escavacao"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/minigame_escavacao_edit_miller"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

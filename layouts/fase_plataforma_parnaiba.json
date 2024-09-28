@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2531414001299094,
+    "zoomFactor": 0.5427920802474295,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2673,9 +2673,9 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "c9df6c71-1cd5-425e-a058-7b9a0aac7c78",
-      "width": 144,
-      "x": 7690,
-      "y": 800,
+      "width": 141,
+      "x": 7693,
+      "y": 801,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2717,14 +2717,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 63,
       "keepRatio": true,
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "0ee8eddf-7ed7-45a1-97ce-927b24dbd22a",
-      "width": 623,
-      "x": 7549,
-      "y": 853,
+      "width": 620,
+      "x": 7552,
+      "y": 854,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -2823,8 +2823,8 @@
       "name": "TilesetPiece3",
       "persistentUuid": "7d750f24-9d66-4123-b1c6-f1a4042d7365",
       "width": 782,
-      "x": 7390,
-      "y": 905,
+      "x": 7389,
+      "y": 910,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -17887,7 +17887,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -18064,39 +18063,6 @@
                 "text_checkpoint_final",
                 "=",
                 "\"Ainda falta coletar \"  + caixas_restante + \" caixas\" +  NewLine() +\"CONTINUE PROCURANDO ...\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "balao_texto",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "text_checkpoint_final",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"check_final_text\""
               ]
             }
           ]

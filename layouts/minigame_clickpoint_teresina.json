@@ -4089,9 +4089,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
+            "",
+            "\"tela_mapa_selecao_cidade\"",
             ""
           ]
         }

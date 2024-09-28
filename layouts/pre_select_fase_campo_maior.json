@@ -231,7 +231,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "teresina_plataforma_2.png",
+                  "image": "assets\\campo_maior_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -248,19 +248,19 @@
                     [
                       {
                         "x": 8,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 392
+                        "y": 393
                       },
                       {
                         "x": 8,
-                        "y": 392
+                        "y": 393
                       }
                     ]
                   ]
@@ -279,7 +279,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "teresina_plataforma_1.png",
+                  "image": "assets\\campo_maior_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -296,19 +296,19 @@
                     [
                       {
                         "x": 8,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 9
+                        "y": 8
                       },
                       {
                         "x": 392,
-                        "y": 392
+                        "y": 393
                       },
                       {
                         "x": 8,
-                        "y": 392
+                        "y": 393
                       }
                     ]
                   ]
@@ -670,12 +670,6 @@
       "animations": []
     },
     {
-      "areaMaxX": 64,
-      "areaMaxY": 64,
-      "areaMaxZ": 64,
-      "areaMinX": 0,
-      "areaMinY": 0,
-      "areaMinZ": 0,
       "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
       "name": "Jogar__Minigame",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -756,46 +750,9 @@
           "topMargin": 32,
           "width": 256
         }
-      },
-      "instances": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ]
+      }
     },
     {
-      "areaMaxX": 64,
-      "areaMaxY": 64,
-      "areaMaxZ": 64,
-      "areaMinX": 0,
-      "areaMinY": 0,
-      "areaMinZ": 0,
       "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
       "name": "Jogar_Quiz",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -876,38 +833,7 @@
           "topMargin": 32,
           "width": 256
         }
-      },
-      "instances": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -991,33 +917,7 @@
           },
           "parameters": [
             "",
-            "\"fase_plataforma_teresina\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "Jogar__Minigame",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"minigame_clickpoint_teresina\"",
+            "\"fase_plataforma_Campo_Maior\"",
             ""
           ]
         }
@@ -1044,7 +944,7 @@
           "parameters": [
             "cidade_atual",
             "=",
-            "\"Teresina\""
+            "\"Campo Maior\""
           ]
         },
         {
@@ -1159,111 +1059,6 @@
             "Animation",
             "=",
             "\"off\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Mini_game3",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Mini_game3",
-            "Animation",
-            "=",
-            "\"off\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Mini_game3",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Mini_game3",
-            "Animation",
-            "=",
-            "\"on\""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Return"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"minigame_clickpoint_teresina\"",
-                ""
-              ]
-            }
           ]
         }
       ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4027225833326554,
+    "zoomFactor": 0.26167741169925685,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -65,8 +65,8 @@
       "name": "player",
       "persistentUuid": "44097a26-cfb7-45d1-93c8-46c5039f2457",
       "width": 112,
-      "x": 7141,
-      "y": 532,
+      "x": 145,
+      "y": 834,
       "zOrder": 82,
       "numberProperties": [],
       "stringProperties": [],
@@ -115,9 +115,9 @@
       "layer": "",
       "name": "limite_esquerda",
       "persistentUuid": "0ea239c0-1b6b-4363-8786-7c160e337f27",
-      "width": 68,
-      "x": -51,
-      "y": -223,
+      "width": 31,
+      "x": 94,
+      "y": -227,
       "zOrder": -144,
       "numberProperties": [],
       "stringProperties": [],
@@ -200,8 +200,8 @@
       "layer": "",
       "name": "TilesetPiece3",
       "persistentUuid": "a518f238-360f-4498-8c7d-60c89bad33c4",
-      "width": 488,
-      "x": -54,
+      "width": 792,
+      "x": -358,
       "y": 1001,
       "zOrder": 47,
       "numberProperties": [],
@@ -17000,11 +17000,15 @@
         },
         {
           "type": {
-            "value": "PreloadMusic"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
-            "assets\\sons\\checkpoint.wav"
+            "assets\\sons\\checkpoint.wav",
+            "3",
+            "",
+            "80",
+            "1"
           ]
         }
       ]
