@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26167741169925685,
+    "zoomFactor": 0.2890516203135384,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -638,7 +638,7 @@
       "persistentUuid": "283612f6-0b1d-4b23-be72-52caefcba969",
       "width": 1775,
       "x": 77,
-      "y": 160,
+      "y": 96,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -655,7 +655,7 @@
       "persistentUuid": "3085b7a1-49d5-4a70-b984-db80f8ac6bbc",
       "width": 1695,
       "x": 143,
-      "y": 204,
+      "y": 140,
       "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
@@ -671,8 +671,8 @@
       "name": "caixa_informações_1",
       "persistentUuid": "65f37483-017f-499f-af4c-1c20e2eb8165",
       "width": 81,
-      "x": 259,
-      "y": 635,
+      "x": 257,
+      "y": 581,
       "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
@@ -689,7 +689,7 @@
       "persistentUuid": "6858804e-da90-4479-9f51-e7aff396c79e",
       "width": 608,
       "x": 1249,
-      "y": 483,
+      "y": 419,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -715,12 +715,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 77,
+      "height": 83,
       "keepRatio": true,
       "layer": "background",
       "name": "fundo_informações",
       "persistentUuid": "59488267-1d80-440a-b7c5-cb9465cf4680",
-      "width": 2398,
+      "width": 322,
       "x": -39,
       "y": -1,
       "zOrder": 63,
@@ -738,8 +738,8 @@
       "name": "caixa_informações_2",
       "persistentUuid": "9b64552f-78f2-4ce2-b00f-9575117158c5",
       "width": 81,
-      "x": 2400,
-      "y": 371,
+      "x": 2407,
+      "y": 316,
       "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
@@ -756,7 +756,7 @@
       "persistentUuid": "88b11a24-db48-48d4-997c-95fe880abe1f",
       "width": 71,
       "x": 3829,
-      "y": 186,
+      "y": 171,
       "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
@@ -1055,8 +1055,8 @@
       "name": "caixa_informações_8",
       "persistentUuid": "414700da-5896-4748-b69d-d59a5b704211",
       "width": 77,
-      "x": 8290,
-      "y": 747,
+      "x": 8296,
+      "y": 725,
       "zOrder": -201,
       "numberProperties": [],
       "stringProperties": [],
@@ -2872,7 +2872,7 @@
       "persistentUuid": "d444243f-08e9-4d56-a331-aa985ca4369f",
       "width": 49,
       "x": 7049,
-      "y": 909,
+      "y": 941,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -2888,7 +2888,7 @@
       "persistentUuid": "0173365f-3bf4-4a66-aebd-d3da39734b3b",
       "width": 0,
       "x": 7060,
-      "y": 910,
+      "y": 942,
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
@@ -3032,32 +3032,34 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 169,
       "keepRatio": true,
       "layer": "",
       "name": "Cloud7",
       "persistentUuid": "a22bd037-7f03-4b3b-848b-24724a19279b",
-      "width": 0,
-      "x": 185,
-      "y": -133,
-      "zOrder": 101,
+      "width": 263,
+      "x": 703,
+      "y": 439,
+      "zOrder": -206,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 120,
       "keepRatio": true,
       "layer": "",
       "name": "Cloud7",
       "persistentUuid": "75455ba9-14b4-4d8d-a1d7-c0222de866f2",
-      "width": 0,
-      "x": 2024,
-      "y": -49,
-      "zOrder": 101,
+      "width": 186,
+      "x": 4127,
+      "y": 284,
+      "zOrder": -207,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3098,31 +3100,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 250,
+      "height": 178,
       "keepRatio": true,
       "layer": "",
       "name": "Cloud7",
       "persistentUuid": "2a787076-097f-4fcc-86cf-b5a0330f049b",
-      "width": 381,
-      "x": 5818,
-      "y": -134,
-      "zOrder": 104,
+      "width": 271,
+      "x": 5844,
+      "y": 395,
+      "zOrder": -208,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 211,
       "keepRatio": true,
       "layer": "",
       "name": "Cloud8",
       "persistentUuid": "9aee2148-f678-4217-8c8c-2b384a788f5d",
-      "width": 0,
-      "x": 7324,
-      "y": -139,
-      "zOrder": 105,
+      "width": 323,
+      "x": 8192,
+      "y": 517,
+      "zOrder": -209,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3374,8 +3377,8 @@
       "name": "caixa_informações_5",
       "persistentUuid": "4e5f1e50-182c-4ebf-8498-2ce273a4bb3c",
       "width": 77,
-      "x": 4357,
-      "y": 51,
+      "x": 4364,
+      "y": 27,
       "zOrder": -200,
       "numberProperties": [],
       "stringProperties": [],
@@ -3391,8 +3394,8 @@
       "name": "caixa_informações_4",
       "persistentUuid": "38df06e0-5e8a-47dc-a5df-cd11fcee2d06",
       "width": 75,
-      "x": 4970,
-      "y": -32,
+      "x": 4968,
+      "y": -59,
       "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
@@ -3407,9 +3410,9 @@
       "layer": "",
       "name": "caixa_informações_6",
       "persistentUuid": "19c5fac9-081d-498e-9808-a11dac305e71",
-      "width": 88,
-      "x": 7841,
-      "y": 299,
+      "width": 76,
+      "x": 7851,
+      "y": 252,
       "zOrder": 110,
       "numberProperties": [],
       "stringProperties": [],
@@ -3564,6 +3567,71 @@
       "x": 7849,
       "y": 401,
       "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cloud7",
+      "persistentUuid": "5bf59cc4-ca18-4247-bc5a-de8eaec15539",
+      "width": 0,
+      "x": 185,
+      "y": -133,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cloud7",
+      "persistentUuid": "7fe24660-cfdb-42df-bcc2-69bc65641ba1",
+      "width": 0,
+      "x": 2024,
+      "y": -49,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 250,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cloud7",
+      "persistentUuid": "a1a14e50-d275-44e9-aecd-690b84567d98",
+      "width": 381,
+      "x": 5818,
+      "y": -134,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cloud8",
+      "persistentUuid": "f5b6892d-433c-4f7c-bc22-d6a2b4e38e33",
+      "width": 0,
+      "x": 7324,
+      "y": -139,
+      "zOrder": 105,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14379,6 +14447,12 @@
             "player",
             "PlatformerObject"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -14391,6 +14465,19 @@
             "Animation",
             "=",
             "\"jump\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\jump_som.mp3",
+            "5",
+            "",
+            "20",
+            "1"
           ]
         }
       ]
@@ -14503,7 +14590,7 @@
             "assets\\sons\\caiu.wav",
             "3",
             "",
-            "50",
+            "80",
             "1"
           ]
         }
@@ -14708,11 +14795,28 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "w"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
           ]
         }
       ],
@@ -14930,6 +15034,15 @@
         },
         {
           "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\jump_som.mp3"
+          ]
+        },
+        {
+          "type": {
             "value": "PlayMusicCanal"
           },
           "parameters": [
@@ -14937,7 +15050,7 @@
             "assets\\sons\\Terra do Sol_tema.mp3",
             "0",
             "yes",
-            "50",
+            "70",
             "1"
           ]
         }
@@ -15393,6 +15506,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -15437,7 +15556,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -15539,6 +15658,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -15583,7 +15708,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -15685,6 +15810,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -15729,7 +15860,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -15831,6 +15962,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -15875,7 +16012,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -15977,6 +16114,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -16021,7 +16164,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -16123,6 +16266,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -16167,7 +16316,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -16263,7 +16412,7 @@
             "assets\\sons\\coletar_caixa.wav",
             "2",
             "",
-            "50",
+            "80",
             "1"
           ]
         }
@@ -16282,6 +16431,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -16415,6 +16570,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -16459,7 +16620,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.20069741314553363,
+    "zoomFactor": 0.2448838363372994,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -637,7 +637,7 @@
       "layer": "background",
       "name": "fundo_informações",
       "persistentUuid": "59488267-1d80-440a-b7c5-cb9465cf4680",
-      "width": 2398,
+      "width": 349,
       "x": -39,
       "y": -1,
       "zOrder": 64,
@@ -689,8 +689,8 @@
       "name": "caixa_informações_4",
       "persistentUuid": "f2df8561-df9c-40fd-9702-818f376dd7e9",
       "width": 79,
-      "x": 4269,
-      "y": -17,
+      "x": 4271,
+      "y": -35,
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
@@ -823,8 +823,8 @@
       "name": "caixa_informações_5",
       "persistentUuid": "fefa2f14-f3c7-4d10-b91f-64df978e0abb",
       "width": 89,
-      "x": 5446,
-      "y": 161,
+      "x": 5442,
+      "y": 118,
       "zOrder": 84,
       "numberProperties": [],
       "stringProperties": [],
@@ -16168,6 +16168,12 @@
             "player",
             "PlatformerObject"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -16180,6 +16186,19 @@
             "Animation",
             "=",
             "\"jump\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\jump_som.mp3",
+            "5",
+            "no",
+            "20",
+            "1"
           ]
         }
       ]
@@ -16292,7 +16311,7 @@
             "assets\\sons\\caiu.wav",
             "3",
             "",
-            "50",
+            "80",
             "1"
           ]
         }
@@ -16497,11 +16516,28 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "w"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
           ]
         }
       ],
@@ -16713,6 +16749,15 @@
         },
         {
           "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\jump_som.mp3"
+          ]
+        },
+        {
+          "type": {
             "value": "PlayMusicCanal"
           },
           "parameters": [
@@ -16720,7 +16765,7 @@
             "assets\\sons\\Terra do Sol_tema.mp3",
             "1",
             "yes",
-            "60",
+            "70",
             "1"
           ]
         }
@@ -17176,6 +17221,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -17220,7 +17271,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -17322,6 +17373,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -17366,7 +17423,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -17468,6 +17525,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -17512,7 +17575,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -17614,6 +17677,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -17658,7 +17727,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -17760,6 +17829,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -17804,7 +17879,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -17906,6 +17981,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -17950,7 +18031,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -18052,6 +18133,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -18096,7 +18183,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -18198,6 +18285,12 @@
                 "=",
                 "\"on\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -18242,7 +18335,7 @@
                 "assets\\sons\\coletar_caixa.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }
@@ -18511,7 +18604,7 @@
                 "assets\\sons\\level_concluido.wav",
                 "2",
                 "",
-                "50",
+                "80",
                 "1"
               ]
             }

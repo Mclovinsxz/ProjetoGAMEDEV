@@ -7520,6 +7520,16 @@
         "name": "assets\\campo_maior_2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/sons/jump_som.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\jump_som.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
