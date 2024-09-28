@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8353591827060977,
+    "zoomFactor": 4.104119664635049,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2884,16 +2884,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/minigame_escavacao/balao_texto",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/minigame_escavacao/balao_texto.png",
+                  "image": "assets/minigame_escavacao/balao_texto",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3681,7 +3682,7 @@
               },
               "parameters": [
                 "",
-                "i"
+                "e"
               ]
             }
           ],
