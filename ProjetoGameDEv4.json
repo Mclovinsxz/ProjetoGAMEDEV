@@ -7522,13 +7522,399 @@
         "userAdded": true
       },
       {
-        "file": "assets/sons/jump_som.mp3",
-        "kind": "audio",
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/correnteza.png",
+        "kind": "image",
         "metadata": "",
-        "name": "assets\\sons\\jump_som.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "assets\\minigame_navegacao\\correnteza.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_tronco_arvore2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\tronco_arvore2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_canoaplayer11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\canoaplayer10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_tronco_arvore3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\tronco_arvore3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_tronco_arvore4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\tronco_arvore4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_pedra8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\pedra8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/objeto_coletavel_parado2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "objeto_coletavel_parado2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minigame_navegacao/bote_player_puro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\minigame_navegacao\\bote_player_puro.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_bote_player_puro7.png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_bote_player_puro8.png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_bote_player_puro9.png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_bote_player_puro10.png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_bote_player_puro11.png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_minigame_navegacao_bote_player_puro12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\minigame_navegacao\\bote_player_puro12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/aaaaaaaa.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "aaaaaaaa",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch4",
+        "smoothed": false,
         "userAdded": true
       }
     ],
