@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3192894589690196,
+    "zoomFactor": 0.3895856273827326,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -137,6 +137,12 @@
     {
       "folded": true,
       "name": "tangivel",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "perdeu",
       "type": "boolean",
       "value": false
     }
@@ -480,8 +486,8 @@
       "name": "texto_venceu",
       "persistentUuid": "8c589a2c-0540-47ed-87e5-0016234370bf",
       "width": 0,
-      "x": 275,
-      "y": 512,
+      "x": 165,
+      "y": 448,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -2327,7 +2333,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle11",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2343,27 +2349,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 34,
-                        "y": 23
+                        "x": 48,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 23
+                        "x": 91,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 75
+                        "x": 91,
+                        "y": 105
                       },
                       {
-                        "x": 34,
-                        "y": 75
+                        "x": 48,
+                        "y": 105
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle12",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle20",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2379,27 +2385,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 34,
-                        "y": 23
+                        "x": 48,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 23
+                        "x": 91,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 75
+                        "x": 91,
+                        "y": 105
                       },
                       {
-                        "x": 34,
-                        "y": 75
+                        "x": 48,
+                        "y": 105
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle13",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle21",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2415,27 +2421,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 34,
-                        "y": 23
+                        "x": 48,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 23
+                        "x": 91,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 75
+                        "x": 91,
+                        "y": 105
                       },
                       {
-                        "x": 34,
-                        "y": 75
+                        "x": 48,
+                        "y": 105
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle14",
+                  "image": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle22",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2451,20 +2457,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 34,
-                        "y": 23
+                        "x": 48,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 23
+                        "x": 91,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 75
+                        "x": 91,
+                        "y": 105
                       },
                       {
-                        "x": 34,
-                        "y": 75
+                        "x": 48,
+                        "y": 105
                       }
                     ]
                   ]
@@ -2484,7 +2490,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "objeto_coletavel_parado2",
+                  "image": "objeto_coletavel_parado4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2500,20 +2506,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 34,
-                        "y": 23
+                        "x": 48,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 23
+                        "x": 91,
+                        "y": 33
                       },
                       {
-                        "x": 65,
-                        "y": 75
+                        "x": 91,
+                        "y": 105
                       },
                       {
-                        "x": 34,
-                        "y": 75
+                        "x": 48,
+                        "y": 105
                       }
                     ]
                   ]
@@ -2685,7 +2691,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "PARABÉNS! Você conseguiu completar a fase.",
+      "string": "PARABÉNS! Você conseguiu coletar todos os objetivos.\n\nPressione ESPAÇO para avançar para a próxima fase",
       "font": "pixelart.ttf",
       "textAlignment": "center",
       "characterSize": 68,
@@ -2708,7 +2714,7 @@
         "shadowOpacity": 80,
         "smoothed": true,
         "underlined": false,
-        "text": "PARABÉNS! Você conseguiu completar a fase.",
+        "text": "PARABÉNS! Você conseguiu coletar todos os objetivos.\n\nPressione ESPAÇO para avançar para a próxima fase",
         "font": "pixelart.ttf",
         "textAlignment": "center",
         "characterSize": 68,
@@ -3112,6 +3118,16 @@
             "=",
             "1001"
           ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "texto_perdeu",
+            "=",
+            "1001"
+          ]
         }
       ],
       "events": [
@@ -3215,11 +3231,28 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "w"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
           ]
         },
         {
@@ -3274,11 +3307,28 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "s"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
+            }
           ]
         },
         {
@@ -6280,7 +6330,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "letraP",
+            "letraA_1",
             "Opacity",
             "=",
             "50"
@@ -6291,7 +6341,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "letraP",
+            "letraR",
             "Opacity",
             "=",
             "50"
@@ -6302,7 +6352,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "letraP",
+            "letraN",
             "Opacity",
             "=",
             "50"
@@ -6313,7 +6363,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "letraP",
+            "letraA_2",
             "Opacity",
             "=",
             "50"
@@ -6324,7 +6374,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "letraP",
+            "letraI",
             "Opacity",
             "=",
             "50"
@@ -6335,7 +6385,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "letraP",
+            "letraB",
             "Opacity",
             "=",
             "50"
@@ -6346,7 +6396,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "letraP",
+            "letraA_3",
             "Opacity",
             "=",
             "50"
@@ -6369,15 +6419,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"tempo_troca_cena\""
-          ]
-        },
         {
           "type": {
             "value": "SetBooleanVariable"
@@ -6415,6 +6456,16 @@
             "texto_venceu",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "perdeu",
+            "True",
+            ""
+          ]
         }
       ]
     },
@@ -6423,13 +6474,21 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "perdeu",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyReleased"
           },
           "parameters": [
             "",
-            "\"tempo_troca_cena\"",
-            ">=",
-            "4"
+            "Space"
           ]
         }
       ],
