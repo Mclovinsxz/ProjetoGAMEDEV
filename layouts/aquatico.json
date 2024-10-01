@@ -6495,11 +6495,21 @@
       "actions": [
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "cidade_atual",
+            "=",
+            "\"Parnaíba\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"pre_Select_Fase_campo_maior\"",
+            "\"quiz_game\"",
             "yes"
           ]
         }
