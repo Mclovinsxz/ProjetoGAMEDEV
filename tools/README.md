@@ -130,3 +130,30 @@ A renumeração é por ordem de aparição, então uma mudança que *acrescenta*
 identificador desloca a ordinal de todos os seguintes, e o diff real sai
 junto com esse ruído. Ao revisar uma mudança intencional, as linhas que só
 trocam `<IDn>` por `<IDm>` são ruído; as demais são a mudança.
+
+## `tirar_print.mjs`
+
+Abre a exportação HTML5 num navegador sem tela, vai até uma cena e salva um
+print. É o que permite conferir mudança de interface e de tipografia, que o
+comparador de código não enxerga.
+
+```bash
+npx gdexporter@4.0.0-beta7 -p ProjetoGameDEv4.json -o build
+node tools/tirar_print.mjs build quiz.png quiz_game 8
+```
+
+Argumentos: `<build> <arquivo.png> [cena|-] [segundos de espera]`. Com `-` no
+lugar da cena, fica na cena inicial.
+
+O Playwright vem do ambiente, em `/opt/node-tools` — é lá que estão os
+navegadores já baixados. Não instale o pacote localmente: a cópia local não
+encontra esses navegadores e pede um download que o sandbox bloqueia.
+
+O jogo é criado dentro de uma IIFE no `index.html`, então a instância não fica
+acessível de fora e não dá para trocar de cena. O servidor embutido injeta uma
+linha expondo `window.__game` **apenas no arquivo servido** — o build em disco
+e o repositório não são tocados.
+
+Dois erros de console são esperados e não indicam problema no jogo: o Firebase
+reclamando de configuração ausente, e uma falha de rede do sandbox ao buscar
+recurso externo.

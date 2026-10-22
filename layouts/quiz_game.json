@@ -592,9 +592,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Texto da pergunta é!!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -633,9 +633,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 1!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -674,9 +674,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 2!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -715,9 +715,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 3!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -838,9 +838,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 4!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -1767,9 +1767,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Parabéns!!!!!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -1808,9 +1808,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Texto alternativo das respostas",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -1849,9 +1849,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Cidade: ",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     }

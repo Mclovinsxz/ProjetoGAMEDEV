@@ -123,7 +123,7 @@
         "fontSize": 60,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -141,7 +141,7 @@
         "fontSize": 50,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }

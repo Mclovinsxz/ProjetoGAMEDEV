@@ -133,7 +133,7 @@
         "fontSize": 40,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }

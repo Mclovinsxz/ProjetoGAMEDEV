@@ -8064,7 +8064,7 @@
         "fontSize": 50,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -8095,7 +8095,7 @@
         "fontSize": 50,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -8203,7 +8203,7 @@
         "smoothed": true,
         "underlined": false,
         "text": " 0 / 0",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 40,
         "color": "0;0;0"
@@ -12168,7 +12168,7 @@
         "fontSize": 20,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }

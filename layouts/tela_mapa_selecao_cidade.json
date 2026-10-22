@@ -829,7 +829,7 @@
         "fontSize": 100,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -847,7 +847,7 @@
         "fontSize": 60,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -887,7 +887,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "numero",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 50,
         "color": "255;255;255"

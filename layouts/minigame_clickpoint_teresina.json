@@ -3546,7 +3546,7 @@
         "fontSize": 10,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -3586,7 +3586,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Parabéns, encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 15,
         "color": "255;255;255"
@@ -3735,7 +3735,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 10,
         "color": "255;255;255"
@@ -3776,7 +3776,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Pressione Enter para fechar",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 8,
         "color": "255;255;255"
