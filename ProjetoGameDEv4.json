@@ -66,7 +66,7 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/test3.png",
+        "file": "assets/comum/test3.png",
         "kind": "image",
         "metadata": "",
         "name": "test2.png",
@@ -74,7 +74,7 @@
         "userAdded": true
       },
       {
-        "file": "assets/Roboto-Regular.ttf",
+        "file": "assets/fontes/Roboto-Regular.ttf",
         "kind": "font",
         "metadata": "",
         "name": "Roboto-Regular.ttf",
@@ -86,7 +86,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Grey Button_Hovered.png",
+        "file": "assets/comum/Grey Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "Grey Button_Hovered.png",
@@ -99,7 +99,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Grey Button_Idle.png",
+        "file": "assets/comum/Grey Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Grey Button_Idle.png",
@@ -112,7 +112,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Grey Button_Pressed.png",
+        "file": "assets/comum/Grey Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "Grey Button_Pressed.png",
@@ -125,7 +125,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green Button_Hovered.png",
+        "file": "assets/menu/Green Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Hovered.png",
@@ -138,7 +138,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green Button_Idle.png",
+        "file": "assets/menu/Green Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Idle.png",
@@ -151,7 +151,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green Button_Pressed.png",
+        "file": "assets/menu/Green Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Pressed.png",
@@ -163,7 +163,7 @@
         }
       },
       {
-        "file": "assets/Poppins-Medium.ttf",
+        "file": "assets/fontes/Poppins-Medium.ttf",
         "kind": "font",
         "metadata": "",
         "name": "Poppins-Medium.ttf",
@@ -175,7 +175,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red Button_Hovered.png",
+        "file": "assets/menu/Red Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Hovered.png",
@@ -188,7 +188,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red Button_Idle.png",
+        "file": "assets/menu/Red Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Idle.png",
@@ -201,7 +201,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red Button_Pressed.png",
+        "file": "assets/menu/Red Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Pressed.png",
@@ -214,7 +214,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Hovered.png",
+        "file": "assets/comum/Yellow Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Hovered.png",
@@ -227,7 +227,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Idle.png",
+        "file": "assets/comum/Yellow Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Idle.png",
@@ -240,7 +240,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Pressed.png",
+        "file": "assets/comum/Yellow Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Pressed.png",
@@ -253,7 +253,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Desert Background 2.png",
+        "file": "assets/comum/tiled_Desert Background 2.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/tiled_Desert Background 2.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiled_Desert Background 2.png",
@@ -266,7 +266,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Empty Cloud Background.png",
+        "file": "assets/menu/tiled_Empty Cloud Background.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Empty Cloud Background.png",
@@ -279,7 +279,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite.png",
+        "file": "assets/comum/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
         "name": "NewSprite",
@@ -288,7 +288,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Idle_1.png",
+        "file": "assets/fase1/Red hero_Idle_1.png",
         "kind": "image",
         "metadata": "",
         "name": "afd5f71a304e8e42022cfd356c5f2b94ae174d49fd0cc8324685833b81e4edbc_Red hero_Idle_1.png",
@@ -301,7 +301,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Idle_2.png",
+        "file": "assets/fase1/Red hero_Idle_2.png",
         "kind": "image",
         "metadata": "",
         "name": "b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_2.png",
@@ -314,7 +314,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Idle_3.png",
+        "file": "assets/fase1/Red hero_Idle_3.png",
         "kind": "image",
         "metadata": "",
         "name": "93429ca693da9ef67a3713eb1244481f62202098b2c0fd3278d96a0dcfefa766_Red hero_Idle_3.png",
@@ -327,7 +327,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Idle_4.png",
+        "file": "assets/fase1/Red hero_Idle_4.png",
         "kind": "image",
         "metadata": "",
         "name": "b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_4.png",
@@ -340,7 +340,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_1.png",
+        "file": "assets/fase1/Red hero_Run_1.png",
         "kind": "image",
         "metadata": "",
         "name": "01b696c2d40c8972d8aa7bae7186e2c55658d2c86c1f59f29d3cb5dc5edbfb20_Red hero_Run_1.png",
@@ -353,7 +353,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_2.png",
+        "file": "assets/fase1/Red hero_Run_2.png",
         "kind": "image",
         "metadata": "",
         "name": "9e6101d493da686269f0ff21b8bcedb79e6b49a43ea215692a562871110b2936_Red hero_Run_2.png",
@@ -366,7 +366,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_3.png",
+        "file": "assets/fase1/Red hero_Run_3.png",
         "kind": "image",
         "metadata": "",
         "name": "dcd4b8b225f539b639727e9d9b2789cc754ffeca579d6753bb4ab6f7215fbf74_Red hero_Run_3.png",
@@ -379,7 +379,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_4.png",
+        "file": "assets/fase1/Red hero_Run_4.png",
         "kind": "image",
         "metadata": "",
         "name": "ddcf009cd21fb33fa984a1df49b8d4519a2ae7cfb5f10fd45be9757f174a18cb_Red hero_Run_4.png",
@@ -392,7 +392,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_5.png",
+        "file": "assets/fase1/Red hero_Run_5.png",
         "kind": "image",
         "metadata": "",
         "name": "d0f31730c38b9ee3c608b15438134dcbd0fd762172b8903409c2f6483e6098cc_Red hero_Run_5.png",
@@ -405,7 +405,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_6.png",
+        "file": "assets/fase1/Red hero_Run_6.png",
         "kind": "image",
         "metadata": "",
         "name": "d2ee7048e44eac52ffc60c1139f88476ad0bde68129ee009a7a7fbd1729ccb09_Red hero_Run_6.png",
@@ -418,7 +418,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_7.png",
+        "file": "assets/fase1/Red hero_Run_7.png",
         "kind": "image",
         "metadata": "",
         "name": "18f6b0d618718471dbce14651d7b8eef292f4f4fe8296f5d8d8662089ac1daee_Red hero_Run_7.png",
@@ -431,7 +431,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_8.png",
+        "file": "assets/fase1/Red hero_Run_8.png",
         "kind": "image",
         "metadata": "",
         "name": "0c7459b1540abdf1f14530702f539e8261e61a37a6ecff6dec6bf88c0212952f_Red hero_Run_8.png",
@@ -444,7 +444,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_9.png",
+        "file": "assets/fase1/Red hero_Run_9.png",
         "kind": "image",
         "metadata": "",
         "name": "3cd0257918963258abb710d65aac3da0df88c05cef3243244dd37bba5962fef1_Red hero_Run_9.png",
@@ -457,7 +457,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_10.png",
+        "file": "assets/fase1/Red hero_Run_10.png",
         "kind": "image",
         "metadata": "",
         "name": "aaa534752eb52902ae57e0da1c554c266b5750ac8867dac533179b9b6dd260c0_Red hero_Run_10.png",
@@ -470,7 +470,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_11.png",
+        "file": "assets/fase1/Red hero_Run_11.png",
         "kind": "image",
         "metadata": "",
         "name": "3af7fc4e0193aed436f25ec8b5f18b900ca7dfa00ccacc9276240a65e05c1213_Red hero_Run_11.png",
@@ -483,7 +483,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_12.png",
+        "file": "assets/fase1/Red hero_Run_12.png",
         "kind": "image",
         "metadata": "",
         "name": "fc1d723b7b1a7d22d0c46d8d5029e241fcc07c7c570ecc11378d2d96c4a5e6fd_Red hero_Run_12.png",
@@ -496,7 +496,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_13.png",
+        "file": "assets/fase1/Red hero_Run_13.png",
         "kind": "image",
         "metadata": "",
         "name": "e683efa0d35a0d47c86dacad5bb8db2d588a073e3ffd911205cabf73df751036_Red hero_Run_13.png",
@@ -509,7 +509,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_14.png",
+        "file": "assets/fase1/Red hero_Run_14.png",
         "kind": "image",
         "metadata": "",
         "name": "d918e343b50b8f788246f43053f7be331aa5e7ca052ce48b2057549990e766a0_Red hero_Run_14.png",
@@ -522,7 +522,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_15.png",
+        "file": "assets/fase1/Red hero_Run_15.png",
         "kind": "image",
         "metadata": "",
         "name": "52433bf97cf5922a404d81747720632af6d2e43076666d8c9bb3758368c0c437_Red hero_Run_15.png",
@@ -535,7 +535,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_16.png",
+        "file": "assets/fase1/Red hero_Run_16.png",
         "kind": "image",
         "metadata": "",
         "name": "76bbb0ad4a3a187e8277aeb05e705e4fd89b49ff499eb5b0ca7bdd5a82cfb20b_Red hero_Run_16.png",
@@ -548,7 +548,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_17.png",
+        "file": "assets/fase1/Red hero_Run_17.png",
         "kind": "image",
         "metadata": "",
         "name": "d7857f8bb38df53a23a6d1d39b97ff4cae3453386d70fea898656ed5359e2a64_Red hero_Run_17.png",
@@ -561,7 +561,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_18.png",
+        "file": "assets/fase1/Red hero_Run_18.png",
         "kind": "image",
         "metadata": "",
         "name": "c19a73cc3ac85b803f78d29e656e3162ed20d31c6a9d37efda188497cc58ce0a_Red hero_Run_18.png",
@@ -574,7 +574,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Run_19.png",
+        "file": "assets/fase1/Red hero_Run_19.png",
         "kind": "image",
         "metadata": "",
         "name": "edf072b840e918427a9090d3cf84c9021e9e09b95f98c6148e8ea8b445991ad6_Red hero_Run_19.png",
@@ -587,7 +587,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red hero_Jump.png",
+        "file": "assets/fase1/Red hero_Jump.png",
         "kind": "image",
         "metadata": "",
         "name": "91c303a98c7369bd8989fec189a839dddea86f103c9c825650ffadcdb7ae467f_Red hero_Jump.png",
@@ -599,7 +599,7 @@
         }
       },
       {
-        "file": "assets/VT323-Regular.ttf",
+        "file": "assets/fontes/VT323-Regular.ttf",
         "kind": "font",
         "metadata": "",
         "name": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
@@ -610,7 +610,7 @@
         }
       },
       {
-        "file": "assets/Poppins-Medium.ttf",
+        "file": "assets/fontes/Poppins-Medium.ttf",
         "kind": "font",
         "metadata": "",
         "name": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
@@ -622,7 +622,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Idle.png",
+        "file": "assets/comum/Yellow Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
@@ -635,7 +635,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Pressed.png",
+        "file": "assets/comum/Yellow Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
@@ -648,7 +648,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Hovered.png",
+        "file": "assets/comum/Yellow Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
@@ -661,7 +661,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Background Blue Land.png",
+        "file": "assets/menu/tiled_Background Blue Land.png",
         "kind": "image",
         "metadata": "",
         "name": "aeedf8b81f70178c65fb63e0dd2860d6fed2f6bfaf542e27101da1bd6f723ae6_tiled_Background Blue Land.png",
@@ -674,7 +674,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Industrial platform.png",
+        "file": "assets/fase1/Industrial platform.png",
         "kind": "image",
         "metadata": "",
         "name": "Industrial platform.png",
@@ -687,7 +687,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Small platform.png",
+        "file": "assets/fase1/Small platform.png",
         "kind": "image",
         "metadata": "",
         "name": "Small platform.png",
@@ -700,7 +700,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Treasure Chest_No Shadow.png",
+        "file": "assets/comum/Treasure Chest_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Treasure Chest_No Shadow.png",
@@ -713,7 +713,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Treasure Chest_Shadow.png",
+        "file": "assets/comum/Treasure Chest_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Treasure Chest_Shadow.png",
@@ -726,7 +726,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Green_No Shadow.png",
+        "file": "assets/comum/Book Green_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Green_No Shadow.png",
@@ -739,7 +739,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Green_Shadow.png",
+        "file": "assets/comum/Book Green_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Green_Shadow.png",
@@ -752,7 +752,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Brown_No Shadow.png",
+        "file": "assets/comum/Book Brown_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Brown_No Shadow.png",
@@ -765,7 +765,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Brown_Shadow.png",
+        "file": "assets/comum/Book Brown_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Brown_Shadow.png",
@@ -778,7 +778,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Blue_No Shadow.png",
+        "file": "assets/comum/Book Blue_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Blue_No Shadow.png",
@@ -791,7 +791,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Blue_Shadow.png",
+        "file": "assets/comum/Book Blue_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Blue_Shadow.png",
@@ -804,7 +804,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Red_No Shadow.png",
+        "file": "assets/comum/Book Red_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Red_No Shadow.png",
@@ -817,7 +817,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Red_Shadow.png",
+        "file": "assets/comum/Book Red_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Red_Shadow.png",
@@ -830,7 +830,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Orange_No Shadow.png",
+        "file": "assets/comum/Book Orange_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Orange_No Shadow.png",
@@ -843,7 +843,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Book Orange_Shadow.png",
+        "file": "assets/comum/Book Orange_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Book Orange_Shadow.png",
@@ -856,7 +856,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Apple_No Shadow.png",
+        "file": "assets/fase1/Apple_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Apple_No Shadow.png",
@@ -869,7 +869,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Apple_Shadow.png",
+        "file": "assets/fase1/Apple_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Apple_Shadow.png",
@@ -882,7 +882,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Carrot_No Shadow.png",
+        "file": "assets/fase1/Carrot_No Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Carrot_No Shadow.png",
@@ -895,7 +895,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Carrot_Shadow.png",
+        "file": "assets/fase1/Carrot_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "Carrot_Shadow.png",
@@ -908,7 +908,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bottom Right Corner Redwood Background Cutout.png",
+        "file": "assets/fase1/Bottom Right Corner Redwood Background Cutout.png",
         "kind": "image",
         "metadata": "",
         "name": "Bottom Right Corner Redwood Background Cutout.png",
@@ -921,7 +921,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bottom Left Corner Redwood Background Cutout.png",
+        "file": "assets/fase1/Bottom Left Corner Redwood Background Cutout.png",
         "kind": "image",
         "metadata": "",
         "name": "Bottom Left Corner Redwood Background Cutout.png",
@@ -934,7 +934,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Platform.png",
+        "file": "assets/fase1/Platform.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform.png",
@@ -947,7 +947,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red door top.png",
+        "file": "assets/comum/Red door top.png",
         "kind": "image",
         "metadata": "",
         "name": "Red door top.png",
@@ -960,7 +960,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green door top.png",
+        "file": "assets/comum/Green door top.png",
         "kind": "image",
         "metadata": "",
         "name": "Green door top.png",
@@ -973,7 +973,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/9patch_Summer Tile_all_64.png",
+        "file": "assets/comum/9patch_Summer Tile_all_64.png",
         "kind": "image",
         "metadata": "",
         "name": "9patch_Summer Tile_all_64.png",
@@ -986,7 +986,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/9patch_Redwood Background_all_64.png",
+        "file": "assets/fase1/9patch_Redwood Background_all_64.png",
         "kind": "image",
         "metadata": "",
         "name": "9patch_Redwood Background_all_64.png",
@@ -999,7 +999,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Platform LeftSide.png",
+        "file": "assets/comum/Platform LeftSide.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform LeftSide.png",
@@ -1012,7 +1012,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Platform RightSide.png",
+        "file": "assets/comum/Platform RightSide.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform RightSide.png",
@@ -1025,7 +1025,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bronze Key.png",
+        "file": "assets/comum/Bronze Key.png",
         "kind": "image",
         "metadata": "",
         "name": "Bronze Key.png",
@@ -1038,7 +1038,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green block.png",
+        "file": "assets/comum/Green block.png",
         "kind": "image",
         "metadata": "",
         "name": "Green block.png",
@@ -1051,7 +1051,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green block_key.png",
+        "file": "assets/comum/Green block_key.png",
         "kind": "image",
         "metadata": "",
         "name": "Green block_key.png",
@@ -1064,7 +1064,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green block_lock.png",
+        "file": "assets/comum/Green block_lock.png",
         "kind": "image",
         "metadata": "",
         "name": "Green block_lock.png",
@@ -1077,7 +1077,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green block_puzzle.png",
+        "file": "assets/comum/Green block_puzzle.png",
         "kind": "image",
         "metadata": "",
         "name": "Green block_puzzle.png",
@@ -1090,7 +1090,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green block2.png",
+        "file": "assets/comum/Green block2.png",
         "kind": "image",
         "metadata": "",
         "name": "Green block.png2",
@@ -1103,7 +1103,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Green arrow.png",
+        "file": "assets/comum/Green arrow.png",
         "kind": "image",
         "metadata": "",
         "name": "Green arrow.png",
@@ -1116,7 +1116,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Rock 1.png",
+        "file": "assets/comum/Rock 1.png",
         "kind": "image",
         "metadata": "",
         "name": "Rock 1.png",
@@ -1129,7 +1129,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite2.png",
+        "file": "assets/comum/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
@@ -1138,7 +1138,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "teresina pi.png",
+        "file": "assets/comum/teresina pi.png",
         "kind": "image",
         "metadata": "",
         "name": "teresina pi.png",
@@ -1147,7 +1147,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/dialogo_intro.json",
+        "file": "assets/introducao/dialogo_intro.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\"}",
         "name": "dialogo_intro",
@@ -1155,7 +1155,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Cloud layer 3.png",
+        "file": "assets/comum/tiled_Cloud layer 3.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Cloud layer 3.png",
@@ -1168,7 +1168,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Sun.png",
+        "file": "assets/comum/Sun.png",
         "kind": "image",
         "metadata": "",
         "name": "Sun.png",
@@ -1181,7 +1181,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Forest Background.png",
+        "file": "assets/comum/tiled_Forest Background.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Forest Background.png",
@@ -1194,7 +1194,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Background Colored Shroom.png",
+        "file": "assets/comum/tiled_Background Colored Shroom.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Background Colored Shroom.png",
@@ -1207,7 +1207,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Grass and Tree Background.png",
+        "file": "assets/comum/tiled_Grass and Tree Background.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Grass and Tree Background.png",
@@ -1220,7 +1220,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/background-polo-ceramico.png",
+        "file": "assets/comum/background-polo-ceramico.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/background-polo-ceramico.png",
@@ -1229,7 +1229,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/filtro-de-barro.png",
+        "file": "assets/minigame_point_click/filtro-de-barro.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/filtro-de-barro.png",
@@ -1238,7 +1238,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/filtro-de-barro-2.png",
+        "file": "assets/minigame_point_click/filtro-de-barro-2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/filtro-de-barro-2.png",
@@ -1247,7 +1247,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/assets_filtro-de-barro-3.png",
+        "file": "assets/minigame_point_click/assets_filtro-de-barro-3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/assets_filtro-de-barro-3.png",
@@ -1256,7 +1256,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/filtro-de-barro-4.png",
+        "file": "assets/minigame_point_click/filtro-de-barro-4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/filtro-de-barro-4.png",
@@ -1265,7 +1265,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/arara.png",
+        "file": "assets/minigame_point_click/arara.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/arara.png",
@@ -1274,7 +1274,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/banco_madeira.png",
+        "file": "assets/comum/banco_madeira.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/banco_madeira.png",
@@ -1283,7 +1283,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/estante.png",
+        "file": "assets/minigame_point_click/estante.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/estante.png",
@@ -1292,7 +1292,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/joaninha.png",
+        "file": "assets/minigame_point_click/joaninha.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/joaninha.png",
@@ -1301,7 +1301,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/joaninha-2.png",
+        "file": "assets/minigame_point_click/joaninha-2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/joaninha-2.png",
@@ -1310,7 +1310,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/joaninha-3.png",
+        "file": "assets/minigame_point_click/joaninha-3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/joaninha-3.png",
@@ -1319,7 +1319,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/joaninha-4.png",
+        "file": "assets/minigame_point_click/joaninha-4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/joaninha-4.png",
@@ -1328,7 +1328,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/joaninha-5.png",
+        "file": "assets/minigame_point_click/joaninha-5.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/joaninha-5.png",
@@ -1337,7 +1337,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/joaninha-6.png",
+        "file": "assets/minigame_point_click/joaninha-6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/joaninha-6.png",
@@ -1346,7 +1346,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/conselheiro-saraiva-escultura.png",
+        "file": "assets/minigame_point_click/conselheiro-saraiva-escultura.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/conselheiro-saraiva-escultura.png",
@@ -1355,7 +1355,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/quadro_rios.png",
+        "file": "assets/minigame_point_click/quadro_rios.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/quadro_rios.png",
@@ -1364,7 +1364,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/plantas_parede.png",
+        "file": "assets/minigame_point_click/plantas_parede.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/plantas_parede.png",
@@ -1373,7 +1373,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/prato_parede.png",
+        "file": "assets/minigame_point_click/prato_parede.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/prato_parede.png",
@@ -1382,7 +1382,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/prato_parede-2.png",
+        "file": "assets/minigame_point_click/prato_parede-2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/prato_parede-2.png",
@@ -1391,7 +1391,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/assets_prato_parede-3.png",
+        "file": "assets/minigame_point_click/assets_prato_parede-3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/assets_prato_parede-3.png",
@@ -1400,7 +1400,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/assets_prato_parede-4.png",
+        "file": "assets/minigame_point_click/assets_prato_parede-4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/assets_prato_parede-4.png",
@@ -1409,7 +1409,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_point_click_teresina_copo_barro.png",
+        "file": "assets/minigame_point_click/assets_point_click_teresina_copo_barro.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/point_click_teresina/copo_barro",
@@ -1418,7 +1418,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/copo_barro.png",
+        "file": "assets/minigame_point_click/copo_barro.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/copo_barro-2.png",
@@ -1427,7 +1427,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_point_click_teresina_panela-de-barro.png",
+        "file": "assets/minigame_point_click/assets_point_click_teresina_panela-de-barro.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/point_click_teresina/panela-de-barro",
@@ -1436,7 +1436,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_point_click_teresina_panela-de-barro-2.png",
+        "file": "assets/minigame_point_click/assets_point_click_teresina_panela-de-barro-2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/point_click_teresina/panela-de-barro-2",
@@ -1445,7 +1445,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_point_click_teresina_panela-de-barro-3.png",
+        "file": "assets/minigame_point_click/assets_point_click_teresina_panela-de-barro-3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/point_click_teresina/panela-de-barro-3",
@@ -1454,7 +1454,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/arara2.png",
+        "file": "assets/minigame_point_click/arara2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/arara2.png",
@@ -1463,7 +1463,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/tucano.png",
+        "file": "assets/minigame_point_click/tucano.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/tucano.png",
@@ -1472,7 +1472,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_point_click_teresina_vaso.png",
+        "file": "assets/minigame_point_click/assets_point_click_teresina_vaso.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/point_click_teresina/vaso",
@@ -1481,7 +1481,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite3.png",
+        "file": "assets/comum/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
         "name": "NewSprite3",
@@ -1490,7 +1490,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/plataforma.png",
+        "file": "assets/comum/plataforma.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/plataforma.png\"}",
         "name": "plataforma",
@@ -1499,7 +1499,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "teatro 4 de setembro.png",
+        "file": "assets/comum/teatro 4 de setembro.png",
         "kind": "image",
         "metadata": "",
         "name": "teatro 4 de setembro.png",
@@ -1507,14 +1507,14 @@
         "userAdded": true
       },
       {
-        "file": "pixelart.ttf",
+        "file": "assets/fontes/pixelart.ttf",
         "kind": "font",
         "metadata": "",
         "name": "pixelart.ttf",
         "userAdded": true
       },
       {
-        "file": "assets/Kenney Pixel Square.ttf",
+        "file": "assets/fontes/Kenney Pixel Square.ttf",
         "kind": "font",
         "metadata": "",
         "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
@@ -1526,7 +1526,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ponte estaiada_1.png",
+        "file": "assets/comum/ponte estaiada_1.png",
         "kind": "image",
         "metadata": "",
         "name": "ponte estaiada_1.png",
@@ -1535,7 +1535,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/background-polo-ceramico.png",
+        "file": "assets/comum/background-polo-ceramico.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/point_click_teresina/background-polo-ceramico.png\",\"extension\":\".png\"}",
         "name": "assets\\point_click_teresina\\background-polo-ceramico.png",
@@ -1544,7 +1544,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_1.png",
+        "file": "assets/comum/player_1_idle_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_idle_1.png",
@@ -1553,7 +1553,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_2.png",
+        "file": "assets/comum/player_1_idle_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_idle_2.png",
@@ -1562,7 +1562,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_3.png",
+        "file": "assets/comum/player_1_idle_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_idle_3.png",
@@ -1571,7 +1571,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_4.png",
+        "file": "assets/comum/player_1_idle_4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_idle_4.png",
@@ -1580,7 +1580,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_5.png",
+        "file": "assets/comum/player_1_idle_5.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_idle_5.png",
@@ -1589,7 +1589,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_6.png",
+        "file": "assets/comum/player_1_idle_6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_idle_6.png",
@@ -1598,7 +1598,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_7.png",
+        "file": "assets/comum/player_1_idle_7.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_idle_7.png",
@@ -1607,7 +1607,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_1.png",
+        "file": "assets/comum/player_1_run_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_run_1.png",
@@ -1616,7 +1616,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_2.png",
+        "file": "assets/comum/player_1_run_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_run_2.png",
@@ -1625,7 +1625,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_3.png",
+        "file": "assets/comum/player_1_run_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_run_3.png",
@@ -1634,7 +1634,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_4.png",
+        "file": "assets/comum/player_1_run_4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_run_4.png",
@@ -1643,7 +1643,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_5.png",
+        "file": "assets/comum/player_1_run_5.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_run_5.png",
@@ -1652,7 +1652,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_6.png",
+        "file": "assets/comum/player_1_run_6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_run_6.png",
@@ -1661,7 +1661,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_jump.png",
+        "file": "assets/quiz/player_1_jump.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\player_1_jump.png",
@@ -1670,7 +1670,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/capivara_1.png",
+        "file": "assets/comum/capivara_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\capivara_1.png",
@@ -1679,7 +1679,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/capivara_2.png",
+        "file": "assets/comum/capivara_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\capivara_2.png",
@@ -1688,7 +1688,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/capivara_3.png",
+        "file": "assets/comum/capivara_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\capivara_3.png",
@@ -1697,7 +1697,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Platform 1.png",
+        "file": "assets/comum/Platform 1.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform 1.png",
@@ -1710,7 +1710,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Platform 2.png",
+        "file": "assets/comum/Platform 2.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform 2.png",
@@ -1723,7 +1723,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Platform 3.png",
+        "file": "assets/comum/Platform 3.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform 3.png",
@@ -1736,7 +1736,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Corner platform.png",
+        "file": "assets/comum/Corner platform.png",
         "kind": "image",
         "metadata": "",
         "name": "Corner platform.png",
@@ -1749,7 +1749,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_1.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_1.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_1.png",
@@ -1762,7 +1762,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_10.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_10.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_10.png",
@@ -1775,7 +1775,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_2.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_2.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_2.png",
@@ -1788,7 +1788,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_3.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_3.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_3.png",
@@ -1801,7 +1801,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_4.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_4.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_4.png",
@@ -1814,7 +1814,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_5.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_5.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_5.png",
@@ -1827,7 +1827,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_6.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_6.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_6.png",
@@ -1840,7 +1840,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_7.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_7.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_7.png",
@@ -1853,7 +1853,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_8.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_8.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_8.png",
@@ -1866,7 +1866,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Idle_9.png",
+        "file": "assets/comum/Checkpoint_Flag Idle_9.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Idle_9.png",
@@ -1879,7 +1879,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_1.png",
+        "file": "assets/comum/Checkpoint_Flag Out_1.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_1.png",
@@ -1892,7 +1892,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_10.png",
+        "file": "assets/comum/Checkpoint_Flag Out_10.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_10.png",
@@ -1905,7 +1905,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_11.png",
+        "file": "assets/comum/Checkpoint_Flag Out_11.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_11.png",
@@ -1918,7 +1918,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_12.png",
+        "file": "assets/comum/Checkpoint_Flag Out_12.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_12.png",
@@ -1931,7 +1931,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_13.png",
+        "file": "assets/comum/Checkpoint_Flag Out_13.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_13.png",
@@ -1944,7 +1944,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_14.png",
+        "file": "assets/comum/Checkpoint_Flag Out_14.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_14.png",
@@ -1957,7 +1957,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_15.png",
+        "file": "assets/comum/Checkpoint_Flag Out_15.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_15.png",
@@ -1970,7 +1970,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_16.png",
+        "file": "assets/comum/Checkpoint_Flag Out_16.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_16.png",
@@ -1983,7 +1983,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_17.png",
+        "file": "assets/comum/Checkpoint_Flag Out_17.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_17.png",
@@ -1996,7 +1996,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_18.png",
+        "file": "assets/comum/Checkpoint_Flag Out_18.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_18.png",
@@ -2009,7 +2009,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_19.png",
+        "file": "assets/comum/Checkpoint_Flag Out_19.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_19.png",
@@ -2022,7 +2022,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_2.png",
+        "file": "assets/comum/Checkpoint_Flag Out_2.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_2.png",
@@ -2035,7 +2035,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_20.png",
+        "file": "assets/comum/Checkpoint_Flag Out_20.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_20.png",
@@ -2048,7 +2048,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_21.png",
+        "file": "assets/comum/Checkpoint_Flag Out_21.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_21.png",
@@ -2061,7 +2061,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_22.png",
+        "file": "assets/comum/Checkpoint_Flag Out_22.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_22.png",
@@ -2074,7 +2074,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_23.png",
+        "file": "assets/comum/Checkpoint_Flag Out_23.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_23.png",
@@ -2087,7 +2087,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_24.png",
+        "file": "assets/comum/Checkpoint_Flag Out_24.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_24.png",
@@ -2100,7 +2100,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_25.png",
+        "file": "assets/comum/Checkpoint_Flag Out_25.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_25.png",
@@ -2113,7 +2113,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_26.png",
+        "file": "assets/comum/Checkpoint_Flag Out_26.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_26.png",
@@ -2126,7 +2126,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_3.png",
+        "file": "assets/comum/Checkpoint_Flag Out_3.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_3.png",
@@ -2139,7 +2139,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_4.png",
+        "file": "assets/comum/Checkpoint_Flag Out_4.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_4.png",
@@ -2152,7 +2152,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_5.png",
+        "file": "assets/comum/Checkpoint_Flag Out_5.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_5.png",
@@ -2165,7 +2165,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_6.png",
+        "file": "assets/comum/Checkpoint_Flag Out_6.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_6.png",
@@ -2178,7 +2178,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_7.png",
+        "file": "assets/comum/Checkpoint_Flag Out_7.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_7.png",
@@ -2191,7 +2191,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_No Flag.png",
+        "file": "assets/comum/Checkpoint_No Flag.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_8.png",
@@ -2204,7 +2204,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_9.png",
+        "file": "assets/comum/Checkpoint_Flag Out_9.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_9.png",
@@ -2217,7 +2217,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_No Flag.png",
+        "file": "assets/comum/Checkpoint_No Flag.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_No Flag.png",
@@ -2230,7 +2230,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank Emote_Style2.png",
+        "file": "assets/comum/Blank Emote_Style2.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank Emote_Style 1.png2",
@@ -2243,7 +2243,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank Emote_Style3.png",
+        "file": "assets/comum/Blank Emote_Style3.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank Emote_Style 2.png2",
@@ -2256,7 +2256,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank Emote_Style4.png",
+        "file": "assets/comum/Blank Emote_Style4.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank Emote_Style 3.png2",
@@ -2269,7 +2269,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank Emote_Style5.png",
+        "file": "assets/comum/Blank Emote_Style5.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank Emote_Style 4.png2",
@@ -2282,7 +2282,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank Emote_Style6.png",
+        "file": "assets/comum/Blank Emote_Style6.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank Emote_Style 5.png2",
@@ -2295,7 +2295,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank Emote_Style7.png",
+        "file": "assets/comum/Blank Emote_Style7.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank Emote_Style 6.png2",
@@ -2308,7 +2308,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank Emote_Style8.png",
+        "file": "assets/comum/Blank Emote_Style8.png",
         "kind": "image",
         "metadata": "",
         "name": "Blank Emote_Style 7.png2",
@@ -2321,7 +2321,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/plataforma3.png",
+        "file": "assets/comum/plataforma3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/plataforma3.png\"}",
         "name": "plataforma3",
@@ -2330,7 +2330,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Spinning Bone_1.png",
+        "file": "assets/comum/Spinning Bone_1.png",
         "kind": "image",
         "metadata": "",
         "name": "Spinning Bone_1.png",
@@ -2343,7 +2343,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Spinning Bone_2.png",
+        "file": "assets/comum/Spinning Bone_2.png",
         "kind": "image",
         "metadata": "",
         "name": "Spinning Bone_2.png",
@@ -2356,7 +2356,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Spinning Bone_3.png",
+        "file": "assets/comum/Spinning Bone_3.png",
         "kind": "image",
         "metadata": "",
         "name": "Spinning Bone_3.png",
@@ -2369,7 +2369,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Spinning Bone_4.png",
+        "file": "assets/comum/Spinning Bone_4.png",
         "kind": "image",
         "metadata": "",
         "name": "Spinning Bone_4.png",
@@ -2382,7 +2382,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Tileset Piece 3.png3.png",
+        "file": "assets/comum/tiled_Tileset Piece 3.png3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tiled_Tileset Piece 3.png3.png\"}",
         "name": "tiled_Tileset Piece 3.png3",
@@ -2391,7 +2391,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tileset Piece2.png",
+        "file": "assets/comum/Tileset Piece2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Tileset Piece 1",
@@ -2400,7 +2400,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tileset Piece5.png",
+        "file": "assets/comum/Tileset Piece5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tileset Piece5.png\"}",
         "name": "Tileset Piece 4",
@@ -2409,7 +2409,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tileset Piece6.png",
+        "file": "assets/comum/Tileset Piece6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Tileset Piece 5",
@@ -2418,7 +2418,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tileset Piece37.png",
+        "file": "assets/comum/Tileset Piece37.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Tileset Piece 36",
@@ -2427,7 +2427,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tileset Piece38.png",
+        "file": "assets/comum/Tileset Piece38.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Tileset Piece 37",
@@ -2436,7 +2436,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Tileset Piece 20.png2.png",
+        "file": "assets/comum/tiled_Tileset Piece 20.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiled_Tileset Piece 20.png2",
@@ -2445,7 +2445,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tileset Piece7.png",
+        "file": "assets/comum/Tileset Piece7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Tileset Piece5",
@@ -2454,7 +2454,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "cabeca_cuia_poty2.png",
+        "file": "assets/comum/cabeca_cuia_poty2.png",
         "kind": "image",
         "metadata": "",
         "name": "cabeca_cuia_poty2.png",
@@ -2463,7 +2463,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_idle_1.png",
+        "file": "assets/comum/crispim_idle_1.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_idle_1.png",
@@ -2472,7 +2472,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_idle_2.png",
+        "file": "assets/comum/crispim_idle_2.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_idle_2.png",
@@ -2481,7 +2481,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_idle_3.png",
+        "file": "assets/comum/crispim_idle_3.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_idle_3.png",
@@ -2490,7 +2490,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_idle_4.png",
+        "file": "assets/comum/crispim_idle_4.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_idle_4.png",
@@ -2499,7 +2499,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_idle_5.png",
+        "file": "assets/comum/crispim_idle_5.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_idle_5.png",
@@ -2508,7 +2508,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_idle_6.png",
+        "file": "assets/comum/crispim_idle_6.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_idle_6.png",
@@ -2517,7 +2517,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_atack_1.png",
+        "file": "assets/comum/crispim_atack_1.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_atack_1.png",
@@ -2526,7 +2526,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_atack_2.png",
+        "file": "assets/comum/crispim_atack_2.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_atack_2.png",
@@ -2535,7 +2535,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_atack_3.png",
+        "file": "assets/comum/crispim_atack_3.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_atack_3.png",
@@ -2544,7 +2544,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_atack_4.png",
+        "file": "assets/comum/crispim_atack_4.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_atack_4.png",
@@ -2553,7 +2553,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_atack_5.png",
+        "file": "assets/comum/crispim_atack_5.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_atack_5.png",
@@ -2562,7 +2562,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_atack_6.png",
+        "file": "assets/comum/crispim_atack_6.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_atack_6.png",
@@ -2571,7 +2571,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "crispim_atack_7.png",
+        "file": "assets/comum/crispim_atack_7.png",
         "kind": "image",
         "metadata": "",
         "name": "crispim_atack_7.png",
@@ -2580,7 +2580,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/dialogue_box.png",
+        "file": "assets/comum/dialogue_box.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\dialogue_box.png",
@@ -2589,7 +2589,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_dialogue_box.png",
+        "file": "assets/comum/assets_dialogue_box.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\dialogue_box",
@@ -2598,7 +2598,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/Informações Teresina.json",
+        "file": "assets/teresina/Informações Teresina.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Informações Teresina.json\"}",
         "name": "Informações Teresina",
@@ -2606,7 +2606,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite4.png",
+        "file": "assets/comum/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite4",
@@ -2615,7 +2615,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fundo.png",
+        "file": "assets/quiz/fundo.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\fundo.png",
@@ -2624,7 +2624,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Pergunta.png",
+        "file": "assets/quiz/Pergunta.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Pergunta.png",
@@ -2633,7 +2633,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/respostas.png",
+        "file": "assets/quiz/respostas.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\respostas.png",
@@ -2641,7 +2641,7 @@
         "userAdded": true
       },
       {
-        "file": "Minecraft.ttf",
+        "file": "assets/fontes/Minecraft.ttf",
         "kind": "font",
         "metadata": "",
         "name": "Minecraft.ttf",
@@ -2649,7 +2649,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/dialogue_box.png",
+        "file": "assets/comum/dialogue_box.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/dialogue_box.png",
@@ -2658,7 +2658,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/check.png",
+        "file": "assets/minigame_point_click/check.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/check.png",
@@ -2667,7 +2667,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/sapo.png",
+        "file": "assets/minigame_point_click/sapo.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/sapo.png",
@@ -2675,7 +2675,7 @@
         "userAdded": true
       },
       {
-        "file": "assets/Kenney Rocket.ttf",
+        "file": "assets/fontes/Kenney Rocket.ttf",
         "kind": "font",
         "metadata": "",
         "name": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
@@ -2687,7 +2687,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "balao_text.png",
+        "file": "assets/comum/balao_text.png",
         "kind": "image",
         "metadata": "",
         "name": "balao_text.png",
@@ -2695,19 +2695,8 @@
         "userAdded": true
       },
       {
-        "file": "assets/ArchitectsDaughter.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "alwaysLoaded": false,
-        "file": "safeimagekit-pixel-art.png",
+        "file": "assets/srn/safeimagekit-pixel-art.png",
         "kind": "image",
         "metadata": "",
         "name": "safeimagekit-pixel-art.png",
@@ -2716,7 +2705,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ponteiro_localizacao.png",
+        "file": "assets/mapa/ponteiro_localizacao.png",
         "kind": "image",
         "metadata": "",
         "name": "ponteiro_localizacao.png",
@@ -2725,7 +2714,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "imagem_2024-09-15_001916411.png",
+        "file": "assets/mapa/imagem_2024-09-15_001916411.png",
         "kind": "image",
         "metadata": "",
         "name": "imagem_2024-09-15_001916411.png",
@@ -2734,7 +2723,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "box_item_coletado.png",
+        "file": "assets/comum/box_item_coletado.png",
         "kind": "image",
         "metadata": "",
         "name": "box_item_coletado.png",
@@ -2743,7 +2732,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/box_item_coletar_1.png",
+        "file": "assets/comum/box_item_coletar_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\box_item_coletar_1.png",
@@ -2752,7 +2741,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/box_item_coletar_2.png",
+        "file": "assets/comum/box_item_coletar_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\box_item_coletar_2.png",
@@ -2761,7 +2750,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/box_item_coletar_3.png",
+        "file": "assets/comum/box_item_coletar_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\box_item_coletar_3.png",
@@ -2770,7 +2759,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/box_item_coletar_4.png",
+        "file": "assets/comum/box_item_coletar_4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\box_item_coletar_4.png",
@@ -2779,7 +2768,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/box_item_coletar_5.png",
+        "file": "assets/comum/box_item_coletar_5.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\box_item_coletar_5.png",
@@ -2788,7 +2777,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/box_item_coletar_6.png",
+        "file": "assets/comum/box_item_coletar_6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\box_item_coletar_6.png",
@@ -2797,7 +2786,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite3.png",
+        "file": "assets/comum/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
@@ -2806,7 +2795,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/texto_pre_fase_plataforma.json",
+        "file": "assets/pre_fase/texto_pre_fase_plataforma.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/texto_pre_fase_plataforma.json\"}",
         "name": "texto_pre_fase_plataforma",
@@ -2814,7 +2803,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Paróquia Nossa Senhora do Amparo.png",
+        "file": "assets/comum/Paróquia Nossa Senhora do Amparo.png",
         "kind": "image",
         "metadata": "",
         "name": "Paróquia Nossa Senhora do Amparo.png",
@@ -2823,7 +2812,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite9.png",
+        "file": "assets/comum/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
         "name": "NewSprite9",
@@ -2831,7 +2820,7 @@
         "userAdded": true
       },
       {
-        "file": "assets/Kenney Future.ttf",
+        "file": "assets/fontes/Kenney Future.ttf",
         "kind": "font",
         "metadata": "",
         "name": "207e8de533dc48ba7a80c34d34350cb52f520e217c9d30f15a21bc3e2aade06e_Kenney Future.ttf",
@@ -2843,7 +2832,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "icon_quiz_next_1.png",
+        "file": "assets/quiz/icon_quiz_next_1.png",
         "kind": "image",
         "metadata": "",
         "name": "icon_quiz_next_1.png",
@@ -2852,7 +2841,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "icon_quiz_next_2.png",
+        "file": "assets/quiz/icon_quiz_next_2.png",
         "kind": "image",
         "metadata": "",
         "name": "icon_quiz_next_2.png",
@@ -2861,7 +2850,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "icon_quiz_next_3.png",
+        "file": "assets/quiz/icon_quiz_next_3.png",
         "kind": "image",
         "metadata": "",
         "name": "icon_quiz_next_3.png",
@@ -2870,7 +2859,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "icon_quiz_next_4.png",
+        "file": "assets/quiz/icon_quiz_next_4.png",
         "kind": "image",
         "metadata": "",
         "name": "icon_quiz_next_4.png",
@@ -2879,7 +2868,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "icon_quiz_fim_1.png",
+        "file": "assets/quiz/icon_quiz_fim_1.png",
         "kind": "image",
         "metadata": "",
         "name": "icon_quiz_fim_1.png",
@@ -2888,7 +2877,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "icon_quiz_fim_2.png",
+        "file": "assets/quiz/icon_quiz_fim_2.png",
         "kind": "image",
         "metadata": "",
         "name": "icon_quiz_fim_2.png",
@@ -2897,7 +2886,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Gray Background.png",
+        "file": "assets/comum/tiled_Gray Background.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Gray Background.png",
@@ -2910,7 +2899,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/cloud 7.png",
+        "file": "assets/comum/cloud 7.png",
         "kind": "image",
         "metadata": "",
         "name": "cloud 7.png",
@@ -2923,7 +2912,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/cloud 8.png",
+        "file": "assets/comum/cloud 8.png",
         "kind": "image",
         "metadata": "",
         "name": "cloud 8.png",
@@ -2936,7 +2925,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Forest Background 2.png",
+        "file": "assets/comum/tiled_Forest Background 2.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Forest Background 2.png",
@@ -2949,7 +2938,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/Oeiras_01.json",
+        "file": "assets/oeiras/Oeiras_01.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Oeiras_01.json\"}",
         "name": "Oeiras_01",
@@ -2957,7 +2946,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_7.png",
+        "file": "assets/comum/player_1_idle_7.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_idle_7.png",
@@ -2966,7 +2955,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_6.png",
+        "file": "assets/comum/player_1_idle_6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_idle_6.png",
@@ -2975,7 +2964,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_5.png",
+        "file": "assets/comum/player_1_idle_5.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_idle_5.png",
@@ -2984,7 +2973,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_4.png",
+        "file": "assets/comum/player_1_idle_4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_idle_4.png",
@@ -2993,7 +2982,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_3.png",
+        "file": "assets/comum/player_1_idle_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_idle_3.png",
@@ -3002,7 +2991,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_2.png",
+        "file": "assets/comum/player_1_idle_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_idle_2.png",
@@ -3011,7 +3000,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_idle_1.png",
+        "file": "assets/comum/player_1_idle_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_idle_1.png",
@@ -3020,7 +3009,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_6.png",
+        "file": "assets/comum/player_1_run_6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_run_6.png",
@@ -3029,7 +3018,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_5.png",
+        "file": "assets/comum/player_1_run_5.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_run_5.png",
@@ -3038,7 +3027,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_4.png",
+        "file": "assets/comum/player_1_run_4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_run_4.png",
@@ -3047,7 +3036,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_3.png",
+        "file": "assets/comum/player_1_run_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_run_3.png",
@@ -3056,7 +3045,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_2.png",
+        "file": "assets/comum/player_1_run_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_run_2.png",
@@ -3065,7 +3054,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_1_run_1.png",
+        "file": "assets/comum/player_1_run_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/player_1_run_1.png",
@@ -3092,7 +3081,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "mapa_piaui_01.png",
+        "file": "assets/mapa/mapa_piaui_01.png",
         "kind": "image",
         "metadata": "",
         "name": "mapa_piaui_01.png",
@@ -3101,7 +3090,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "mapa_piaui_teresina.png",
+        "file": "assets/mapa/mapa_piaui_teresina.png",
         "kind": "image",
         "metadata": "",
         "name": "mapa_piaui_teresina.png",
@@ -3110,7 +3099,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "mapa_piaui_teresina_oeiras.png",
+        "file": "assets/mapa/mapa_piaui_teresina_oeiras.png",
         "kind": "image",
         "metadata": "",
         "name": "mapa_piaui_teresina_oeiras.png",
@@ -3119,7 +3108,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "mapa_piaui_teresina_oeiras_parnaiba.png",
+        "file": "assets/mapa/mapa_piaui_teresina_oeiras_parnaiba.png",
         "kind": "image",
         "metadata": "",
         "name": "mapa_piaui_teresina_oeiras_parnaiba.png",
@@ -3128,7 +3117,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
+        "file": "assets/mapa/mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
         "kind": "image",
         "metadata": "",
         "name": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior.png",
@@ -3137,7 +3126,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
+        "file": "assets/mapa/mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
         "kind": "image",
         "metadata": "",
         "name": "mapa_piaui_teresina_oeiras_parnaiba_CPMaior_SRN.png",
@@ -3146,7 +3135,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "brasil_pixel_art_qual.png",
+        "file": "assets/mapa/brasil_pixel_art_qual.png",
         "kind": "image",
         "metadata": "",
         "name": "brasil_pixel_art_qual.png",
@@ -3319,7 +3308,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/informacoes_artefatos.json",
+        "file": "assets/minigame_escavacao/informacoes_artefatos.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/informacoes_artefatos.json\"}",
         "name": "informacoes_artefatos",
@@ -3327,7 +3316,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/Campo_Maior 01.json",
+        "file": "assets/campo_maior/Campo_Maior 01.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Campo_Maior 01.json\"}",
         "name": "Campo_Maior 01",
@@ -3335,7 +3324,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/banco_madeira.png",
+        "file": "assets/comum/banco_madeira.png",
         "kind": "image",
         "metadata": "",
         "name": "banco_madeira2.png",
@@ -3344,7 +3333,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "casa_12_janelas.png",
+        "file": "assets/oeiras/casa_12_janelas.png",
         "kind": "image",
         "metadata": "",
         "name": "casa_12_janelas2.png",
@@ -3353,7 +3342,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "catedral_oeiras.png",
+        "file": "assets/oeiras/catedral_oeiras.png",
         "kind": "image",
         "metadata": "",
         "name": "catedral_oeiras2.png",
@@ -3362,7 +3351,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "igreja_oeiras.png",
+        "file": "assets/oeiras/igreja_oeiras.png",
         "kind": "image",
         "metadata": "",
         "name": "igreja_oeiras2.png",
@@ -3371,7 +3360,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "postes_com_fio.png",
+        "file": "assets/oeiras/postes_com_fio.png",
         "kind": "image",
         "metadata": "",
         "name": "postes_com_fio2.png",
@@ -3380,7 +3369,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "TEATRO_OEIRAS.png",
+        "file": "assets/oeiras/TEATRO_OEIRAS.png",
         "kind": "image",
         "metadata": "",
         "name": "TEATRO_OEIRAS2.png",
@@ -3389,7 +3378,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_escavacao_caverna.png2.png",
+        "file": "assets/minigame_escavacao/assets_minigame_escavacao_caverna.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets/minigame_escavacao/caverna.png2",
@@ -3397,7 +3386,7 @@
         "userAdded": true
       },
       {
-        "file": "assets/minigame_escavacao/beep.mp3",
+        "file": "assets/sons/beep.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "assets/minigame_escavacao/beep.mp3",
@@ -3408,7 +3397,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite3.png",
+        "file": "assets/comum/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
@@ -3471,7 +3460,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/WaterType1 FG Bright Surface.png",
+        "file": "assets/parnaiba/WaterType1 FG Bright Surface.png",
         "kind": "image",
         "metadata": "",
         "name": "WaterType1 FG Bright Surface.png",
@@ -3484,7 +3473,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/water cave bright desat surface.png",
+        "file": "assets/parnaiba/water cave bright desat surface.png",
         "kind": "image",
         "metadata": "",
         "name": "water cave bright desat surface.png",
@@ -3497,7 +3486,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Tileset Piece 3.png4.png",
+        "file": "assets/parnaiba/tiled_Tileset Piece 3.png4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiled_Tileset Piece 3.png4",
@@ -3515,7 +3504,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite11.png",
+        "file": "assets/parnaiba/NewSprite11.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite11",
@@ -3524,7 +3513,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite12.png",
+        "file": "assets/parnaiba/NewSprite12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite12",
@@ -3533,7 +3522,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/Informações Parnaiba.json",
+        "file": "assets/parnaiba/Informações Parnaiba.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Informações Parnaiba.json\"}",
         "name": "Informações Parnaiba",
@@ -3541,7 +3530,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_escavacao_Sprite_Pedra.png",
+        "file": "assets/minigame_escavacao/assets_minigame_escavacao_Sprite_Pedra.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/minigame_escavacao/Sprite_Pedra",
@@ -3640,7 +3629,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red bar.png",
+        "file": "assets/minigame_navegacao/Red bar.png",
         "kind": "image",
         "metadata": "",
         "name": "96409107ae77918bbcde7a715c09e12b1b6c8ef16524b06b0d162955f1bd1a27_Red bar.png",
@@ -3653,7 +3642,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite15.png",
+        "file": "assets/minigame_navegacao/NewSprite15.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite16",
@@ -3662,7 +3651,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite17.png",
+        "file": "assets/minigame_navegacao/NewSprite17.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite17",
@@ -3671,7 +3660,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite18.png",
+        "file": "assets/minigame_navegacao/NewSprite18.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite18",
@@ -3680,7 +3669,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite19.png",
+        "file": "assets/minigame_navegacao/NewSprite19.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite19",
@@ -3689,7 +3678,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow.png",
+        "file": "assets/minigame_navegacao/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow",
@@ -3707,7 +3696,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Catedral_de_Campo_Maior-removebg-preview.png",
+        "file": "assets/srn/Catedral_de_Campo_Maior-removebg-preview.png",
         "kind": "image",
         "metadata": "",
         "name": "Catedral_de_Campo_Maior-removebg-preview.png",
@@ -3716,7 +3705,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Pedra furada sem fundo.png",
+        "file": "assets/srn/Pedra furada sem fundo.png",
         "kind": "image",
         "metadata": "",
         "name": "Pedra furada sem fundo.png",
@@ -3725,7 +3714,7 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/São Raimundo Nonato 01.json",
+        "file": "assets/srn/São Raimundo Nonato 01.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/São Raimundo Nonato 01.json\"}",
         "name": "São Raimundo Nonato 01",
@@ -3733,7 +3722,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewTiledSprite2.png",
+        "file": "assets/pre_select/NewTiledSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite2",
@@ -3742,7 +3731,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checked.png",
+        "file": "assets/comum/Checked.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Checked",
@@ -3751,7 +3740,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/test3.png",
+        "file": "assets/comum/test3.png",
         "kind": "image",
         "metadata": "",
         "name": "test4.png",
@@ -3760,7 +3749,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite22.png",
+        "file": "assets/mapa/NewSprite22.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite22.png\"}",
         "name": "NewSprite22",
@@ -3769,7 +3758,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "teresina_plataforma_2.png",
+        "file": "assets/pre_select/teresina_plataforma_2.png",
         "kind": "image",
         "metadata": "",
         "name": "teresina_plataforma_2.png",
@@ -3778,7 +3767,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "teresina_plataforma_1.png",
+        "file": "assets/pre_select/teresina_plataforma_1.png",
         "kind": "image",
         "metadata": "",
         "name": "teresina_plataforma_1.png",
@@ -3787,7 +3776,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "teresina_minigame_1.png",
+        "file": "assets/pre_select/teresina_minigame_1.png",
         "kind": "image",
         "metadata": "",
         "name": "teresina_minigame_1.png",
@@ -3796,7 +3785,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "teresina_minigame_2.png",
+        "file": "assets/pre_select/teresina_minigame_2.png",
         "kind": "image",
         "metadata": "",
         "name": "teresina_minigame_2.png",
@@ -3805,7 +3794,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "quiz_1.png",
+        "file": "assets/pre_select/quiz_1.png",
         "kind": "image",
         "metadata": "",
         "name": "quiz_1.png",
@@ -3814,7 +3803,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "quiz_2.png",
+        "file": "assets/pre_select/quiz_2.png",
         "kind": "image",
         "metadata": "",
         "name": "quiz_2.png",
@@ -3823,7 +3812,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "parnaiba_plataforma_1.png",
+        "file": "assets/pre_select/parnaiba_plataforma_1.png",
         "kind": "image",
         "metadata": "",
         "name": "parnaiba_plataforma_1.png",
@@ -3832,7 +3821,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "parnaiba_plataforma_2.png",
+        "file": "assets/pre_select/parnaiba_plataforma_2.png",
         "kind": "image",
         "metadata": "",
         "name": "parnaiba_plataforma_2.png",
@@ -3841,7 +3830,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "parnaiba_minigame_1.png",
+        "file": "assets/pre_select/parnaiba_minigame_1.png",
         "kind": "image",
         "metadata": "",
         "name": "parnaiba_minigame_1.png",
@@ -3850,7 +3839,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "parnaiba_minigame_2.png",
+        "file": "assets/pre_select/parnaiba_minigame_2.png",
         "kind": "image",
         "metadata": "",
         "name": "parnaiba_minigame_2.png",
@@ -3859,7 +3848,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "srn_minigame_1.png",
+        "file": "assets/pre_select/srn_minigame_1.png",
         "kind": "image",
         "metadata": "",
         "name": "srn_minigame_1.png",
@@ -3868,7 +3857,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "srn_minigame_2.png",
+        "file": "assets/pre_select/srn_minigame_2.png",
         "kind": "image",
         "metadata": "",
         "name": "srn_minigame_2.png",
@@ -3877,7 +3866,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "oeiras_plataforma_1.png",
+        "file": "assets/pre_select/oeiras_plataforma_1.png",
         "kind": "image",
         "metadata": "",
         "name": "oeiras_plataforma_1.png",
@@ -3886,7 +3875,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "oeiras_plataforma_2.png",
+        "file": "assets/pre_select/oeiras_plataforma_2.png",
         "kind": "image",
         "metadata": "",
         "name": "oeiras_plataforma_2.png",
@@ -3895,7 +3884,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "srn_plataforma_1.png",
+        "file": "assets/pre_select/srn_plataforma_1.png",
         "kind": "image",
         "metadata": "",
         "name": "srn_plataforma_1.png",
@@ -3904,7 +3893,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "srn_plataforma_2.png",
+        "file": "assets/pre_select/srn_plataforma_2.png",
         "kind": "image",
         "metadata": "",
         "name": "srn_plataforma_2.png",
@@ -3913,7 +3902,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "bote_01.png",
+        "file": "assets/minigame_navegacao/bote_01.png",
         "kind": "image",
         "metadata": "",
         "name": "bote_01.png",
@@ -3922,7 +3911,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "bote_02.png",
+        "file": "assets/minigame_navegacao/bote_02.png",
         "kind": "image",
         "metadata": "",
         "name": "bote_02.png",
@@ -3931,7 +3920,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "bote_03.png",
+        "file": "assets/minigame_navegacao/bote_03.png",
         "kind": "image",
         "metadata": "",
         "name": "bote_03.png",
@@ -3940,7 +3929,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "bote_04.png",
+        "file": "assets/minigame_navegacao/bote_04.png",
         "kind": "image",
         "metadata": "",
         "name": "bote_04.png",
@@ -3949,7 +3938,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "bote_05.png",
+        "file": "assets/minigame_navegacao/bote_05.png",
         "kind": "image",
         "metadata": "",
         "name": "bote_05.png",
@@ -3958,7 +3947,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "catedral_cmaoir.png",
+        "file": "assets/campo_maior/catedral_cmaoir.png",
         "kind": "image",
         "metadata": "",
         "name": "catedral_cmaoir.png",
@@ -3967,7 +3956,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "monumento_soldados.png",
+        "file": "assets/campo_maior/monumento_soldados.png",
         "kind": "image",
         "metadata": "",
         "name": "monumento_soldados.png",
@@ -3976,7 +3965,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "batalha_jenipapo.png",
+        "file": "assets/campo_maior/batalha_jenipapo.png",
         "kind": "image",
         "metadata": "",
         "name": "batalha_jenipapo.png",
@@ -3985,7 +3974,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Rock with grass 2.png",
+        "file": "assets/srn/Rock with grass 2.png",
         "kind": "image",
         "metadata": "",
         "name": "Rock with grass 2.png",
@@ -3998,7 +3987,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Rock 3.png",
+        "file": "assets/srn/Rock 3.png",
         "kind": "image",
         "metadata": "",
         "name": "Rock 3.png",
@@ -4011,7 +4000,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "tiled_Desert_praia_inicio.png",
+        "file": "assets/parnaiba/tiled_Desert_praia_inicio.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Desert_praia_inicio.png",
@@ -4020,7 +4009,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Letter Key_P.png",
+        "file": "assets/minigame_navegacao/Letter Key_P.png",
         "kind": "image",
         "metadata": "",
         "name": "0f138438828f2bcc4d07aaa295be556f0c77bf310237b36bdd504e9ad2993fa9_Letter Key_P.png",
@@ -4033,7 +4022,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Letter Key_A.png",
+        "file": "assets/minigame_navegacao/Letter Key_A.png",
         "kind": "image",
         "metadata": "",
         "name": "9be41b7872c4231de3bfc4b2d91937448974b5928fce9e4b8226549e03581cc6_Letter Key_A.png",
@@ -4046,7 +4035,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Letter Key_R.png",
+        "file": "assets/minigame_navegacao/Letter Key_R.png",
         "kind": "image",
         "metadata": "",
         "name": "816089540d0ff018cd953418b0716a70d06c90adf924f6317c0fe9f7e36881ad_Letter Key_R.png",
@@ -4059,7 +4048,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Letter Key_N.png",
+        "file": "assets/minigame_navegacao/Letter Key_N.png",
         "kind": "image",
         "metadata": "",
         "name": "69d46f4b8544d2d3693f02bd534ef62c4f842ae911df33e5dd23f640efbedf04_Letter Key_N.png",
@@ -4072,7 +4061,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Letter Key_I.png",
+        "file": "assets/minigame_navegacao/Letter Key_I.png",
         "kind": "image",
         "metadata": "",
         "name": "7980f0bea922d2ab69a1cb00101bb8dce2fd0fd5205a63447888cde4e5eda46c_Letter Key_I.png",
@@ -4085,7 +4074,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Letter Key_B.png",
+        "file": "assets/minigame_navegacao/Letter Key_B.png",
         "kind": "image",
         "metadata": "",
         "name": "10ad9fd0d421f71cd167ec71b772da2bd89bff9091866dacafd62ce30bde365a_Letter Key_B.png",
@@ -4098,7 +4087,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle.png",
+        "file": "assets/minigame_navegacao/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle",
@@ -4107,7 +4096,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/objeto_coletavel_parado.png",
+        "file": "assets/minigame_navegacao/objeto_coletavel_parado.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "objeto_coletavel_parado",
@@ -4116,7 +4105,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Square White Slider Fill Bar.png",
+        "file": "assets/minigame_navegacao/Square White Slider Fill Bar.png",
         "kind": "image",
         "metadata": "",
         "name": "47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
@@ -4129,7 +4118,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch.png",
+        "file": "assets/minigame_navegacao/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch",
@@ -4138,7 +4127,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_canoaplayer.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_canoaplayer.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\canoaplayer",
@@ -4147,7 +4136,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_pixel-heart.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_pixel-heart.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\pixel-heart",
@@ -4156,7 +4145,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_pixel-heart2.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_pixel-heart2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_pixel-heart2.png\"}",
         "name": "assets\\minigame_navegacao\\pixel-heart2",
@@ -4174,7 +4163,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_tronco_arvore.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_tronco_arvore.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\tronco_arvore",
@@ -4183,7 +4172,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "tiled_Desert_praia.png",
+        "file": "assets/parnaiba/tiled_Desert_praia.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Desert_praia.png",
@@ -4212,7 +4201,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/Museu do homem americano .png",
+        "file": "assets/srn/Museu do homem americano .png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\Museu do homem americano .png",
@@ -4221,7 +4210,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/mountain.png",
+        "file": "assets/srn/mountain.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\mountain.png",
@@ -4230,7 +4219,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_1.png",
+        "file": "assets/srn/arvores_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_1.png",
@@ -4239,7 +4228,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_2.png",
+        "file": "assets/srn/arvores_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_2.png",
@@ -4248,7 +4237,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_3.png",
+        "file": "assets/srn/arvores_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_3.png",
@@ -4257,7 +4246,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_5.png",
+        "file": "assets/srn/arvores_5.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_5.png",
@@ -4266,7 +4255,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_6.png",
+        "file": "assets/srn/arvores_6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_6.png",
@@ -4275,7 +4264,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_13.png",
+        "file": "assets/srn/arvores_13.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_13.png",
@@ -4284,7 +4273,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_15.png",
+        "file": "assets/srn/arvores_15.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_15.png",
@@ -4293,7 +4282,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/arvores/arvores_14.png",
+        "file": "assets/srn/arvores_14.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\arvores\\arvores_14.png",
@@ -4302,7 +4291,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/pedras_2.png",
+        "file": "assets/srn/pedras_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\pedras_2.png",
@@ -4311,7 +4300,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/pedras_3.png",
+        "file": "assets/srn/pedras_3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\pedras_3.png",
@@ -4320,7 +4309,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/pedras_4.png",
+        "file": "assets/srn/pedras_4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\pedras_4.png",
@@ -4329,7 +4318,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/pedras_6.png",
+        "file": "assets/srn/pedras_6.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\pedras_6.png",
@@ -4338,7 +4327,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SRN/Igreja SRN .png",
+        "file": "assets/srn/Igreja SRN .png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SRN\\Igreja SRN .png",
@@ -4347,7 +4336,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/campo_maior_1.png",
+        "file": "assets/pre_select/campo_maior_1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\campo_maior_1.png",
@@ -4356,7 +4345,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/campo_maior_2.png",
+        "file": "assets/pre_select/campo_maior_2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\campo_maior_2.png",
@@ -4374,7 +4363,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_pedra.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_pedra.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\pedra",
@@ -4383,7 +4372,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_canoaplayer10.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_canoaplayer10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\canoaplayer10",
@@ -4392,7 +4381,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow8.png",
+        "file": "assets/minigame_navegacao/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow8",
@@ -4401,7 +4390,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_pedra6.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_pedra6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\pedra6",
@@ -4410,7 +4399,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_tronco_arvore4.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_tronco_arvore4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\tronco_arvore4",
@@ -4419,7 +4408,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_pedra8.png",
+        "file": "assets/minigame_navegacao/assets_minigame_navegacao_pedra8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\pedra8",
@@ -4428,7 +4417,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch4.png",
+        "file": "assets/minigame_navegacao/0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "0869066b71bd88a304aefc9397589d6fc697854dd0656a339d21c71f64d39850_Branch4",
@@ -4437,7 +4426,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_escavacao_balao_texto.png",
+        "file": "assets/minigame_escavacao/assets_minigame_escavacao_balao_texto.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/minigame_escavacao/balao_texto",
@@ -4446,7 +4435,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle19.png",
+        "file": "assets/minigame_navegacao/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle19.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle19",
@@ -4455,7 +4444,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle20.png",
+        "file": "assets/minigame_navegacao/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle20.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle20",
@@ -4464,7 +4453,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle21.png",
+        "file": "assets/minigame_navegacao/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle21.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle21",
@@ -4473,7 +4462,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle22.png",
+        "file": "assets/minigame_navegacao/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle22.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle22",
@@ -4482,7 +4471,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/objeto_coletavel_parado4.png",
+        "file": "assets/minigame_navegacao/objeto_coletavel_parado4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "objeto_coletavel_parado4",

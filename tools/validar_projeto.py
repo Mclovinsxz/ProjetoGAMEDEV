@@ -43,11 +43,22 @@ CHAVES_FILTRADAS = ("parameters", "fontFamily")
 EXTENSOES_DE_ASSET = (".png", ".jpg", ".jpeg", ".ttf", ".otf", ".wav", ".mp3", ".ogg", ".glb", ".tmj")
 
 # Arquivos em disco que contam como asset para a varredura de órfãos.
-# "referencias" guarda de propósito material que o jogo não carrega: fotos e
-# arte-fonte que a equipe de design usa para reautorar os fundos. Fica fora do
-# sistema de recursos, e portanto fora desta varredura.
+#
+# Duas pastas ficam fora dela de propósito, por guardarem material que o jogo
+# não carrega: "referencias" tem as fotos e a arte-fonte que a equipe de design
+# usa para reautorar os fundos, e "assets/reserva" tem arte e áudio prontos que
+# ainda não foram ligados a nenhum objeto — o som de pulo ficou ali até ser
+# usado, por exemplo.
+#
+# Deixá-las de fora é o que mantém o aviso útil: um arquivo apontado como sem
+# recurso passa a significar que alguém deixou um asset numa pasta de conteúdo
+# sem declará-lo, que é acionável, em vez de repetir centenas de arquivos
+# guardados de propósito.
 EXTENSOES_VARRIDAS = EXTENSOES_DE_ASSET
-PASTAS_IGNORADAS = {".git", ".github", "docs", "tools", "referencias", ".claude-flow", ".swarm"}
+PASTAS_IGNORADAS = {
+    ".git", ".github", "docs", "tools", "referencias",
+    os.path.join("assets", "reserva"), ".claude-flow", ".swarm",
+}
 
 UNIDADE_DE_DISCO = re.compile(r"^[A-Za-z]:[\\/]")
 
@@ -100,6 +111,17 @@ def percorrer(no, chave=None):
 
 def parece_asset(valor):
     return valor.lower().endswith(EXTENSOES_DE_ASSET)
+
+
+def podar(raiz, atual, pastas):
+    """Tira da varredura as pastas ignoradas, por nome simples ou caminho."""
+    mantidas = []
+    for p in pastas:
+        rel = os.path.relpath(os.path.join(atual, p), raiz)
+        if p in PASTAS_IGNORADAS or rel in PASTAS_IGNORADAS:
+            continue
+        mantidas.append(p)
+    pastas[:] = mantidas
 
 
 def conferir_recursos_em_disco(raiz, recursos, rel):
@@ -167,7 +189,7 @@ def encontrar_arquivos_sem_recurso(raiz, recursos, rel):
     declarados = {os.path.normpath(r["file"]) for r in recursos if r.get("file")}
     orfaos = []
     for atual, pastas, arquivos in os.walk(raiz):
-        pastas[:] = [p for p in pastas if p not in PASTAS_IGNORADAS]
+        podar(raiz, atual, pastas)
         for nome in arquivos:
             if not nome.lower().endswith(EXTENSOES_VARRIDAS):
                 continue
@@ -182,7 +204,7 @@ def encontrar_arquivos_sem_recurso(raiz, recursos, rel):
 def encontrar_duplicatas(raiz, rel):
     por_hash = defaultdict(list)
     for atual, pastas, arquivos in os.walk(raiz):
-        pastas[:] = [p for p in pastas if p not in PASTAS_IGNORADAS]
+        podar(raiz, atual, pastas)
         for nome in arquivos:
             if not nome.lower().endswith(EXTENSOES_VARRIDAS):
                 continue
