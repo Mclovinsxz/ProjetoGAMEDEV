@@ -37,23 +37,33 @@ Progresso é controlado por cinco variáveis globais booleanas
 
 ## 2. Problemas medidos
 
-### 2.1 Recursos quebrados — 23 ocorrências (crítico)
+### 2.1 Declarações de recurso mortas — 23 ocorrências
 
-23 dos 746 recursos declarados apontam para arquivos que não existem no
-repositório. Entre eles, cinco têm **caminho absoluto do Windows da máquina de
-um autor** gravado como nome do recurso:
+23 dos 746 recursos declarados apontavam para arquivos inexistentes. Cinco
+tinham **caminho absoluto do Windows da máquina de um autor** gravado como nome
+do recurso:
 
 ```
 G:\Meu Drive\Aespi\Projeto de extensão\...\box_item_coletar_2.png
 G:\Meu Drive\Aespi\Projeto de extensão\...\pixelart.ttf
 ```
 
-E quatro usam separador de caminho do Windows no nome do recurso
-(`assets\player_run_1.png`), o que quebra em Linux e macOS.
+e quatro usavam separador de caminho do Windows no nome
+(`assets\player_run_1.png`).
 
-Impacto: o projeto não é reproduzível fora da máquina original. Sprites de
-corrida do player e a caixa de item coletado — ou seja, o feedback visual
-central do loop de coleta — estão entre os ausentes.
+**Verificado: nenhum dos 23 era usado por objeto, cena, evento ou extensão.**
+Conferência feita por comparação exata de string contra todos os valores de
+`ProjetoGameDEv4.json` (sem o array de recursos), `layouts/*.json`,
+`externalEvents/*.json` e `eventsFunctionsExtensions/*.json`.
+
+São resíduo de uma migração em que os arquivos passaram a viver em `assets/`:
+as declarações antigas (`box_item_coletar_1.png`) ficaram para trás, e as novas
+(`assets\box_item_coletar_1.png`, arquivo `assets/box_item_coletar_1.png`) são as
+que os objetos realmente usam. O jogo não estava quebrado em runtime — o
+projeto é que carregava 23 declarações mortas, cinco delas vazando o caminho do
+Google Drive de um autor.
+
+Estado após a limpeza: 723 recursos, todos apontando para arquivos existentes.
 
 ### 2.2 Duplicação de lógica — 65% das fases
 
@@ -187,8 +197,8 @@ Fotografia escalada não vira pixel art — vira fotografia pequena.
 
 Da maior relação resultado/custo para a menor:
 
-1. **Corrigir os 23 recursos quebrados.** Sem isso, o build não é confiável em
-   nenhuma máquina. Remover os caminhos absolutos do Windows.
+1. ~~**Remover as 23 declarações de recurso mortas.**~~ Feito. Elimina também
+   os cinco caminhos absolutos do Windows.
 2. **Extrair a lógica comum das 5 fases** para uma extensão de eventos
    compartilhada. Elimina a manutenção quíntupla.
 3. **Normalizar os assets:** deduplicar os 95 pares, remover os 28 órfãos,

@@ -2794,51 +2794,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player_run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\player_run_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_run_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\player_run_2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_run_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\player_run_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/player_run_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\player_run_4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/background-polo-ceramico.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/background-polo-ceramico.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Cloud layer 3.png",
         "kind": "image",
         "metadata": "",
@@ -4970,13 +4925,6 @@
         "userAdded": true
       },
       {
-        "file": "pixelart2.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\pixel_art\\pixelart.ttf",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/assets_dialogue_box.png",
         "kind": "image",
@@ -5105,24 +5053,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "mapa google maps.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "mapa google maps.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "imagem_2024-09-14_224640717.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "imagem_2024-09-14_224640717.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Pointer Cursor_Drop Shadowed.png",
         "kind": "image",
         "metadata": "",
@@ -5136,39 +5066,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "imagem_2024-09-14_224640717 (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "imagem_2024-09-14_224640717 (1).png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "imagem_2024-09-14_230122914_resized.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "imagem_2024-09-14_230122914_resized.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/imagem_2024-09-14_230122914_resized.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "imagem_2024-09-14_230122914_resized",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/formato_de_teresina.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/formato_de_teresina.png\"}",
-        "name": "formato_de_teresina",
-        "smoothed": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -5229,118 +5132,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "box_item_coletar_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "box_item_coletado.png",
         "kind": "image",
         "metadata": "",
         "name": "box_item_coletado.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_7.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_32.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_42.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_52.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "G:\\Meu Drive\\Aespi\\Projeto de extensão\\Projeto - Desenvolvimento de Games\\artefatos\\box_item_coletar_5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "box_item_coletar_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "box_item_coletar_8.png",
         "smoothed": false,
         "userAdded": true
       },
