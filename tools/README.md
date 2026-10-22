@@ -59,3 +59,42 @@ ignora o que deve ignorar.
 ```bash
 python3 tools/teste_validar_projeto.py
 ```
+
+## `normalizar_assets.py`
+
+Funde cópias redundantes de asset e, opcionalmente, apaga arquivos que nenhum
+recurso declara.
+
+```bash
+python3 tools/normalizar_assets.py --deduplicar --simular
+python3 tools/normalizar_assets.py --deduplicar
+```
+
+Mexe só no campo `file` dos recursos, nunca no nome — nome é o que objetos,
+cenas e eventos referenciam, então nada precisa ser atualizado junto.
+
+Quadros de animação são preservados de propósito. Uma animação de espera de
+sete quadros repete pixels entre quadros vizinhos como quadro de permanência:
+são arquivos idênticos por intenção do artista. Fundi-los faria editar um
+quadro alterar o outro, então grupos cujos membros convivem na mesma lista de
+quadros ficam de fora.
+
+`--remover-soltos` existe mas deve ser usado com cuidado: boa parte dos
+arquivos sem recurso declarado é arte e áudio que a equipe produziu e ainda não
+conectou (o som de pulo, as árvores de São Raimundo Nonato, o mapa Tiled da
+escavação), não lixo.
+
+## `conferir_build.py`
+
+Confere que a exportação HTML5 saiu completa. Roda na CI depois do
+`gdexporter`.
+
+```bash
+npx gdexporter@4.0.0-beta7 -p ProjetoGameDEv4.json -o build
+python3 tools/conferir_build.py build
+```
+
+O `gdexporter` termina com sucesso mesmo quando uma cena deixa de compilar —
+ela simplesmente não gera seu `code<N>.js`. Este script compara o número de
+`code*.js` com o número de cenas declaradas, confere que o `index.html` saiu e
+que o runtime veio junto, e reprova se faltar qualquer um.

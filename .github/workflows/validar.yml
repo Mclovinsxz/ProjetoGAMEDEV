@@ -6,7 +6,8 @@ on:
   pull_request:
 
 jobs:
-  validar:
+  integridade:
+    name: Integridade do projeto
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,3 +21,19 @@ jobs:
 
       - name: Validar integridade do projeto
         run: python3 tools/validar_projeto.py
+
+  build:
+    name: Exportar o jogo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Exportar para HTML5
+        run: npx --yes gdexporter@4.0.0-beta7 -p ProjetoGameDEv4.json -o build
+
+      - name: Conferir o resultado do build
+        run: python3 tools/conferir_build.py build
