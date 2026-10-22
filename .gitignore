@@ -1,1 +1,8 @@
 ProjetoGameDEv4.json.autosave
+
+# Artefatos de ferramentas de agente (não fazem parte do jogo)
+.claude-flow/
+.swarm/
+ruvector.db
+agentdb.rvf
+agentdb.rvf.idmap.json
