@@ -125,6 +125,213 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Buffer de pulo: guarda o pulo apertado pouco antes de aterrissar, para que o jogo nao descarte a intencao de quem apertou cedo demais. Janela de 0.15s (cerca de 9 quadros a 60 FPS)."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "PlatformBehavior::CanJump"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "player",
+            "\"bufferPulo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player",
+            "pedidoDePulo",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player",
+            "pedidoDePulo",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::CanJump"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "player",
+            "\"bufferPulo\"",
+            "<",
+            "0.15"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateJumpKey"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player",
+            "pedidoDePulo",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player",
+            "pedidoDePulo",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "player",
+            "\"bufferPulo\"",
+            ">=",
+            "0.15"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player",
+            "pedidoDePulo",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Som do pulo. A condicao olha o inicio do pulo, nao a tecla: assim toca uma vez por pulo e cobre tambem os pulos vindos do trampolim e do buffer, em vez de disparar a cada quadro em que a tecla esta segurada."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "player",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\sons\\jump_som.mp3",
+            "4",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

@@ -4488,6 +4488,16 @@
         "name": "objeto_coletavel_parado4",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/sons/jump_som.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sons\\jump_som.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4936,7 +4946,14 @@
       "name": "player",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "pedidoDePulo",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
