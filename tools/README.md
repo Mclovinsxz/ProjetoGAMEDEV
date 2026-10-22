@@ -98,3 +98,30 @@ O `gdexporter` termina com sucesso mesmo quando uma cena deixa de compilar —
 ela simplesmente não gera seu `code<N>.js`. Este script compara o número de
 `code*.js` com o número de cenas declaradas, confere que o `index.html` saiu e
 que o runtime veio junto, e reprova se faltar qualquer um.
+
+## `comparar_build.py`
+
+Prova que um refactor não mudou comportamento, comparando o código que o
+GDevelop gera para cada cena antes e depois.
+
+```bash
+npx gdexporter@4.0.0-beta7 -p ProjetoGameDEv4.json -o build_antes   # antes da mudança
+# ... faz a mudança ...
+npx gdexporter@4.0.0-beta7 -p ProjetoGameDEv4.json -o build_depois
+python3 tools/comparar_build.py build_antes build_depois
+```
+
+Compilar não prova equivalência — uma cena pode compilar e rodar diferente. O
+código gerado prova.
+
+A comparação ignora os identificadores opacos que o GDevelop emite:
+`triggerOnce(N)`, `asyncCallbackN`, os ids do mapa de callbacks e os nomes
+`userFunc0x<endereço>` dos blocos de JavaScript embutido. São tokens de
+identidade derivados da ordem de alocação dos eventos, ou do endereço de
+memória do objeto no exportador — reexportar o mesmo projeto sem mudança
+nenhuma já os altera. O script os renumera na ordem de aparição antes de
+comparar.
+
+Uma diferença que sobrevive à renumeração é diferença de comportamento.
+Verificado contra mutações deliberadas: constante de jogo alterada, nome de
+objeto trocado e cena ausente são todas reprovadas.
