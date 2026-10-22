@@ -125,3 +125,8 @@ comparar.
 Uma diferença que sobrevive à renumeração é diferença de comportamento.
 Verificado contra mutações deliberadas: constante de jogo alterada, nome de
 objeto trocado e cena ausente são todas reprovadas.
+
+A renumeração é por ordem de aparição, então uma mudança que *acrescenta* um
+identificador desloca a ordinal de todos os seguintes, e o diff real sai
+junto com esse ruído. Ao revisar uma mudança intencional, as linhas que só
+trocam `<IDn>` por `<IDm>` são ruído; as demais são a mudança.

@@ -16,6 +16,11 @@ arquivo, e só então compara.
 
 Uma diferença que sobrevive à renumeração é uma diferença de comportamento.
 
+A renumeração é por ordem de aparição, então uma mudança que *acrescenta* um
+identificador desloca a ordinal de todos os seguintes. O diff real aparece
+junto com esse ruído de deslocamento. Ao revisar uma mudança intencional, as
+linhas que só trocam `<IDn>` por `<IDm>` são ruído; as demais são a mudança.
+
 Uso:
     python3 tools/comparar_build.py build_antes build_depois
 """
