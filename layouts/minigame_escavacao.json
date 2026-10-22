@@ -1474,7 +1474,7 @@
       "effects": [],
       "behaviors": [],
       "string": "distancia",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1515,7 +1515,7 @@
       "effects": [],
       "behaviors": [],
       "string": "objeto",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1556,7 +1556,7 @@
       "effects": [],
       "behaviors": [],
       "string": "artefatos",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -2946,7 +2946,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Parabéns! Você encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de São Raimundo Nonato.",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 15,
       "color": {

@@ -3563,7 +3563,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Parabéns, encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 15,
       "color": {
@@ -3712,7 +3712,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 10,
       "color": {
@@ -3753,7 +3753,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Pressione Enter para fechar",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 8,
       "color": {

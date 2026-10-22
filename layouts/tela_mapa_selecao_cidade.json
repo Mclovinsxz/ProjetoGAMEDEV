@@ -864,7 +864,7 @@
       "effects": [],
       "behaviors": [],
       "string": "numero",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
