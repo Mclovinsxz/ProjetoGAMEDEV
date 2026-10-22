@@ -43,8 +43,11 @@ CHAVES_FILTRADAS = ("parameters", "fontFamily")
 EXTENSOES_DE_ASSET = (".png", ".jpg", ".jpeg", ".ttf", ".otf", ".wav", ".mp3", ".ogg", ".glb", ".tmj")
 
 # Arquivos em disco que contam como asset para a varredura de órfãos.
+# "referencias" guarda de propósito material que o jogo não carrega: fotos e
+# arte-fonte que a equipe de design usa para reautorar os fundos. Fica fora do
+# sistema de recursos, e portanto fora desta varredura.
 EXTENSOES_VARRIDAS = EXTENSOES_DE_ASSET
-PASTAS_IGNORADAS = {".git", ".github", "docs", "tools", ".claude-flow", ".swarm"}
+PASTAS_IGNORADAS = {".git", ".github", "docs", "tools", "referencias", ".claude-flow", ".swarm"}
 
 UNIDADE_DE_DISCO = re.compile(r"^[A-Za-z]:[\\/]")
 
