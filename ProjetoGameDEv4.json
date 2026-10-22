@@ -1051,7 +1051,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Transparent Button With White Yellow Border_Idle.png",
+        "file": "assets/Transparent Button With White Blue Border_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Transparent Button With White Yellow Border_Idle.png",
@@ -1873,7 +1873,7 @@
         }
       },
       {
-        "file": "assets/Poppins-Medium2.ttf",
+        "file": "assets/Poppins-Medium.ttf",
         "kind": "font",
         "metadata": "",
         "name": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
@@ -1885,7 +1885,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Red Button_Idle2.png",
+        "file": "assets/Red Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
@@ -1898,7 +1898,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Idle2.png",
+        "file": "assets/Yellow Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
@@ -1911,7 +1911,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Pressed2.png",
+        "file": "assets/Yellow Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
@@ -1924,7 +1924,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Hovered2.png",
+        "file": "assets/Yellow Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
@@ -2731,7 +2731,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "player_idle_2.png",
+        "file": "player_idle_1.png",
         "kind": "image",
         "metadata": "",
         "name": "player_idle_2.png",
@@ -2749,7 +2749,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "player_idle_4.png",
+        "file": "player_idle_3.png",
         "kind": "image",
         "metadata": "",
         "name": "player_idle_4.png",
@@ -2767,7 +2767,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "player_idle_6.png",
+        "file": "player_idle_5.png",
         "kind": "image",
         "metadata": "",
         "name": "player_idle_6.png",
@@ -2776,7 +2776,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "player_idle_7.png",
+        "file": "player_idle_3.png",
         "kind": "image",
         "metadata": "",
         "name": "player_idle_7.png",
@@ -2859,7 +2859,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "test3.png",
+        "file": "assets/test3.png",
         "kind": "image",
         "metadata": "",
         "name": "test3.png",
@@ -2895,7 +2895,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/filtro-de-barro-3.png",
+        "file": "assets/point_click_teresina/filtro-de-barro.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/filtro-de-barro-3.png",
@@ -3093,7 +3093,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/copo_barro-2.png",
+        "file": "assets/point_click_teresina/copo_barro.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/copo_barro-2.png",
@@ -3120,7 +3120,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/panela-de-barro-2.png",
+        "file": "assets/point_click_teresina/panela-de-barro.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/panela-de-barro-2.png",
@@ -3138,7 +3138,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/point_click_teresina/panela-de-barro-3.png",
+        "file": "assets/point_click_teresina/panela-de-barro.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/point_click_teresina/panela-de-barro-3.png",
@@ -3428,7 +3428,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Platform_Dirt2.png",
+        "file": "Platform_Dirt1.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform_Dirt2.png",
@@ -3437,7 +3437,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Platform_Dirt3.png",
+        "file": "Platform_Dirt1.png",
         "kind": "image",
         "metadata": "",
         "name": "Platform_Dirt3.png",
@@ -3966,7 +3966,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checkpoint_Flag Out_8.png",
+        "file": "assets/Checkpoint_No Flag.png",
         "kind": "image",
         "metadata": "",
         "name": "Checkpoint_Flag Out_8.png",
@@ -4109,7 +4109,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "dialogue_box.png",
+        "file": "assets/dialogue_box.png",
         "kind": "image",
         "metadata": "",
         "name": "dialogue_box.png",
@@ -4136,7 +4136,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "option_box2.png",
+        "file": "option_box.png",
         "kind": "image",
         "metadata": "",
         "name": "option_box2.png",
@@ -4244,7 +4244,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "dialogue_box2.png",
+        "file": "assets/dialogue_box.png",
         "kind": "image",
         "metadata": "",
         "name": "dialogue_box2.png",
@@ -4266,7 +4266,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "name_box2.png",
+        "file": "name_box.png",
         "kind": "image",
         "metadata": "",
         "name": "name_box2.png",
@@ -4883,7 +4883,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite6.png",
+        "file": "assets/NewSprite5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite6",
@@ -5023,7 +5023,7 @@
         }
       },
       {
-        "file": "assets/ArchitectsDaughter2.ttf",
+        "file": "assets/ArchitectsDaughter.ttf",
         "kind": "font",
         "metadata": "",
         "name": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
@@ -5195,7 +5195,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite8.png",
+        "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
@@ -5705,7 +5705,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/sons/erro.wav",
+        "file": "assets/sons/caiu.wav",
         "kind": "audio",
         "metadata": "",
         "name": "assets\\sons\\erro.wav",
@@ -5795,7 +5795,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "banco_madeira.png",
+        "file": "assets/point_click_teresina/banco_madeira.png",
         "kind": "image",
         "metadata": "",
         "name": "banco_madeira.png",
@@ -5849,7 +5849,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "banco_madeira2.png",
+        "file": "assets/point_click_teresina/banco_madeira.png",
         "kind": "image",
         "metadata": "",
         "name": "banco_madeira2.png",
@@ -5858,7 +5858,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "casa_12_janelas2.png",
+        "file": "casa_12_janelas.png",
         "kind": "image",
         "metadata": "",
         "name": "casa_12_janelas2.png",
@@ -5867,7 +5867,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "catedral_oeiras2.png",
+        "file": "catedral_oeiras.png",
         "kind": "image",
         "metadata": "",
         "name": "catedral_oeiras2.png",
@@ -5876,7 +5876,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "catedral_oeiras3.png",
+        "file": "catedral_oeiras.png",
         "kind": "image",
         "metadata": "",
         "name": "catedral_oeiras3.png",
@@ -5885,7 +5885,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "igreja_oeiras2.png",
+        "file": "igreja_oeiras.png",
         "kind": "image",
         "metadata": "",
         "name": "igreja_oeiras2.png",
@@ -5894,7 +5894,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "postes_com_fio2.png",
+        "file": "postes_com_fio.png",
         "kind": "image",
         "metadata": "",
         "name": "postes_com_fio2.png",
@@ -5903,7 +5903,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "TEATRO_OEIRAS2.png",
+        "file": "TEATRO_OEIRAS.png",
         "kind": "image",
         "metadata": "",
         "name": "TEATRO_OEIRAS2.png",
@@ -5931,7 +5931,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite10.png",
+        "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
@@ -6183,7 +6183,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_escavacao_Sprite_Pedra2.png",
+        "file": "assets/minigame_escavacao/Sprite_Pedra.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/minigame_escavacao/Sprite_Pedra2",
@@ -6267,7 +6267,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite16.png",
+        "file": "assets/NewSprite15.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite16",
@@ -6312,7 +6312,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow2.png",
+        "file": "assets/minigame_navegacao/sprite_0.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow2",
@@ -6489,7 +6489,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "test4.png",
+        "file": "assets/test3.png",
         "kind": "image",
         "metadata": "",
         "name": "test4.png",
@@ -6903,7 +6903,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle3.png",
+        "file": "assets/objeto_coletavel_parado.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle3",
@@ -6930,7 +6930,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle6.png",
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle6",
@@ -7010,7 +7010,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5.png",
+        "file": "assets/minigame_navegacao/pedra.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow5",
@@ -7345,7 +7345,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow6.png",
+        "file": "assets/assets_minigame_navegacao_pedra2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow6",
@@ -7372,7 +7372,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_tronco_arvore2.png",
+        "file": "assets/assets_minigame_navegacao_tronco_arvore.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\tronco_arvore2",
@@ -7408,7 +7408,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_pedra4.png",
+        "file": "assets/assets_minigame_navegacao_pedra3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\pedra4",
@@ -7417,7 +7417,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_canoaplayer11.png",
+        "file": "assets/assets_minigame_navegacao_canoaplayer10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\canoaplayer10",
@@ -7426,7 +7426,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_pedra5.png",
+        "file": "assets/assets_minigame_navegacao_pedra3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\pedra5",
@@ -7498,7 +7498,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle7.png",
+        "file": "assets/objeto_coletavel_parado2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle7",
@@ -7525,7 +7525,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle10.png",
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle10",
@@ -7597,7 +7597,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_bote_player_puro6.png",
+        "file": "assets/assets_minigame_navegacao_bote_player_puro.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\minigame_navegacao\\bote_player_puro6",
@@ -7633,7 +7633,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_bote_player_puro10.png",
+        "file": "assets/assets_minigame_navegacao_bote_player_puro5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_bote_player_puro10.png\"}",
         "name": "assets\\minigame_navegacao\\bote_player_puro10",
@@ -7642,7 +7642,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_minigame_navegacao_bote_player_puro11.png",
+        "file": "assets/assets_minigame_navegacao_bote_player_puro.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_minigame_navegacao_bote_player_puro11.png\"}",
         "name": "assets\\minigame_navegacao\\bote_player_puro11",
@@ -7696,7 +7696,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle14.png",
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle14",
@@ -7750,7 +7750,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle18.png",
+        "file": "assets/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle16.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle18",
