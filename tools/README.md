@@ -131,6 +131,13 @@ identificador desloca a ordinal de todos os seguintes, e o diff real sai
 junto com esse ruído. Ao revisar uma mudança intencional, as linhas que só
 trocam `<IDn>` por `<IDm>` são ruído; as demais são a mudança.
 
+As cenas são pareadas pelo nome que o código gerado declara, não pelo nome do
+arquivo. O GDevelop numera os `code<N>.js` pela posição da cena no projeto, e
+acrescentar ou remover uma cena renumera os arquivos seguintes — parear por
+arquivo faria toda cena deslocada parecer alterada. Uma cena que existe só de
+um lado é apontada como erro, o que é o certo para um refactor comum e precisa
+ser lido com atenção quando a remoção foi intencional.
+
 ## `tirar_print.mjs`
 
 Abre a exportação HTML5 num navegador sem tela, vai até uma cena e salva um

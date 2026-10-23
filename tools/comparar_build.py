@@ -31,6 +31,12 @@ import os
 import re
 import sys
 
+# O GDevelop numera os code<N>.js pela posição da cena no projeto, então
+# acrescentar ou remover uma cena renumera os arquivos seguintes. Parear por
+# nome de arquivo faria toda cena deslocada parecer alterada. O nome da cena
+# vem no identificador que o próprio arquivo declara.
+NOME_DA_CENA = re.compile(r"gdjs\.([A-Za-z0-9_]+)Code\s*=")
+
 # Contextos em que o valor capturado é identificador opaco, não valor de jogo.
 PADROES_DE_ID = [
     re.compile(r"triggerOnce\((\d+)\)"),
@@ -57,42 +63,54 @@ def normalizar(texto):
     return texto
 
 
+def ler_cenas(diretorio):
+    """Mapeia nome da cena para o código gerado, lendo o identificador do arquivo."""
+    cenas = {}
+    for caminho in sorted(glob.glob(os.path.join(diretorio, "code*.js"))):
+        with open(caminho, encoding="utf-8", errors="replace") as f:
+            texto = f.read()
+        m = NOME_DA_CENA.search(texto)
+        if m:
+            cenas[m.group(1)] = texto
+    return cenas
+
+
 def main():
     if len(sys.argv) != 3:
         print("uso: comparar_build.py <build_antes> <build_depois>", file=sys.stderr)
         return 2
 
     antes, depois = sys.argv[1], sys.argv[2]
-    nomes = sorted(
-        {os.path.basename(p) for p in glob.glob(os.path.join(antes, "code*.js"))}
-        | {os.path.basename(p) for p in glob.glob(os.path.join(depois, "code*.js"))}
-    )
-    if not nomes:
+    a_cenas, d_cenas = ler_cenas(antes), ler_cenas(depois)
+    if not a_cenas and not d_cenas:
         print("ERRO  nenhum code*.js encontrado nos dois diretórios", file=sys.stderr)
         return 1
 
-    iguais, mudaram, faltando = [], [], []
-    for nome in nomes:
-        pa, pd = os.path.join(antes, nome), os.path.join(depois, nome)
-        if not (os.path.isfile(pa) and os.path.isfile(pd)):
-            faltando.append(nome)
-            continue
-        with open(pa, encoding="utf-8", errors="replace") as f:
-            a = normalizar(f.read())
-        with open(pd, encoding="utf-8", errors="replace") as f:
-            b = normalizar(f.read())
+    so_antes = sorted(set(a_cenas) - set(d_cenas))
+    so_depois = sorted(set(d_cenas) - set(a_cenas))
+    comuns = sorted(set(a_cenas) & set(d_cenas))
+
+    iguais, mudaram = [], []
+    for nome in comuns:
+        a, b = normalizar(a_cenas[nome]), normalizar(d_cenas[nome])
         (iguais if a == b else mudaram).append((nome, a, b))
 
-    print(f"cenas comparadas    : {len(nomes)}")
+    print(f"cenas antes         : {len(a_cenas)}")
+    print(f"cenas depois        : {len(d_cenas)}")
     print(f"  equivalentes      : {len(iguais)}")
     print(f"  com diferença     : {len(mudaram)}")
-    print(f"  ausentes num lado : {len(faltando)}")
+    print(f"  só antes          : {len(so_antes)}")
+    print(f"  só depois         : {len(so_depois)}")
 
-    for nome in faltando:
-        print(f"\nERRO  {nome} existe só em um dos builds")
+    for nome in so_antes:
+        print(f"\nERRO  cena {nome} existe só no build anterior")
+    for nome in so_depois:
+        print(f"\nERRO  cena {nome} existe só no build novo")
+
+    faltando = so_antes + so_depois
 
     for nome, a, b in mudaram:
-        print(f"\n--- diferença de comportamento em {nome} ---")
+        print(f"\n--- diferença de comportamento na cena {nome} ---")
         linhas = list(difflib.unified_diff(
             a.splitlines(), b.splitlines(), fromfile=f"antes/{nome}", tofile=f"depois/{nome}", lineterm="", n=1))
         for linha in linhas[:40]:
