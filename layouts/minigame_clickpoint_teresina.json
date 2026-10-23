@@ -3517,24 +3517,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "texto_final",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "[b]Parabéns[/b] , encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
-        "opacity": 255,
-        "fontSize": 10,
-        "visible": true,
-        "color": "255;255;255",
-        "fontFamily": "207e8de533dc48ba7a80c34d34350cb52f520e217c9d30f15a21bc3e2aade06e_Kenney Future.ttf",
-        "align": "left",
-        "wordWrap": true
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "texto_info_variaveis",
       "type": "BBText::BBText",
       "variables": [],

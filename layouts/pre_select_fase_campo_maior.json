@@ -141,17 +141,6 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Limite",
-      "texture": "NewTiledSprite2",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PRE_select",

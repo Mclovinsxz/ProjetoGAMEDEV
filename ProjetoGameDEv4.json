@@ -362,32 +362,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/Treasure Chest_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Treasure Chest_No Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/7f362b8cb571527bfc063b4a140464df6850fdac2c0ac1b95819ccbe0772cae6_Treasure Chest_No Shadow.png",
-          "name": "Treasure Chest_No Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Treasure Chest_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Treasure Chest_Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/29c5fdc5fe498d49e530a9aaf66a0089ff165b78322ab192e2fd32c3429d023e_Treasure Chest_Shadow.png",
-          "name": "Treasure Chest_Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/Book Green_No Shadow.png",
         "kind": "image",
         "metadata": "",
@@ -414,123 +388,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/Book Brown_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Brown_No Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/8ad1971237059e7cab4d42c5a7e1bb165b0e16f8ce376c35768dbfba582cc17b_Book Brown_No Shadow.png",
-          "name": "Book Brown_No Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Book Brown_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Brown_Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/a9ca4d333e599c40cc288d72b9f3ee8894c9ec3433e4bb2d06f22f26622a648c_Book Brown_Shadow.png",
-          "name": "Book Brown_Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Book Blue_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Blue_No Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/753d232ccd7ffc87939028182e8545559c0acd1132c6e8b9f1d2636645355303_Book Blue_No Shadow.png",
-          "name": "Book Blue_No Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Book Blue_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Blue_Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/5fc59ac0b9470f96d098b1ebbec22f504aa4a8a42d507a036c9b920cccef1e40_Book Blue_Shadow.png",
-          "name": "Book Blue_Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Book Red_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Red_No Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/1c8a2e7b6c0f75f0887cefd68b757e51015d527585cfdd52cc191444b7254e50_Book Red_No Shadow.png",
-          "name": "Book Red_No Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Book Red_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Red_Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/f1fe2b9a4bc5b69a6d8d900498bc8e1d7c562889fe34072e97fc5e39ac45081d_Book Red_Shadow.png",
-          "name": "Book Red_Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Book Orange_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Orange_No Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/056f772e6f213e9ad6da0bcf081f226d918cb6a1a5296c6833c23afe361dd54e_Book Orange_No Shadow.png",
-          "name": "Book Orange_No Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Book Orange_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Book Orange_Shadow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/6b342eb1cb4c5ec38fc8b148496622861e7e2e802f1f876b652204a5b1b3e173_Book Orange_Shadow.png",
-          "name": "Book Orange_Shadow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Red door top.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red door top.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/dfbec0123f9070270b0c5c348eaee5bc5fcf432851609e104622b21aa094bfbc_Red door top.png",
-          "name": "Red door top.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/Green door top.png",
         "kind": "image",
         "metadata": "",
@@ -540,45 +397,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/042b0da6a964fe56ffb1bc22886b08aaf248b72acceb6a6b482c8efd9f504eb1_Green door top.png",
           "name": "Green door top.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/9patch_Summer Tile_all_64.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "9patch_Summer Tile_all_64.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/Platform/34fa70f98d29f5c365595570d74d8af56c43a7111ca7c0a3d8d848aa2de9353c_9patch_Summer Tile_all_64.png",
-          "name": "9patch_Summer Tile_all_64.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Platform LeftSide.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform LeftSide.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/afb22b969b029bf488eeaecb6b7aafb605084cfef2ebec4bb7ef0e391bb58abd_Platform LeftSide.png",
-          "name": "Platform LeftSide.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Platform RightSide.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform RightSide.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/814ec1aac6fb5856b2a74612d02417d8e256160344760448ec0d90058f40ad8a_Platform RightSide.png",
-          "name": "Platform RightSide.png"
         }
       },
       {
@@ -661,32 +479,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/Green arrow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Green arrow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/e786f19060320e19fab4910f800b4b9b8503e72a642402a9bf2d701c10340dd4_Green arrow.png",
-          "name": "Green arrow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Rock 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Rock 1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/b314745b840a5c2a61fd9e5ad6140ab1fa693772b897a83ad91b460b828cb0c4_Rock 1.png",
-          "name": "Rock 1.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -705,32 +497,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/tiled_Cloud layer 3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Cloud layer 3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Elements/d887e744259ab1fac29d83c89bc670b664a830a13d1a19e54dc38c0f92fbb309_tiled_Cloud layer 3.png",
-          "name": "tiled_Cloud layer 3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Sun.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Sun.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/46b2c086c8ade9b55450cbbd2944de792d3c3e5f6885519153ca2f7e17c5eae5_Sun.png",
-          "name": "Sun.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/tiled_Forest Background.png",
         "kind": "image",
         "metadata": "",
@@ -740,19 +506,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
           "name": "tiled_Forest Background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/tiled_Background Colored Shroom.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Background Colored Shroom.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/7453a77dc018e80bf1c7d13663a9a73b8bd40a0e73b9ea440c25823ecd128421_tiled_Background Colored Shroom.png",
-          "name": "tiled_Background Colored Shroom.png"
         }
       },
       {
@@ -1247,58 +1000,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/Platform 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform 1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/66b19bf24d3a8b17b3ed60270725247aa2f81719057f8e8775f43d739f4aa6ca_Platform 1.png",
-          "name": "Platform 1.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Platform 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform 2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/263841133875f965ed1c49e7df6b55a16a11f237e21327e7d753aa83b8a87467_Platform 2.png",
-          "name": "Platform 2.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Platform 3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform 3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/5ecd17a9e3e39e01e953dfbcaf8eee5c98b920e07b04900e745cbb9be5efbd3c_Platform 3.png",
-          "name": "Platform 3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Corner platform.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Corner platform.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/740ed00f5c5a2f488248f4e6de95b66ab5fbab5515e072d2dfe064885550f050_Corner platform.png",
-          "name": "Corner platform.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/Checkpoint_Flag Idle_1.png",
         "kind": "image",
         "metadata": "",
@@ -1780,155 +1481,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/Blank Emote_Style2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blank Emote_Style 1.png2",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/caa126aaa54cf4b62f68668fa9a5eac17eaa2a6e6bd1e2be182c16824c1d63aa_Blank Emote_Style 1.png",
-          "name": "Blank Emote_Style 1.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Blank Emote_Style3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blank Emote_Style 2.png2",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/bfc161541fd5f00c1b1dc78ff3ac162aa50aa26db580b9377982dcf2f041d9f8_Blank Emote_Style 2.png",
-          "name": "Blank Emote_Style 2.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Blank Emote_Style4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blank Emote_Style 3.png2",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/20e5c6d6740af6c3481047fe1ec76a82533dd539ebe6c2a4c15a30afe22a47cc_Blank Emote_Style 3.png",
-          "name": "Blank Emote_Style 3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Blank Emote_Style5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blank Emote_Style 4.png2",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/0f71f93e830f34a9e737b7bff12cfeaf2a0d9b8cea7d22fc44027df6c89278df_Blank Emote_Style 4.png",
-          "name": "Blank Emote_Style 4.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Blank Emote_Style6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blank Emote_Style 5.png2",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/3de97193f359b9207f6bd7d673de9a6d8190878c6268d805ab5ea6f111f8898d_Blank Emote_Style 5.png",
-          "name": "Blank Emote_Style 5.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Blank Emote_Style7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blank Emote_Style 6.png2",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/374bea935a775bf4ff801e0474a3064d76018e0440091aeabb4ee069d875c452_Blank Emote_Style 6.png",
-          "name": "Blank Emote_Style 6.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Blank Emote_Style8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blank Emote_Style 7.png2",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/48241e2f793ecb9d5f9d331e71089498d9312012f80ec14d539b1b3bcf6fdf1e_Blank Emote_Style 7.png",
-          "name": "Blank Emote_Style 7.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/plataforma3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/plataforma3.png\"}",
         "name": "plataforma3",
         "smoothed": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Spinning Bone_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Spinning Bone_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/46d2dfac27f1b2be0ed12dd64c1fdbc9139539c38f8bab674c19da1b6946d7cc_Spinning Bone_1.png",
-          "name": "Spinning Bone_1.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Spinning Bone_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Spinning Bone_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/7ec8b49b4ce628ec17c43be36063b3b25c1a7c75fe2f2d7788b91919d717b717_Spinning Bone_2.png",
-          "name": "Spinning Bone_2.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Spinning Bone_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Spinning Bone_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/32d2c64fd7de7d37095eb9d4b5b6b3ca82210ffe971dd713056e2e674438233a_Spinning Bone_3.png",
-          "name": "Spinning Bone_3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/Spinning Bone_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Spinning Bone_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Projectile/8f3e531ced6b66b3599379e317aee89f7dafd5346ca0ee3c1c866a9999e706c7_Spinning Bone_4.png",
-          "name": "Spinning Bone_4.png"
-        }
       },
       {
         "alwaysLoaded": false,
@@ -1986,15 +1544,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/tiled_Tileset Piece 20.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "tiled_Tileset Piece 20.png2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/Tileset Piece7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -2010,123 +1559,6 @@
         "name": "cabeca_cuia_poty2.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_idle_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_idle_2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_idle_3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_idle_4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_idle_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_idle_5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_idle_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_idle_6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_atack_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_atack_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_atack_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_atack_2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_atack_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_atack_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_atack_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_atack_4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_atack_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_atack_5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_atack_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_atack_6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/crispim_atack_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "crispim_atack_7.png",
-        "smoothed": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -2264,15 +1696,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/mapa/imagem_2024-09-15_001916411.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "imagem_2024-09-15_001916411.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/box_item_coletado.png",
         "kind": "image",
         "metadata": "",
@@ -2362,17 +1785,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/fontes/Kenney Future.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "207e8de533dc48ba7a80c34d34350cb52f520e217c9d30f15a21bc3e2aade06e_Kenney Future.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/207e8de533dc48ba7a80c34d34350cb52f520e217c9d30f15a21bc3e2aade06e_Kenney Future.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/quiz/icon_quiz_next_1.png",
         "kind": "image",
@@ -2428,19 +1840,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/comum/tiled_Gray Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Gray Background.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png",
-          "name": "tiled_Gray Background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/comum/cloud 7.png",
         "kind": "image",
         "metadata": "",
@@ -2463,19 +1862,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/8a35cd09be4dfc4399dc4fa080027afa87e160ef4d8f4928ee8609b53c3e2c4e_cloud 8.png",
           "name": "cloud 8.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/comum/tiled_Forest Background 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Forest Background 2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/bbc35ecdc7a4c74b8720f17f0f3cac945ba85c3844a9c30c0313051a9b22e1ff_tiled_Forest Background 2.png",
-          "name": "tiled_Forest Background 2.png"
         }
       },
       {
@@ -3002,19 +2388,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/parnaiba/WaterType1 FG Bright Surface.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "WaterType1 FG Bright Surface.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/FG Type1/2959705609946bcbda8b229feb2fe8001e20c1a4358a66be5e384d6bfb84386b_WaterType1 FG Bright Surface.png",
-          "name": "WaterType1 FG Bright Surface.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/parnaiba/water cave bright desat surface.png",
         "kind": "image",
         "metadata": "",
@@ -3238,15 +2611,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/srn/Catedral_de_Campo_Maior-removebg-preview.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Catedral_de_Campo_Maior-removebg-preview.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/srn/Pedra furada sem fundo.png",
         "kind": "image",
         "metadata": "",
@@ -3260,15 +2624,6 @@
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/São Raimundo Nonato 01.json\"}",
         "name": "São Raimundo Nonato 01",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/pre_select/NewTiledSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite2",
-        "smoothed": false,
         "userAdded": true
       },
       {
@@ -3513,32 +2868,6 @@
         "name": "batalha_jenipapo.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/srn/Rock with grass 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Rock with grass 2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/6e343a5721109a7667d3ec0a01c07264628b32321770c07c95b0ab418802ad0a_Rock with grass 2.png",
-          "name": "Rock with grass 2.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/srn/Rock 3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Rock 3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/a99ca2cdbce83720ee93308d158a61a5fbffafd444622176a4c489652f786ed7_Rock 3.png",
-          "name": "Rock 3.png"
-        }
       },
       {
         "alwaysLoaded": false,
