@@ -4500,20 +4500,6 @@
           "WasJumpKeyReleased": false
         },
         {
-          "name": "PlatformerCharacterAnimator",
-          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
-          "EnableAnimationChanges": true,
-          "EnableHorizontalFlipping": true,
-          "IdleAnimationName": "Idle",
-          "RunAnimationName": "Run",
-          "JumpAnimationName": "Jump",
-          "FallAnimationName": "Fall",
-          "ClimbAnimationName": "Climb",
-          "PlatformerBehavior": "PlatformerObject",
-          "Animation": "Animation",
-          "Flippable": "Flippable"
-        },
-        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "ignoreDefaultControls": false,

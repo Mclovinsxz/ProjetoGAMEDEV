@@ -166,6 +166,94 @@ def conferir_referencias(docs, declarados, rel):
                     rel.erro(f"{rotulo}: {chave} referencia recurso não declarado: {valor!r}")
 
 
+CARREGA_DIALOGO = "DialogueTree::LoadDialogueFromJsonFile"
+INICIA_RAMO = "DialogueTree::StartDialogueFromBranch"
+LITERAL = re.compile(r'^"(.*)"$', re.DOTALL)
+
+
+def conferir_ramos_de_dialogo(raiz, docs, recursos, rel):
+    """Todo ramo de diálogo pedido por uma cena precisa existir no arquivo.
+
+    O conteúdo histórico do jogo mora nesses arquivos: cada caixa de informação
+    de uma fase carrega um diálogo e abre um ramo pelo título. Um título que não
+    casa não dá erro em tela — a caixa simplesmente não mostra nada, e a
+    informação que o quiz vai cobrar depois nunca chega ao aluno.
+
+    Só os títulos escritos como literal entre aspas são cobrados. Quando o ramo
+    vem de uma expressão, como o nome do objeto no minigame de escavação, não há
+    o que conferir sem rodar o jogo.
+    """
+    arquivos = {r["name"]: r["file"] for r in recursos if r.get("kind") == "json" and r.get("file")}
+    cache = {}
+
+    def titulos(nome_recurso):
+        if nome_recurso not in cache:
+            caminho = os.path.join(raiz, arquivos[nome_recurso])
+            try:
+                with open(caminho, encoding="utf-8") as f:
+                    dado = json.load(f)
+            except (OSError, json.JSONDecodeError):
+                cache[nome_recurso] = None
+                return None
+            nos = dado if isinstance(dado, list) else dado.get("nodes", [])
+            cache[nome_recurso] = {n.get("title") for n in nos if isinstance(n, dict)}
+        return cache[nome_recurso]
+
+    for rotulo, doc in docs:
+        carregados, pedidos = set(), set()
+
+        def varrer(no):
+            if isinstance(no, dict):
+                tipo = no.get("type")
+                if isinstance(tipo, dict):
+                    valor, params = tipo.get("value"), no.get("parameters", [])
+                    if valor == CARREGA_DIALOGO:
+                        # o arquivo vem como parâmetro de recurso, escrito sem
+                        # aspas, ao lado de um parâmetro de cena que vem vazio.
+                        # Preferir o que casa com um recurso json declarado, mas
+                        # sem descartar o que não casa: é justamente esse caso
+                        # que precisa ser apontado como erro.
+                        candidatos = [b for b in params if isinstance(b, str) and b.strip()
+                                      and not LITERAL.match(b.strip())]
+                        casados = [b for b in candidatos if b in arquivos]
+                        if casados:
+                            carregados.update(casados)
+                        elif len(candidatos) == 1:
+                            carregados.add(candidatos[0])
+                    elif valor == INICIA_RAMO and params:
+                        # o ramo é expressão: só o literal entre aspas dá para conferir
+                        m = LITERAL.match(params[-1].strip())
+                        if m:
+                            pedidos.add(m.group(1))
+                for v in no.values():
+                    varrer(v)
+            elif isinstance(no, list):
+                for v in no:
+                    varrer(v)
+
+        varrer(doc.get("events", []))
+        if not pedidos:
+            continue
+
+        disponiveis = set()
+        for nome in carregados:
+            if nome not in arquivos:
+                rel.erro(f"{rotulo}: carrega o diálogo {nome!r}, que não é recurso declarado")
+                continue
+            t = titulos(nome)
+            if t is None:
+                rel.erro(f"{rotulo}: o diálogo {nome!r} não pôde ser lido")
+                continue
+            disponiveis |= t
+
+        if not carregados:
+            rel.aviso(f"{rotulo}: abre ramos de diálogo sem carregar nenhum arquivo nesta cena")
+            continue
+
+        for ramo in sorted(pedidos - disponiveis):
+            rel.erro(f"{rotulo}: abre o ramo {ramo!r}, que não existe em {sorted(carregados)}")
+
+
 def encontrar_recursos_sem_uso(docs, recursos, rel):
     """Varredura permissiva: qualquer string do projeto conta como uso.
 
@@ -244,6 +332,7 @@ def main():
     conferir_recursos_em_disco(raiz, recursos, rel)
     conferir_caminhos(recursos, rel)
     conferir_referencias(docs, declarados, rel)
+    conferir_ramos_de_dialogo(raiz, docs, recursos, rel)
     sem_uso = encontrar_recursos_sem_uso(docs, recursos, rel)
     orfaos = encontrar_arquivos_sem_recurso(raiz, recursos, rel)
     duplicatas = encontrar_duplicatas(raiz, rel)

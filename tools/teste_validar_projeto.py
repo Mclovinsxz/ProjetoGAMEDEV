@@ -53,6 +53,7 @@ def rodar(raiz, estrito=False):
     v.conferir_recursos_em_disco(raiz, recursos, rel)
     v.conferir_caminhos(recursos, rel)
     v.conferir_referencias(docs, declarados, rel)
+    v.conferir_ramos_de_dialogo(raiz, docs, recursos, rel)
     v.encontrar_recursos_sem_uso(docs, recursos, rel)
     v.encontrar_arquivos_sem_recurso(raiz, recursos, rel)
     v.encontrar_duplicatas(raiz, rel)
@@ -240,6 +241,92 @@ def _(raiz):
     codigo, rel = rodar(raiz)
     assert codigo == 0, rel.erros
     assert any("idênticos byte a byte" in a for a in rel.avisos), rel.avisos
+
+
+def montar_dialogo(raiz, caminho_rel, titulos):
+    destino = os.path.join(raiz, caminho_rel)
+    os.makedirs(os.path.dirname(destino), exist_ok=True)
+    with open(destino, "w", encoding="utf-8") as f:
+        json.dump([{"title": t, "body": "texto", "tags": ""} for t in titulos], f, ensure_ascii=False)
+
+
+def cena_com_dialogo(recurso, ramos):
+    """Cena que carrega um diálogo e abre os ramos pedidos."""
+    eventos = [{"type": "BuiltinCommonInstructions::Standard", "conditions": [],
+                "actions": [{"type": {"value": "DialogueTree::LoadDialogueFromJsonFile"},
+                             "parameters": ["", recurso]}]}]
+    for r in ramos:
+        eventos.append({"type": "BuiltinCommonInstructions::Standard", "conditions": [],
+                        "actions": [{"type": {"value": "DialogueTree::StartDialogueFromBranch"},
+                                     "parameters": [r]}]})
+    return {"objects": [], "events": eventos}
+
+
+RECURSO_DIALOGO = {"name": "Fala_01", "file": "assets/Fala_01.json", "kind": "json"}
+
+
+@caso("ramo de diálogo que existe no arquivo é aprovado")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_dialogo(raiz, "assets/Fala_01.json", ["info_01", "info_02"])
+    montar_projeto(raiz, [RECURSO_OK, RECURSO_DIALOGO],
+                   cena_com_dialogo("Fala_01", ['"info_01"', '"info_02"']))
+    codigo, rel = rodar(raiz)
+    assert codigo == 0, rel.erros
+
+
+@caso("ramo de diálogo ausente do arquivo reprova")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_dialogo(raiz, "assets/Fala_01.json", ["info_01"])
+    montar_projeto(raiz, [RECURSO_OK, RECURSO_DIALOGO],
+                   cena_com_dialogo("Fala_01", ['"info_01"', '"info_02"']))
+    codigo, rel = rodar(raiz)
+    assert codigo == 1
+    assert any("info_02" in e for e in rel.erros), rel.erros
+
+
+@caso("espaço a mais no título do ramo é pego")
+def _(raiz):
+    # o defeito real encontrado em Oeiras: "Oeiras_ 07 INfo" no arquivo
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_dialogo(raiz, "assets/Fala_01.json", ["Oeiras_ 07 INfo"])
+    montar_projeto(raiz, [RECURSO_OK, RECURSO_DIALOGO],
+                   cena_com_dialogo("Fala_01", ['"Oeiras_07 INfo"']))
+    codigo, rel = rodar(raiz)
+    assert codigo == 1
+    assert any("Oeiras_07 INfo" in e for e in rel.erros), rel.erros
+
+
+@caso("ramo vindo de expressão não é cobrado")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_dialogo(raiz, "assets/Fala_01.json", ["info_01"])
+    montar_projeto(raiz, [RECURSO_OK, RECURSO_DIALOGO],
+                   cena_com_dialogo("Fala_01", ["Artefatos.ObjectName()"]))
+    codigo, rel = rodar(raiz)
+    assert codigo == 0, rel.erros
+
+
+@caso("diálogo carregado sem ser recurso declarado reprova")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_projeto(raiz, [RECURSO_OK], cena_com_dialogo("Fala_inexistente", ['"info_01"']))
+    codigo, rel = rodar(raiz)
+    assert codigo == 1, rel.erros
+
+
+@caso("abrir ramo sem carregar diálogo vira aviso")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    cena = {"objects": [], "events": [
+        {"type": "BuiltinCommonInstructions::Standard", "conditions": [],
+         "actions": [{"type": {"value": "DialogueTree::StartDialogueFromBranch"},
+                      "parameters": ['"info_01"']}]}]}
+    montar_projeto(raiz, [RECURSO_OK], cena)
+    codigo, rel = rodar(raiz)
+    assert codigo == 0, rel.erros
+    assert any("sem carregar" in a for a in rel.avisos), rel.avisos
 
 
 def main():

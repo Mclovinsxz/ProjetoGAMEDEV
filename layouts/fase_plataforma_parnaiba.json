@@ -17876,10 +17876,6 @@
       "type": "PlatformBehavior::PlatformBehavior"
     },
     {
-      "name": "PlatformerCharacterAnimator",
-      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
-    },
-    {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
     },

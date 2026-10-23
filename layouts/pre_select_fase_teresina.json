@@ -1450,10 +1450,6 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
-      "name": "PlatformerCharacterAnimator",
-      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
-    },
-    {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
