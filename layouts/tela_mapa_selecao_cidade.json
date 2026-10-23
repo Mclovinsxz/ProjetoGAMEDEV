@@ -116,6 +116,31 @@
       "name": "cidades_total",
       "type": "number",
       "value": 1
+    },
+    {
+      "name": "lido_teresina",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lido_oeiras",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lido_parnaiba",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lido_campo_maior",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lido_srn",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -675,76 +700,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "background_nordeste_pixel",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "LightNight",
-          "name": "Effect",
-          "doubleParameters": {
-            "opacity": 1
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "imagem_2024-09-15_001916411.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "apontador_localizacao",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -829,7 +784,7 @@
         "fontSize": 100,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -847,7 +802,7 @@
         "fontSize": 60,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -864,7 +819,7 @@
       "effects": [],
       "behaviors": [],
       "string": "numero",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -887,7 +842,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "numero",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 50,
         "color": "255;255;255"
@@ -1314,6 +1269,267 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "O progresso salvo é relido aqui, antes dos eventos que decidem quais cidades aparecem no mapa. Sem isto o aluno perderia tudo ao fechar a aba."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"progresso\"",
+                "\"teresina\"",
+                "",
+                "lido_teresina"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "lido_teresina",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "teresina_concluida",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"progresso\"",
+                "\"oeiras\"",
+                "",
+                "lido_oeiras"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "lido_oeiras",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "oeiras_concluida",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"progresso\"",
+                "\"parnaiba\"",
+                "",
+                "lido_parnaiba"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "lido_parnaiba",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "parnaiba_concluida",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"progresso\"",
+                "\"campo_maior\"",
+                "",
+                "lido_campo_maior"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "lido_campo_maior",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "camporMaior_concluida",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"progresso\"",
+                "\"srn\"",
+                "",
+                "lido_srn"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "lido_srn",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "srn_concluida",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -2690,10 +2906,6 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "PlatformerCharacterAnimator",
-      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
     },
     {
       "name": "PlatformerObject",

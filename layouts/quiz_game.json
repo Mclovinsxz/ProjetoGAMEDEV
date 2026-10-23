@@ -569,9 +569,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Texto da pergunta é!!!",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -592,9 +592,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Texto da pergunta é!!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -610,9 +610,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 1!!",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -633,9 +633,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 1!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -651,9 +651,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 2!!",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -674,9 +674,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 2!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -692,9 +692,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 3!!",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -715,9 +715,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 3!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -815,9 +815,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Resposta 4!!",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -838,9 +838,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Resposta 4!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -1097,47 +1097,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "texto_resposta_correta",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Resposta correta",
-      "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
-      "textAlignment": "center",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Resposta correta",
-        "font": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
-        "textAlignment": "center",
-        "characterSize": 30,
-        "color": "0;0;0"
-      }
     },
     {
       "assetStoreId": "",
@@ -1744,9 +1703,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Parabéns!!!!!!",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 30,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -1767,9 +1726,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Parabéns!!!!!!",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -1785,9 +1744,9 @@
       "effects": [],
       "behaviors": [],
       "string": "Texto alternativo das respostas",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 30,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -1808,50 +1767,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "Texto alternativo das respostas",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 30,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "texto_cidade_atual",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Cidade: ",
-      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
-      "textAlignment": "left",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Cidade: ",
-        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
-        "textAlignment": "left",
-        "characterSize": 30,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     }
@@ -2782,34 +2700,387 @@
                     "70",
                     "1"
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Conclui a cidade que estava sendo jogada. Antes daqui o quiz marcava Teresina em qualquer fase, então as outras quatro cidades nunca eram liberadas e o mapa precisava começar com tudo aberto."
                 },
                 {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "teresina_concluida",
-                    "True",
-                    ""
-                  ]
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Teresina\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "teresina_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"teresina\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
                 },
                 {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Oeiras\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "oeiras_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"oeiras\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
                 },
                 {
-                  "type": {
-                    "value": "Scene"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Parnaíba\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "parnaiba_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"parnaiba\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Campo Maior\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "camporMaior_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"campo_maior\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"São Raimundo Nonato\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "srn_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"srn\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "",
-                    "\"tela_mapa_selecao_cidade\"",
-                    ""
-                  ]
+                  "comment": "Última cidade concluída leva ao fecho do jogo; qualquer outra volta ao mapa. As marcas são lidas aqui depois de o evento acima gravar a desta rodada."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "teresina_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "oeiras_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "parnaiba_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "camporMaior_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "srn_concluida",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"final\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable",
+                            "inverted": true
+                          },
+                          "parameters": [
+                            "teresina_concluida",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable",
+                            "inverted": true
+                          },
+                          "parameters": [
+                            "oeiras_concluida",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable",
+                            "inverted": true
+                          },
+                          "parameters": [
+                            "parnaiba_concluida",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable",
+                            "inverted": true
+                          },
+                          "parameters": [
+                            "camporMaior_concluida",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable",
+                            "inverted": true
+                          },
+                          "parameters": [
+                            "srn_concluida",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tela_mapa_selecao_cidade\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": []
                 }
               ]
             }
@@ -3887,10 +4158,6 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "PlatformerCharacterAnimator",
-      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
     },
     {
       "name": "PlatformerObject",

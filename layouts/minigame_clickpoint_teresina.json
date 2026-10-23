@@ -3517,24 +3517,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "texto_final",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "[b]Parabéns[/b] , encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
-        "opacity": 255,
-        "fontSize": 10,
-        "visible": true,
-        "color": "255;255;255",
-        "fontFamily": "207e8de533dc48ba7a80c34d34350cb52f520e217c9d30f15a21bc3e2aade06e_Kenney Future.ttf",
-        "align": "left",
-        "wordWrap": true
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "texto_info_variaveis",
       "type": "BBText::BBText",
       "variables": [],
@@ -3546,7 +3528,7 @@
         "fontSize": 10,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Roboto-Regular.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -3563,7 +3545,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Parabéns, encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 15,
       "color": {
@@ -3586,7 +3568,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Parabéns, encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de Teresina.",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 15,
         "color": "255;255;255"
@@ -3712,7 +3694,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 10,
       "color": {
@@ -3735,7 +3717,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 10,
         "color": "255;255;255"
@@ -3753,7 +3735,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Pressione Enter para fechar",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 8,
       "color": {
@@ -3776,7 +3758,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Pressione Enter para fechar",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 8,
         "color": "255;255;255"
@@ -5694,10 +5676,6 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "PlatformerCharacterAnimator",
-      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
     },
     {
       "name": "PlatformerObject",

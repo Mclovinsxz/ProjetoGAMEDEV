@@ -1474,7 +1474,7 @@
       "effects": [],
       "behaviors": [],
       "string": "distancia",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1497,7 +1497,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "distancia",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 20,
         "color": "255;255;255"
@@ -1515,7 +1515,7 @@
       "effects": [],
       "behaviors": [],
       "string": "objeto",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1538,7 +1538,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "objeto",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 20,
         "color": "255;255;255"
@@ -1556,7 +1556,7 @@
       "effects": [],
       "behaviors": [],
       "string": "artefatos",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1579,7 +1579,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "artefatos",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 20,
         "color": "255;255;255"
@@ -2946,7 +2946,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Parabéns! Você encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de São Raimundo Nonato.",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 15,
       "color": {
@@ -2969,7 +2969,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Parabéns! Você encontrou todos os itens. Agora vamos testar os conhecimentos que adquirimos sobre a cidade de São Raimundo Nonato.",
-        "font": "",
+        "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "characterSize": 15,
         "color": "255;255;255"
@@ -4258,10 +4258,6 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "PlatformerCharacterAnimator",
-      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
     },
     {
       "name": "PlatformerObject",
