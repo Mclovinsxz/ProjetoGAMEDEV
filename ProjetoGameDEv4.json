@@ -4654,6 +4654,47 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "aviso_saida",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Esc de novo para sair da fase",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 34,
+      "color": {
+        "b": 90,
+        "g": 196,
+        "r": 240
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "20;20;20",
+        "outlineThickness": 3,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 0,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 0,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Esc de novo para sair da fase",
+        "font": "Roboto-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 34,
+        "color": "240;196;90"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4691,31 +4732,31 @@
       "folded": true,
       "name": "teresina_concluida",
       "type": "boolean",
-      "value": true
+      "value": false
     },
     {
       "folded": true,
       "name": "oeiras_concluida",
       "type": "boolean",
-      "value": true
+      "value": false
     },
     {
       "folded": true,
       "name": "parnaiba_concluida",
       "type": "boolean",
-      "value": true
+      "value": false
     },
     {
       "folded": true,
       "name": "camporMaior_concluida",
       "type": "boolean",
-      "value": true
+      "value": false
     },
     {
       "folded": true,
       "name": "srn_concluida",
       "type": "boolean",
-      "value": true
+      "value": false
     },
     {
       "folded": true,

@@ -254,6 +254,48 @@ def conferir_ramos_de_dialogo(raiz, docs, recursos, rel):
             rel.erro(f"{rotulo}: abre o ramo {ramo!r}, que não existe em {sorted(carregados)}")
 
 
+MUDA_DE_CENA = ("Scene", "PushScene", "ReplaceScene")
+
+
+def conferir_cenas_de_destino(docs, rel):
+    """Toda troca de cena escrita como literal precisa apontar para uma cena real.
+
+    No GDevelop o nome da cena de destino é só texto: nada no editor avisa que
+    ele não existe mais, e o jogo só quebra quando o jogador encosta no objeto
+    que dispara a troca. Foi assim que uma porta ficou apontando para uma cena
+    removida, num caminho que ninguém testava.
+
+    Destinos montados por expressão ficam de fora: sem rodar o jogo não há como
+    saber para onde apontam.
+    """
+    cenas = {doc.get("name") for rotulo, doc in docs if doc.get("name")}
+    if not cenas:
+        return
+
+    for rotulo, doc in docs:
+        pedidos = set()
+
+        def varrer(no):
+            if isinstance(no, dict):
+                tipo = no.get("type")
+                if isinstance(tipo, dict) and tipo.get("value") in MUDA_DE_CENA:
+                    for p in no.get("parameters", []):
+                        if not isinstance(p, str):
+                            continue
+                        m = LITERAL.match(p.strip())
+                        if m and m.group(1).strip():
+                            pedidos.add(m.group(1))
+                for v in no.values():
+                    varrer(v)
+            elif isinstance(no, list):
+                for v in no:
+                    varrer(v)
+
+        varrer(doc.get("events", []))
+        for destino in sorted(pedidos - cenas):
+            rel.erro(f"{rotulo}: troca para a cena {destino!r}, que não existe no projeto")
+
+
 def encontrar_recursos_sem_uso(docs, recursos, rel):
     """Varredura permissiva: qualquer string do projeto conta como uso.
 
@@ -333,6 +375,7 @@ def main():
     conferir_caminhos(recursos, rel)
     conferir_referencias(docs, declarados, rel)
     conferir_ramos_de_dialogo(raiz, docs, recursos, rel)
+    conferir_cenas_de_destino(docs, rel)
     sem_uso = encontrar_recursos_sem_uso(docs, recursos, rel)
     orfaos = encontrar_arquivos_sem_recurso(raiz, recursos, rel)
     duplicatas = encontrar_duplicatas(raiz, rel)

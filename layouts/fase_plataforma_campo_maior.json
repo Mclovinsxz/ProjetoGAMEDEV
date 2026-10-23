@@ -87,6 +87,11 @@
       "name": "alvo_h",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "pedido_de_saida",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -2411,6 +2416,22 @@
       "x": -358,
       "y": 64,
       "zOrder": -195,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "aviso_saida",
+      "persistentUuid": "137ac4f2-17b3-4752-8b54-0e65bd12b51a",
+      "width": 720,
+      "x": 600,
+      "y": 980,
+      "zOrder": 120,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

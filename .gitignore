@@ -6,3 +6,7 @@ ProjetoGameDEv4.json.autosave
 ruvector.db
 agentdb.rvf
 agentdb.rvf.idmap.json
+
+# Cache do Python das ferramentas
+__pycache__/
+*.pyc

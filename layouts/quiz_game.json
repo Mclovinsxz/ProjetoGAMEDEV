@@ -2700,34 +2700,235 @@
                     "70",
                     "1"
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Conclui a cidade que estava sendo jogada. Antes daqui o quiz marcava Teresina em qualquer fase, então as outras quatro cidades nunca eram liberadas e o mapa precisava começar com tudo aberto."
                 },
                 {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "teresina_concluida",
-                    "True",
-                    ""
-                  ]
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Teresina\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "teresina_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"teresina\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
                 },
                 {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Oeiras\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "oeiras_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"oeiras\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
                 },
                 {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"tela_mapa_selecao_cidade\"",
-                    ""
-                  ]
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Parnaíba\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "parnaiba_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"parnaiba\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"Campo Maior\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "camporMaior_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"campo_maior\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "cidade_atual",
+                        "=",
+                        "\"São Raimundo Nonato\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "srn_concluida",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"progresso\"",
+                        "\"srn\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tela_mapa_selecao_cidade\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": []
                 }
               ]
             }

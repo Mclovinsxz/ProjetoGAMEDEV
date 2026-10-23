@@ -54,6 +54,7 @@ def rodar(raiz, estrito=False):
     v.conferir_caminhos(recursos, rel)
     v.conferir_referencias(docs, declarados, rel)
     v.conferir_ramos_de_dialogo(raiz, docs, recursos, rel)
+    v.conferir_cenas_de_destino(docs, rel)
     v.encontrar_recursos_sem_uso(docs, recursos, rel)
     v.encontrar_arquivos_sem_recurso(raiz, recursos, rel)
     v.encontrar_duplicatas(raiz, rel)
@@ -327,6 +328,40 @@ def _(raiz):
     codigo, rel = rodar(raiz)
     assert codigo == 0, rel.erros
     assert any("sem carregar" in a for a in rel.avisos), rel.avisos
+
+
+
+def cena_que_troca_para(destino, nome="cena"):
+    """Cena nomeada cuja única ação é trocar para outra cena."""
+    return {"name": nome, "objects": [],
+            "events": [{"type": "BuiltinCommonInstructions::Standard", "conditions": [],
+                        "actions": [{"type": {"value": "Scene"},
+                                     "parameters": ["", destino, ""]}]}]}
+
+
+@caso("troca para uma cena que existe é aprovada")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_projeto(raiz, [RECURSO_OK], cena_que_troca_para('"cena"'))
+    codigo, rel = rodar(raiz)
+    assert codigo == 0, rel.erros
+
+
+@caso("troca para uma cena que não existe reprova")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_projeto(raiz, [RECURSO_OK], cena_que_troca_para('"fase2"'))
+    codigo, rel = rodar(raiz)
+    assert codigo == 1
+    assert any("fase2" in e for e in rel.erros), rel.erros
+
+
+@caso("destino montado por expressão não é cobrado")
+def _(raiz):
+    criar_arquivo(raiz, "assets/heroi.png")
+    montar_projeto(raiz, [RECURSO_OK], cena_que_troca_para('VariableString(proxima)'))
+    codigo, rel = rodar(raiz)
+    assert codigo == 0, rel.erros
 
 
 def main():
