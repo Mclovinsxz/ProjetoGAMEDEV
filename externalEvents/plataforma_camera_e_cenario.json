@@ -4,6 +4,117 @@
   "name": "Plataforma_camera_e_cenario",
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Cenário vivo. As nuvens já estavam desenhadas nas fases, paradas; agora cada uma anda na própria velocidade e reaparece do outro lado quando sai de vista. Nas duas fases sem nuvens o grupo está vazio e estes eventos não fazem nada."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "nuvens",
+            "vel",
+            "=",
+            "RandomInRange(6, 20)"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "nuvens",
+            "+",
+            "nuvens.Variable(vel) * TimeDelta()"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareNumbers"
+          },
+          "parameters": [
+            "nuvens.X()",
+            ">",
+            "CameraCenterX(\"\", 0) + CameraWidth(\"\", 0)/2 + nuvens.Width()"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "nuvens",
+            "=",
+            "CameraCenterX(\"\", 0) - CameraWidth(\"\", 0)/2 - nuvens.Width()"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Paralaxe do fundo: a textura corre a um terço da câmera, então o horizonte fica para trás do jogador em vez de andar colado nele."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "GrassAndTreeBackground",
+            "=",
+            "CameraCenterX(\"\", 0) * 0.3"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
       "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],

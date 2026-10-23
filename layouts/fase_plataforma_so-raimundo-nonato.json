@@ -21,7 +21,22 @@
     "zoomFactor": 0.20069741314553363,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "nuvens",
+      "objects": [
+        {
+          "name": "Cloud7"
+        },
+        {
+          "name": "Cloud8"
+        },
+        {
+          "name": "Cloud9"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "folded": true,
@@ -52,6 +67,26 @@
       "name": "fase_concluida",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "pw0",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ph0",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "alvo_w",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "alvo_h",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [

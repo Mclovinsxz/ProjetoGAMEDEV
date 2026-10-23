@@ -3358,6 +3358,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/comum/preto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/comum/preto.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4726,6 +4734,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tela-inicial"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/abertura"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
